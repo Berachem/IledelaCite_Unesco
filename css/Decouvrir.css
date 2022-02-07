@@ -238,7 +238,8 @@ body{
     transform: rotate(360deg);
 }
 
-#download{
+#download,
+.siteofficiel{
     display: block;
     margin-left: auto;
     margin-right: auto;
