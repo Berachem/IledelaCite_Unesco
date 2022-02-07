@@ -1,0 +1,394 @@
+/*
+Couleur de fond d’appoint. : #505050
+Couleur de fond principale : #333333
+Couleur secondaire pour faire ressortir un élément particulier. 
+À utiliser avec parcimonie. : #f7af3e
+Couleur d’appoint au orange principal. : #b94503
+Couleur principale de la charte graphique : #ea5c0d
+
+*/
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+@font-face {
+    font-family: dynobold;
+    src: url(../fonts/dyno-sans/Dyno_Bold.ttf);
+  }
+
+  @font-face {
+    font-family: dynoregular;
+    src: url(../fonts/dyno-sans/Dyno_Regular.ttf);
+  }
+
+  @font-face {
+    font-family: cicle;
+    src: url(../fonts/cicle/Cicle\ Fina.ttf);
+  }
+
+body {
+    background-color: #333333;
+    font-family: dynobold;
+    color: white;
+}
+.brand-title {
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+
+*::selection{
+    background-color:#f7af3e ;
+}
+/* ============
+BARRE DE NAVIGATION
++ CAROUSEL
+
+============== */
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+
+    color: white;
+ 
+}
+
+
+.navbar-wrapper {
+    position:relative;
+}
+
+.navbar {
+    position:absolute;
+    top:0;
+    z-index:10;
+    background: #333333;
+    width:100%;
+}
+
+
+.navbar-links {
+    height: 100%;
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: #ea5c0d;
+    padding: 1rem;
+}
+
+.dropdown-menu > a:hover{
+    background-color: #555;
+    color: #ea5c0d;
+}
+
+.navbar-links li:hover{
+    background-color: #555;
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+.carousel-inner {
+    width: 100%; 
+    overflow: hidden;
+    }
+
+.carousel-item{
+    height: 75vh;
+}
+.carousel-item > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100% !important;
+    object-fit: cover;
+}
+.carousel-caption h2{
+    color: white;
+    font-size: 10vh;
+    -webkit-text-stroke-width: 1.25px;
+    -webkit-text-stroke-color: #333333;
+}
+.carousel-caption p{
+    color: white;
+    font-size: 3vh;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #333333;
+
+}
+
+/* ============TITRE...============== */
+#TitrePage{
+    padding-top: 1cm;
+}
+#TitrePage > img{
+    width: 30%;
+    height: 15vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2vh;
+}
+#TitrePage > h1{
+    position: relative;
+    text-align: center;
+    margin-top: -12vh;
+    font-size: 5.5vh;
+}
+#PhraseUnesco{
+    text-align: center;
+    padding-top: 1cm;
+    color: #ea5c0d;
+}
+
+#Video{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr{
+    padding-top: 1px;
+    background-color:#ea5c0d; 
+    border:none; 
+    height:2px; 
+    margin:0px;
+    width:50%; 
+    margin-left:25% !important; 
+    margin-right:25% !important;
+    
+}
+#Contact{
+    color: #ea5c0d;
+    padding-top: 1.5%;
+    text-align: center;
+    padding-bottom: 1cm;
+}
+
+
+#Carte{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1cm;
+    width: 100%;
+}
+
+#Credits h3{
+    padding-top: 1cm;
+    font-size: small;
+    color: white;
+    padding-bottom: 0.5cm;
+    text-align:center;
+}
+
+#logoIle{
+    width: 4cm;
+    height: 4cm;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform .7s ease-in-out
+}
+#logoIle:hover{
+    transform: rotate(360deg);
+}
+
+
+/* ============RESEAUX SOCIAUX============== */
+.footer-social-icons {
+    width: 350px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+.fa-instagram {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-instagram:hover {
+    background-color: pink;
+}
+.fa-landmark {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-landmark:hover {
+    background-color: #0073a4;
+}
+.fa-github {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-github:hover {
+    background-color: #5a32a3;
+}
+@media screen and (min-width: 801px) and (max-width:1200px) {
+    #TitrePage > img{
+        width: 50%;
+        height: 12vh;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 2vh;
+    }
+    #TitrePage > h1{
+        position: relative;
+      text-align: center;
+      margin-top: -6%;
+    }
+    #Video{
+        width: 75%;
+    }
+}
+
+@media screen and  (max-width: 800px) {
+    /* Barre de navigation */
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+
+    .carousel-caption h2{
+        font-size: 8vh;
+    }
+
+
+    /* Titre avec barre orange */
+    #TitrePage > img{
+        width: 80%;
+        height: 12vh;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 2vh;
+    }
+    #TitrePage > h1{
+        position: relative;
+      text-align: center;
+      margin-top: -13.5%;
+    }
+
+    /*Video */
+    #Video{
+        width: 90%;
+    }
+    /*Carte*/
+    #Carte{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 1cm;
+        width: 95%;
+        height: 9cm;
+    }
+
+}

@@ -1,0 +1,361 @@
+/*
+Couleur de fond d’appoint. : #505050
+Couleur de fond principale : #333333
+Couleur secondaire pour faire ressortir un élément particulier. 
+À utiliser avec parcimonie. : #f7af3e
+Couleur d’appoint au orange principal. : #b94503
+Couleur principale de la charte graphique : #ea5c0d
+
+*/
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+@font-face {
+    font-family: dynobold;
+    src: url(../fonts/dyno-sans/Dyno_Bold.ttf);
+  }
+  @font-face {
+    font-family: dynoregular;
+    src: url(../fonts/dyno-sans/Dyno_Regular.ttf);
+  }
+
+  @font-face {
+    font-family: cicle;
+    src: url(../fonts/cicle/Cicle\ Fina.ttf);
+  }
+
+body{
+    background-color: #333333;
+    font-family: dynobold;
+    color: white;
+}
+
+*::selection{
+    background-color:#f7af3e ;
+}
+
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+
+    color: white;
+ 
+}
+
+.navbar-wrapper {
+    position:relative;
+}
+
+.navbar {
+    position:absolute;
+    top:0;
+    z-index:10;
+    background: #333333;
+    width:100%;
+}
+.brand-title {
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+
+.navbar-links {
+    height: 100%;
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: #ea5c0d;
+    padding: 1rem;
+}
+
+.dropdown-menu > a:hover{
+    background-color: #555;
+    color: #ea5c0d;
+}
+
+.navbar-links li:hover{
+    background-color: #555;
+}
+
+
+.navbar-links li:hover {
+    background-color: #555;
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+/* ============TITRE...============== */
+
+#TitrePage{
+    padding-top: 2cm;
+}
+
+#TitrePage > img{
+    width: 95%;
+    height: 20vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2vh;
+}
+#TitrePage > h1{
+    position: relative;
+    text-align: center;
+    margin-top: -15vh;
+}
+
+.description{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    color: #ea5c0d;
+    padding-top: 1cm;
+    font-size: 3vh;
+}
+
+.presentation{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    text-align: center;
+    font-family: cicle;
+    font-size: 3vh;
+}
+
+#rendus{
+    font-family: cicle;
+    font-size: 3vh;
+}
+
+#diapo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Rallye_map{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-danger{
+    background-color: #ea5c0d;
+    color: white;
+}
+
+#Credits h3{
+    padding-top: 1cm;
+    font-size: small;
+    color: white;
+    padding-bottom: 0.5cm;
+    text-align:center;
+}
+
+#logoIle{
+    width: 4cm;
+    height: 4cm;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform .7s ease-in-out
+}
+#logoIle:hover{
+    transform: rotate(360deg);
+}
+
+
+/* ============RESEAUX SOCIAUX============== */
+.footer-social-icons {
+    width: 350px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+.fa-instagram {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-instagram:hover {
+    background-color: pink;
+}
+.fa-youtube {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-youtube:hover {
+    background-color: #e64a41;
+}
+.fa-landmark {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-landmark:hover {
+    background-color: #0073a4;
+}
+.fa-github,
+.fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-github:hover,
+.fa-linkedin:hover {
+    background-color: #5a32a3;
+}
+
+
+@media (max-width: 800px) {
+    /* Barre de navigation */
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+    /* Titre avec barre orange */
+    #TitrePage{
+        padding-top: 3cm;
+    }
+
+    #TitrePage > img{
+        width: 85%;
+        height: 14vh;
+    }
+    #TitrePage > h1{
+        position: relative;
+      text-align: center;
+      margin-top: -13%;
+      font-size: xx-large;
+    }
+
+    /*Diapo */
+    #diapo{
+        width: 82%;
+        height: 6.5cm;
+    }
+    /*Carte*/
+    #Carte{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 1cm;
+        width: 95%;
+        height: 9cm;
+    }
+    #Rallye_map{
+        height: 7cm;
+    }
+
+}
