@@ -177,8 +177,8 @@ body{
 .learnmore {
     display: block;
     margin-left: auto;
-    margin-right: 0;
-    width: 20%;
+    margin-right: auto;
+  width: 12vw;
 } 
 
 .btn-danger{
@@ -413,5 +413,9 @@ ul.social-icons {
         width: 80%;
 
     }
+    .learnmore {
+        
+      width: 25vw;
+    } 
 
 }
