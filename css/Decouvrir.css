@@ -174,6 +174,13 @@ body{
     font-family: cicle;
 }
 
+.learnmore {
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+    width: 20%;
+} 
+
 .btn-danger{
     background-color: #ea5c0d;
     color: white;
