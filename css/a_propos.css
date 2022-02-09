@@ -193,6 +193,9 @@ body{
     transform: rotate(360deg);
 }
 
+.berachem:hover{
+    content: url('../img/moi_secret.jpg');
+}
 
 /* ============RESEAUX SOCIAUX============== */
 .footer-social-icons {
