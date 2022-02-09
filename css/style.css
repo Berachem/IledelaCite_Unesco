@@ -222,6 +222,14 @@ hr{
     transform: rotate(360deg);
 }
 
+.ukflag:hover > img{
+    content: url('../img/british-tea.png');
+    height: 20px;
+}
+.frflag:hover > img{
+    content: url('../img/baguette.png');
+    height: 20px;
+}
 
 /* ============RESEAUX SOCIAUX============== */
 .footer-social-icons {
