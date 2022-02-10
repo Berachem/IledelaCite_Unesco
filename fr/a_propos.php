@@ -1,23 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Icon onglet-->
     <link rel="icon" href="../img/logo_page.png" />
-
-        <!-- Ce qu'il faut importer pour les logos au footer-->
-        <script src="https://kit.fontawesome.com/061a20ff24.js" crossorigin="anonymous"></script>
-
-
-        <!-- Ce qu'il faut importer pour Boostrap -->
+      
+      <!-- JS -->
+      <script src="https://kit.fontawesome.com/061a20ff24.js" crossorigin="anonymous"></script>
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    
-      <link rel="stylesheet" href="../css/a_propos.css">
       <script src="../js/script.js" defer></script>
-    <title>A propos - Ile de la Cité</title>
+      
+      <!-- CSS -->
+      <link rel="stylesheet" href="../css/a_propos.css">
+      
+      <title>A propos - Paris</title>
 </head>
 <body vlink="red" alink="#f7af3e">    
     <header>
@@ -25,7 +23,7 @@
         <nav class="navbar sticky-top bg-dark" style="background-color: #333333;">
             <div class="brand-title">
               <a href="index.html"><img src="../img/mcn.png" 
-                alt="" 
+                alt="logomcn" 
                 width="165"
                 height="50"></a>
             </div>
@@ -69,11 +67,12 @@
 
 
     </header>
-    
+    <!-- Barre Orange et Titre page -->
     <div id="TitrePage">
         <img src="../img/titre.png" alt="">
         <h1>Qui sommes-nous ?</h1>
     </div>
+    <!-- Phrase d'accroche page -->
     <div class="description">
         <p>
             Nous sommes un binôme d'étudiants à l'Université Gustave Eiffel qui ont pour objectif de participer à la valorisation d'un patrimoine mondial reconnu par l'UNESCO en France ( kokorico <img src="../img/poule.png" width="25" height="25" alt=""> ) qui est L' Ile de la Cité. 
@@ -86,7 +85,7 @@
   
     <div class="row">
   
-      <!-- Personne -->
+      <!-- Berachem MARKRIA -->
       <div class="col-lg-7 col-md-6 mb-md-0 mb-5">
         <div class="avatar mx-auto">
           <img src="../img/moi.jpg" width="250" height="250" class="rounded-circle z-depth-1 berachem"
@@ -100,6 +99,7 @@
           <a class="p-2 fa-lg ins-ic" href="https://github.com/Berachem">
             <i class="fab fa-github"> </i>
           </a>
+          <!-- Linkedin -->
           <a class="p-2 fa-lg ins-ic" href="https://github.com/Berachem">
             <i class="fab fa-linkedin"> </i>
           </a>
@@ -108,7 +108,7 @@
         </ul>
       </div>
   
-      <!-- Personne -->
+      <!-- Tristan MARTINEZ -->
       <div class="col-lg-2 col-md-6">
         <div class="avatar mx-auto">
           <img src="../img/tristan.png" width="250" height="250" class="rounded-circle z-depth-1"
@@ -122,6 +122,7 @@
           <a class="p-2 fa-lg ins-ic" href="https://github.com/Berachem">
             <i class="fab fa-github"> </i>
           </a>
+          <!-- Linkedin -->
           <a class="p-2 fa-lg ins-ic" href="https://github.com/Berachem">
             <i class="fab fa-linkedin"> </i>
           </a>
@@ -137,12 +138,6 @@
 
 
 
-
-
-
-
-
-
     <p class="presentation">
     
     Nous sommes deux étudiants motivés, soucieux de notre réussite et qui mènent un projet magnifique en lien avec la Culture française.
@@ -150,6 +145,7 @@
     Vous pouvez consulter si vous le souhaiter différentes documentation sur le projet et notre équipe que nous avons réalisé pendant celui-ci :
     <br>
     <br>
+    <!-- Livrables -->
     <ul id="rendus" style="display: table;
     margin: 0 auto; color: #b94503;">
         <li><a href="https://drive.google.com/file/d/1ufXikjAdby91y1vJ3hdcCJlk_LJlJAvp/view?usp=sharing">Notre Cahier des charges</a></li>
@@ -173,19 +169,19 @@
 <!-- Wrapper container -->
 <div class="container py-4">
 
-  <!-- Bootstrap 5 starter form -->
+  <!-- Formulaire de Contacte -->
   <form id="contactForm" action="../php/contacter.php" method="post">
 
-    <!-- Name input -->
+    <!-- Nom input -->
     <div class="mb-3">
       <label class="form-label" for="name">Nom</label>
       <input class="form-control" id="name" type="text" placeholder="Nom" />
     </div>
 
-    <!-- Email address input -->
+    <!-- Addresse email input -->
     <div class="mb-3">
-      <label class="form-label" for="emailAddress">Adresse Email</label>
-      <input class="form-control" id="emailAddress" type="email" placeholder="ex : machin.chose@gmail.com" />
+      <label class="form-label" for="email">Adresse Email</label>
+      <input class="form-control" id="email" type="email" placeholder="ex : machin.chose@gmail.com" />
     </div>
 
     <!-- Message input -->
@@ -194,9 +190,9 @@
       <textarea class="form-control" id="message" type="text" placeholder="Bonjour,..." style="height: 10rem;"></textarea>
     </div>
 
-    <!-- Form submit button -->
+    <!-- Formulaire boutton submit -->
     <div class="d-grid">
-      <button class="btn btn-danger btn-lg" type="submit">Envoyer</button>
+      <button class="btn btn-danger btn-lg" name="submit" type="submit">Envoyer</button>
     </div>
 
   </form>
@@ -206,10 +202,11 @@
     <footer>
         <img src="../img/logo.png" alt="Logo Unescite" id="logoIle" >
 
+        <!-- Copyright -->
         <div id="Credits">
             <h3 >&copy; Copyright 2022, <a href="https://www.linkedin.com/in/berachem-markria/">Berachem MARKRIA </a> & <a href="https://www.linkedin.com/in/tristan-martinez-8459a1229/"> Tristan Martinez</a> </h3> 
         </div>
-       
+       <!-- Réseaux Sociaux -->
         <div id="LogosFooter"></div>
             <div class="footer-social-icons">
                 <ul class="social-icons">

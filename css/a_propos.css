@@ -206,6 +206,13 @@ body{
     height: 20px;
 }
 
+.logoemailsent{
+    width: 30%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* ============RESEAUX SOCIAUX============== */
 .footer-social-icons {
     width: 350px;
