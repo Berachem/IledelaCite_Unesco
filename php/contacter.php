@@ -8,14 +8,13 @@ if(isset($_POST["submit"])){
     $from = $_POST["email"]; // this is the sender's Email address
     $first_name = $_POST["name"];
     $subject = "Message reçu";
-    $subject2 = "Copie de votre envoie";
     $message = $first_name  . " Vous avez envoyé :" . "\n\n" . $_POST["message"];
     $message2 = "Voici une copie de votre message " . $first_name . "\n\n" . $_POST["message"];
 
     $headers = "De:" . $from;
     $headers2 = "De:" . $to;
     mail($to,$subject,$message,$headers);
-    mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
+    mail($from,'Ile de la Cité - Médiation culturelle et numérique',$message2,$headers2); // sends a copy of the message to the sender
     //echo "Mail envoyé. Merci " . $first_name . ", nous vous contacterons dans peu de temps :)";
     header('Location: ../fr/messagerecu.html');
     // You can also use header('Location: thank_you.php'); to redirect to another page.
