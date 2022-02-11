@@ -206,12 +206,14 @@ body{
     height: 20px;
 }
 
-.logoemailsent{
-    width: 30%;
+.emailrecu{
+    margin-top: -10%;
     display:block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: -10%;
 }
+
 
 /* ============RESEAUX SOCIAUX============== */
 .footer-social-icons {
