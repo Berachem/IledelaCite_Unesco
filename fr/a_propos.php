@@ -197,11 +197,14 @@
 
   </form>
   <?php
-    if (isset($error)){
-      echo '<div class="alert alert-danger" role="alert">
-        Informations incorrects ! :/
+    include("../php/contacter.php");
+    if (isset($_GET["error"])){
+      echo '<br>
+      <div class="alert alert-danger" role="alert">
+        petit problème :3
       </div>';
     }
+    
   ?>
 </div>
 
