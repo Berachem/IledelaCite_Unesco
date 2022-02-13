@@ -196,6 +196,13 @@
     </div>
 
   </form>
+  <?php
+    if (isset($error)){
+      echo '<div class="alert alert-danger" role="alert">
+        Informations incorrects ! :/
+      </div>';
+    }
+  ?>
 </div>
 
 

@@ -3,7 +3,7 @@ echo isset($_POST["email"]);
 echo $_POST["message"];
 echo $_POST["name"];
 
-if(isset($_POST["submit"])){
+if(isset($_POST["submit"]) && isset($_POST['email'])){
     $to = "berachem.markria@gmail.com"; // this is your Email address
     $from = $_POST["email"]; // this is the sender's Email address
     $first_name = $_POST["name"];
@@ -21,6 +21,7 @@ if(isset($_POST["submit"])){
     // You cannot use header and echo together. It's one or the other.
     }
     else{
-        echo "Erreur : le message n'a pas pu être envoyé :/";
+        $error = true;
+        header('Location: ../fr/a_propos.php');
     }
 ?>
