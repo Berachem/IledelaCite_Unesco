@@ -197,7 +197,7 @@
 
   </form>
   <?php
-    include("../php/contacter.php");
+   
     if (isset($_GET["error"])){
       echo '<br>
       <div class="alert alert-danger" role="alert">

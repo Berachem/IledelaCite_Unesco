@@ -16,7 +16,6 @@ if(isset($_POST["submit"])){
     //echo "Mail envoyé. Merci " . $first_name . ", nous vous contacterons dans peu de temps :)";
     if ($this_mail) header('Location: ../fr/messagerecu.html');
     else {
-    $error = "sending problem";
     header('Location: ../fr/a_propos.php?error=1');
     }
     // You can also use header('Location: thank_you.php'); to redirect to another page.
