@@ -2,8 +2,8 @@
 
 
 // Il faudrait définir des arrays de 2 éléments : 
-// indice 0 = français
-// indice 1 = anglais
+// 0 = français
+// 1 = anglais
 
 $langue = 0;
 	if (isset($_GET["lang"])) {
@@ -15,7 +15,9 @@ $langue = 0;
 		}
 	}
 
+/* Barre de Navigation */
 
+$nav_home = array('Accueil', "Home");
 
 
 echo 
@@ -69,7 +71,7 @@ echo '
         <!-- Barre de navigation -->
         <div class="navbar-links">
           <ul>
-            <li><a href="index.html"><i class="fas fa-home"> </i> Accueil</a></li>
+            <li><a href="index.html?page='.$lang.'"><i class="fas fa-home"> </i> '. $nav_home[$langue].'</a></li>
 
             <!-- Dropdown Monuments -->
             <li class="nav-item dropdown">
