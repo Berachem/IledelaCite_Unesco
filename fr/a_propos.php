@@ -174,8 +174,8 @@
 
     <!-- Nom input -->
     <div class="mb-3">
-      <label class="form-label" for="name">Nom</label>
-      <input class="form-control" id="name" type="text" placeholder="Nom" />
+      <label class="form-label" for="nom">Nom</label>
+      <input class="form-control" id="nom" type="text" placeholder="Nom" />
     </div>
 
     <!-- Addresse email input -->
@@ -196,16 +196,7 @@
     </div>
 
   </form>
-  <?php
-   
-    if (isset($_GET["error"])){
-      echo '<br>
-      <div class="alert alert-danger" role="alert">
-        petit problème :3
-      </div>';
-    }
-    
-  ?>
+
 </div>
 
 
