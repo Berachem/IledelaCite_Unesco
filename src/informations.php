@@ -148,7 +148,7 @@ include('../php/header.inc.php');
       <img class="rota" src="../img/bus.png" alt="" width="25" height="25">
       <b>Bus :</b>  21, 38 ,47 ,63, 72 <br> <br>
 
-      Vous souhaitez connaître le chemin exact depuis une adresse précise ? <a href="https://moovitapp.com/paris-662/poi/%C3%8Ele%20de%20la%20Cit%C3%A9,%20Paris/t/fr?tll=48.854847_2.347469&customerId=4908&ref=1&poiType=efsite">cliquez ici</a>
+      Vous souhaitez connaître le chemin exact depuis une adresse précise ? <a href="https://moovitapp.com/paris-662/poi/%C3%8Ele%20de%20la%20Cit%C3%A9,%20Paris/t/fr?tll=48.854847_2.347469&customerId=4908&ref=1&poiType=efsite" data-toggle="tooltip" data-placement="top" title="Ce lien ramènera sur l'application Moovit qui vous guidera jusqu'à l'Île :)">cliquez ici</a>
     </p>
       
 

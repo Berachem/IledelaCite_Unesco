@@ -117,7 +117,7 @@ include('../php/header.inc.php');
     <!-- Addresse email input -->
     <div class="mb-3">
       <label class="form-label" for="email">Adresse Email</label>
-      <input class="form-control" id="email" type="email" placeholder="ex : machin.chose@gmail.com" />
+      <input class="form-control" id="email" type="email" placeholder="bidule@exemple.com" />
     </div>
 
     <!-- Message input -->
