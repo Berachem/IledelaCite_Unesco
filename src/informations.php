@@ -139,13 +139,13 @@ include('../php/header.inc.php');
     </div>
 
     <p class = "transport">
-      <img src="../img/train.png" alt="" width="25" height="25">
+      <img class="rota" src="../img/train.png" alt="" width="25" height="25">
       <b>Train :</b>  L, N <br>
-      <img src="../img/rer.png" alt="" width="25" height="25">
+      <img class="rota" src="../img/rer.png" alt="" width="25" height="25">
       <b>RER :</b>  B, C <br>
-      <img src="../img/metro.png" alt="" width="25" height="25">
+      <img class="rota" src="../img/metro.png" alt="" width="25" height="25">
       <b>Métro :</b>  1, 10, 4 <br>
-      <img src="../img/bus.png" alt="" width="25" height="25">
+      <img class="rota" src="../img/bus.png" alt="" width="25" height="25">
       <b>Bus :</b>  21, 38 ,47 ,63, 72 <br> <br>
 
       Vous souhaitez connaître le chemin exact depuis une adresse précise ? <a href="https://moovitapp.com/paris-662/poi/%C3%8Ele%20de%20la%20Cit%C3%A9,%20Paris/t/fr?tll=48.854847_2.347469&customerId=4908&ref=1&poiType=efsite">cliquez ici</a>

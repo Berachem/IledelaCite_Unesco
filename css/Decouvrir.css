@@ -244,6 +244,12 @@ body{
 #logoIle:hover{
     transform: rotate(360deg);
 }
+.rota{
+    transition: transform .5s ease-in-out
+}
+.rota:hover{
+    transform: rotate(360deg);
+}
 
 #download,
 .siteofficiel{

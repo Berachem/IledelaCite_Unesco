@@ -25,7 +25,7 @@ include('../php/header.inc.php');
       <div class="col-lg-7 col-md-6 mb-md-0 mb-5">
         <div class="avatar mx-auto">
           <img src="../img/moi.jpg" width="250" height="250" class="rounded-circle z-depth-1 berachem"
-            alt="Berachem">
+            alt="Berachem" data-toggle="tooltip" data-placement="top" title="Enlevez votre souris d'ici svp ;)">
         </div>
         <h5 class="font-weight-bold mt-4 mb-3">Berachem MARKRIA</h5>
         <p class="text-uppercase blue-text"><strong>Chef de Projet et Principal Développeur</strong></p>
@@ -48,7 +48,7 @@ include('../php/header.inc.php');
       <div class="col-lg-2 col-md-6">
         <div class="avatar mx-auto">
           <img src="../img/tristan.png" width="250" height="250" class="rounded-circle z-depth-1"
-            alt="Tristan">
+            alt="Tristan" data-toggle="tooltip" data-placement="top" title="Enlevez votre souris d'ici svp ;)">
         </div>
         <h5 class="font-weight-bold mt-4 mb-3">Tristan MARTINEZ</h5>
         <p class="text-uppercase blue-text"><strong>Développeur et Spécialiste de l'Île</strong></p>

@@ -10,3 +10,7 @@ $(document).on('scroll', function (e) {
  $('.navbar').css('bg-dark', ($(document).scrollTop() / 500));
 }
 })
+
+$(function() {
+  $('img').tooltip("show")
+})
