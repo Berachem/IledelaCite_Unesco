@@ -1,93 +1,26 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Icon onglet-->
-    <link rel="icon" href="../img/logo_page.png" />
-    
-    <!-- JS -->
-    <script src="https://kit.fontawesome.com/061a20ff24.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="../js/script.js" defer></script>
+<?php
+$page = 'notredame';
+include('../php/header.inc.php');
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="../css/Decouvrir.css">
-    
-    <title>Palais de justice - Paris</title>
-  </head>
-  <body>
-    <header>
-      <!-- Barre de navigation -->
-      <nav class="navbar sticky-top bg-dark" style="background-color: #333333;">
-        <div class="brand-title">
-          <a href="#"><img src="../img/mcn.png" 
-          alt="logoMCN" 
-          width="165"
-          height="50"></a>
-        </div>
-        <a href="#" class="toggle-button" style="top: 25px;">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </a>
-        <div class="navbar-links">
-          <ul>
-            <li><a href="index.html"><i class="fas fa-home"> </i> Accueil</a></li>
-
-            <!-- Dropdown Monuments -->
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <i class="fas fa-archway"></i> Monuments
-              </a>
-              <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="notredame.html">Notre Dame</a>
-                <a class="dropdown-item" href="#">Palais de Justice</a>
-                <a class="dropdown-item" href="pontneuf.html">Les Ponts</a>
-              </div>
-            </li>
-
-            <li><a href="informations.html"><i class="fas fa-info"></i> Informations</a></li>
-
-            <!-- Dropdown Découvrir -->
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <i class="fas fa-compass"></i> Découvrir
-              </a>
-              <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="restaurants.html"><i class="fas fa-utensils"></i> Restaurants</a>
-                <a class="dropdown-item" href="endroitsAvisiter.html"><i class="fas fa-map-marker-alt"></i> Endroits à visiter</a></a>
-                <a class="dropdown-item" href="lesponts.html"><i class="fas fa-map"></i> A deux pas</a>
-              </div>
-            </li>
-            <li><a href="a_propos.html"><i class="fas fa-address-card"></i> A propos</a></li>
-            <li><a href="../eng/index.html" class="ukflag"><img src="../img/eng_flag.png" alt="" width="25" height="12"></a></li>
-            <li><a href="#" class="frflag"><img src="../img/Flag_of_France.svg.webp" alt="" width="25" height="12"></a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+?>
 
     
     <!-- Barre Orange et Titre page  -->
     <div id="TitrePage">
       <img src="../img/titre.png" alt="">
-      <h1>Le Palais de justice</h1>
+      <h1>Notre Dame</h1>
     </div>
 
     <!-- Phrase accroche -->
     <div class="description">
         <p>
-            Le Palais de justice est le monument qui prend en compte la plus grande partie de l'île, sa superficie correspond à 1 cinquème de l'île, et comprend plusieurs batiments tous plus impressionnant les uns que les autres.
+          La cathédrale Notre-Dame de Paris, chef d’œuvre de l’architecture gothique, est le monument le plus visité de France.
         </p>
     </div>
 
-    <!-- SECTION Histoire-->
+    <!-- SECTION ARCHITECTURE-->
     <div class="sous_titre">
-      <h2 style="color: #f7af3e;"><i class="fas fa-history"></i> Histoire</h2>
+      <h2 style="color: #f7af3e;"><i class="fas fa-hammer"></i> Architecture</h2>
       <img src="../img/sous_titre.png" alt="" >
     </div>
 
@@ -109,17 +42,14 @@
             <div class="row no-gutters">
               <div class="col-sm-7">
                 <div class="card-body">
-                  <h5 class="card-title">Centre du pouvoir royal et de la justice en France durant plus de 8 siècles</h5>
+                  <h5 class="card-title">Un Style principalement gothique</h5>
                   <p class="card-text">
-                    Robert II le Pieux fut le premier souverain au alentour du Xe siècle à entreprendre des travaux conséquents
-                    mais ce n’est qu’à partir du XIIIe siècle que les rois commençaient à établir leur sièges au Palais.
+                    Clarté de la composition, équilibre des verticales et des horizontales frappent tous les visiteurs à l’approche de la façade de la cathédrale.
                   </p>
                   <span class="collapse card-text" id="viewdetails"> 
-                      N'ayant aucun domicile vraiment fixe parmis les nombreux chateaux, palais et autre lieux de résidence auquel les rois avait accès ,
-                      le Palais de justice est donc la première "demeure royal", occupé par la ligné des Mérovingien set des Capétiens comme le grand Philippe Auguste (1180-1226).
-                      Elle aura servit de lieu de vie pour les rois pendant un peu moins de 3 siècles. Jusqu'à ce que Charles V (1338-1380)
-                      le délaisse comme résidence au profit du Louvre, de l’Hôtel Saint-Pol et du château de Vincennes. Il devient le siège de la justice souveraine du Parlement
-                      de Paris et de l’administration du royaume.
+                    L’abondance du décor sculpté attire les regards par la verve et la qualité des sculptures, qu’elles soient d’origine ou issues du grand chantier de restauration mené au XIXe siècle. 
+                    L’ambiance intérieure de la cathédrale ne laisse personne indifférent au regard de la monumentalité de l’espace, des roses des transepts, de la statuaire votive ou de la majesté du grand-orgue. Les grands tableaux présents dans les chapelles permettent de comprendre le rôle essentiel de la peinture religieuse aux XVIIe et XVIIIe siècles. Le trésor de la cathédrale conserve nombre d’œuvres d’intérêt majeur, affectées au culte. Notre-Dame de Paris est ainsi un édifice fondamental, tant pour l’histoire de l’architecture gothique que pour l’histoire de l’art depuis le Moyen Âge ou celle de la restauration aux XIXe et XXe siècles. 
+                    Classée au titre des monuments historiques sur la liste de 1862, elle est partie intégrante du bien « Paris, rives de la Seine » inscrit sur la liste du patrimoine mondial de l’Unesco. L’espace classé comprend les grands monuments, immeubles, jardins, places et quais qui bordent la Seine, depuis l’Ile Saint-Louis, à l’est, jusqu’à l’Ile aux Cygnes, à l’ouest.
                   </span> 
                   <br>
                   <br>
@@ -140,17 +70,16 @@
             <div class="row no-gutters">           
               <div class="col-sm-7">
                 <div class="card-body">
-                  <h5 class="card-title">Une construction en plusieurs étapes</h5>
+                  <h5 class="card-title">Un Projet gigantesque d'une ampleur phénoménale</h5>
                   <p class="card-text" >
-                      Chaque roi a apporté sa touche personnel à la zone, rendant l'édifice de plus en plus grand, polyvalent et complet.
+                      Après la forte croissance démographique et religieuse de la France, La basilique Saint-Étienne, malgré ses dimensions imposantes,
+                      ne suffit plus à la ferveur des Parisiens et aux  ambitions du nouvel évêque Maurice de Sully face au rayonnement intellectuel de la ville et à son essor.
                   </p>
                   <span class="collapse card-text" id="viewdetailsb"> 
-                    L'un des changement majeur à été effectuer par Saint Louis (1226-1270) qui érigea la Sainte Chapelle ainsi 
-                    que la galerie mercière, la salle sur l’eau et la tour Bonbec.
-                    Philippe le Bel (1285-1314) remodèle et agrandit le palais pour y rassembler les institutions judiciaires
-                    et financières du royaume. Centralisant le plus en plus la gouvernance et le pouvoir au Palais.
-                    Dès le XVe siècle, la cour souveraine est dotée d’une prison : la Conciergerie. Dont il reste encore quelque vestige. 
-                  </span>
+                    Ce fit donc sentir le besoin d'un édifice plus grand, plus majestieux, à la mesure de la capitale de l'évêcher et du pays, ainsi que de l'ambition du nouvel évêque Maurice de Sully.
+                    S'entamme donc l'un des projet de construction les plus longs qu'aura jamais eu la France à effectuer, un projet qui a duré près de 200 ans, et qui a nécessité énormément de technique 
+                    , d'organisaion et de savoi-faire pour aboutir à ce manifique résultat.
+                    </span>
                   <br>
                   <br>
                   <blockquote class="blockquote">
@@ -252,9 +181,9 @@
 
 
 
-    <!-- SECTION Procès-->
+    <!-- SECTION HISTOIRE-->
     <div class="sous_titre">
-      <h2 style="color: #f7af3e;"><i class = "fa-solid fa-gavel"></i> Procès iconiques</h2>
+      <h2 style="color: #f7af3e;"><i class="fas fa-history"></i> Histoire</h2>
       <img src="../img/sous_titre.png" alt="" >
     </div>
 

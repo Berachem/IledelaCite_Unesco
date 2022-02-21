@@ -18,7 +18,10 @@ $langue = 0;
 /* Barre de Navigation */
 
 $nav_home = array('Accueil', "Home");
-
+$nav_discover = array('Découvrir', "Discover");
+$nav_discover_tovisit = array('Endroits à visiter', "Spots to visit");
+$nav_discover_near = array('A deux pas', "Near...");
+$nav_about = array('A propos', "About us");
 
 echo 
 '<!DOCTYPE html>
@@ -40,11 +43,11 @@ echo
     <!-- CSS -->
     ';
 
-    
+    $decouvrirCSS = array('endroitsAvisiter', 'informations', 'lesponts','notredame','palaisdejustice');
     if ($page =='index'){
     echo '<link rel="stylesheet" href="../css/style.css">';
-    }else if (in_array($page,array('endroitsAvisiter', 'informations', 'lesponts','notredame','palaisdejustice'))) {
-        echo '<link rel="stylesheet" href="../css/Decrouvrir.css">';
+    }elseif (in_array($page,$decouvrirCSS,TRUE)) {
+        echo '<link rel="stylesheet" href="../css/Decouvrir.css">';
     } else{
         echo '<link rel="stylesheet" href="../css/a_propos.css">';
     }
@@ -71,7 +74,7 @@ echo '
         <!-- Barre de navigation -->
         <div class="navbar-links">
           <ul>
-            <li><a href="index.html?page='.$lang.'"><i class="fas fa-home"> </i> '. $nav_home[$langue].'</a></li>
+            <li><a href="index.php?page='.$lang.'"><i class="fas fa-home"> </i> '. $nav_home[$langue].'</a></li>
 
             <!-- Dropdown Monuments -->
             <li class="nav-item dropdown">
@@ -79,26 +82,26 @@ echo '
                 <i class="fas fa-archway"></i> Monuments
               </a>
               <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="notredame.html">Notre Dame</a>
-                <a class="dropdown-item" href="palaisdejustice.html">Palais de Justice</a>
-                <a class="dropdown-item" href="lesponts.html">Les Ponts</a>
+                <a class="dropdown-item" href="notredame.php?page='.$lang.'">Notre Dame</a>
+                <a class="dropdown-item" href="palaisdejustice.php?page='.$lang.'">Palais de Justice</a>
+                <a class="dropdown-item" href="lesponts.php?page='.$lang.'">Les Ponts</a>
               </div>
             </li>
 
-            <li><a href="informations.html"><i class="fas fa-info"></i> Informations</a></li>
+            <li><a href="informations.php"><i class="fas fa-info"></i> Informations</a></li>
 
             <!-- dropdown Découvrir -->
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <i class="fas fa-compass"></i> Découvrir
+                <i class="fas fa-compass"></i> '. $nav_discover[$langue].'
               </a>
               <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="restaurants.html"><i class="fas fa-utensils"></i> Restaurants</a>
-                <a class="dropdown-item" href="endroitsAvisiter.html"><i class="fas fa-map-marker-alt"></i> Endroits à visiter</a></a>
-                <a class="dropdown-item" href="adeuxpas.html"><i class="fas fa-map"></i> A deux pas</a>
+                <a class="dropdown-item" href="restaurants.php?page='.$lang.'"><i class="fas fa-utensils"></i> Restaurants</a>
+                <a class="dropdown-item" href="endroitsAvisiter.php?page='.$lang.'"><i class="fas fa-map-marker-alt"></i> '. $nav_discover_tovisit[$langue].'</a></a>
+                <a class="dropdown-item" href="adeuxpas.php?page='.$lang.'"><i class="fas fa-map"></i> '. $nav_discover_near[$langue].'</a>
               </div>
             </li>
-            <li><a href="a_propos.html"><i class="fas fa-address-card"></i> A propos</a></li>';
+            <li><a href="a_propos.php?page='.$lang.'"><i class="fas fa-address-card"></i> '. $nav_about[$langue].'</a></li>';
             
             if ($langue == 0) {
                 echo '<li><a href="'.$_SERVER["PHP_SELF"].'?lang=1" target="_self" class="ukflag"><img src="../img/eng_flag.png" alt="" width="25" height="12"></a></li>';

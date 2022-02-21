@@ -1,75 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Icon onglet-->
-  <link rel="icon" href="../img/logo_page.png" />
-  
-  <!-- JS -->
-  <script src="https://kit.fontawesome.com/061a20ff24.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  <script src="../js/script.js" defer></script>
+<?php
+$page = 'endroitsAvisiter';
+include('../php/header.inc.php');
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="../css/Decouvrir.css">
-  
-    <title>Spots à visiter - Ile de la Cité</title>
-</head>
-<body vlink="red" alink="#f7af3e">    
-    <header>
-        <!--Barre de navigation-->
-        <nav class="navbar sticky-top bg-dark" style="background-color: #333333;">
-            <div class="brand-title">
-              <a href="index.html"><img src="../img/mcn.png" 
-                alt="logoMCN" 
-                width="165"
-                height="50"></a>
-            </div>
-            <a href="#" class="toggle-button" style="top: 25px;">
-              <span class="bar"></span>
-              <span class="bar"></span>
-              <span class="bar"></span>
-            </a>
-            <div class="navbar-links">
-              <ul>
-                <li><a href="index.html"><i class="fas fa-home"> </i> Accueil</a></li>
-
-                <!-- Dropdown Monuments-->
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <i class="fas fa-archway"></i> Monuments
-                  </a>
-                  <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="notredame.html">Notre Dame</a>
-                    <a class="dropdown-item" href="#">Palais de Justice</a>
-                    <a class="dropdown-item" href="lesponts.html">Les Ponts</a>
-                  </div>
-                </li>
-  
-                <li><a href="informations.html"><i class="fas fa-info"></i> Informations</a></li>
-  
-                <!-- Dropdown Découvrir-->
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <i class="fas fa-compass"></i> Découvrir
-                  </a>
-                  <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="restaurants.html"><i class="fas fa-utensils"></i> Restaurants</a>
-                    <a class="dropdown-item" href="#"><i class="fas fa-map-marker-alt"></i> Endroits à visiter</a></a>
-                    <a class="dropdown-item" href="adeuxpas.html"><i class="fas fa-map"></i> A deux pas</a>
-                  </div>
-                </li>
-                <li><a href="a_propos.php"><i class="fas fa-address-card"></i> A propos</a></li>
-                <li><a href="../eng/index.html" class="ukflag"><img src="../img/eng_flag.png" alt="" width="25" height="12"></a></li>
-                <li><a href="#" class="frflag"><img src="../img/Flag_of_France.svg.webp" alt="" width="25" height="12"></a></li>
-              </ul>
-            </div>
-          </nav>
-    </header>
+?>
      <!-- Barre Orange et titre principal-->
     <div id="TitrePage">
         <img src="../img/titre.png" alt="">
