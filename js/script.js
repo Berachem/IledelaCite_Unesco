@@ -11,6 +11,10 @@ $(document).on('scroll', function (e) {
 }
 })
 
-$(function() {
-  $('img').tooltip("show")
-})
+$(document).ready(function(){
+  $("a").tooltip();
+  $("span").tooltip();
+  $("img").tooltip();
+  $("span").tooltip();
+});
+

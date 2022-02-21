@@ -244,10 +244,11 @@ body{
 #logoIle:hover{
     transform: rotate(360deg);
 }
-.rota{
+.rota,
+i{
     transition: transform .5s ease-in-out
 }
-.rota:hover{
+.rota:hover,i:hover{
     transform: rotate(360deg);
 }
 

@@ -97,7 +97,7 @@ include('../php/header.inc.php');
         <tr>
           <th scope="col">Monument</th>
           <th scope="col">Tarif Normal</th>
-          <th scope="col">Tarif Réduit</th>
+          <th scope="col">Tarif Réduit <span class="badge rounded-pill bg-primary" data-toggle="tooltip" data-placement="top" title="Les jeunes de moins de 26 ans habitant dans l'Union européenne peuvent accéder gratuitement à certains musées et monuments nationaux, sur simple présentation d'une pièce d'identité.">?</span></th>
         </tr>
       </thead>
       <tbody>
