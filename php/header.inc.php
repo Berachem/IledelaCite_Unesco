@@ -19,9 +19,13 @@ $langue = 0;
 
 $nav_home = array('Accueil', "Home");
 $nav_discover = array('Découvrir', "Discover");
-$nav_discover_tovisit = array('Endroits à visiter', "Spots to visit");
-$nav_discover_near = array('A deux pas', "Near...");
+$nav_discover_tovisit = array('Endroits à visiter', "Places to visit");
+$nav_discover_near = array('A deux pas', "Two steps away");
 $nav_about = array('A propos', "About us");
+
+/* INDEX.html */
+
+$index_carousel_ileCite_subtitle = array('Un coffre de patrimoines mondiaux.', 'A chest of world heritages.');
 
 echo 
 '<!DOCTYPE html>
