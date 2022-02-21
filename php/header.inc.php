@@ -74,7 +74,7 @@ echo '
         <!-- Barre de navigation -->
         <div class="navbar-links">
           <ul>
-            <li><a href="index.php?page='.$lang.'"><i class="fas fa-home"> </i> '. $nav_home[$langue].'</a></li>
+            <li><a href="index.php?lang='.$langue.'"><i class="fas fa-home"> </i> '. $nav_home[$langue].'</a></li>
 
             <!-- Dropdown Monuments -->
             <li class="nav-item dropdown">
@@ -82,13 +82,13 @@ echo '
                 <i class="fas fa-archway"></i> Monuments
               </a>
               <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="notredame.php?page='.$lang.'">Notre Dame</a>
-                <a class="dropdown-item" href="palaisdejustice.php?page='.$lang.'">Palais de Justice</a>
-                <a class="dropdown-item" href="lesponts.php?page='.$lang.'">Les Ponts</a>
+                <a class="dropdown-item" href="notredame.php?lang='.$langue.'">Notre Dame</a>
+                <a class="dropdown-item" href="palaisdejustice.php?lang='.$langue.'">Palais de Justice</a>
+                <a class="dropdown-item" href="lesponts.php?lang='.$langue.'">Les Ponts</a>
               </div>
             </li>
 
-            <li><a href="informations.php"><i class="fas fa-info"></i> Informations</a></li>
+            <li><a href="informations.php?lang='.$langue.'"><i class="fas fa-info"></i> Informations</a></li>
 
             <!-- dropdown Découvrir -->
             <li class="nav-item dropdown">
@@ -96,12 +96,12 @@ echo '
                 <i class="fas fa-compass"></i> '. $nav_discover[$langue].'
               </a>
               <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="restaurants.php?page='.$lang.'"><i class="fas fa-utensils"></i> Restaurants</a>
-                <a class="dropdown-item" href="endroitsAvisiter.php?page='.$lang.'"><i class="fas fa-map-marker-alt"></i> '. $nav_discover_tovisit[$langue].'</a></a>
-                <a class="dropdown-item" href="adeuxpas.php?page='.$lang.'"><i class="fas fa-map"></i> '. $nav_discover_near[$langue].'</a>
+                <a class="dropdown-item" href="restaurants.php?lang='.$langue.'"><i class="fas fa-utensils"></i> Restaurants</a>
+                <a class="dropdown-item" href="endroitsAvisiter.php?lang='.$langue.'"><i class="fas fa-map-marker-alt"></i> '. $nav_discover_tovisit[$langue].'</a></a>
+                <a class="dropdown-item" href="adeuxpas.php?lang='.$langue.'"><i class="fas fa-map"></i> '. $nav_discover_near[$langue].'</a>
               </div>
             </li>
-            <li><a href="a_propos.php?page='.$lang.'"><i class="fas fa-address-card"></i> '. $nav_about[$langue].'</a></li>';
+            <li><a href="a_propos.php?lang='.$langue.'"><i class="fas fa-address-card"></i> '. $nav_about[$langue].'</a></li>';
             
             if ($langue == 0) {
                 echo '<li><a href="'.$_SERVER["PHP_SELF"].'?lang=1" target="_self" class="ukflag"><img src="../img/eng_flag.png" alt="" width="25" height="12"></a></li>';
