@@ -30,7 +30,7 @@ echo"
           <img src='../img/notredame.jpg' class='img-fluid' alt='Notre dame'>
           <div class='carousel-caption'>
             <h2>Notre Dame</h2>
-            <p>Le monument iconique mondial.</p>
+            <p>".$index_carousel_notredame_subtitle[$langue]."</p>
             <a href='notredame.html'><button type='button' class='btn btn-primary'>Y Aller</button></a>
           </div>
         </div>
@@ -39,7 +39,7 @@ echo"
           <img src='../img/Palais_de_Justice.jpg' class='img-fluid'  alt='Palais de justice'>
           <div class='carousel-caption'>
             <h2>Le Palais de Justice</h2>
-            <p>Au coeur de l'histoire française.</p>
+            <p>".$index_carousel_palaisjustice_subtitle[$langue]."</p>
             <a href='#palaisjustice'><button type='button' class='btn btn-primary'>Y Aller</button></a>
           </div>
         </div>
@@ -48,7 +48,7 @@ echo"
           <img src='../img/pont-neuf.jpg' class='img-fluid'  alt='Pont neuf'>
           <div class='carousel-caption'>
             <h2>Le Pont Neuf</h2>
-            <p>Le plus ancien pont de Paris.</p>
+            <p>".$index_carousel_pontneuf_subtitle[$langue]."</p>
             <a href='#pontneuf.html'><button type='button' class='btn btn-primary'>Y Aller</button></a>
           </div>
         </div>
@@ -72,12 +72,16 @@ echo"
 
     <!-- Phrase d'accroche en orange-->
     <h2 id='PhraseUnesco'>
-        Un patrimoine mondial reconnu par l'Unesco.
+    ".$index_subtitle[$langue]."
     </h2>
 
     <!-- Texte -->
-    <h2 style='padding-top: 1cm; text-align: center;'>L'Île de la Cité regroupe de nombreux monuments incontournables et iconiques qui font l'histoire de France et sont reconnus comme patrimoine mondial de l'Unesco.</h2>
-    <p style='padding: 1cm; text-align: center;font-family: cicle; font-size: 3vh;'>Paris ne serait pas Paris sans ses îles. Comme deux yeux au milieu du visage, l’île de la Cité et l’île Saint-Louis sont le cœur du cœur de la capitale, son exception, mais aussi et surtout la raison d’être de tous ses ponts, véritables œuvres d’art qui dessinent le paysage fluvial de la ville et dressent des traits d’union en pointillé entre les rives. Le plaisir de déambuler sur ces îles vient d’abord de là, du plaisir d’enjamber la Seine sur ces ponts en pierre de taille, historiques et majestueux, du plaisir de se savoir cerné d’eau mais les pieds au sec, de ce sentiment de se trouver au niveau du noyau.</p>
+    <h2 style='padding-top: 1cm; text-align: center;'>
+    ".$index_subtitle2[$langue]."
+    </h2>
+    <p style='padding: 1cm; text-align: center;font-family: cicle; font-size: 3vh;'>
+    ".$index_description[$langue]."
+    </p>
 
 
     <!-- Vidéo -->
@@ -88,7 +92,7 @@ echo"
 
     <!-- Carte localisation-->
     <hr style='margin-top: 6em;'>
-    <h2 id='Contact'>Localisation</h2>
+    <h2 id='Contact'>".$index_localisation[$langue]."</h2>
     <iframe src='https://www.google.com/maps/d/u/1/embed?mid=1zvLOOu0uRy-fJ94OVHyyFzAQ8y3Kx8zZ&ehbc=2E312F' 
         id='Carte' 
         width='640' 

@@ -23,9 +23,31 @@ $nav_discover_tovisit = array('Endroits à visiter', "Places to visit");
 $nav_discover_near = array('A deux pas', "Two steps away");
 $nav_about = array('A propos', "About us");
 
-/* INDEX.html */
+/* INDEX */
 
 $index_carousel_ileCite_subtitle = array('Un coffre de patrimoines mondiaux.', 'A chest of world heritages.');
+$index_carousel_notredame_subtitle = array("Le monument iconique mondial.","The world's iconic monument.");
+$index_carousel_palaisjustice_subtitle = array("Au coeur de l'histoire française.","");
+$index_carousel_pontneuf_subtitle = array("Le plus ancien pont de Paris.","The oldest bridge in Paris.");
+$index_carousel_Yaller = array("Y aller","Go to");
+$index_subtitle = array("Un patrimoine mondial reconnu par l'Unesco.","A world heritage recognized by Unesco.");
+$index_subtitle2 = array("L'Île de la Cité regroupe de nombreux monuments incontournables et iconiques qui font l'histoire de France et sont reconnus comme patrimoine mondial de l'Unesco.","The Ile de la Cité is home to many iconic monuments that make up the history of France and are recognized as Unesco World Heritage sites.");
+$index_description = array("Paris ne serait pas Paris sans ses îles. Comme deux yeux au milieu du visage, l’île de la Cité et l’île Saint-Louis sont le cœur du cœur de la capitale, son exception, mais aussi et surtout la raison d’être de tous ses ponts, véritables œuvres d’art qui dessinent le paysage fluvial de la ville et dressent des traits d’union en pointillé entre les rives. Le plaisir de déambuler sur ces îles vient d’abord de là, du plaisir d’enjamber la Seine sur ces ponts en pierre de taille, historiques et majestueux, du plaisir de se savoir cerné d’eau mais les pieds au sec, de ce sentiment de se trouver au niveau du noyau.","Paris would not be Paris without its islands. Like two eyes in the middle of the face, the Ile de la Cité and the Ile Saint-Louis are the heart of the capital, its exception, but also and above all the reason for the existence of all its bridges, true works of art that draw the river landscape of the city and draw up dotted lines between the banks. The pleasure of wandering on these islands comes first of all from there, from the pleasure of spanning the Seine on these historical and majestic bridges made of cut stone, from the pleasure of knowing that one is surrounded by water but with dry feet, from the feeling of being at the core.");
+$index_localisation = array("Localisation", "Location");
+
+/* Notredame */
+
+/* Informations */
+
+/* About Us */
+
+$AboutUs_title = array("Qui sommes-nous ?", "Who are we?");
+$AboutUs_subtitle = array("Nous sommes un binôme d'étudiants à l'Université Gustave Eiffel qui ont pour objectif de participer à la valorisation d'un patrimoine mondial reconnu par l'UNESCO en France (kokorico ^^) qui est L' Ile de la Cité.","We are a pair of students at the University Gustave Eiffel whose objective is to participate in the development of a world heritage recognized by UNESCO in France (kokorico ^^) which is the Ile de la Cité.");
+$AboutUs_berachem = array("CHEF DE PROJET ET PRINCIPAL DÉVELOPPEUR","PROJECT MANAGER AND LEAD DEVELOPER");
+$AboutUs_tristan = array("DÉVELOPPEUR ET SPÉCIALISTE DE L'ÎLE", "DEVELOPER AND SPECIALIST OF THE ISLAND");
+$AboutUs_name = array("Nom Complet", "Full Name");
+$AboutUs_email= array("Addresse Email", "Email Address");
+$AboutUs_envoyer = array("Envoyer", "Send");
 
 echo 
 '<!DOCTYPE html>
