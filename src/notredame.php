@@ -83,7 +83,7 @@ include('../php/header.inc.php');
                   <br>
                   <br>
                   <blockquote class="blockquote">
-                    <p class="mb-0">« La tête, le cœur, la moelle de la ville entière. »"</p>
+                    <p class="mb-0">« La tête, le cœur, la moelle de la ville entière. »</p>
                     <footer class="blockquote-footer">Gui de Bazoches, chroniqueur du XIIe siècle</footer>
                   </blockquote>
                   <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetailsb" >En savoir plus</a>
