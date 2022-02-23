@@ -94,10 +94,34 @@ Several campaigns of work have taken place, so that we can distinguish stages :
 /* Informations */
 
 $info_description=array("Vous trouverez sur cette pages les informations utiles pour vous aider à préparer votre visite sur l'Île telles que les horaires des monuments, le prix d'entrée et enfin les transports en commun à proximité.","You will find on this page useful information to help you prepare your visit to the island such as the schedules of the monuments, the entrance fees and finally the public transport in the vicinity." );
+$info_horaires=array("HORAIRES","SCHEDULE");
+
 $info_notredame_status = array("Suspendue (Covid et travaux)", "Suspended (Covid and works)");
 $info_notredame_description = array("Nous n'avons pas plus d'informations malheureusement :/", "We do not have more information unfortunately :/");
-$info_reserve = array("Réserver", "Book");
 
+$info_palaisjustice_status = array();
+$info_palaisjustice_description = array();
+
+$info_conciergerie_status = array();
+$info_conciergerie_description = array();
+
+$info_pontneuf_status = array();
+$info_pontneuf_description = array();
+
+$info_crypte_status = array();
+$info_crypte_description = array();
+
+$info_chapelle_status = array();
+$info_chapelle_description = array();
+
+$info_reserve = array("Réserver", "Book");
+$info_VR = array("Visiter en VR", "Visit in VR");
+
+
+$info_prix = array("PRIX","PRICES");
+$info_tarifnormal = array("Tarif Normal","Normal rate");
+$info_tarifreduit = array("Tarif Réduit","Reduced rate");
+$info_gratuit = array("Gratuit","Free");
 
 /* About Us */
 
