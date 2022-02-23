@@ -93,6 +93,12 @@ Several campaigns of work have taken place, so that we can distinguish stages :
 
 /* Informations */
 
+$info_description=array("Vous trouverez sur cette pages les informations utiles pour vous aider à préparer votre visite sur l'Île telles que les horaires des monuments, le prix d'entrée et enfin les transports en commun à proximité.","You will find on this page useful information to help you prepare your visit to the island such as the schedules of the monuments, the entrance fees and finally the public transport in the vicinity." );
+$info_notredame_status = array("Suspendue (Covid et travaux)", "Suspended (Covid and works)");
+$info_notredame_description = array("Nous n'avons pas plus d'informations malheureusement :/", "We do not have more information unfortunately :/");
+$info_reserve = array("Réserver", "Book");
+
+
 /* About Us */
 
 $AboutUs_title = array("Qui sommes-nous ?", "Who are we?");
