@@ -165,7 +165,7 @@ echo
     
     if ($page =='index'){
     echo '<link rel="stylesheet" href="../css/style.css">';
-    }elseif ($page=='apropos') {
+    }elseif ($page=='apropos' or $page=='restaurants') {
         echo '<link rel="stylesheet" href="../css/a_propos.css">';
     } else{
         echo '<link rel="stylesheet" href="../css/Decouvrir.css">';
@@ -193,12 +193,12 @@ echo '
         <!-- Barre de navigation -->
         <div class="navbar-links">
           <ul>
-            <li><a href="index.php?lang='.$langue.'"><i class="fas fa-home"> </i> '. $nav_home[$langue].'</a></li>
+            <li><a href="index.php?lang='.$langue.'"><img src="../img/home_emoji.png" width="25" height="25">  '. $nav_home[$langue].'</a></li>
 
             <!-- Dropdown Monuments -->
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <i class="fas fa-archway"></i> Monuments
+              <img src="../img/monuments_emoji.png" width="25" height="25">  Monuments
               </a>
               <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="notredame.php?lang='.$langue.'"> <img src="../img/notredame_emoji.png" width="25" height="25"> Notre Dame</a>
@@ -207,21 +207,21 @@ echo '
               </div>
             </li>
 
-            <li><a href="informations.php?lang='.$langue.'"><i class="fas fa-info"></i> Informations</a></li>
+            <li><a href="informations.php?lang='.$langue.'"><img src="../img/info_emoji.png" width="25" height="25">  Informations</a></li>
 
             <!-- dropdown Découvrir -->
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <i class="fas fa-compass"></i> '. $nav_discover[$langue].'
+              <img src="../img/boussole_emoji.png" width="25" height="25">  '. $nav_discover[$langue].'
               </a>
               <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="restaurants.php?lang='.$langue.'"><i class="fas fa-utensils"></i> Restaurants</a>
-                <a class="dropdown-item" href="endroitsAvisiter.php?lang='.$langue.'"><i class="fas fa-map-marker-alt"></i> '. $nav_discover_tovisit[$langue].'</a></a>
-                <a class="dropdown-item" href="adeuxpas.php?lang='.$langue.'"><i class="fas fa-map"></i> '. $nav_discover_near[$langue].'</a>
+                <a class="dropdown-item" href="restaurants.php?lang='.$langue.'"><img src="../img/resto_emoji.png" width="25" height="25">  Restaurants</a>
+                <a class="dropdown-item" href="endroitsAvisiter.php?lang='.$langue.'"><img src="../img/av_emoji.png" width="25" height="25">  '. $nav_discover_tovisit[$langue].'</a></a>
+                <a class="dropdown-item" href="adeuxpas.php?lang='.$langue.'"><img src="../img/adeux.png" width="25" height="25"> '. $nav_discover_near[$langue].'</a>
               </div>
             </li>
-            <li><a href="galerie.php?lang='.$langue.'"><i class="fa-solid fa-camera"></i> '. $nav_gallery[$langue].'</a></li>
-            <li><a href="a_propos.php?lang='.$langue.'"><i class="fas fa-address-card"></i> '. $nav_about[$langue].'</a></li>';
+            <li><a href="galerie.php?lang='.$langue.'"><img src="../img/g_emoji.png" width="25" height="25">  '. $nav_gallery[$langue].'</a></li>
+            <li><a href="a_propos.php?lang='.$langue.'"><img src="../img/nous_emoji.png" width="25" height="25">  '. $nav_about[$langue].'</a></li>';
             
             if ($langue == 0) {
                 echo '<li><a href="'.$_SERVER["PHP_SELF"].'?lang=1" target="_self" class="ukflag"><img src="../img/eng_flag.png" alt="" width="25" height="12"></a></li>';

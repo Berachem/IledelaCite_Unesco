@@ -31,7 +31,7 @@ echo"
           <div class='carousel-caption'>
             <h2>Notre Dame</h2>
             <p>".$index_carousel_notredame_subtitle[$langue]."</p>
-            <a href='notredame.html'><button type='button' class='btn btn-primary'>Y Aller</button></a>
+            <a href='notredame.html'><button type='button' class='btn btn-primary'><i class='fas fa-arrow-right'></i> Y Aller</button></a>
           </div>
         </div>
         <!-- Carousel Palais de Justice-->
@@ -40,7 +40,7 @@ echo"
           <div class='carousel-caption'>
             <h2>Le Palais de Justice</h2>
             <p>".$index_carousel_palaisjustice_subtitle[$langue]."</p>
-            <a href='#palaisjustice'><button type='button' class='btn btn-primary'>Y Aller</button></a>
+            <a href='#palaisjustice'><button type='button' class='btn btn-primary'><i class='fas fa-arrow-right'></i> Y Aller</button></a>
           </div>
         </div>
         <!-- Carousel Pont Neuf-->
@@ -49,7 +49,7 @@ echo"
           <div class='carousel-caption'>
             <h2>Le Pont Neuf</h2>
             <p>".$index_carousel_pontneuf_subtitle[$langue]."</p>
-            <a href='#pontneuf.html'><button type='button' class='btn btn-primary'>Y Aller</button></a>
+            <a href='#pontneuf.html'><button type='button' class='btn btn-primary'><i class='fas fa-arrow-right'></i> Y Aller</button></a>
           </div>
         </div>
       </div>
@@ -72,7 +72,7 @@ echo"
 
     <!-- Phrase d'accroche en orange-->
     <h2 id='PhraseUnesco'>
-    ".$index_subtitle[$langue]." <img src='../img/unesco_emoji.png'  width='35' height='35' alt='unesco'>
+    ".$index_subtitle[$langue]." <img src='../img/unesco_emoji.png' class='rota' width='35' height='35' alt='unesco'>
     </h2>
 
     <!-- Texte -->
@@ -92,7 +92,7 @@ echo"
 
     <!-- Carte localisation-->
     <hr style='margin-top: 6em;'>
-    <h2 id='Contact'> <img src='../img/localisation.png'  width='35' height='35' alt='localisation'>".$index_localisation[$langue]."</h2>
+    <h2 id='Contact'> <img src='../img/localisation.png'  class='rota' width='35' height='35' alt='localisation'>".$index_localisation[$langue]."</h2>
     <iframe src='https://www.google.com/maps/d/u/1/embed?mid=1zvLOOu0uRy-fJ94OVHyyFzAQ8y3Kx8zZ&ehbc=2E312F' 
         id='Carte' 
         width='640' 

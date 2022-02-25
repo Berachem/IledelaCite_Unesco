@@ -20,7 +20,7 @@ include('../php/header.inc.php');
 
     <!-- SECTION Pont neuf-->
     <div class="sous_titre">
-      <h2 style="color: #f7af3e;">Le Pont Neuf</h2>
+      <h2 style="color: #f7af3e;"><i class="fas fa-star"></i>  Le Pont Neuf</h2>
       <img src="../img/sous_titre.png" alt="" >
     </div>
 
