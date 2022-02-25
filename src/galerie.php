@@ -13,7 +13,7 @@ echo "
     </div>
   ";
     //try to connect to your database.
-    $conn = mysql_connect(...);
+    $conn = mysql_connect("sqletud.u-pem.fr", " berachem.markria", "22Fev1987");;
     
     //handle errors if connection failed.
     if (! $conn){

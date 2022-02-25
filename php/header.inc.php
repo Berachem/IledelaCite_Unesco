@@ -220,7 +220,7 @@ echo '
                 <a class="dropdown-item" href="adeuxpas.php?lang='.$langue.'"><i class="fas fa-map"></i> '. $nav_discover_near[$langue].'</a>
               </div>
             </li>
-            <li><a href="gallerie.php?lang='.$langue.'"><i class="fa-solid fa-camera"></i> '. $nav_gallery[$langue].'</a></li>
+            <li><a href="galerie.php?lang='.$langue.'"><i class="fa-solid fa-camera"></i> '. $nav_gallery[$langue].'</a></li>
             <li><a href="a_propos.php?lang='.$langue.'"><i class="fas fa-address-card"></i> '. $nav_about[$langue].'</a></li>';
             
             if ($langue == 0) {
