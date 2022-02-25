@@ -156,13 +156,13 @@ echo
     <!-- CSS -->
     ';
 
-    $decouvrirCSS = array('endroitsAvisiter', 'informations', 'lesponts','notredame','palaisdejustice');
+    
     if ($page =='index'){
     echo '<link rel="stylesheet" href="../css/style.css">';
-    }elseif (in_array($page,$decouvrirCSS,TRUE)) {
-        echo '<link rel="stylesheet" href="../css/Decouvrir.css">';
-    } else{
+    }elseif ($page=='apropos') {
         echo '<link rel="stylesheet" href="../css/a_propos.css">';
+    } else{
+        echo '<link rel="stylesheet" href="../css/Decouvrir.css">';
     }
     
 echo '
