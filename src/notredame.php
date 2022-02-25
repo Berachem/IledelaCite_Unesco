@@ -358,3 +358,5 @@ include('../php/header.inc.php');
     </footer>
   </body>
 </html>
+
+<img src="../img/notredame_emoji.png" width="25" height="25">

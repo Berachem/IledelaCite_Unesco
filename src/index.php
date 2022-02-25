@@ -72,7 +72,7 @@ echo"
 
     <!-- Phrase d'accroche en orange-->
     <h2 id='PhraseUnesco'>
-    ".$index_subtitle[$langue]."
+    ".$index_subtitle[$langue]." <img src='../img/unesco_emoji.png'  width='35' height='35' alt='unesco'>
     </h2>
 
     <!-- Texte -->
@@ -92,7 +92,7 @@ echo"
 
     <!-- Carte localisation-->
     <hr style='margin-top: 6em;'>
-    <h2 id='Contact'>".$index_localisation[$langue]."</h2>
+    <h2 id='Contact'> <img src='../img/localisation.png'  width='35' height='35' alt='localisation'>".$index_localisation[$langue]."</h2>
     <iframe src='https://www.google.com/maps/d/u/1/embed?mid=1zvLOOu0uRy-fJ94OVHyyFzAQ8y3Kx8zZ&ehbc=2E312F' 
         id='Carte' 
         width='640' 

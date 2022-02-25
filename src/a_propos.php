@@ -104,12 +104,13 @@ include('../php/header.inc.php');
 
 <?php
 if (isset($_GET["messagesent"])){
-  echo '<div class="alert alert-success" role="alert">
+  echo '<div class="alert alert-success" role="alert"> <img src="../img/succes.png"  width="25" height="25" alt="succès">
   '.$message_thankyou[$langue].'
 </div>';
 }
 
 ?>
+
 
 
 <!-- Wrapper container -->
@@ -120,19 +121,19 @@ if (isset($_GET["messagesent"])){
 
     <!-- Nom input -->
     <div class="mb-3">
-      <label class="form-label" for="nom">Nom</label>
+      <label class="form-label" for="nom"><img src="../img/user.png"  width="25" height="25" alt="nom"> Nom</label>
       <input class="form-control" id="nom" type="text" placeholder="Nom" />
     </div>
 
     <!-- Addresse email input -->
     <div class="mb-3">
-      <label class="form-label" for="email">Adresse Email</label>
+      <label class="form-label" for="email"><img src="../img/email.png"  width="25" height="25" alt="email"> Adresse Email</label>
       <input class="form-control" id="email" type="email" placeholder="bidule@exemple.com" />
     </div>
 
     <!-- Message input -->
     <div class="mb-3">
-      <label class="form-label" for="message">Message</label>
+      <label class="form-label" for="message"><img src="../img/message.png"  width="25" height="25" alt="message"> Message</label>
       <textarea class="form-control" id="message" type="text" placeholder="Bonjour,..." style="height: 10rem;"></textarea>
     </div>
 

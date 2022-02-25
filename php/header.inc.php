@@ -201,9 +201,9 @@ echo '
                 <i class="fas fa-archway"></i> Monuments
               </a>
               <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="notredame.php?lang='.$langue.'">Notre Dame</a>
-                <a class="dropdown-item" href="palaisdejustice.php?lang='.$langue.'">Palais de Justice</a>
-                <a class="dropdown-item" href="lesponts.php?lang='.$langue.'">Les Ponts</a>
+                <a class="dropdown-item" href="notredame.php?lang='.$langue.'"> <img src="../img/notredame_emoji.png" width="25" height="25"> Notre Dame</a>
+                <a class="dropdown-item" href="palaisdejustice.php?lang='.$langue.'"><img src="../img/justice_emoji.png" width="25" height="25"> Palais de Justice</a>
+                <a class="dropdown-item" href="lesponts.php?lang='.$langue.'"><img src="../img/pont_emoji.png" width="25" height="25"> Les Ponts</a>
               </div>
             </li>
 
