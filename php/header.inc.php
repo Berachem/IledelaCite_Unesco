@@ -123,6 +123,9 @@ $info_tarifnormal = array("Tarif Normal","Normal rate");
 $info_tarifreduit = array("Tarif Réduit","Reduced rate");
 $info_gratuit = array("Gratuit","Free");
 
+$info_trajetGPS = array("Vous souhaitez connaître le chemin exact depuis une adresse précise ?", "Do you want to know the exact route from a specific address?");
+$info_cliquer = array("Cliquez ici", "Click here");
+
 /* About Us */
 
 $AboutUs_title = array("Qui sommes-nous ?", "Who are we?");
