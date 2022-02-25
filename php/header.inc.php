@@ -99,20 +99,20 @@ $info_horaires=array("HORAIRES","SCHEDULE");
 $info_notredame_status = array("Suspendue (Covid et travaux)", "Suspended (Covid and works)");
 $info_notredame_description = array("Nous n'avons pas plus d'informations malheureusement :/", "We do not have more information unfortunately :/");
 
-$info_palaisjustice_status = array();
-$info_palaisjustice_description = array();
+$info_palaisjustice_status = array("Suspendue (Covid)","Suspended (Covid)");
+$info_palaisjustice_description = $info_notredame_description;
 
-$info_conciergerie_status = array();
-$info_conciergerie_description = array();
+$info_conciergerie_status = array("Ouvert au public","Open to public");
+$info_conciergerie_description = array("Vous pouvez réserver pour tous les jours de l'année sauf exceptions.","");
 
-$info_pontneuf_status = array();
-$info_pontneuf_description = array();
+$info_pontneuf_status = array("Ouvert au grand public","Open to public");
+$info_pontneuf_description = array("La visite ne nécessite aucun achat de billet ou autre.","");
 
-$info_crypte_status = array();
-$info_crypte_description = array();
+$info_crypte_status = $info_palaisjustice_status;
+$info_crypte_description = $info_notredame_description;
 
-$info_chapelle_status = array();
-$info_chapelle_description = array();
+$info_chapelle_status = $info_conciergerie_status;
+$info_chapelle_description = array("Vous pouvez réserver pour tous les jours de l'année sauf exceptions.","");
 
 $info_reserve = array("Réserver", "Book");
 $info_VR = array("Visiter en VR", "Visit in VR");
