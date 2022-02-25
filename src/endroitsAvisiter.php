@@ -21,10 +21,7 @@ include('../php/header.inc.php');
       <div class="row no-gutters">
         <!-- Caroussel Images -->
         <div id="marchefleurs" class="carousel slide col-sm-5" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#marchefleurs" data-slide-to="0" class="active"></li>
-            <li data-target="#marchefleurs" data-slide-to="1"></li>
-          </ol>
+ 
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img class="d-block w-100" src="../img/marchefleurs.png" alt="Marché aux fleurs">
@@ -33,14 +30,7 @@ include('../php/header.inc.php');
               <img class="d-block w-100" src="../img/map_marchéfleur.png" alt="Map Marché aux fleurs">
             </div>
           </div>
-          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
+
         </div>
 
         <!-- Textes Spot -->
@@ -67,10 +57,7 @@ include('../php/header.inc.php');
       <div class="row no-gutters">
         <!-- Caroussel Images -->
         <div id="carouselExampleIndicators" class="carousel slide col-sm-5" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          </ol>
+  
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img class="d-block w-100" src="../img/crypte.png" alt="Crypte">
@@ -79,14 +66,7 @@ include('../php/header.inc.php');
               <img class="d-block w-100" src="../img/map_crypte.png" alt="Map Crypte">
             </div>
           </div>
-          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
+
         </div>
         <!-- Textes Spot -->
           <div class="col-sm-7">
@@ -111,10 +91,7 @@ include('../php/header.inc.php');
           <div class="row no-gutters">
             <!-- Caroussel Images -->
             <div id="carouselExampleIndicators" class="carousel slide col-sm-5" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              </ol>
+     
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img class="d-block w-100" src="../img/Square-Vert.png" alt="Square Vert-Galant">
@@ -123,14 +100,7 @@ include('../php/header.inc.php');
                   <img class="d-block w-100" src="../img/map_square.png" alt="Map Square Vert-Galant">
                 </div>
               </div>
-              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
+   
             </div>
             
             <!-- Textes Spot -->
@@ -158,10 +128,7 @@ include('../php/header.inc.php');
           <div class="row no-gutters">
             <!-- Caroussel Images -->
             <div id="carouselExampleIndicators" class="carousel slide col-sm-5" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              </ol>
+      
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img class="d-block w-100" src="../img/faussemaison.jfif" alt="Fausse Maison">
@@ -170,14 +137,7 @@ include('../php/header.inc.php');
                   <img class="d-block w-100" src="../img/map_faussemaison.png" alt="Map Fausse Maison">
                 </div>
               </div>
-              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
+      
             </div>
 
             <!-- Textes Spot -->
