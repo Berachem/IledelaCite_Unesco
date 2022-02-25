@@ -22,6 +22,8 @@ $nav_discover = array('Découvrir', "Discover");
 $nav_discover_tovisit = array('Endroits à visiter', "Places to visit");
 $nav_discover_near = array('A deux pas', "Two steps away");
 $nav_about = array('A propos', "About us");
+$nav_gallery = array('Galerie', "Gallery");
+
 
 /* INDEX */
 
@@ -136,6 +138,10 @@ $AboutUs_name = array("Nom Complet", "Full Name");
 $AboutUs_email= array("Addresse Email", "Email Address");
 $AboutUs_envoyer = array("Envoyer", "Send");
 
+
+/* Message recu */
+$message_thankyou = array("Message envoyé ! Merci !", "Message sent! Thank you!");
+
 echo 
 '<!DOCTYPE html>
 <html>
@@ -214,6 +220,7 @@ echo '
                 <a class="dropdown-item" href="adeuxpas.php?lang='.$langue.'"><i class="fas fa-map"></i> '. $nav_discover_near[$langue].'</a>
               </div>
             </li>
+            <li><a href="gallerie.php?lang='.$langue.'"><i class="fa-solid fa-camera"></i> '. $nav_gallery[$langue].'</a></li>
             <li><a href="a_propos.php?lang='.$langue.'"><i class="fas fa-address-card"></i> '. $nav_about[$langue].'</a></li>';
             
             if ($langue == 0) {

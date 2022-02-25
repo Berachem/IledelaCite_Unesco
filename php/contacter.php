@@ -18,7 +18,7 @@ if(!empty($_POST["email"]) && !empty($_POST["message"])){
     
     $error = "email or/and name";
 }
-    header('Location: ../src/messagerecu.php');
+    header('Location: ../src/a_propos.php?lang='.$_GET["lang"].'&messagesent=1');
     
 
 ?>

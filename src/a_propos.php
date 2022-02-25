@@ -102,11 +102,21 @@ include('../php/header.inc.php');
     webkitallowfullscreen="true"></iframe>
     -->
 
+<?php
+if (isset($_GET["messagesent"])){
+  echo '<div class="alert alert-success" role="alert">
+  '.$message_thankyou[$langue].'
+</div>';
+}
+
+?>
+
+
 <!-- Wrapper container -->
 <div class="container py-4">
 
   <!-- Formulaire de Contacte -->
-  <form id="contactForm" action="../php/contacter.php" method="post">
+  <form id="contactForm" action="../php/contacter.php?lang=".$_GET[$lang]."" method="post">
 
     <!-- Nom input -->
     <div class="mb-3">
@@ -154,8 +164,6 @@ include('../php/header.inc.php');
                     <li><a href="https://github.com/Berachem" class="social-icon"> <i class="fa fa-github"></i></a></li>
                 </ul>
         </div>
-            
-       
     </footer>
 </body>
 </html>
