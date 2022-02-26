@@ -189,6 +189,20 @@ body{
     margin-right: auto;
     transition: transform .7s ease-in-out
 }
+#accordion{
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#accordion > .card> .card-header{
+    background-color: black;
+}
+#accordion > .card>.collapse> .card-body{
+    background-color: #333333;
+}
+
 #logoIle:hover{
     transform: rotate(360deg);
 }

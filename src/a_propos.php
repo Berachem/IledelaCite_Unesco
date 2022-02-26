@@ -77,19 +77,8 @@ include('../php/header.inc.php');
     <p class="presentation">
     
     Nous sommes deux étudiants motivés, soucieux de notre réussite et qui mènent un projet magnifique en lien avec la Culture française.
-
-    Vous pouvez consulter si vous le souhaiter différentes documentation sur le projet et notre équipe que nous avons réalisé pendant celui-ci :
     <br>
     <br>
-    <!-- Livrables -->
-    <ul id="rendus" style="display: table;
-    margin: 0 auto; color: #b94503;">
-        <li><a href="https://drive.google.com/file/d/1ufXikjAdby91y1vJ3hdcCJlk_LJlJAvp/view?usp=sharing">Notre Cahier des charges</a></li>
-        <li><a href="https://docs.google.com/spreadsheets/d/1Uu_FN-dI_TsON0gRM2Dm1qxLaYe4tMg8N_0ckn63UeU/edit?usp=sharing">Notre gestion du temps (Diagramme de Gannt)</a></li>
-        <li><a href="https://forms.gle/RrXoTaFJDkTe6Spo7">Notre Formulaire</a></li>
-        <li><a href="https://drive.google.com/file/d/1nF47YLWuoG14jeyvY79VX0reXbWcyyIa/view?usp=sharing">Notre Logo</a></li>
-        <li><a href="https://docs.google.com/presentation/d/1OCCp0vcvR3E19sUMQa7DWcqVKIV4muDZ/edit?usp=sharing&ouid=112273246261310129380&rtpof=true&sd=true">Notre Diaporama de présentation du Projet</a></li>
-    </ul>
     
     </p>
     <!--
@@ -111,7 +100,63 @@ if (isset($_GET["messagesent"])){
 
 ?>
 
+<div id="accordion">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <img src="../img/heart.png"  width="25" height="25" alt="coeur"> 
+        Remerciements
+        </button>
+      </h5>
+    </div>
 
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+        un grand merci à ....
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        <img src="../img/partenaires.png"  width="30" height="30" alt="partenaires">
+        Partenaires
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+        Un honneur pour nous d'avoir réalisé un projet avec eux ...
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        <img src="../img/livrables.png"  width="25" height="25" alt="livrables">
+        Livrables
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+      Vous pouvez consulter si vous le souhaiter différentes documentation sur le projet et notre équipe que nous avons réalisé pendant celui-ci :
+        <!-- Livrables -->
+        <ul id="rendus" style="display: table;
+        margin: 0 auto; color: #b94503;">
+            <li><a href="https://drive.google.com/file/d/1ufXikjAdby91y1vJ3hdcCJlk_LJlJAvp/view?usp=sharing">Notre Cahier des charges</a></li>
+            <li><a href="https://docs.google.com/spreadsheets/d/1Uu_FN-dI_TsON0gRM2Dm1qxLaYe4tMg8N_0ckn63UeU/edit?usp=sharing">Notre gestion du temps (Diagramme de Gannt)</a></li>
+            <li><a href="https://forms.gle/RrXoTaFJDkTe6Spo7">Notre Formulaire</a></li>
+            <li><a href="https://drive.google.com/file/d/1nF47YLWuoG14jeyvY79VX0reXbWcyyIa/view?usp=sharing">Notre Logo</a></li>
+            <li><a href="https://docs.google.com/presentation/d/1OCCp0vcvR3E19sUMQa7DWcqVKIV4muDZ/edit?usp=sharing&ouid=112273246261310129380&rtpof=true&sd=true">Notre Diaporama de présentation du Projet</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- Wrapper container -->
 <div class="container py-4">

@@ -92,6 +92,25 @@ Several campaigns of work have taken place, so that we can distinguish stages :
   <li>1225-1250 : high gallery and the two towers on the facade, modification and enlargement of the high windows and arrangement of the side chapels of the nave.</li>
 </ul>");
 
+/* Avisiter */
+$Avisiter_title = $nav_discover_tovisit;
+$Avisiter_description = array("L'Île de la Cité, outre le fait que ce patrimoine française regorge de monuments iconiques, on peut y trouver beaucoup d'emplacements cachés et magnifiques.","");
+
+$Avisiter_marchefleurs_time = array("Du lundi au Samedi, de 8h00 à 19h30","");
+$Avisiter_marchefleurs_phrase = array("Respirez les roses, les tulipes et beaucoup plus d'espèces florales au Marché aux fleurs au bord de quai.","");
+
+$Avisiter_crypte_lieu = array("En-dessous de la Cathédrale Notre Dame","");
+$Avisiter_crypte_time = array("Du Mardi au Dimanche, de 10h à 18h","");
+$Avisiter_crypte_phrase = array("Visitez la plus importante crypte archéologique d’Europe et offre une vision unique de l’évolution urbaine et architecturale de l’île de la Cité.","");
+
+$Avisiter_Square_time = array("Pas d'horaires","");
+$Avisiter_Square_phrase = array("Le square offre une faune et une flore impressionnante pour un parc se trouvant au centre de la capitale. Il donne sur une vue magnifique de la Seine, du Musée du Louvre et de l'Hôtel de la Monnaie.","");
+
+$Avisiter_maison_title=array("La fausse maison médiévale de l’île de la Cité","");
+$Avisiter_maison_time = array("Pas d'horaires","");
+$Avisiter_maison_phrase = array("Une maison du millieu du XXe s ressemblant aux maison de l'époque de la construction de la cathédrale","");
+
+
 
 /* Informations */
 
