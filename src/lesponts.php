@@ -154,7 +154,7 @@ include('../php/header.inc.php');
       <li data-target="#demo3" data-slide-to="0" class="active"></li>
       <li data-target="#demo3" data-slide-to="1"></li>
       <li data-target="#demo3" data-slide-to="2"></li>
-      <li data-target="#demo3" data-slide-to="3"></li>
+
     </ul>
 
     <div class="carousel-inner">
@@ -164,22 +164,24 @@ include('../php/header.inc.php');
           <div class="row no-gutters">
             <div class="col-sm-7">
               <div class="card-body">
-                <h5 class="card-title">Un Style principalement gothique</h5>
+                <h5 class="card-title">Le pont Saint Louis</h5>
                 <p class="card-text">
-                  Clarté de la composition, équilibre des verticales et des horizontales frappent tous les visiteurs à l’approche de la façade de la cathédrale.
+                Le pont Saint-Louis, d'une longueur de 67 mètres et d'une largeur de 16 mètres, a été construit en 1970 par les ingénieurs Coste et Long-Depaquit et les ingénieurs Creuzot et Jabouille. Il comporte une travée unique d'une grande sobriété, réservé aux piétons mais peut permettre exceptionnellement le passage des voitures.
+
+                Il  relie la pointe ouest de l'île Saint-Louis à l'est de l'île de la Cité près du square Jean XXIII et du square de l'île de France .
                 </p>
-                <span class="collapse card-text" id="viewdetails"> 
-                  L’abondance du décor sculpté attire les regards par la verve et la qualité des sculptures, qu’elles soient d’origine ou issues du grand chantier de restauration mené au XIXe siècle. 
-                  L’ambiance intérieure de la cathédrale ne laisse personne indifférent au regard de la monumentalité de l’espace, des roses des transepts, de la statuaire votive ou de la majesté du grand-orgue. Les grands tableaux présents dans les chapelles permettent de comprendre le rôle essentiel de la peinture religieuse aux XVIIe et XVIIIe siècles. Le trésor de la cathédrale conserve nombre d’œuvres d’intérêt majeur, affectées au culte. Notre-Dame de Paris est ainsi un édifice fondamental, tant pour l’histoire de l’architecture gothique que pour l’histoire de l’art depuis le Moyen Âge ou celle de la restauration aux XIXe et XXe siècles. 
-                  Classée au titre des monuments historiques sur la liste de 1862, elle est partie intégrante du bien « Paris, rives de la Seine » inscrit sur la liste du patrimoine mondial de l’Unesco. L’espace classé comprend les grands monuments, immeubles, jardins, places et quais qui bordent la Seine, depuis l’Ile Saint-Louis, à l’est, jusqu’à l’Ile aux Cygnes, à l’ouest.
+                <span class="collapse card-text" id="viewdetailsSaintLouis"> 
+                Imaginé par les architectes Jabouille et Creuzot puis réalisé par les ingénieurs Long-Depaquit et Coste, ce pont en poutre, tout en acier, est commencé en 1969 et terminé en 1970 sous la maîtrise d'ouvrage de la Ville de Paris1.
+
+Depuis 2014, il est interdit à toute circulation motorisée et réservé aux piétons et cyclistes. Il est très fréquenté par les touristes, et des artistes de rue l'animent souvent à la belle saison.
                 </span> 
                 <br>
                 <br>
-                <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails" >En savoir plus</a>
+                <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetailsSaintLouis" >En savoir plus</a>
               </div>             
             </div>
             <div class="col-sm-5" style="background: #868e96;">
-              <img src="../img/Notre_Dame_architecture.jpg" class="card-img-top h-100" alt="...">
+              <img src="../img/saintlouis.jpeg" class="card-img-top h-100" alt="...">
             </div>
           </div>
         </div>
@@ -192,86 +194,44 @@ include('../php/header.inc.php');
           <div class="row no-gutters">           
             <div class="col-sm-7">
               <div class="card-body">
-                <h5 class="card-title">Un Projet gigantesque d'une ampleur phénoménale</h5>
+                <h5 class="card-title">Le Pont de Notre Dame</h5>
                 <p class="card-text" >
-                    Après la forte croissance démographique et religieuse de la France, La basilique Saint-Étienne, malgré ses dimensions imposantes,
-                    ne suffit plus à la ferveur des Parisiens et aux  ambitions du nouvel évêque Maurice de Sully face au rayonnement intellectuel de la ville et à son essor.
+                Le pont Notre-Dame est un pont situé à Paris et traversant le grand bras de la Seine, reliant le quai de Gesvres au quai de la Corse sur l'île de la Cité.
+
+L'actuel pont, construit en 1853, lors des transformations haussmanniennes, mesure 105 m de longueur pour une largeur de 20 m, ses cinq arches initiales ayant été réduites à trois en 1912, dont une arche centrale métallique de 60 m
                 </p>
-                <span class="collapse card-text" id="viewdetailsb"> 
-                  Ce fit donc sentir le besoin d'un édifice plus grand, plus majestieux, à la mesure de la capitale de l'évêcher et du pays, ainsi que de l'ambition du nouvel évêque Maurice de Sully.
-                  S'entamme donc l'un des projet de construction les plus longs qu'aura jamais eu la France à effectuer, un projet qui a duré près de 200 ans, et qui a nécessité énormément de technique 
-                  , d'organisaion et de savoi-faire pour aboutir à ce manifique résultat.
+                <span class="collapse card-text" id="viewdetailspontnotredame"> 
+                C'est à sa place que le premier pont de Paris, appelé Grand-Pont franchissait la Seine sur son grand bras dès l'Antiquité, dans le prolongement du Petit-Pont. En 886, le siège de Paris et les attaques normandes le condamnent, et il est remplacé par un pont de planches justement nommé pont des Planches de Milbray, qui tiendra jusqu'aux inondations de 1406.
                   </span>
                 <br>
-                <br>
-                <blockquote class="blockquote">
-                  <p class="mb-0">« La tête, le cœur, la moelle de la ville entière. »"</p>
-                  <footer class="blockquote-footer">Gui de Bazoches, chroniqueur du XIIe siècle</footer>
-                </blockquote>
-                <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetailsb" >En savoir plus</a>
+                <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetailspontnotredame" >En savoir plus</a>
               </div> 
             </div>
             <div class="col-sm-5" style="background: #868e96;">
-              <img src="../img/architecurenotredame1.jpg" class="card-img-top h-100" alt="...">
+              <img src="../img/pontnotredame.jpeg" class="card-img-top h-100" alt="...">
             </div>
           </div>
         </div>
       </div>
 
-      <!-- Element 3 dans carrousel  -->
-      <div class="carousel-item">
-        <div class="card bg-dark" style="max-width: 1750px;">
-          <div class="row no-gutters">
-            <div class="col-sm-7">
-              <div class="card-body">
-                <h5 class="card-title">Deux siècles de technique, d'archtecture et de travail</h5>
-                <p class="card-text">
-                  En 1163 est posée la première pierre de Notre-Dame en présence du Pape Alexandre III.
-                </p>
-                <span class="collapse" id="viewdetailsc"> 
-                  <p class = "card-text"> <!--différent des autres pour les puce soit en style par défaut du body-->
-                  Elle est emblématique de l'art ogival, aussi appelé art gothique,
-                  style novateur récement utilisé pour la construction des églises et des cathédrales à l'époque.
-                  Système de voûtes en croisées d’ogives, afin de pouvoir placé les vitraux et laisser passé la lumière.
-                  Hauteur sous voûte élevée, pour être au plus près du ciel.
-                  Élévation à quatre étages étayés par des tribunes afin de faire tenir le toit.
-                  De nombreux arcs-boutants à l'extérieur pour contrebalancé la poussée des voûtes de grande hauteur.
-                  <br>
-                  Plusieurs campagne de travaux ont eu lieu, de sorte que l'on peut distinguer de étapes :
-                  </p>
-                  <ul>
-                    <li>1163-1225 : construction du chœur et de son double déambulatoire, de la nef, des bas-côtés et des tribunes, façade élevée jusqu'à la galerie des rois</li>
-                    <li>1225-1250 : galerie haute et les deux tours sur la façade, modification et agrandissements des fenêtres hautes et aménagement des chapelles latérales de la nef.</li>
-                  </ul>
-                </span>
-                <br>
-                <br>
-                <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetailsc" >En savoir plus</a>    
-              </div>      
-            </div>
-            <div class="col-sm-5" style="background: #868e96;">
-              <img src="../img/evolutionNotreDame.jpg" class="card-img-top h-100" alt="...">
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Element 4 dans carrousel  -->    
+      <!-- Element 3 dans carrousel  -->    
       <div class="carousel-item">
         <div class="card bg-dark" style="max-width: 1750px;">
           <div class="row no-gutters">    
             <div class="col-sm-7">
               <div class="card-body">
-                  <h5 class="card-title">Deux siècles de technique, d'archtecture et de travail</h5>
+                  <h5 class="card-title">Le Pont Saint-Michel</h5>
                   <p class="card-text">
-                    Ayant subi les outrages du temps et des Hommes, notament avec plusieurs incendits (dont un récemment), 
+                  Ce pont construit initialement en 1378 fut reconstruit plusieurs fois, en dernier lieu en 1857. Avant le milieu du xixe siècle, il débouchait du côté de la Rive gauche sur la place du Pont-Saint-Michel et du côté de l'île de la Cité sur la rue de la Barillerie.
                   </p>
                   <span class="collapse card-text" id="viewdetailsd"> 
-                    Notre-Dame aura été 
-                    modifier et rénové de nombreuse fois et ce dès sa création, d'une par pour remplacer es partie romane subsistance, 
-                    d'autre part pour remforcer la structure ou encore refaire une partie de la cathédrale.
-                    Les architectes se sont succedé et on manque d'information sur les artisans de l'ouvrage au cours du XIIe siècle, car leurs
-                    nombre devait être extrême pour un projet de cette taille, néanmoins les comptes de fabrique sont conservés à partir de 1333.
+                  Il doit son nom au voisinage de l'ancienne chapelle Saint-Michel du Palais qui existait dans le Palais royal.
+
+Pendant de nombreux siècles, Paris s’est structurée entre la Cité et la rive gauche. Aussi, le pont Saint Michel représenta à partir du XIVe siècle, le deuxième point de passage sur la Seine au niveau du petit bras.
+
+Il fut décidé par le Parlement de Paris en 1353, qui siégeait alors au niveau du Palais, en concertation avec le puissant chapitre de Notre Dame de Paris, le prévôt, qui dirigeait la police au Châtelet. Ce premier pont, en pierre, fut construit entre 1379 et 1387, dans l’axe de la rue Saint Denis, située sur la rive droite.
+
+Petit pont neuf, par opposition au petit pont situé légèrement plus en amont. Puis pont Saint Michel !
                   </span>
                   <br>
                   <br>
@@ -281,7 +241,7 @@ include('../php/header.inc.php');
               </div>
             </div>
             <div class="col-sm-5" style="background: #868e96;">
-              <img src="../img/Notre_dame_architecture2.jpg" class="card-img-top h-100" alt="...">
+              <img src="../img/pontsaintmichel.jpeg" class="card-img-top h-100" alt="...">
             </div>
           </div>
         </div>

@@ -105,21 +105,21 @@ $info_palaisjustice_status = array("Suspendue (Covid)","Suspended (Covid)");
 $info_palaisjustice_description = $info_notredame_description;
 
 $info_conciergerie_status = array("Ouvert au public","Open to public");
-$info_conciergerie_description = array("Vous pouvez réserver pour tous les jours de l'année sauf exceptions.","");
+$info_conciergerie_description = array("Vous pouvez réserver pour tous les jours de l'année sauf exceptions.","Reservations can be made for any day of the year with some exceptions.");
 
 $info_pontneuf_status = array("Ouvert au grand public","Open to public");
-$info_pontneuf_description = array("La visite ne nécessite aucun achat de billet ou autre.","");
+$info_pontneuf_description = array("La visite ne nécessite aucun achat de billet ou autre.","The visit does not require the purchase of a ticket or anything else.");
 
 $info_crypte_status = $info_palaisjustice_status;
 $info_crypte_description = $info_notredame_description;
 
 $info_chapelle_status = $info_conciergerie_status;
-$info_chapelle_description = array("Vous pouvez réserver pour tous les jours de l'année sauf exceptions.","");
+$info_chapelle_description = array("Vous pouvez réserver pour tous les jours de l'année sauf exceptions.","Reservations can be made for any day of the year with some exceptions.");
 
 $info_reserve = array("Réserver", "Book");
 $info_VR = array("Visiter en VR", "Visit in VR");
 
-
+$info_gratuitrequis = array("Les jeunes de moins de 26 ans habitant dans l Union européenne peuvent accéder gratuitement à certains musées et monuments nationaux, sur simple présentation d une pièce d identité.","Young people under 26 years of age living in the European Union can enter certain national museums and monuments free of charge upon presentation of an identity document.");
 $info_prix = array("PRIX","PRICES");
 $info_tarifnormal = array("Tarif Normal","Normal rate");
 $info_tarifreduit = array("Tarif Réduit","Reduced rate");
