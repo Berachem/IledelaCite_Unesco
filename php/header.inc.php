@@ -41,7 +41,10 @@ $index_localisation = array("Localisation", "Location");
 
 $notredame_titrePage = array("Notre-Dame", "Notre-Dame");
 $notredame_description = array("La cathédrale Notre-Dame de Paris, chef d’œuvre de l’architecture gothique, est le monument le plus visité de France.", "The Notre-Dame de Paris cathedral, a masterpiece of Gothic architecture, is the most visited monument in France.");
+
+/* caroussel 1, architecture */
 $notredame_sous_titre_architecture = array("Architecture", "Architecture");
+
 /* element 1 */
 $notredame_carousel1_card_title1 = array("Un Style principalement gothique", "A mainly gothic style");
 $notredame_carousel1_card_text1 = array("Clarté de la composition, équilibre des verticales et des horizontales frappent tous les visiteurs à l’approche de la façade de la cathédrale.", "The clarity of the composition and the balance of the verticals and horizontals strike all visitors as they approach the cathedral's façade.");
@@ -52,6 +55,7 @@ Classée au titre des monuments historiques sur la liste de 1862, elle est parti
 The interior atmosphere of the cathedral leaves no one indifferent to the monumentality of the space, the roses of the transepts, the votive statuary or the majesty of the great organ. The large paintings in the chapels allow us to understand the essential role of religious painting in the 17th and 18th centuries. The cathedral's treasury contains a number of works of major interest, used in worship. Notre-Dame de Paris is thus a fundamental building, as much for the history of Gothic architecture as for the history of art since the Middle Ages or the history of restoration in the 19th and 20th centuries. 
 Classified as a historical monument on the 1862 list, it is an integral part of the property 'Paris, banks of the Seine' listed as a World Heritage Site by UNESCO. The classified area includes the major monuments, buildings, gardens, squares and quays that border the Seine, from the Ile Saint-Louis in the east to the Ile aux Cygnes in the west.
 Translated with www.DeepL.com/Translator (free version)");
+
 /* element 2 */
 $notredame_carousel1_card_title2 = array("Un Projet gigantesque d'une ampleur phénoménale", "A gigantic project of phenomenal scope");
 $notredame_carousel1_card_text2 = array("Après la forte croissance démographique et religieuse de la France, La basilique Saint-Étienne, malgré ses dimensions imposantes,
@@ -64,6 +68,7 @@ Thus began one of the longest construction projects that France has ever had to 
 It required a lot of technique, organization and know-how to achieve this remarkable result.");
 $notredame_carousel1_colapse_card_blockquote_text = array("« La tête, le cœur, la moelle de la ville entière. »", "« La tête, le cœur, la moelle de la ville entière. »");
 $notredame_carousel1_colapse_card_blockquote_footer = array("Gui de Bazoches, chroniqueur du XIIe siècle", "Gui de Bazoches, chronicler of the XIIth century");
+
 /* element 3 */
 $notredame_carousel1_card_title3 = array("Deux siècles de technique, d'archtecture et de travail", "Two centuries of technique, architecture and work");
 $notredame_carousel1_card_text3 = array("En 1163 est posée la première pierre de Notre-Dame en présence du Pape Alexandre III.", "In 1163, the first stone of Notre-Dame was laid in the presence of Pope Alexander III.");
@@ -91,6 +96,69 @@ Several campaigns of work have taken place, so that we can distinguish stages :
   <li>1163-1225 : construction of the choir and its double ambulatory, the nave, the aisles and the tribunes, elevated facade to the gallery of kings</li>
   <li>1225-1250 : high gallery and the two towers on the facade, modification and enlargement of the high windows and arrangement of the side chapels of the nave.</li>
 </ul>");
+
+/* element 4 */
+$notredame_carousel1_card_title4 = array("Deux siècles de technique, d'architecture et de travail", "Two centuries of technique, architecture and work");
+$notredame_carousel1_card_text4 = array("Ayant subi les outrages du temps et des Hommes, notament avec plusieurs incendits (dont un récemment).", 
+"Having undergone the ravages of time and Men, notably with several fires (including one recently).");
+$notredame_carousel1_colapse_card_text4 = array("Notre-Dame aura été modifier et rénové de nombreuse fois et ce dès sa création, d'une par pour remplacer es partie romane subsistance, 
+d'autre part pour remforcer la structure ou encore refaire une partie de la cathédrale.
+Les architectes se sont succedé et on manque d'information sur les artisans de l'ouvrage au cours du XIIe siècle, car leurs
+nombre devait être extrême pour un projet de cette taille, néanmoins les comptes de fabrique sont conservés à partir de 1333.", "Notre-Dame has been modified and renovated many times since its creation, on the one hand to replace the Romanesque subsistence part, 
+on the other hand to re-strengthen the structure or to rebuild a part of the cathedral.
+The architects succeeded each other and we lack information on the craftsmen of the work during the twelfth century, because their
+number had to be extreme for a project of this size, nevertheless the accounts of factory are preserved from 1333.
+Translated with www.DeepL.com/Translator (free version)");
+
+/* caroussel 2, histoire */
+$notredame_sous_titre_histoire = array("Histoire", "History");
+
+/* element 1 */
+$notredame_carousel2_card_title1 = array("1163, l'année où tout a commencé...", "1163, the year it all began...");
+$notredame_carousel2_card_text1 = array("Notre-Dame de Paris, un monument d’exception 
+Au-delà de sa vocation religieuse, la cathédrale Notre-Dame de Paris est l’un des fleurons du patrimoine culturel national et mondial. C’est l’une des plus anciennes cathédrales gothiques de France (avec Noyon, Senlis, Laon et Sens). La majeure partie de la construction débute en 1163 et s’achève en 1345.",
+"Notre-Dame de Paris, an exceptional monument 
+Beyond its religious vocation, the cathedral of Notre-Dame de Paris is one of the jewels of the national and world cultural heritage. It is one of the oldest Gothic cathedrals in France (along with Noyon, Senlis, Laon and Sens). Most of the construction began in 1163 and was completed in 1345.");
+$notredame_carousel2_colapse_card_text1 = array("En 1844, Notre-Dame est dans un état de conservation préoccupant. Privée d’une partie importante de ses sculptures décoratives au cours du XVIIIe siècle, de sa flèche (1792), de la statuaire de la galerie des Rois (1793), elle bénéficie jusqu’en 1865 d’importants travaux sous la direction d’Eugène-Emmanuel Viollet-le-Duc.  
+Depuis cette intervention majeure, les travaux d’entretien et de restauration de ce monument appartenant à l’État n’ont pas cessé.",
+"In 1844, Notre-Dame was in a worrying state of conservation. Deprived of an important part of its decorative sculptures during the 18th century, of its spire (1792), of the statuary of the Kings' gallery (1793), it benefited until 1865 from important works under the direction of Eugène-Emmanuel Viollet-le-Duc.  
+Since this major intervention, the maintenance and restoration of this monument belonging to the State have not ceased.
+Translated with www.DeepL.com/Translator (free version)");
+
+/* element 2 */
+$notredame_carousel2_card_title2_i = array("Notre-Dame de Paris", "Notre-Dame de Paris");
+$notredame_carousel2_card_title2_h2 = array(" de Victor Hugo", " by Victor Hugo");
+$notredame_carousel2_card_text2 = array("En plus d’être la cathédrale gothique la plus célèbre de France, Notre-Dame de Paris est aussi un roman majeur de Victor Hugo.",
+"In addition to being the most famous Gothic cathedral in France, Notre Dame de Paris is also a major novel by Victor Hugo.");
+$notredame_carousel2_colapse_card_text2 = array("Publié en 1831, il nous conte l’histoire de Quasimodo, Esmeralda, Frollo et Phoebus. Histoire d’amour, de haine et d’indifférence, histoire de passion aussi, dont les péripéties sont surtout connues pour les nombreuses adaptations, plus que pour le texte lui-même.
+En effet, ce roman de 940 pages est à réserver aux mains et aux yeux des lecteurs aguerris, voraces ou déterminés. Les intrigues à tiroirs sont aussi complexes que les personnages, les scènes s’étirent sur des pages et des pages d’action comme de description.
+Et pourtant, une qualité littéraire exceptionnelle, comme une récompense, attend le lecteur qui ouvrira les pages de Notre-Dame de Paris, sans doute l’un des plus beaux romans jamais écrits en langue française.",
+"Published in 1831, it tells the story of Quasimodo, Esmeralda, Frollo and Phoebus. A story of love, hatred and indifference, a story of passion as well, whose adventures are mostly known for the numerous adaptations, more than for the text itself.
+Indeed, this novel of 940 pages is to be reserved for the hands and eyes of seasoned readers, voracious or determined. The plots are as complex as the characters, the scenes stretch for pages and pages of action and description.
+And yet, an exceptional literary quality, like a reward, awaits the reader who will open the pages of Notre-Dame de Paris, undoubtedly one of the most beautiful novels ever written in the French language.
+Translated with www.DeepL.com/Translator (free version)");
+$notredame_carousel2_colapse_card_blockquote_text = array("« La bohémienne dansait ... agile, légère, joyeuse, et ne sentant pas le poids du regard redoutable qui tombait à plomb sur sa tête. »", "« La tête, le cœur, la moelle de la ville entière. »",
+"« La bohémienne dansait ... agile, légère, joyeuse, et ne sentant pas le poids du regard redoutable qui tombait à plomb sur sa tête. »", "« La tête, le cœur, la moelle de la ville entière. »");
+$notredame_carousel2_colapse_card_blockquote_footer = array("Victor Hugo dans son roman", "Victor Hugo in his novel");
+
+/* element 3 */
+$notredame_carousel2_card_title3 = array("Le sacre de Napoléon dans la cathédrale de Notre Dame, le 18 mai 1804.", "The coronation of Napoleon in the cathedral of Notre Dame, May 18, 1804.");
+$notredame_carousel2_card_text3 = array("Le sacre de Napoléon Ier est la cérémonie d’intronisation et de couronnement qui suivit la proclamation de Napoléon Bonaparte comme empereur des Français sous le titre de Napoléon Ier du 18 mai 1804.", "The coronation of Napoleon I is the enthronement and coronation ceremony that followed the proclamation of Napoleon Bonaparte as Emperor of the French under the title of Napoleon I on 18 May 1804.");
+$notredame_carousel2_colapse_card_text3 = array("La cérémonie religieuse du sacre, officié par le pape Pie VII, suivie de celle du couronnement, se déroula, le dimanche 2 décembre 1804, à Notre-Dame de Paris. Elle dura près de cinq heures et le peintre Jacques-Louis David en fit deux tableaux : le Sacre de Napoléon et la Distribution des aigles.
+Le Sacre de Napoléon (titre complet Sacre de l'empereur Napoléon Ier et couronnement de l'impératrice Joséphine dans la cathédrale Notre-Dame de Paris, le 2 décembre 1804) est un tableau peint entre 1805 et 1807 par Jacques-Louis David, peintre officiel de Napoléon Ier, qui représente une des cérémonies du couronnement. Imposante par ses dimensions, presque dix mètres sur plus de six, la toile de David est conservée au Louvre. Une réplique quasiment identique commencée en 1808 par David et terminée lors de l'exil du peintre à Bruxelles est accrochée au musée du château de Versailles dans la salle du Sacre. Le couronnement et le sacre ont eu lieu à Notre-Dame de Paris.",
+"The religious ceremony of the coronation, officiated by Pope Pius VII, followed by the coronation, took place on Sunday, December 2, 1804, at Notre-Dame de Paris. It lasted nearly five hours and the painter Jacques-Louis David painted two pictures of it: the Coronation of Napoleon and the Distribution of the Eagles.
+The Rite of Napoleon (full title Rite of Emperor Napoleon I and Coronation of Empress Josephine in the Cathedral of Notre-Dame de Paris, December 2, 1804) is a picture painted between 1805 and 1807 by Jacques-Louis David, official painter of Napoleon I, which represents one of the coronation ceremonies. Imposing by its dimensions, almost ten meters by more than six, the painting of David is preserved in the Louvre. An almost identical replica, begun in 1808 by David and completed during the painter's exile in Brussels, hangs in the Coronation Room of the Château de Versailles. The coronation and the coronation took place at Notre-Dame de Paris.");
+
+/* caroussel 3, actualité */
+$notredame_sous_titre_actualite = array("Actualité", "News");
+
+/* element 1 */
+$notredame_carousel2_card_title3 = array("Le sacre de Napoléon dans la cathédrale de Notre Dame, le 18 mai 1804.", "The coronation of Napoleon in the cathedral of Notre Dame, May 18, 1804.");
+$notredame_carousel2_card_text3 = array("Le sacre de Napoléon Ier est la cérémonie d’intronisation et de couronnement qui suivit la proclamation de Napoléon Bonaparte comme empereur des Français sous le titre de Napoléon Ier du 18 mai 1804.", "The coronation of Napoleon I is the enthronement and coronation ceremony that followed the proclamation of Napoleon Bonaparte as Emperor of the French under the title of Napoleon I on 18 May 1804.");
+$notredame_carousel2_colapse_card_text3 = array("La cérémonie religieuse du sacre, officié par le pape Pie VII, suivie de celle du couronnement, se déroula, le dimanche 2 décembre 1804, à Notre-Dame de Paris. Elle dura près de cinq heures et le peintre Jacques-Louis David en fit deux tableaux : le Sacre de Napoléon et la Distribution des aigles.
+Le Sacre de Napoléon (titre complet Sacre de l'empereur Napoléon Ier et couronnement de l'impératrice Joséphine dans la cathédrale Notre-Dame de Paris, le 2 décembre 1804) est un tableau peint entre 1805 et 1807 par Jacques-Louis David, peintre officiel de Napoléon Ier, qui représente une des cérémonies du couronnement. Imposante par ses dimensions, presque dix mètres sur plus de six, la toile de David est conservée au Louvre. Une réplique quasiment identique commencée en 1808 par David et terminée lors de l'exil du peintre à Bruxelles est accrochée au musée du château de Versailles dans la salle du Sacre. Le couronnement et le sacre ont eu lieu à Notre-Dame de Paris.",
+"The religious ceremony of the coronation, officiated by Pope Pius VII, followed by the coronation, took place on Sunday, December 2, 1804, at Notre-Dame de Paris. It lasted nearly five hours and the painter Jacques-Louis David painted two pictures of it: the Coronation of Napoleon and the Distribution of the Eagles.
+The Rite of Napoleon (full title Rite of Emperor Napoleon I and Coronation of Empress Josephine in the Cathedral of Notre-Dame de Paris, December 2, 1804) is a picture painted between 1805 and 1807 by Jacques-Louis David, official painter of Napoleon I, which represents one of the coronation ceremonies. Imposing by its dimensions, almost ten meters by more than six, the painting of David is preserved in the Louvre. An almost identical replica, begun in 1808 by David and completed during the painter's exile in Brussels, hangs in the Coronation Room of the Château de Versailles. The coronation and the coronation took place at Notre-Dame de Paris.");
 
 /* Avisiter */
 $Avisiter_title = $nav_discover_tovisit;
