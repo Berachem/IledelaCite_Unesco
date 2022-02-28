@@ -107,8 +107,7 @@ Les architectes se sont succedé et on manque d'information sur les artisans de 
 nombre devait être extrême pour un projet de cette taille, néanmoins les comptes de fabrique sont conservés à partir de 1333.", "Notre-Dame has been modified and renovated many times since its creation, on the one hand to replace the Romanesque subsistence part, 
 on the other hand to re-strengthen the structure or to rebuild a part of the cathedral.
 The architects succeeded each other and we lack information on the craftsmen of the work during the twelfth century, because their
-number had to be extreme for a project of this size, nevertheless the accounts of factory are preserved from 1333.
-Translated with www.DeepL.com/Translator (free version)");
+number had to be extreme for a project of this size, nevertheless the accounts of factory are preserved from 1333.");
 
 /* caroussel 2, histoire */
 $notredame_sous_titre_histoire = array("Histoire", "History");
