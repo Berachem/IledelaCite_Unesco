@@ -161,7 +161,7 @@ $notredame_carousel2_card_text3 = array("Aujourd'hui la reconstruction est touko
 $notredame_carousel2_colapse_card_text3 = array("Visite immersive proposer sous le parvis de Notre Dame et dans la Défence, elle vous fait voir la cathédrale sous différent angle et à différentes époques, vous permettant ed marcher à l'intérieur comme si vous y étiez.
 Disposible jusqu'au 14 avril, c'est une expérience à ne pas manquer qui vous permet de traverser les âges et de découvrir le passé avec les technologies du présent, en attendant de pourvoir remettre un pied dans la cathédrâle dans un future proche.", "An immersive visit proposed under the square of Notre Dame and in the Defense, it makes you see the cathedral from different angles and at different times, allowing you to walk inside as if you were there.
 Available until April 14th, this is an experience not to be missed, allowing you to cross the ages and discover the past with the technologies of the present, while waiting to be able to step into the cathedral again in the near future.");
-notredame_carousel2_lien_text3 = ("Site officiel de éternelle notre dame", "Official website of eternal notre dame");
+$notredame_carousel2_lien_text3 = ("Site officiel de éternelle notre dame", "Official website of eternal notre dame");
 
 /* Avisiter */
 $Avisiter_title = $nav_discover_tovisit;
