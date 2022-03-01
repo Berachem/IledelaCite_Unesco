@@ -25,14 +25,14 @@ include('../php/header.inc.php');
     </div>
 
     <!-- Carrousel  -->
-    <div id="demo2" class="carousel slide" data-ride="carousel">
+    <div id="demo" class="carousel slide" data-ride="carousel">
 
       <!-- Indicateurs -->
       <ul class="carousel-indicators">
-        <li data-target="#demo2" data-slide-to="0" class="active"></li>
-        <li data-target="#demo2" data-slide-to="1"></li>
-        <li data-target="#demo2" data-slide-to="2"></li>
-        <li data-target="#demo2" data-slide-to="3"></li>
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+        <li data-target="#demo" data-slide-to="3"></li>
       </ul>
 
       <div class="carousel-inner">
@@ -169,10 +169,10 @@ include('../php/header.inc.php');
       </div>
 
       <!-- Left and right controless -->
-      <a class="carousel-control-prev" href="#demo2" data-slide="prev" >
+      <a class="carousel-control-prev" href="#demo" data-slide="prev" >
         <span class="carousel-control-prev-icon"></span>
       </a>
-      <a class="carousel-control-next" href="#demo2" data-slide="next">
+      <a class="carousel-control-next" href="#demo" data-slide="next">
         <span class="carousel-control-next-icon"></span>
       </a>
 
@@ -188,13 +188,13 @@ include('../php/header.inc.php');
     </div>
 
 
-    <div id="demo" class="carousel slide" data-ride="carousel">
+    <div id="demo2" class="carousel slide" data-ride="carousel">
 
       <!-- Indicateurs -->
       <ul class="carousel-indicators">
-        <li data-target="#demo" data-slide-to="0" class="active"></li>
-        <li data-target="#demo" data-slide-to="1"></li>
-        <li data-target="#demo" data-slide-to="2"></li>
+        <li data-target="#demo2" data-slide-to="0" class="active"></li>
+        <li data-target="#demo2" data-slide-to="1"></li>
+        <li data-target="#demo2" data-slide-to="2"></li>
       </ul>
 
       <!-- Element 1 dans carrousel  -->
@@ -264,7 +264,7 @@ include('../php/header.inc.php');
         </div>
 
         <!-- Element 3 dans carrousel  -->
-        <div class="carousel-item">  
+        <div class="carousel-item active">  
           <div class="card bg-dark" style="max-width: 1750px;">
             <div class="row no-gutters">
               <div class="col-sm-5" style="background: #868e96;">
@@ -278,10 +278,10 @@ include('../php/header.inc.php');
                   <span class="collapse card-text" id="viewdetails1c">
                     La cérémonie religieuse du sacre, officié par le pape Pie VII, suivie de celle du couronnement, se déroula, le dimanche 2 décembre 1804, à Notre-Dame de Paris. Elle dura près de cinq heures et le peintre Jacques-Louis David en fit deux tableaux : le Sacre de Napoléon et la Distribution des aigles.
                     Le Sacre de Napoléon (titre complet Sacre de l'empereur Napoléon Ier et couronnement de l'impératrice Joséphine dans la cathédrale Notre-Dame de Paris, le 2 décembre 1804) est un tableau peint entre 1805 et 1807 par Jacques-Louis David, peintre officiel de Napoléon Ier, qui représente une des cérémonies du couronnement. Imposante par ses dimensions, presque dix mètres sur plus de six, la toile de David est conservée au Louvre. Une réplique quasiment identique commencée en 1808 par David et terminée lors de l'exil du peintre à Bruxelles est accrochée au musée du château de Versailles dans la salle du Sacre. Le couronnement et le sacre ont eu lieu à Notre-Dame de Paris.
-                    </span> 
-                    <br>
-                    <br>
-                    <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails1c" >En savoir plus</a>
+                  </span> 
+                  <br>
+                  <br>
+                  <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails1c" >En savoir plus</a>
                 </div>
               </div>
             </div>
@@ -291,10 +291,10 @@ include('../php/header.inc.php');
       </div>
 
       <!-- Left and right controless -->
-      <a class="carousel-control-prev" href="#demo" data-slide="prev" >
+      <a class="carousel-control-prev" href="#demo2" data-slide="prev" >
         <span class="carousel-control-prev-icon"></span>
       </a>
-      <a class="carousel-control-next" href="#demo" data-slide="next">
+      <a class="carousel-control-next" href="#demo2" data-slide="next">
         <span class="carousel-control-next-icon"></span>
       </a>
 
@@ -305,33 +305,80 @@ include('../php/header.inc.php');
       <h2 style="color: #f7af3e;"><i class="fas fa-newspaper"></i> Actualité</h2>
       <img src="../img/sous_titre.png" alt="" >
     </div>
+    <div id="demo3" class="carousel slide" data-ride="carousel">
 
-    <!-- Element 1 sans carrousel  -->
-    <div class="card bg-dark" style="max-width: 1750px;">
-      <div class="row no-gutters">
-          <div class="col-sm-5" style="background: #868e96;">
-              <img src="../img/incendiesNotreDame.jpg" class="card-img-top h-100" alt="...">
-          </div>
-          <div class="col-sm-7">
-              <div class="card-body">
+      <!-- Indicateurs -->
+      <ul class="carousel-indicators">
+        <li data-target="#demo3" data-slide-to="0" class="active"></li>
+        <li data-target="#demo3" data-slide-to="1"></li>
+      </ul>
+
+      <!-- Element 1 sans carrousel  -->
+      <div class="carousel-inner">
+        <div class="carousel-item">  
+          <div class="card bg-dark" style="max-width: 1750px;">
+            <div class="row no-gutters">
+              <div class="col-sm-5" style="background: #868e96;">
+                  <img src="../img/incendiesNotreDame.jpg" class="card-img-top h-100" alt="...">
+              </div>
+              <div class="col-sm-7">
+                <div class="card-body">
                   <h5 class="card-title">Les incendies de Notre Dame</h5>
                   <p class="card-text">L’incendie de Notre-Dame de Paris est un incendie majeur survenu à la cathédrale Notre-Dame de Paris, les 15 et 16 avril 2019, pendant près de 15 heures.
-                    </p>
-                    <span class="collapse card-text" id="viewdetails3"> 
-                    Le sinistre se déclare en fin d'après midi à l'intérieur de sa charpente et prend rapidement une grande ampleur. Les flammes détruisent intégralement sa flèche, les toitures de la nef et du transept ainsi que sa charpente. En s'effondrant, la flèche provoque l'écroulement de la voûte de la croisée du transept, d'une partie de celle du bras nord et de celle d'une travée de la nef. L'intervention de centaines de pompiers, jusqu'au lever du jour, permet de sauver la structure globale de l'édifice et d'épargner les deux tours, ainsi que la façade occidentale, le trésor et l'essentiel des œuvres d'art de la cathédrale. Il s'agit du plus important sinistre subi par la cathédrale depuis sa construction.
-                      L'incendie entraîne une très forte émotion, tant en France que dans le reste du monde, ainsi qu'une importante couverture médiatique. Le président de la République, Emmanuel Macron, annonce immédiatement vouloir reconstruire la cathédrale dans un délai de cinq ans. Après des débats sur la construction d'un édifice plus moderne à l'ancien emplacement de la flèche, il est finalement décidé de la reconstruire à l'identique. </span> 
-                    <br>
-                      
-                        <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails3" >En savoir plus</a>
-                      <br>
-                        <a class="btn btn-success" href="https://www.toutsurmesfinances.com/argent/a/comment-faire-un-don-pour-rebatir-notre-dame-de-paris#:~:text=Il%20est%20aussi%20possible%20d'effectuer%20un%20don%20%3A,BIC%20de%20la%20banque%20%3A%20SOGEFRPP)">
-                    <i class="fas fa-heartbeat infobtn"></i> Faire un don pour aider Notre Dame</a>
-                  
+                  </p>
+                  <span class="collapse card-text" id="viewdetails3"> 
+                  Le sinistre se déclare en fin d'après midi à l'intérieur de sa charpente et prend rapidement une grande ampleur. Les flammes détruisent intégralement sa flèche, les toitures de la nef et du transept ainsi que sa charpente. En s'effondrant, la flèche provoque l'écroulement de la voûte de la croisée du transept, d'une partie de celle du bras nord et de celle d'une travée de la nef. L'intervention de centaines de pompiers, jusqu'au lever du jour, permet de sauver la structure globale de l'édifice et d'épargner les deux tours, ainsi que la façade occidentale, le trésor et l'essentiel des œuvres d'art de la cathédrale. Il s'agit du plus important sinistre subi par la cathédrale depuis sa construction.
+                    L'incendie entraîne une très forte émotion, tant en France que dans le reste du monde, ainsi qu'une importante couverture médiatique. Le président de la République, Emmanuel Macron, annonce immédiatement vouloir reconstruire la cathédrale dans un délai de cinq ans. Après des débats sur la construction d'un édifice plus moderne à l'ancien emplacement de la flèche, il est finalement décidé de la reconstruire à l'identique. </span> 
+                  <br>
+                    
+                    <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails3" >En savoir plus</a>
+                  <br>
+                    <a class="btn btn-success" href="https://www.toutsurmesfinances.com/argent/a/comment-faire-un-don-pour-rebatir-notre-dame-de-paris#:~:text=Il%20est%20aussi%20possible%20d'effectuer%20un%20don%20%3A,BIC%20de%20la%20banque%20%3A%20SOGEFRPP)">
+                  <i class="fas fa-heartbeat infobtn"></i> Faire un don pour aider Notre Dame</a>
+                    
+                </div>
               </div>
+            </div>
           </div>
+        </div>
+
+        <!-- Element 2 sans carrousel, à mettre à jour une fois le 14 avril dépassé -->
+        <div class="carousel-item">  
+          <div class="card bg-dark" style="max-width: 1750px;">
+            <div class="row no-gutters">
+              <div class="col-sm-5" style="background: #868e96;">
+                <img src="../img/incendiesNotreDame.jpg" class="card-img-top h-100" alt="...">
+              </div>
+              <div class="col-sm-7">
+                <div class="card-body">
+                  <h5 class="card-title">Comment visiter Notre Dame ?</h5>
+                  <p class="card-text">
+                    Aujourd'hui la reconstruction est toukours en cour, et une réouverture complète n'est pas à prévoir avant 2024, mais l'on peut encore visiter le monument grace à un méthodes inédite, la réalité virtuel.
+                  </p>
+                  <span class="collapse card-text" id="viewdetails3b"> 
+                    Visite immersive proposer sous le parvis de Notre Dame et dans la Défence, elle vous fait voir la cathédrale sous différent angle et à différentes époques, vous permettant ed marcher à l'intérieur comme si vous y étiez.
+                    Disposible jusqu'au 14 avril, c'est une expérience à ne pas manquer qui vous permet de traverser les âges et de découvrir le passé avec les technologies du présent, en attendant de pourvoir remettre un pied dans la cathédrâle dans un future proche. 
+                  <br>
+                    
+                    <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails3b" >En savoir plus</a>
+                  <br>
+                    <a class="btn btn-success" href="https://www.eternellenotredame.com">
+                  <i class="fas fa-heartbeat infobtn"></i> Site officiel de éternelle notre dame</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Left and right controless -->
+        <a class="carousel-control-prev" href="#demo3" data-slide="prev" >
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo3" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
       </div>
     </div>
-
 
     <!-- Site officiel  -->
     <br>
