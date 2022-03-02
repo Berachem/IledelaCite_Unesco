@@ -156,18 +156,12 @@ L'incendie entraîne une très forte émotion, tant en France que dans le reste 
 The fire caused great emotion in France and around the world, as well as extensive media coverage. The President of the Republic, Emmanuel Macron, immediately announced his intention to rebuild the cathedral within five years. After debates on the construction of a more modern building on the former site of the spire, it was finally decided to rebuild it identically.");
 
 /* element 2 */
-<<<<<<< HEAD
 $notredame_carousel2_card_title3 = array("Comment visiter Notre Dame ?", "How to visit Notre Dame?");
 $notredame_carousel2_card_text3 = array("Aujourd'hui la reconstruction est toukours en cour, et une réouverture complète n'est pas à prévoir avant 2024, mais l'on peut encore visiter le monument grace à un méthodes inédite, la réalité virtuel.", "Today the reconstruction is still in progress, and a complete reopening is not expected before 2024, but we can still visit the monument thanks to a new method, virtual reality.");
 $notredame_carousel2_colapse_card_text3 = array("Visite immersive proposer sous le parvis de Notre Dame et dans la Défence, elle vous fait voir la cathédrale sous différent angle et à différentes époques, vous permettant ed marcher à l'intérieur comme si vous y étiez.
 Disposible jusqu'au 14 avril, c'est une expérience à ne pas manquer qui vous permet de traverser les âges et de découvrir le passé avec les technologies du présent, en attendant de pourvoir remettre un pied dans la cathédrâle dans un future proche.", "An immersive visit proposed under the square of Notre Dame and in the Defense, it makes you see the cathedral from different angles and at different times, allowing you to walk inside as if you were there.
 Available until April 14th, this is an experience not to be missed, allowing you to cross the ages and discover the past with the technologies of the present, while waiting to be able to step into the cathedral again in the near future.");
 $notredame_carousel2_lien_text3 = array("Site officiel de éternelle notre dame", "Official website of eternal notre dame");
-=======
-$notredame_carousel2_card_title3 = array("", "");
-$notredame_carousel2_card_text3 = array("", "");
-$notredame_carousel2_colapse_card_text3 = array("", "");
->>>>>>> parent of 8ca84ed (rajout d'une actualité dans notre dame, à voir si ça marche (vu que je peux pas tester de mon coté))
 
 /* Avisiter */
 $Avisiter_title = $nav_discover_tovisit;
