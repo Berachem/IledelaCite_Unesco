@@ -9,26 +9,31 @@ echo "
  <!-- Barre Orange et Titre page  -->
     <div id='TitrePage'>
       <img src='../img/titre.png' alt=''>
-      <h1>Notre Dame</h1>
+      <h1>".$nav_gallery[$langue]."</h1>
     </div>
   ";
-    //try to connect to your database.
-    $conn = mysql_connect("sqletud.u-pem.fr", " berachem.markria", "22Fev1987");;
-    
-    //handle errors if connection failed.
-    if (! $conn){
-        echo '<div class="alert alert-warning" role="alert">
-        MySQL bug...
-      </div>';
-    }   
-    
-    // (try to) run your query.
-    $resultset = mysql_query('SELECT photo, description from ImagesUnesco');
 
-    while($row = mysql_fetch_assoc($resultset)){
-        //do something with the contents of $row
-        echo "SALUT";
-    }
+  echo '
+  <div class="lightbox-gallery">
+    <div class="container">
+        <div class="row photos">
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><img class="img-fluid" src="../img/saintlouis.jpeg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><img class="img-fluid" src="https://i.imgur.com/gX11Vt5.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><img class="img-fluid" src="https://i.imgur.com/pZcUS2Y.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><img class="img-fluid" src="https://i.imgur.com/06Ajq7f.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><img class="img-fluid" src="https://i.imgur.com/zmzERpe.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><img class="img-fluid" src="https://i.imgur.com/gX11Vt5.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><img class="img-fluid" src="https://i.imgur.com/pZcUS2Y.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><img class="img-fluid" src="https://i.imgur.com/06Ajq7f.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><img class="img-fluid" src="https://i.imgur.com/zmzERpe.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><img class="img-fluid" src="https://i.imgur.com/gX11Vt5.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><img class="img-fluid" src="https://i.imgur.com/pZcUS2Y.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><img class="img-fluid" src="https://i.imgur.com/06Ajq7f.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><img class="img-fluid" src="https://i.imgur.com/zmzERpe.jpg"></a></div>
+        </div>
+    </div>
+</div>
+  ';
 
 
 
