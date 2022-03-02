@@ -5,8 +5,9 @@ include('../php/header.inc.php');
 ?>
 
     
-    <!-- Barre Orange et Titre page  -->
-    <div id="TitrePage">
+    
+     <!-- Barre Orange et Titre page  -->
+     <div id="TitrePage">
       <img src="../img/titre.png" alt="">
       <h1>Notre Dame</h1>
     </div>
@@ -264,7 +265,7 @@ include('../php/header.inc.php');
         </div>
 
         <!-- Element 3 dans carrousel  -->
-        <div class="carousel-item active">  
+        <div class="carousel-item">  
           <div class="card bg-dark" style="max-width: 1750px;">
             <div class="row no-gutters">
               <div class="col-sm-5" style="background: #868e96;">
@@ -315,7 +316,7 @@ include('../php/header.inc.php');
 
       <!-- Element 1 sans carrousel  -->
       <div class="carousel-inner">
-        <div class="carousel-item">  
+        <div class="carousel-item active">  
           <div class="card bg-dark" style="max-width: 1750px;">
             <div class="row no-gutters">
               <div class="col-sm-5" style="background: #868e96;">
@@ -358,7 +359,8 @@ include('../php/header.inc.php');
                   <span class="collapse card-text" id="viewdetails3b"> 
                     Visite immersive proposer sous le parvis de Notre Dame et dans la Défence, elle vous fait voir la cathédrale sous différent angle et à différentes époques, vous permettant ed marcher à l'intérieur comme si vous y étiez.
                     Disposible jusqu'au 14 avril, c'est une expérience à ne pas manquer qui vous permet de traverser les âges et de découvrir le passé avec les technologies du présent, en attendant de pourvoir remettre un pied dans la cathédrâle dans un future proche. 
-                  <br>
+                  </span>
+                   <br>
                     
                     <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails3b" >En savoir plus</a>
                   <br>
@@ -409,4 +411,3 @@ include('../php/header.inc.php');
     </footer>
   </body>
 </html>
-
