@@ -348,7 +348,7 @@ include('../php/header.inc.php');
           <div class="card bg-dark" style="max-width: 1750px;">
             <div class="row no-gutters">
               <div class="col-sm-5" style="background: #868e96;">
-                <img src="../img/incendiesNotreDame.jpg" class="card-img-top h-100" alt="...">
+                <img src="../img/realite_virtuel.jpg" class="card-img-top h-100" alt="...">
               </div>
               <div class="col-sm-7">
                 <div class="card-body">
