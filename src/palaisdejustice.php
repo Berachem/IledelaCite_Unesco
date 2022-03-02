@@ -86,10 +86,6 @@ include('../php/header.inc.php');
                   </span>
                   <br>
                   <br>
-                  <blockquote class="blockquote">
-                    <p class="mb-0">« La tête, le cœur, la moelle de la ville entière. »"</p>
-                    <footer class="blockquote-footer">Gui de Bazoches, chroniqueur du XIIe siècle</footer>
-                  </blockquote>
                   <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetailsb" >En savoir plus</a>
                 </div> 
               </div>
@@ -106,24 +102,24 @@ include('../php/header.inc.php');
             <div class="row no-gutters">
               <div class="col-sm-7">
                 <div class="card-body">
-                  <h5 class="card-title">Deux siècles de technique, d'archtecture et de travail</h5>
+                  <h5 class="card-title">Un site qui aura subit beaucoup d'épreuve au cour de son existence</h5>
                   <p class="card-text">
-                    En 1163 est posée la première pierre de Notre-Dame en présence du Pape Alexandre III.
+                    Même si la royauté avait délaisser la zone comme lieux de résidence, le Palais de justice et ces environ était une cible de choix pour les pyromans,
+                    et toute les rénovation et reconstruction qui ont eu lieux ne se sont pas faite sans mal.
                   </p>
                   <span class="collapse" id="viewdetailsc"> 
-                    <p class = "card-text"> <!--différent des autres pour les puce soit en style par défaut du body-->
-                    Elle est emblématique de l'art ogival, aussi appelé art gothique,
-                    style novateur récement utilisé pour la construction des églises et des cathédrales à l'époque.
-                    Système de voûtes en croisées d’ogives, afin de pouvoir placé les vitraux et laisser passé la lumière.
-                    Hauteur sous voûte élevée, pour être au plus près du ciel.
-                    Élévation à quatre étages étayés par des tribunes afin de faire tenir le toit.
-                    De nombreux arcs-boutants à l'extérieur pour contrebalancé la poussée des voûtes de grande hauteur.
+                    <p class = "card-text">
+                    En effet plusieurs institution de justice avaient encore maintenue leur activité après le départ des monarques, notament le Parlement de Paris, la Chambre des comptes ou encore la Chancellerie.
+                    Ces instances furent des cibles privilégié par ceux qui voulait atteindre le gouvernement de l'époque, et plusieurs incendis, dont certains non-accidentel, ont été déclarer.
                     <br>
-                    Plusieurs campagne de travaux ont eu lieu, de sorte que l'on peut distinguer de étapes :
+                    Parmis ces incendit on peut trouver :
                     </p>
                     <ul>
-                      <li>1163-1225 : construction du chœur et de son double déambulatoire, de la nef, des bas-côtés et des tribunes, façade élevée jusqu'à la galerie des rois</li>
-                      <li>1225-1250 : galerie haute et les deux tours sur la façade, modification et agrandissements des fenêtres hautes et aménagement des chapelles latérales de la nef.</li>
+                      <li>1601 : incendit de la salle des pas perdus, qui servait de grande salle d'attente</li>
+                      <li>1618 : la Grande Salle fut ravagé par un incendit</li>
+                      <li>1630 : la flèche de la Sainte Chapelle connu le même sort</li>
+                      <li>1737 : la Cour de s compte est égalment incendié</li>
+                      <li>1776 : un incendit a eu lieu entre la Consiergerie et la Sainte Chapelle, <br> probablement le plus grand incendit parmis tous ceux citer</li>
                     </ul>
                   </span>
                   <br>
@@ -144,20 +140,44 @@ include('../php/header.inc.php');
             <div class="row no-gutters">    
               <div class="col-sm-7">
                 <div class="card-body">
-                    <h5 class="card-title">Deux siècles de technique, d'archtecture et de travail</h5>
-                    <p class="card-text">
-                      Ayant subi les outrages du temps et des Hommes, notament avec plusieurs incendits (dont un récemment), 
-                    </p>
-                    <span class="collapse card-text" id="viewdetailsd"> 
-                      Notre-Dame aura été 
-                      modifier et rénové de nombreuse fois et ce dès sa création, d'une par pour remplacer es partie romane subsistance, 
-                      d'autre part pour remforcer la structure ou encore refaire une partie de la cathédrale.
-                      Les architectes se sont succedé et on manque d'information sur les artisans de l'ouvrage au cours du XIIe siècle, car leurs
-                      nombre devait être extrême pour un projet de cette taille, néanmoins les comptes de fabrique sont conservés à partir de 1333.
-                    </span>
-                    <br>
-                    <br>
-                    <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetailsd" >En savoir plus</a>
+                  <h5 class="card-title">Changement de décor pour le Palais de justice</h5>
+                  <p class="card-text">
+                    A partir de l'époque de la Restauration, le palais passe d'une dimension politique à une dimension judiciaire.
+                  </p>
+                  <span class="collapse card-text" id="viewdetailsd"> 
+                    C'est lors du retour de la monarchie en France que de nouveaux changement au Palais ont eu lieu, notament par la création de plusieurs nouveaux postes et l'agrandissement du Palais pour pouvoir supporter le nombre croissant d'affire à régler.
+                    Ces travaux ont été lancé pour de bon par la Monarchie de Juillet, juste après la l'époque de la Restauration.
+                    Le chantier prendra énormément de retard et d'arrêt temporaire, du à plusieurs incendit (en particulier le multi-incendit de 1871), aux guerres et refonte des plans, 
+                    La consiergerie ne sera restauré qu'en 1883, et la plupart des batiments auront soit été abondonné, soit restauré les années qui suivent.
+                    Depuis 1914, nous n'avons plus eu de restaurations à grandes échelles comme celles-ci. 
+                  </span>
+                  <br>
+                  <br>
+                  <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetailsd" >En savoir plus</a>
+                    
+                    
+                </div>
+              </div>
+              <div class="col-sm-5" style="background: #868e96;">
+                <img src="../img/Notre_dame_architecture2.jpg" class="card-img-top h-100" alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Element 5 dans carrousel  -->    
+        <div class="carousel-item">
+          <div class="card bg-dark" style="max-width: 1750px;">
+            <div class="row no-gutters">    
+              <div class="col-sm-7">
+                <div class="card-body">
+                  <h5 class="card-title">Le Palais de justice au début du XXie siècle</h5>
+                  <p class="card-text">
+                  </p>
+                  <span class="collapse card-text" id="viewdetailsd"> 
+                  </span>
+                  <br>
+                  <br>
+                  <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetailsd" >En savoir plus</a>
                     
                     
                 </div>
