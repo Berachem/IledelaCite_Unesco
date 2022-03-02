@@ -354,10 +354,10 @@ include('../php/header.inc.php');
                 <div class="card-body">
                   <h5 class="card-title">Comment visiter Notre Dame ?</h5>
                   <p class="card-text">
-                    Aujourd'hui la reconstruction est toukours en cour, et une réouverture complète n'est pas à prévoir avant 2024, mais l'on peut encore visiter le monument grace à un méthodes inédite, la réalité virtuel.
+                    Aujourd'hui la reconstruction est toujours en cour, et une réouverture complète n'est pas à prévoir avant 2024, mais l'on peut encore visiter le monument grace à un méthode inédite, la réalité virtuel.
                   </p>
                   <span class="collapse card-text" id="viewdetails3b"> 
-                    Visite immersive proposer sous le parvis de Notre Dame et dans la Défence, elle vous fait voir la cathédrale sous différent angle et à différentes époques, vous permettant ed marcher à l'intérieur comme si vous y étiez.
+                    Visite immersive proposée sous le parvis de Notre Dame et dans la Défence, elle vous fait voir la cathédrale sous différents angles et à différentes époques, vous permettant de marcher à l'intérieur comme si vous y étiez.
                     Disposible jusqu'au 14 avril, c'est une expérience à ne pas manquer qui vous permet de traverser les âges et de découvrir le passé avec les technologies du présent, en attendant de pourvoir remettre un pied dans la cathédrâle dans un future proche. 
                   </span>
                    <br>
