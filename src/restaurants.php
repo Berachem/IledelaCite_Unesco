@@ -28,23 +28,10 @@ include('../php/header.inc.php');
     <iframe id= "Rallye_map" width="100%" height="600px" frameborder="0" allowfullscreen src="https://www.google.com/maps/d/embed?mid=1FwE6TcR3ReSNk5tZK59EvPdq-GQK4-IP&ehbc=2E312F"></iframe>
 
     <br>
-    <footer>
-      <img src="../img/logo.png" alt="Logo Unescite" id="logoIle" >
 
-      <div id="Credits">
-          <h3 >&copy; Copyright 2022, <a href="https://www.linkedin.com/in/berachem-markria/">Berachem MARKRIA </a> & <a href="https://www.linkedin.com/in/tristan-martinez-8459a1229/"> Tristan Martinez</a> </h3> 
-      </div>
-      
-      <div id="LogosFooter"></div>
-          <div class="footer-social-icons">
-              <ul class="social-icons">
-                  <li><a href="https://www.facebook.com/profile.php?id=100075301764425" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
-                  <li><a href="https://twitter.com/IleCiteParis" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
-                  <li><a href="" class="social-icon"> <i class="fa fa-instagram"></i></a></li>
-                  <li><a href="https://fr.unesco.org/" class="social-icon"> <i class="fas fa-landmark"></i></a></li>
-                  <li><a href="https://github.com/Berachem" class="social-icon"> <i class="fa fa-github"></i></a></li>
-              </ul>
-      </div>
-    </footer>
-  </body>
-</html>
+
+    <?php
+
+include('../php/footer.inc.php');
+
+?>
