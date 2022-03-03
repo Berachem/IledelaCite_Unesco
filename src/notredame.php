@@ -365,7 +365,7 @@ include('../php/header.inc.php');
                     <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails3b" >En savoir plus</a>
                   <br>
                     <a class="btn btn-info" href="https://www.eternellenotredame.com">
-                    <i class="fas fa-vr-cardboard"></i> Site officiel de éternelle notre dame</a>
+                    <i class="fas fa-vr-cardboard"></i> Site officiel de <i>éternelle notre dame</i> </a>
                 </div>
               </div>
             </div>
