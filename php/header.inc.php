@@ -163,7 +163,7 @@ Disposible jusqu'au 14 avril, c'est une expérience à ne pas manquer qui vous p
 Available until April 14th, this is an experience not to be missed, allowing you to cross the ages and discover the past with the technologies of the present, while waiting to be able to step into the cathedral again in the near future.");
 $notredame_carousel2_lien_text3 = array("Site officiel de éternelle notre dame", "Official website of eternal notre dame");
 
-/* Avisiter */
+/* PAGE Avisiter.php */
 $Avisiter_title = $nav_discover_tovisit;
 $Avisiter_description = array("L'Île de la Cité, outre le fait que ce patrimoine française regorge de monuments iconiques, on peut y trouver beaucoup d'emplacements cachés et magnifiques.","The Ile de la Cité, besides the fact that this French heritage is full of iconic monuments, has many hidden and beautiful places.");
 
