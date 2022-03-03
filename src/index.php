@@ -31,7 +31,7 @@ echo"
           <div class='carousel-caption'>
             <h2>Notre Dame</h2>
             <p>".$index_carousel_notredame_subtitle[$langue]."</p>
-            <a href='notredame.html'><button type='button' class='btn btn-primary'><i class='fas fa-arrow-right'></i> Y Aller</button></a>
+            <a href='notredame.php'><button type='button' class='btn btn-primary'><i class='fas fa-arrow-right'></i> Y Aller</button></a>
           </div>
         </div>
         <!-- Carousel Palais de Justice-->
@@ -40,7 +40,7 @@ echo"
           <div class='carousel-caption'>
             <h2>Le Palais de Justice</h2>
             <p>".$index_carousel_palaisjustice_subtitle[$langue]."</p>
-            <a href='#palaisjustice'><button type='button' class='btn btn-primary'><i class='fas fa-arrow-right'></i> Y Aller</button></a>
+            <a href='palaisdejustice.php'><button type='button' class='btn btn-primary'><i class='fas fa-arrow-right'></i> Y Aller</button></a>
           </div>
         </div>
         <!-- Carousel Pont Neuf-->
@@ -49,7 +49,7 @@ echo"
           <div class='carousel-caption'>
             <h2>Le Pont Neuf</h2>
             <p>".$index_carousel_pontneuf_subtitle[$langue]."</p>
-            <a href='#pontneuf.html'><button type='button' class='btn btn-primary'><i class='fas fa-arrow-right'></i> Y Aller</button></a>
+            <a href='lesponts.php'><button type='button' class='btn btn-primary'><i class='fas fa-arrow-right'></i> Y Aller</button></a>
           </div>
         </div>
       </div>
