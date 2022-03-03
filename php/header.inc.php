@@ -165,21 +165,21 @@ $notredame_carousel2_lien_text3 = array("Site officiel de éternelle notre dame"
 
 /* Avisiter */
 $Avisiter_title = $nav_discover_tovisit;
-$Avisiter_description = array("L'Île de la Cité, outre le fait que ce patrimoine française regorge de monuments iconiques, on peut y trouver beaucoup d'emplacements cachés et magnifiques.","");
+$Avisiter_description = array("L'Île de la Cité, outre le fait que ce patrimoine française regorge de monuments iconiques, on peut y trouver beaucoup d'emplacements cachés et magnifiques.","The Ile de la Cité, besides the fact that this French heritage is full of iconic monuments, has many hidden and beautiful places.");
 
-$Avisiter_marchefleurs_time = array("Du lundi au Samedi, de 8h00 à 19h30","");
-$Avisiter_marchefleurs_phrase = array("Respirez les roses, les tulipes et beaucoup plus d'espèces florales au Marché aux fleurs au bord de quai.","");
+$Avisiter_marchefleurs_time = array("Du lundi au Samedi, de 8h00 à 19h30","From Monday to Saturday, from 8h00 to 19h30");
+$Avisiter_marchefleurs_phrase = array("Respirez les roses, les tulipes et beaucoup plus d'espèces florales au Marché aux fleurs au bord de quai.","Breathe in the roses, tulips and many more floral species at the Wharfside Flower Market.");
 
-$Avisiter_crypte_lieu = array("En-dessous de la Cathédrale Notre Dame","");
-$Avisiter_crypte_time = array("Du Mardi au Dimanche, de 10h à 18h","");
-$Avisiter_crypte_phrase = array("Visitez la plus importante crypte archéologique d’Europe et offre une vision unique de l’évolution urbaine et architecturale de l’île de la Cité.","");
+$Avisiter_crypte_lieu = array("En-dessous de la Cathédrale Notre Dame","Below the Notre Dame Cathedral");
+$Avisiter_crypte_time = array("Du Mardi au Dimanche, de 10h à 18h","Tuesday to Sunday, from 10am to 6pm");
+$Avisiter_crypte_phrase = array("Visitez la plus importante crypte archéologique d’Europe et offre une vision unique de l’évolution urbaine et architecturale de l’île de la Cité.","Visit the most important archaeological crypt in Europe and offers a unique vision of the urban and architectural evolution of the Ile de la Cité.");
 
-$Avisiter_Square_time = array("Pas d'horaires","");
-$Avisiter_Square_phrase = array("Le square offre une faune et une flore impressionnante pour un parc se trouvant au centre de la capitale. Il donne sur une vue magnifique de la Seine, du Musée du Louvre et de l'Hôtel de la Monnaie.","");
+$Avisiter_Square_time = array("Pas d'horaires","No schedule");
+$Avisiter_Square_phrase = array("Le square offre une faune et une flore impressionnante pour un parc se trouvant au centre de la capitale. Il donne sur une vue magnifique de la Seine, du Musée du Louvre et de l'Hôtel de la Monnaie.","The square offers an impressive flora and fauna for a park located in the center of the capital. It offers a magnificent view of the Seine, the Louvre Museum and the Hôtel de la Monnaie.");
 
-$Avisiter_maison_title=array("La fausse maison médiévale de l’île de la Cité","");
-$Avisiter_maison_time = array("Pas d'horaires","");
-$Avisiter_maison_phrase = array("Une maison du millieu du XXe s ressemblant aux maison de l'époque de la construction de la cathédrale","");
+$Avisiter_maison_title=array("La fausse maison médiévale de l’île de la Cité","The fake medieval house on the Ile de la Cité");
+$Avisiter_maison_time = array("Pas d'horaires","No schedule");
+$Avisiter_maison_phrase = array("Une maison du millieu du XXe s ressemblant aux maison de l'époque de la construction de la cathédrale.","A house of the middle of the XXth century resembling the houses of the time of the construction of the cathedral.");
 
 
 
