@@ -3,8 +3,8 @@ $page = 'index';
 include('../php/header.inc.php');
 
 ?>
-<?php
-echo"
+
+
     <!-- Carousel-->
     <div id='demo' class='carousel slide' data-ride='carousel'>
 
@@ -22,7 +22,7 @@ echo"
           <img src='../img/background.jpg' class='img-fluid' alt='Ile de la cité'>
           <div class='carousel-caption'>
             <h2>L'Île de la Cité</h2>
-            <p>".$index_carousel_ileCite_subtitle[$langue]."</p>
+            <p> <?php echo $index_carousel_ileCite_subtitle[$langue] ?></p>
           </div>
         </div>
         <!-- Carousel Notre Dame-->
@@ -30,7 +30,7 @@ echo"
           <img src='../img/notredame.jpg' class='img-fluid' alt='Notre dame'>
           <div class='carousel-caption'>
             <h2>Notre Dame</h2>
-            <p>".$index_carousel_notredame_subtitle[$langue]."</p>
+            <p> <?php echo $index_carousel_notredame_subtitle[$langue] ?></p>
             <a href='notredame.php'><button type='button' class='btn btn-primary'><i class='fas fa-arrow-right'></i> Y Aller</button></a>
           </div>
         </div>
@@ -39,7 +39,7 @@ echo"
           <img src='../img/Palais_de_Justice.jpg' class='img-fluid'  alt='Palais de justice'>
           <div class='carousel-caption'>
             <h2>Le Palais de Justice</h2>
-            <p>".$index_carousel_palaisjustice_subtitle[$langue]."</p>
+            <p> <?php echo $index_carousel_palaisjustice_subtitle[$langue] ?></p>
             <a href='palaisdejustice.php'><button type='button' class='btn btn-primary'><i class='fas fa-arrow-right'></i> Y Aller</button></a>
           </div>
         </div>
@@ -48,7 +48,7 @@ echo"
           <img src='../img/pont-neuf.jpg' class='img-fluid'  alt='Pont neuf'>
           <div class='carousel-caption'>
             <h2>Le Pont Neuf</h2>
-            <p>".$index_carousel_pontneuf_subtitle[$langue]."</p>
+            <p> <?php echo $index_carousel_pontneuf_subtitle[$langue] ?></p>
             <a href='lesponts.php'><button type='button' class='btn btn-primary'><i class='fas fa-arrow-right'></i> Y Aller</button></a>
           </div>
         </div>
@@ -72,15 +72,15 @@ echo"
 
     <!-- Phrase d'accroche en orange-->
     <h2 id='PhraseUnesco'>
-    ".$index_subtitle[$langue]." <img src='../img/unesco_emoji.png' class='rota' width='35' height='35' alt='unesco'>
+     <?php echo $index_subtitle[$langue] ?> <img src='../img/unesco_emoji.png' class='rota' width='35' height='35' alt='unesco'>
     </h2>
 
     <!-- Texte -->
     <h2 style='padding-top: 1cm; text-align: center;'>
-    ".$index_subtitle2[$langue]."
+     <?php echo $index_subtitle2[$langue] ?>
     </h2>
     <p style='padding: 1cm; text-align: center;font-family: cicle; font-size: 3vh;'>
-    ".$index_description[$langue]."
+     <?php echo $index_description[$langue] ?>
     </p>
 
     <!-- Vidéo -->
@@ -91,17 +91,17 @@ echo"
 
     <!-- Carte localisation-->
     <hr style='margin-top: 6em;'>
-    <h2 id='Contact'> <img src='../img/localisation.png'  class='rota' width='35' height='35' alt='localisation'>".$index_localisation[$langue]."</h2>
+    <h2 id='Contact'> <img src='../img/localisation.png'  class='rota' width='35' height='35' alt='localisation'> <?php echo $index_localisation[$langue] ?></h2>
     <iframe src='https://www.google.com/maps/d/u/1/embed?mid=1zvLOOu0uRy-fJ94OVHyyFzAQ8y3Kx8zZ&ehbc=2E312F' 
         id='Carte' 
         width='640' 
         height='480' 
         frameborder='0'
         style='border:0'></iframe>
-        ";
 
 
 
+<?php
 include('../php/footer.inc.php');
 
 

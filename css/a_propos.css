@@ -130,6 +130,7 @@ body{
     position: relative;
     text-align: center;
     margin-top: -15vh;
+    text-shadow: 0.1em 0.1em 0.2em black
 }
 
 .description{
@@ -155,6 +156,15 @@ body{
 #rendus{
     font-family: cicle;
     font-size: 3vh;
+}
+
+.btn{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.berachem, .tristan{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 #diapo{

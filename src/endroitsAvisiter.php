@@ -2,17 +2,17 @@
 $page = 'endroitsAvisiter';
 include('../php/header.inc.php');
 
-echo "
+?>
      <!-- Barre Orange et titre principal-->
     <div id='TitrePage'>
         <img src='../img/titre.png' alt=''>
-        <h1>".$Avisiter_title[$langue]."</h1>
+        <h1> <?php echo $Avisiter_title[$langue] ?></h1>
     </div>
 
     <!-- Phrase accroche-->
     <div class='description'>
         <p>
-        ".$Avisiter_description[$langue]."
+         <?php echo $Avisiter_description[$langue] ?>
         </p>
     </div>
 
@@ -41,10 +41,10 @@ echo "
                     
                     <i class='fas fa-map-marker-alt' style='color: #f7af3e;'></i> Place Louis Lépine - Quai de la Corse - 75004 Paris
                     <br>
-                    <i class='fas fa-clock' style='color: #f7af3e;'></i> ".$Avisiter_marchefleurs_time[$langue]."
+                    <i class='fas fa-clock' style='color: #f7af3e;'></i>  <?php echo $Avisiter_marchefleurs_time[$langue] ?>
                     <br>
                     <i class='fas fa-comment-dots' style='color: #f7af3e;'></i> 
-                    ".$Avisiter_marchefleurs_phrase[$langue]."
+                     <?php echo $Avisiter_marchefleurs_phrase[$langue] ?>
                   </p>
               </div> 
           </div>
@@ -75,11 +75,11 @@ echo "
                   <h5 class='card-title'>Crypte de Notre-Dame</h5>
                   <p class='card-text'>
                     
-                    <i class='fas fa-map-marker-alt' style='color: #f7af3e;'></i> ".$Avisiter_crypte_lieu[$langue]."
+                    <i class='fas fa-map-marker-alt' style='color: #f7af3e;'></i>  <?php echo $Avisiter_crypte_lieu[$langue] ?>
                     <br>
-                    <i class='fas fa-clock' style='color: #f7af3e;'></i> ".$Avisiter_crypte_time[$langue]."
+                    <i class='fas fa-clock' style='color: #f7af3e;'></i>  <?php echo $Avisiter_crypte_time[$langue] ?>
                     <br>
-                    <i class='fas fa-comment-dots' style='color: #f7af3e;'></i> ".$Avisiter_crypte_phrase[$langue]."
+                    <i class='fas fa-comment-dots' style='color: #f7af3e;'></i>  <?php echo $Avisiter_crypte_phrase[$langue] ?>
                   </p>
               </div> 
           </div>
@@ -112,9 +112,9 @@ echo "
                         
                         <i class='fas fa-map-marker-alt' style='color: #f7af3e;'></i> 15 Pl. du Pont Neuf, 75001 Paris
                         <br>
-                        <i class='fas fa-clock' style='color: #f7af3e;'></i> ".$Avisiter_Square_time[$langue]."
+                        <i class='fas fa-clock' style='color: #f7af3e;'></i>  <?php echo $Avisiter_Square_time[$langue] ?>
                         <br>
-                        <i class='fas fa-comment-dots' style='color: #f7af3e;'></i> ".$Avisiter_Square_phrase[$langue]."
+                        <i class='fas fa-comment-dots' style='color: #f7af3e;'></i>  <?php echo $Avisiter_Square_phrase[$langue] ?>
                       </p>
                   </div> 
               </div>
@@ -143,23 +143,23 @@ echo "
             <!-- Textes Spot -->
               <div class='col-sm-7'>
                   <div class='card-body'>
-                      <h5 class='card-title'>".$Avisiter_maison_title[$langue]." </h5>
+                      <h5 class='card-title'> <?php echo $Avisiter_maison_title[$langue] ?> </h5>
                       <p class='card-text'>
                         
                         <i class='fas fa-map-marker-alt' style='color: #f7af3e;'></i> 1-3 rue des Ursins, 75004
                         <br>
-                        <i class='fas fa-clock' style='color: #f7af3e;'></i> ".$Avisiter_maison_time[$langue]."
+                        <i class='fas fa-clock' style='color: #f7af3e;'></i>  <?php echo $Avisiter_maison_time[$langue] ?>
                         <br>
                         <i class='fas fa-comment-dots' style='color: #f7af3e;'></i> 
-                        ".$Avisiter_maison_phrase[$langue]."
+                         <?php echo $Avisiter_maison_phrase[$langue] ?>
                       </p>
                   </div> 
               </div>
           </div>
-        </div>";
+        </div>
  
 
-
+<?php
 include('../php/footer.inc.php');
 
 ?>

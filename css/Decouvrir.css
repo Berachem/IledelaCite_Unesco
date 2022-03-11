@@ -131,6 +131,7 @@ body{
     position: relative;
     text-align: center;
     margin-top: -15vh;
+    text-shadow: 0.1em 0.1em 0.2em black
 }
 
 .description{
@@ -193,11 +194,13 @@ body{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    
 }
 .sous_titre img{
     padding-left: 1cm;
     width: 70%;
     height: 2vh;
+    
 }
 .sous_titre h2{
     padding-left: 1cm;
@@ -225,12 +228,20 @@ body{
     padding-bottom: 1cm;
 }
 
+.btn{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
 #Credits h3{
     padding-top: 1cm;
     font-size: small;
     color: white;
     padding-bottom: 0.5cm;
     text-align:center;
+}
+
+.card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 #logoIle{

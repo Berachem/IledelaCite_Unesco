@@ -47,7 +47,7 @@ include('../php/header.inc.php');
       <!-- Tristan MARTINEZ -->
       <div class="col-lg-2 col-md-6">
         <div class="avatar mx-auto">
-          <img src="../img/tristan.png" width="250" height="250" class="rounded-circle z-depth-1"
+          <img src="../img/tristan.png" width="250" height="250" class="rounded-circle z-depth-1 tristan"
             alt="Tristan" data-toggle="tooltip" data-placement="top" title="Enlevez votre souris d'ici svp ;)">
         </div>
         <h5 class="font-weight-bold mt-4 mb-3">Tristan MARTINEZ</h5>
