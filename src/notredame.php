@@ -5,8 +5,9 @@ include('../php/header.inc.php');
 ?>
 
     
-    
-     <!-- Barre Orange et Titre page  -->
+     
+
+<!-- Barre Orange et Titre page  -->
      <div id="TitrePage">
       <img src="../img/titre.png" alt="">
       <h1>Notre Dame</h1>

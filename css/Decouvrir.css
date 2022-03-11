@@ -170,6 +170,7 @@ body{
         margin-right: auto;
 }
 
+
 .card-text,
 .card-subtitle{
     font-family: cicle;
@@ -202,6 +203,11 @@ body{
     height: 2vh;
     
 }
+
+.card:hover {
+    box-shadow:  0 0 0 0.5px #ea5c0d;
+ }
+
 .sous_titre h2{
     padding-left: 1cm;
     font-family: cicle;
@@ -378,8 +384,6 @@ ul.social-icons {
 .fa-github:hover {
     background-color: #5a32a3;
 }
-
-
 
 
 @media (max-width: 800px) {
