@@ -162,6 +162,26 @@ body{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+/* SOUS TITRE + BARRE JAUNE*/
+.sous_titre{
+    padding-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+.sous_titre img \ .emoji{
+    padding-left: 1cm;
+    width: 70%;
+    height: 2vh;
+    
+}
+
+.emoji {
+    width: 25px;
+    height: 25px;
+}
 
 .berachem, .tristan{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;

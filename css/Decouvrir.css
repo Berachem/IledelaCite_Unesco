@@ -153,6 +153,19 @@ body{
     text-align: center;
 }
 
+.big-picture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.big-picture .item img {
+    width: 100%;
+    height: auto;
+  }
+
+
 .card-img-top {
     width: 100%;
     height: 20vw;
@@ -197,6 +210,12 @@ body{
     text-align: center;
     
 }
+
+.emoji {
+    width: 25px;
+    height: 25px;
+}
+
 .sous_titre img{
     padding-left: 1cm;
     width: 70%;
@@ -434,6 +453,9 @@ ul.social-icons {
       font-size: xx-large;
     }
 
+    .big-picture{
+        width: 95%;
+    }
 
     /*Diapo */
     #diapo{

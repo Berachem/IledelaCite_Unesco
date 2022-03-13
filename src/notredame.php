@@ -20,6 +20,33 @@ include('../php/header.inc.php');
         </p>
     </div>
 
+      <div id="carouselExampleIndicators" class="carousel slide big-picture" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="../img/bigpicture_notredame2.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="../img/bigpicture_notredame.webp" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="../img/bigpicture_notredame3.jpg" alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
     <!-- SECTION ARCHITECTURE-->
     <div class="sous_titre">
       <h2 style="color: #f7af3e;"><i class="fas fa-hammer"></i> Architecture</h2>
@@ -320,9 +347,6 @@ include('../php/header.inc.php');
         <div class="carousel-item active">  
           <div class="card bg-dark" style="max-width: 1750px;">
             <div class="row no-gutters">
-              <div class="col-sm-5" style="background: #868e96;">
-                  <img src="../img/incendiesNotreDame.jpg" class="card-img-top h-100" alt="...">
-              </div>
               <div class="col-sm-7">
                 <div class="card-body">
                   <h5 class="card-title">Les incendies de Notre Dame</h5>
@@ -335,10 +359,13 @@ include('../php/header.inc.php');
                     
                     <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails3" >En savoir plus</a>
                   <br>
-                    <a class="btn btn-success" href="https://www.toutsurmesfinances.com/argent/a/comment-faire-un-don-pour-rebatir-notre-dame-de-paris#:~:text=Il%20est%20aussi%20possible%20d'effectuer%20un%20don%20%3A,BIC%20de%20la%20banque%20%3A%20SOGEFRPP)">
+                    <a class="btn btn-success btn-annexe" href="https://www.toutsurmesfinances.com/argent/a/comment-faire-un-don-pour-rebatir-notre-dame-de-paris#:~:text=Il%20est%20aussi%20possible%20d'effectuer%20un%20don%20%3A,BIC%20de%20la%20banque%20%3A%20SOGEFRPP)">
                   <i class="fas fa-heartbeat infobtn"></i> Faire un don pour aider Notre Dame</a>
                     
                 </div>
+              </div>
+              <div class="col-sm-5" style="background: #868e96;">
+                  <img src="../img/incendiesNotreDame.jpg" class="card-img-top h-100" alt="...">
               </div>
             </div>
           </div>
@@ -348,9 +375,7 @@ include('../php/header.inc.php');
         <div class="carousel-item">  
           <div class="card bg-dark" style="max-width: 1750px;">
             <div class="row no-gutters">
-              <div class="col-sm-5" style="background: #868e96;">
-                <img src="../img/realite_virtuel.jpg" class="card-img-top h-100" alt="...">
-              </div>
+             
               <div class="col-sm-7">
                 <div class="card-body">
                   <h5 class="card-title">Comment visiter Notre Dame ?</h5>
@@ -365,9 +390,12 @@ include('../php/header.inc.php');
                     
                     <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails3b" >En savoir plus</a>
                   <br>
-                    <a class="btn btn-info" href="https://www.eternellenotredame.com">
+                    <a class="btn btn-info btn-annexe" href="https://www.eternellenotredame.com">
                     <i class="fas fa-vr-cardboard"></i> Site officiel de <i>éternelle notre dame</i> </a>
                 </div>
+              </div>
+              <div class="col-sm-5" style="background: #868e96;">
+                <img src="../img/realite_virtuel.jpg" class="card-img-top h-100" alt="...">
               </div>
             </div>
           </div>
