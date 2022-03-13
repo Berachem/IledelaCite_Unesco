@@ -17,7 +17,7 @@ include('../php/header.inc.php');
     </div>
 
     <!-- Spot 1 -->
-    <div class='card bg-dark' style='max-width: 700px;'>
+    <div class='card bg-dark' style='max-width: 1000px;'>
       <div class='row no-gutters'>
         <!-- Caroussel Images -->
         <div id='marchefleurs' class='carousel slide col-sm-5' data-ride='carousel'>
@@ -37,7 +37,7 @@ include('../php/header.inc.php');
           <div class='col-sm-7'>
               <div class='card-body'>
                   <h5 class='card-title'>Le marché aux fleurs</h5>
-                  <p class='card-text'>
+                  <p class='card-text tovisit'>
                     
                     <i class='fas fa-map-marker-alt' style='color: #f7af3e;'></i> Place Louis Lépine - Quai de la Corse - 75004 Paris
                     <br>
@@ -54,7 +54,7 @@ include('../php/header.inc.php');
 <br>
 
         <!-- Spot 2 -->
-    <div class='card bg-dark' style='max-width: 700px;'>
+    <div class='card bg-dark' style='max-width: 1000px;'>
       <div class='row no-gutters'>
         <!-- Caroussel Images -->
         <div id='carouselExampleIndicators' class='carousel slide col-sm-5' data-ride='carousel'>
@@ -73,7 +73,7 @@ include('../php/header.inc.php');
           <div class='col-sm-7'>
               <div class='card-body'>
                   <h5 class='card-title'>Crypte de Notre-Dame</h5>
-                  <p class='card-text'>
+                  <p class='card-text tovisit'>
                     
                     <i class='fas fa-map-marker-alt' style='color: #f7af3e;'></i>  <?php echo $Avisiter_crypte_lieu[$langue] ?>
                     <br>
@@ -88,7 +88,7 @@ include('../php/header.inc.php');
 
     <br>
         <!-- Spot 3 -->
-        <div class='card bg-dark' style='max-width: 700px;'>
+        <div class='card bg-dark' style='max-width: 1000px;'>
           <div class='row no-gutters'>
             <!-- Caroussel Images -->
             <div id='carouselExampleIndicators' class='carousel slide col-sm-5' data-ride='carousel'>
@@ -108,7 +108,7 @@ include('../php/header.inc.php');
               <div class='col-sm-7'>
                   <div class='card-body'>
                       <h5 class='card-title'>Square du Vert-Galant</h5>
-                      <p class='card-text'>
+                      <p class='card-text tovisit'>
                         
                         <i class='fas fa-map-marker-alt' style='color: #f7af3e;'></i> 15 Pl. du Pont Neuf, 75001 Paris
                         <br>
@@ -124,7 +124,7 @@ include('../php/header.inc.php');
         <br>
 
         <!-- Spot 4 -->
-        <div class='card bg-dark' style='max-width: 700px;'>
+        <div class='card bg-dark' style='max-width: 1000px;'>
           <div class='row no-gutters'>
             <!-- Caroussel Images -->
             <div id='carouselExampleIndicators' class='carousel slide col-sm-5' data-ride='carousel'>
@@ -144,7 +144,7 @@ include('../php/header.inc.php');
               <div class='col-sm-7'>
                   <div class='card-body'>
                       <h5 class='card-title'> <?php echo $Avisiter_maison_title[$langue] ?> </h5>
-                      <p class='card-text'>
+                      <p class='card-text tovisit'>
                         
                         <i class='fas fa-map-marker-alt' style='color: #f7af3e;'></i> 1-3 rue des Ursins, 75004
                         <br>

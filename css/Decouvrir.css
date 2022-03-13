@@ -145,6 +145,15 @@ body{
     font-size: 3vh;
 }
 
+
+.video{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
 #presentation{
     display: block;
     margin-left: auto;
@@ -293,6 +302,14 @@ i{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.card-text{
+    font-size: 2.5vh;
+}
+
+.card-title{
+    font-size: 3vh;
 }
 
 .ukflag:hover > img{
@@ -455,6 +472,10 @@ ul.social-icons {
 
     .big-picture{
         width: 95%;
+    }
+
+    .video{
+        width: 75%;
     }
 
     /*Diapo */
