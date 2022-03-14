@@ -248,8 +248,7 @@ include('../php/header.inc.php');
                   <br>
 
                   <div style="display: flex;">
-                  <a class="btn btn-danger" href="https://www.youtube.com/watch?v=UoXD4S3DqNI" style="background-color:red;">
-                  <i class="fab fa-youtube infobtn"></i> Regarder une animation</a>
+                  
 
                   <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails1" >En savoir plus</a>
                 
@@ -337,6 +336,12 @@ include('../php/header.inc.php');
 
     </div>
 
+    <br>
+    <div class="embed-responsive embed-responsive-16by9 video" >
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/UoXD4S3DqNI"></iframe>
+    </div>
+
+
 
     <!-- Section Actualité  -->
     <div class="sous_titre">
@@ -421,6 +426,11 @@ include('../php/header.inc.php');
           <span class="carousel-control-next-icon"></span>
         </a>
       </div>
+    </div>
+
+    <br>
+    <div class="embed-responsive embed-responsive-16by9 video" >
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/YlDXdPSEtgk"></iframe>
     </div>
 
     <!-- Site officiel  -->
