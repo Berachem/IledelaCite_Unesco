@@ -27,7 +27,7 @@ include('../php/header.inc.php');
               <img class='d-block w-100' src='../img/marchefleurs.png' alt='Marché aux fleurs'>
             </div>
             <div class='carousel-item'>
-              <img class='d-block w-100' src='../img/map_marchéfleur.png' alt='Map Marché aux fleurs'>
+              <img class='d-block w-100' src='../img/map_marchefleur.png' alt='Map Marché aux fleurs'>
             </div>
           </div>
 
