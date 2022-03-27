@@ -1,5 +1,5 @@
 <?php
-$page = 'rallye';
+$page = 'Mentions légales';
 include('../php/header.inc.php');
 
 ?>

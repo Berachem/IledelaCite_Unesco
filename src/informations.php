@@ -1,5 +1,5 @@
 <?php
-$page = 'informations';
+$page = 'Informations';
 include('../php/header.inc.php');
 
 ?>
@@ -24,7 +24,7 @@ include('../php/header.inc.php');
     
     <div class='card-group justify-content-center'>
       <div class='row'>
-        <div class='card bg-dark' style='width: 18rem;'>
+        <div class='card bg-dark CardEffectHover' style='width: 18rem;'>
             <img src='../img/card_notredame.jpg' class='card-img-top' alt='...'>
             <div class='card-body'>
               <h5 class='card-title'>Notre Dame</h5>
@@ -35,7 +35,7 @@ include('../php/header.inc.php');
             </div>
         </div>
 
-        <div class='card bg-dark' style='width: 18rem;'>
+        <div class='card bg-dark CardEffectHover' style='width: 18rem;'>
             <img src='../img/card_palaisjustice.jpg' class='card-img-top' alt='...'>
             <div class='card-body'>
               <h5 class='card-title'>Palais de Justice</h5>
@@ -45,7 +45,7 @@ include('../php/header.inc.php');
             </div>
         </div>
 
-        <div class='card bg-dark' style='width: 18rem;'>
+        <div class='card bg-dark CardEffectHover' style='width: 18rem;'>
             <img src='../img/card_conciergerie.jpg' class='card-img-top' alt='...'>
             <div class='card-body'>
               <h5 class='card-title'>Conciergerie</h5>
@@ -57,7 +57,7 @@ include('../php/header.inc.php');
     
 
       
-        <div class='card bg-dark' style='width: 18rem;'>
+        <div class='card bg-dark CardEffectHover' style='width: 18rem;'>
             <img src='../img/card_pontneuf.jpg' class='card-img-top' alt='...'>
             <div class='card-body'>
               <h5 class='card-title'>Pont Neuf</h5>
@@ -66,7 +66,7 @@ include('../php/header.inc.php');
             </div>
         </div>
 
-        <div class='card bg-dark' style='width: 18rem;'>
+        <div class='card bg-dark CardEffectHover' style='width: 18rem;'>
             <img src='../img/card_crypte.jpg' class='card-img-top' alt='...'>
             <div class='card-body'>
               <h5 class='card-title'>Crypte de Notre Dame</h5>
@@ -76,7 +76,7 @@ include('../php/header.inc.php');
             </div>
         </div>
 
-        <div class='card bg-dark' style='width: 18rem;'>
+        <div class='card bg-dark CardEffectHover' style='width: 18rem;'>
             <img src='../img/card_conciergerie.jpg' class='card-img-top' alt='...'>
             <div class='card-body'>
               <h5 class='card-title'>Sainte Chapelle</h5>

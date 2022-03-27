@@ -1,5 +1,5 @@
 <?php
-$page = 'gallerie';
+$page = 'Galerie';
 include('../php/header.inc.php');
 
 

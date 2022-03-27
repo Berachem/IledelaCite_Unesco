@@ -1,5 +1,5 @@
 <?php
-$page = 'rallye';
+$page = 'Rallye';
 include('../php/header.inc.php');
 
 ?>

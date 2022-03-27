@@ -1,5 +1,5 @@
 <?php
-$page = 'index';
+$page = 'Ile de la Cité';
 include('../php/header.inc.php');
 
 ?>
@@ -14,6 +14,7 @@ include('../php/header.inc.php');
         <li data-target='#demo' data-slide-to='1'></li>
         <li data-target='#demo' data-slide-to='2'></li>
         <li data-target='#demo' data-slide-to='3'></li>
+        <li data-target='#demo' data-slide-to='4'></li>
       </ul>
   
       <!-- Carousel Ile de la Cité-->
@@ -50,6 +51,15 @@ include('../php/header.inc.php');
             <h2>Le Pont Neuf</h2>
             <p> <?php echo $index_carousel_pontneuf_subtitle[$langue] ?></p>
             <a href='lesponts.php'><button type='button' class='btn btn-primary'><i class='fas fa-arrow-right'></i> Y Aller</button></a>
+          </div>
+        </div>
+        <!-- Carousel Saintechapelle-->
+        <div class='carousel-item'>
+          <img src='../img/saintechapelle.jpg' class='img-fluid'  alt='sainte chapelle'>
+          <div class='carousel-caption'>
+            <h2>La Sainte Chapelle</h2>
+            <p> <?php echo $index_carousel_chapelle_subtitle[$langue] ?></p>
+            <a href='saintechapelle.php'><button type='button' class='btn btn-primary'><i class='fas fa-arrow-right'></i> Y Aller</button></a>
           </div>
         </div>
       </div>

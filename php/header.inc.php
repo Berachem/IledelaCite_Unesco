@@ -31,6 +31,7 @@ $index_carousel_ileCite_subtitle = array('Un coffre de patrimoines mondiaux.', '
 $index_carousel_notredame_subtitle = array("Le monument iconique mondial.","The world's iconic monument.");
 $index_carousel_palaisjustice_subtitle = array("Au coeur de l'histoire française.","");
 $index_carousel_pontneuf_subtitle = array("Le plus ancien pont de Paris.","The oldest bridge in Paris.");
+$index_carousel_chapelle_subtitle = array("Un joyau de l'art du vitrail.","A jewel in the art of stained glass.");
 $index_carousel_Yaller = array("Y aller","Go to");
 $index_subtitle = array("Un patrimoine mondial reconnu par l'Unesco.","A world heritage recognized by Unesco.");
 $index_subtitle2 = array("L'Île de la Cité regroupe de nombreux monuments incontournables et iconiques qui font l'histoire de France et sont reconnus comme patrimoine mondial de l'Unesco.","The Ile de la Cité is home to many iconic monuments that make up the history of France and are recognized as Unesco World Heritage sites.");
@@ -255,16 +256,16 @@ echo
     ';
 
     
-    if ($page =='index'){
+    if ($page =='Ile de la Cité'){
     echo '<link rel="stylesheet" href="../css/style.css">';
-    }elseif ($page=='apropos' or $page=='restaurants') {
+    }elseif ($page=='A propos' or $page=='Restaurants') {
         echo '<link rel="stylesheet" href="../css/a_propos.css">';
     } else{
         echo '<link rel="stylesheet" href="../css/Decouvrir.css">';
     }
     
 echo '
-    <title>Ile de la Cité - Paris</title>
+    <title> '.$page.' - Paris</title>
   </head>
   <body>
     <header>
@@ -276,6 +277,7 @@ echo '
           width="165"
           height="50"></a>
         </div>
+
         <a href="#" class="toggle-button" style="top: 25px;">
           <span class="bar"></span>
           <span class="bar"></span>
@@ -296,6 +298,7 @@ echo '
                 <a target="_self" class="dropdown-item" href="notredame.php?lang='.$langue.'"> <img src="../img/notredame_emoji.png" width="25" height="25"> Notre Dame</a>
                 <a target="_self" class="dropdown-item" href="palaisdejustice.php?lang='.$langue.'"><img src="../img/justice_emoji.png" width="25" height="25"> Palais de Justice</a>
                 <a target="_self" class="dropdown-item" href="lesponts.php?lang='.$langue.'"><img src="../img/pont_emoji.png" width="25" height="25"> Les Ponts</a>
+                <a target="_self" class="dropdown-item" href="saintechapelle.php?lang='.$langue.'"><img src="../img/chapelle_logo.png" width="25" height="25"> La Sainte-Chapelle</a>
               </div>
             </li>
 
@@ -316,9 +319,9 @@ echo '
             <li><a target="_self" href="a_propos.php?lang='.$langue.'"><img src="../img/nous_emoji.png" width="25" height="25">  '. $nav_about[$langue].'</a></li>';
             
             if ($langue == 0) {
-                echo '<li><a target="_self" href="'.$_SERVER["PHP_SELF"].'?lang=1" target="_self" class="ukflag"><img src="../img/eng_flag.png" alt="" width="25" height="12"></a></li>';
+                echo '<li><a target="_self" href="'.$_SERVER["PHP_SELF"].'?lang=1" target="_self" class="ukflag"><img src="../img/eng_flag.png" alt="" width="27" height="25"></a></li>';
             } else {
-                echo '<li><a target="_self" href="'.$_SERVER["PHP_SELF"].'" target="_self" class="frflag"><img src="../img/Flag_of_France.svg.webp" alt="" width="25" height="12"></a></li>';
+                echo '<li><a target="_self" href="'.$_SERVER["PHP_SELF"].'" target="_self" class="frflag"><img src="../img/fr_flag.png" alt="" width="27" height="25"></a></li>';
             } 
 
          

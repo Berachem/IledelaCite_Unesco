@@ -1,5 +1,5 @@
 <?php
-$page = 'endroitsAvisiter';
+$page = 'Endroits à visiter';
 include('../php/header.inc.php');
 
 ?>
