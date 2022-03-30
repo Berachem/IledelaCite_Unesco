@@ -146,7 +146,7 @@ include('../php/header.inc.php');
                     <br>
                     Plusieurs campagne de travaux ont eu lieu, de sorte que l'on peut distinguer de étapes :
                     </p>
-                    <ul>
+                    <ul class="card-text">
                       <li>1163-1225 : construction du chœur et de son double déambulatoire, de la nef, des bas-côtés et des tribunes, façade élevée jusqu'à la galerie des rois</li>
                       <li>1225-1250 : galerie haute et les deux tours sur la façade, modification et agrandissements des fenêtres hautes et aménagement des chapelles latérales de la nef.</li>
                     </ul>
