@@ -34,3 +34,16 @@ function normalizeSlideHeights() {
 $(window).on(
   'load resize orientationchange', 
   normalizeSlideHeights);
+
+
+  $(window).scroll(function() {
+    if ($(document).scrollTop() > 200) {
+      $('.navbar').addClass('bg-dark');
+      $('.navbar').addClass('change-color');
+      $('.navbar-links .nav-item .dropdown-menu').addClass('bg-dark');
+    } else {
+      $('.navbar').removeClass('bg-dark');
+      $('.navbar-links .nav-item .dropdown-menu').removeClass('bg-dark');
+      $('.navbar').removeClass('change-color');
+    }
+  });

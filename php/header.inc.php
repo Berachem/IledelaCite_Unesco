@@ -270,7 +270,10 @@ echo '
   <body>
     <header>
       <!-- logo MCN -->
-      <nav class="navbar sticky-top bg-dark" style="background-color: #333333;">
+      <nav class="navbar" style="background-color: rgba(0, 0, 0, 0.3);
+      position:fixed;
+      top :0;
+      left :0;">
         <div class="brand-title">
           <a href="#"><img src="../img/mcn.png" 
           alt="logoMCN" 
@@ -294,7 +297,7 @@ echo '
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <img src="../img/monuments_emoji.png" width="25" height="25">  Monuments
               </a>
-              <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a target="_self" class="dropdown-item" href="notredame.php?lang='.$langue.'"> <img src="../img/notredame_emoji.png" width="25" height="25"> Notre Dame</a>
                 <a target="_self" class="dropdown-item" href="palaisdejustice.php?lang='.$langue.'"><img src="../img/justice_emoji.png" width="25" height="25"> Palais de Justice</a>
                 <a target="_self" class="dropdown-item" href="lesponts.php?lang='.$langue.'"><img src="../img/pont_emoji.png" width="25" height="25"> Les Ponts</a>
@@ -309,7 +312,7 @@ echo '
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <img src="../img/boussole_emoji.png" width="25" height="25">  '. $nav_discover[$langue].'
               </a>
-              <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a target="_self" class="dropdown-item" href="restaurants.php?lang='.$langue.'"><img src="../img/resto_emoji.png" width="25" height="25">  Restaurants</a>
                 <a target="_self" class="dropdown-item" href="endroitsAvisiter.php?lang='.$langue.'"><img src="../img/av_emoji.png" width="25" height="25">  '. $nav_discover_tovisit[$langue].'</a></a>
                 <a target="_self" class="dropdown-item" href="adeuxpas.php?lang='.$langue.'"><img src="../img/adeux.png" width="25" height="25"> '. $nav_discover_near[$langue].'</a>

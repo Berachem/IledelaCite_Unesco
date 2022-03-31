@@ -86,13 +86,13 @@ BARRE DE NAVIGATION
     padding: 1rem;
 }
 
-.dropdown-menu > a:hover{
-    background-color: #555;
-    color: #ea5c0d;
-}
 
 .navbar-links li:hover{
-    background-color: #555;
+    background-color: rgba(250, 250, 250, 0.686);
+}
+
+.change-color .navbar-links li:hover{
+    background-color: rgba(250, 250, 250, 0.178);
 }
 
 .toggle-button {
