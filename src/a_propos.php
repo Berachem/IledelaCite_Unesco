@@ -85,11 +85,18 @@ include('../php/header.inc.php');
     <br>
     Nous remercions
 
-        <ul>
-          <li><b style="color: #ea5c0d;">ETTAYEB Tewfik </b>: Responsable du Forum UNESCO - UGE</li>
-          <li><b style="color: #ea5c0d;">CESSY David </b>: Chef du département Informatique de l'IUT</li>
-          <li><b style="color: #ea5c0d;">REBY Yann </b> : Enseignant en Anglais</li>
-				</ul>
+    <br>
+    <br>
+
+        
+          <b style="color: #ea5c0d;">ETTAYEB Tewfik </b> Responsable du Forum UNESCO - UGE
+          <b style="color: #ea5c0d;">CESSY David </b> Chef du département Informatique de l'IUT
+          <b style="color: #ea5c0d;">REBY Yann </b> Enseignant en Anglais
+				
+
+          <br>
+          <br>
+          Vous souhaitez nous contacter ?
     </p>
 
 
@@ -122,7 +129,7 @@ if (isset($_GET["messagesent"])){
 <div class="container py-4">
 
   <!-- Formulaire de Contacte -->
-  <form id="contactForm" action="../php/contacter.php?lang=".$_GET[$lang]."" method="post">
+  <form id="contactForm" action="../php/contacter.php?lang=".$_GET[$lang] method="post" target="_self">
 
     <!-- Nom input -->
     <div class="mb-3">
