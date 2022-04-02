@@ -5,7 +5,7 @@ include('../php/header.inc.php');
 ?>
 
       <div class="embed-responsive embed-responsive-16by9">
-        <video src="../img/lesponts.mp4" autoplay="autoplay" autoplay playsinline style="pointer-events: none;" muted></video>
+        <video src="../img/lespontsCompressed.mp4" autoplay="autoplay" autoplay playsinline style="pointer-events: none;" muted></video>
       </div>
 
         <!-- Barre Orange et Titre page   -->
