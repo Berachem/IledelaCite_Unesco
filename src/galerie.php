@@ -1,26 +1,23 @@
 <?php
 $page = 'Galerie';
 include('../php/header.inc.php');
+?>
+
+<div class="embed-responsive embed-responsive-16by9">
+<video src="../img/galerie_Video.mp4" loop autoplay="autoplay" autoplay playsinline style="pointer-events: none;" muted></video>
+        
+</div>
+
+<!-- Barre Orange et Titre page   -->
+
+<div class="description" >
+  <p style="color:white">
+  L'Île de la Cité a toujours été une grande <b style="color: #ea5c0d;">inspiration</b> pour les <b style="color: #ea5c0d;"> artistes </b> de toutes les époques. 
+
+  </p>
+</div>
 
 
-
-
-echo "
- <!-- Barre Orange et Titre page  -->
-    <div id='TitrePage'>
-      <img src='../img/titre.png' alt=''>
-      <h1>".$nav_gallery[$langue]."</h1>
-    </div>
-  ";
-  ?>
-
-<!-- Phrase accroche -->
-<div class="description">
-        <p>
-          L'Île de la Cité a toujours été une grande inspiration pour les artistes de toutes les époques. <i class="fas fa-paint-brush"></i>
-        </p>
-    </div>
-    <br>
 
   <div class="container">
         <div class="row d-flex flex-wrap align-items-center" data-toggle="modal" data-target="#lightbox">
