@@ -4,19 +4,18 @@ include('../php/header.inc.php');
 
 ?>
 
-    
-    <!-- Barre Orange et Titre page  -->
-    <div id="TitrePage">
-      <img src="../img/titre.png" alt="">
-      <h1>Les Ponts</h1>
-    </div>
+      <div class="embed-responsive embed-responsive-16by9">
+        <video src="../img/lesponts.mp4" autoplay="autoplay" autoplay playsinline style="pointer-events: none;" muted></video>
+      </div>
 
-    <!-- Phrase accroche -->
-    <div class="description">
-        <p>
-            L'île de la Cité est entouré de 9 ponts et parmi eux, certains ont une histoire magnifique.
-        </p>
-    </div>
+        <!-- Barre Orange et Titre page   -->
+
+      <div class="description" >
+          <p style="color:white">
+            L'île de la Cité est <b style="color: #ea5c0d;">entourée de 9 ponts</b> et parmi eux, certains ont une histoire magnifique.
+          </p>
+      </div>
+    
 
     <!-- SECTION Pont neuf-->
     <div class="sous_titre">

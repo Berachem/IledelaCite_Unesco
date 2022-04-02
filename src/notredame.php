@@ -5,47 +5,19 @@ include('../php/header.inc.php');
 ?>
 
     
-     
-
-<!-- Barre Orange et Titre page  -->
-     <div id="TitrePage">
-      <img src="../img/titre.png" alt="">
-      <h1>Notre Dame</h1>
-    </div>
-
-    <!-- Phrase accroche -->
-    <div class="description">
-        <p>
-          La cathédrale Notre-Dame de Paris, chef d’œuvre de l’architecture gothique, est le monument le plus visité de France.
-        </p>
-    </div>
-
-      <div id="carouselExampleIndicators" class="carousel slide big-picture" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="../img/bigpicture_notredame2.jpg" alt="First slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="../img/bigpicture_notredame.webp" alt="Second slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="../img/bigpicture_notredame3.jpg" alt="Third slide">
-          </div>
+      <div class="embed-responsive embed-responsive-16by9">
+        <video src="../img/notreDameVideo.mp4" loop autoplay="autoplay" autoplay playsinline style="pointer-events: none;" muted></video>
+                
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
+
+        <!-- Barre Orange et Titre page   -->
+
+      <div class="description" >
+          <p style="color:white">
+            La cathédrale  <b style="color: #ea5c0d;">Notre-Dame </b> de Paris, chef d’œuvre de l’architecture gothique, est le monument le plus visité de France.
+          </p>
       </div>
+
 
     <!-- SECTION ARCHITECTURE-->
     <div class="sous_titre">
@@ -249,7 +221,8 @@ include('../php/header.inc.php');
 
                   <div style="display: flex;">
                   
-
+                  <a class="btn btn-light"  href="https://www.youtube.com/embed/xSOtXtTXx-s">
+                  <i class="fa fa-youtube"></i> Regarder une vidéo</a>  
                   <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails1" >En savoir plus</a>
                 
                   
@@ -285,7 +258,7 @@ include('../php/header.inc.php');
                     <footer class="blockquote-footer">Victor Hugo dans son roman <cite title="Source Title">Notre-Dame de Paris</cite></footer>
                   </blockquote>
                   <div style="display: flex;">
-                  <a class="btn btn-primary" href="https://www.google.com/aclk?sa=l&ai=DChcSEwjajLv0--31AhXZjWgJHRPQCKQYABAFGgJ3Zg&sig=AOD64_1f_vO3rbt3pkaOVGohTvt-0pX0TA&ctype=46&q=&ved=0ahUKEwjMlK30--31AhUyzIUKHUd-A9wQqygIvQg&adurl=">
+                  <a class="btn btn-primary" href="https://www.youtube.com/embed/xSOtXtTXx-s">
                     <i class="fas fa-book infobtn"></i> Acheter le roman</a>  
                   <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails1b" >En savoir plus</a>
                  
@@ -337,9 +310,6 @@ include('../php/header.inc.php');
     </div>
 
     <br>
-    <div class="embed-responsive embed-responsive-16by9 video" >
-      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xSOtXtTXx-s"></iframe>
-    </div>
     
 
 

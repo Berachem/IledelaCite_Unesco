@@ -5,13 +5,14 @@ include('../php/header.inc.php');
 ?>
 
 
-    <div id='TitrePage'>
-        <img src='../img/titre.png' alt=''>
-        <h1>Informations</h1>
-    </div>
+    <br>
+    <br>
+
+
+    <br>
   
     <div class='description'>
-        <p>
+        <p style="color:white" >
              <?php echo $info_description[$langue] ?>
         </p>
     </div>

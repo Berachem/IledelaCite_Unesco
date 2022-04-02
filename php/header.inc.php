@@ -186,7 +186,7 @@ $Avisiter_maison_phrase = array("Une maison du millieu du XXe s ressemblant aux 
 
 /* Informations */
 
-$info_description=array("Vous trouverez sur cette pages les informations utiles pour vous aider à préparer votre visite sur l'Île telles que les horaires des monuments, le prix d'entrée et enfin les transports en commun à proximité.","You will find on this page useful information to help you prepare your visit to the island such as the schedules of the monuments, the entrance fees and finally the public transport in the vicinity." );
+$info_description=array("Vous trouverez sur cette pages les <b style='color: #ea5c0d;'>informations utiles </b> pour vous aider à préparer votre visite sur l'Île telles que les <b style='color: #f7af3e;'>horaires</b> des monuments, le <b style='color: #f7af3e;'>prix</b> d'entrée et enfin les <b style='color: #f7af3e;'>transports en commun</b> à proximité.","You will find on this page useful information to help you prepare your visit to the island such as the schedules of the monuments, the entrance fees and finally the public transport in the vicinity." );
 $info_horaires=array("HORAIRES","SCHEDULE");
 
 $info_notredame_status = array("Suspendue (Covid et travaux)", "Suspended (Covid and works)");

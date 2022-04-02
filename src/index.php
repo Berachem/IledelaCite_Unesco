@@ -32,7 +32,7 @@ include('../php/header.inc.php');
           <div class='carousel-caption'>
             <h2>Notre Dame</h2>
             <p> <?php echo $index_carousel_notredame_subtitle[$langue] ?></p>
-            <a href='notredame.php'><button type='button' class='btn btn-primary'><i class='fas fa-arrow-right'></i> Y Aller</button></a>
+            <a href='notredame.php'><button type='button' class='btn btn-primary'><i class='fas fa-arrow-right'></i> <?php echo $index_carousel_Yaller[$langue] ?></button></a>
           </div>
         </div>
         <!-- Carousel Palais de Justice-->
@@ -41,7 +41,7 @@ include('../php/header.inc.php');
           <div class='carousel-caption'>
             <h2>Le Palais de Justice</h2>
             <p> <?php echo $index_carousel_palaisjustice_subtitle[$langue] ?></p>
-            <a href='palaisdejustice.php'><button type='button' class='btn btn-primary'><i class='fas fa-arrow-right'></i> Y Aller</button></a>
+            <a href='palaisdejustice.php'><button type='button' class='btn btn-primary'><i class='fas fa-arrow-right'></i> <?php echo $index_carousel_Yaller[$langue] ?></button></a>
           </div>
         </div>
         <!-- Carousel Pont Neuf-->
@@ -50,7 +50,7 @@ include('../php/header.inc.php');
           <div class='carousel-caption'>
             <h2>Le Pont Neuf</h2>
             <p> <?php echo $index_carousel_pontneuf_subtitle[$langue] ?></p>
-            <a href='lesponts.php'><button type='button' class='btn btn-primary'><i class='fas fa-arrow-right'></i> Y Aller</button></a>
+            <a href='lesponts.php'><button type='button' class='btn btn-primary'><i class='fas fa-arrow-right'></i> <?php echo $index_carousel_Yaller[$langue] ?></button></a>
           </div>
         </div>
         <!-- Carousel Saintechapelle-->
@@ -59,7 +59,7 @@ include('../php/header.inc.php');
           <div class='carousel-caption'>
             <h2>La Sainte Chapelle</h2>
             <p> <?php echo $index_carousel_chapelle_subtitle[$langue] ?></p>
-            <a href='saintechapelle.php'><button type='button' class='btn btn-primary'><i class='fas fa-arrow-right'></i> Y Aller</button></a>
+            <a href='saintechapelle.php'><button type='button' class='btn btn-primary'><i class='fas fa-arrow-right'></i> <?php echo $index_carousel_Yaller[$langue] ?></button></a>
           </div>
         </div>
       </div>
@@ -74,11 +74,6 @@ include('../php/header.inc.php');
 
     </div>
 
-    <!-- Barre Orange et Titre Principal-->
-    <div id='TitrePage'>
-      <img src='../img/titre.png' alt=''>
-      <h1>l'Île de la Cité</h1>
-    </div>
 
     <!-- Phrase d'accroche en orange-->
     <h2 id='PhraseUnesco'>

@@ -4,19 +4,19 @@ include('../php/header.inc.php');
 
 ?>
 
-    
-    <!-- Barre Orange et Titre page  -->
-    <div id="TitrePage">
-      <img src="../img/titre.png" alt="">
-      <h1>Le Palais de justice</h1>
-    </div>
+      <div class="embed-responsive embed-responsive-16by9">
+        <video src="../img/palais-justice.mp4" loop autoplay="autoplay" autoplay playsinline style="pointer-events: none;" muted></video>
+                
+        </div>
 
-    <!-- Phrase accroche -->
-    <div class="description">
-        <p>
-            Le Palais de justice est le monument qui prend en compte la plus grande partie de l'île, sa superficie correspond à 1 cinquème de l'île, et comprend plusieurs batiments tous plus impressionnant les uns que les autres.
-        </p>
-    </div>
+        <!-- Barre Orange et Titre page   -->
+
+      <div class="description" >
+          <p style="color:white">
+            Le <b style="color: #ea5c0d;">Palais de justice</b> est le monument qui prend en compte la plus grande partie de l'île, sa superficie correspond à 1 cinquème de l'île, et comprend plusieurs batiments tous plus impressionnant les uns que les autres.
+
+          </p>
+      </div>
 
     <!-- SECTION Histoire-->
     <div class="sous_titre">
@@ -207,7 +207,7 @@ include('../php/header.inc.php');
 
     <!-- SECTION Procès-->
     <div class="sous_titre">
-      <h2 style="color: #f7af3e;"><i class = "fa-solid fa-gavel"></i> Procès iconiques</h2>
+      <h2 style="color: #f7af3e;"><i class="fa fa-balance-scale"></i> Procès iconiques</h2>
       <img src="../img/sous_titre.png" alt="" >
     </div>
 
