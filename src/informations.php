@@ -7,8 +7,6 @@ include('../php/header.inc.php');
 
     <br>
     <br>
-
-
     <br>
   
     <div class='description'>

@@ -3,18 +3,17 @@ $page = 'Endroits à visiter';
 include('../php/header.inc.php');
 
 ?>
-     <!-- Barre Orange et titre principal-->
-    <div id='TitrePage'>
-        <img src='../img/titre.png' alt=''>
-        <h1> <?php echo $Avisiter_title[$langue] ?></h1>
-    </div>
 
-    <!-- Phrase accroche-->
-    <div class='description'>
-        <p>
-         <?php echo $Avisiter_description[$langue] ?>
-        </p>
-    </div>
+    <br>
+    <br>
+    <br>
+
+      <div class="description" >
+          <p style="color:white">
+          <?php echo $Avisiter_description[$langue] ?>
+          </p>
+      </div>
+
 
     <!-- Spot 1 -->
     <div class='card bg-dark' style='max-width: 1000px;'>

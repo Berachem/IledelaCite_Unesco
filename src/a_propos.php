@@ -3,17 +3,21 @@ $page = 'A propos';
 include('../php/header.inc.php');
 
 ?>
-    <!-- Barre Orange et Titre page -->
-    <div id="TitrePage">
-        <img src="../img/titre.png" alt="">
-        <h1>Qui sommes-nous ?</h1>
-    </div>
-    <!-- Phrase d'accroche page -->
-    <div class="description">
-        <p>
-            Nous sommes un binôme d'étudiants à l'Université Gustave Eiffel qui ont pour objectif de participer à la valorisation d'un patrimoine mondial reconnu par l'UNESCO en France ( kokorico <img src="../img/poule.png" width="25" height="25" alt=""> ) qui est L' Ile de la Cité. 
+
+
+
+<br>
+    <br>
+    <br>
+  
+    <div class='description'>
+        <p style="color:white" >
+        Nous sommes un <b style="color: #ea5c0d;"> binôme d'étudiants </b> à l'Université Gustave Eiffel qui ont pour objectif de <b style="color: #f7af3e;">participer à la valorisation d'un patrimoine mondial reconnu par l'UNESCO </b> en France ( kokorico <img src="../img/poule.png" width="25" height="25" alt=""> ) qui est L' Ile de la Cité. 
+
         </p>
     </div>
+
+
 
 
 <!-- Présentation de l'équipe -->
@@ -79,17 +83,15 @@ include('../php/header.inc.php');
     Nous sommes deux étudiants motivés, soucieux de notre réussite et qui mènent un projet magnifique en lien avec la Culture française.
     <br>
     <br>
-    
+    Nous remercions
+
+        <ul>
+          <li><b style="color: #ea5c0d;">ETTAYEB Tewfik </b>: Responsable du Forum UNESCO - UGE</li>
+          <li><b style="color: #ea5c0d;">CESSY David </b>: Chef du département Informatique de l'IUT</li>
+          <li><b style="color: #ea5c0d;">REBY Yann </b> : Enseignant en Anglais</li>
+				</ul>
     </p>
-    <!--
-    <iframe id="diapo" src="https://docs.google.com/presentation/d/e/2PACX-1vSonPMC3cDAcKkQxRH1zlmfq8idKF4G-P2YmwwjjjorxZ_qSk5_F8aaprSA9cgX9w/embed?start=true&loop=true&delayms=15000" 
-    frameborder="0" 
-    width="900" 
-    height="550" 
-    allowfullscreen="true" 
-    mozallowfullscreen="true" 
-    webkitallowfullscreen="true"></iframe>
-    -->
+
 
 <?php
 if (isset($_GET["messagesent"])){
@@ -99,19 +101,9 @@ if (isset($_GET["messagesent"])){
 }
 
 ?>
-
-    <!-- SECTION REMERCIEMENTS-->
-    <div class="sous_titre">
-      <h2 style="color: #f7af3e;"><img src="..\img\heart.png" class="emoji"> Remerciements</h2>
-      <img src="../img/sous_titre.png" alt="" >
-    </div>
     
-          <ul>
-						<li>ETTAYEB Tewfik : Responsable du Forum UNESCO - UGE</li>
-						<li>CESSY David</li>
-						<li>REBY Yann</li>
-					</ul>
-
+          
+<!--
         <ul id="rendus" style="display: table;
         margin: 0 auto; color: #b94503;">
             <li><a href="https://drive.google.com/file/d/1ufXikjAdby91y1vJ3hdcCJlk_LJlJAvp/view?usp=sharing">Notre Cahier des charges</a></li>
@@ -120,6 +112,8 @@ if (isset($_GET["messagesent"])){
             <li><a href="https://drive.google.com/file/d/1nF47YLWuoG14jeyvY79VX0reXbWcyyIa/view?usp=sharing">Notre Logo</a></li>
             <li><a href="https://docs.google.com/presentation/d/1OCCp0vcvR3E19sUMQa7DWcqVKIV4muDZ/edit?usp=sharing&ouid=112273246261310129380&rtpof=true&sd=true">Notre Diaporama de présentation du Projet</a></li>
         </ul>
+
+-->
 
 
 

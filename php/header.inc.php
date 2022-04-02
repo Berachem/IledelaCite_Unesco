@@ -166,7 +166,7 @@ $notredame_carousel2_lien_text3 = array("Site officiel de éternelle notre dame"
 
 /* PAGE Avisiter.php */
 $Avisiter_title = $nav_discover_tovisit;
-$Avisiter_description = array("L'Île de la Cité, outre le fait que ce patrimoine française regorge de monuments iconiques, on peut y trouver beaucoup d'emplacements cachés et magnifiques.","The Ile de la Cité, besides the fact that this French heritage is full of iconic monuments, has many hidden and beautiful places.");
+$Avisiter_description = array("L'Île de la Cité, outre le fait que ce patrimoine française regorge de monuments iconiques, on peut y trouver beaucoup d'<b style='color: #ea5c0d;'>emplacements cachés et magnifiques</b>.","The Ile de la Cité, besides the fact that this French heritage is full of iconic monuments, has <b style='color: #ea5c0d;'>many hidden and beautiful places</b>.");
 
 $Avisiter_marchefleurs_time = array("Du lundi au Samedi, de 8h00 à 19h30","From Monday to Saturday, from 8h00 to 19h30");
 $Avisiter_marchefleurs_phrase = array("Respirez les roses, les tulipes et beaucoup plus d'espèces florales au Marché aux fleurs au bord de quai.","Breathe in the roses, tulips and many more floral species at the Wharfside Flower Market.");
@@ -281,7 +281,7 @@ echo '
           height="50"></a>
         </div>
 
-        <a href="#" class="toggle-button" style="top: 25px;">
+        <a href="#" class="toggle-button" style="top: 25px;" target="_self">
           <span class="bar"></span>
           <span class="bar"></span>
           <span class="bar"></span>
