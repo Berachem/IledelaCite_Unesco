@@ -6,7 +6,7 @@ include('../php/header.inc.php');
 
     
       <div class="embed-responsive embed-responsive-16by9">
-        <video src="../img/notreDameVideo.mp4" loop autoplay="autoplay" autoplay playsinline style="pointer-events: none;" muted></video>
+        <video src="../img/notredame.mp4" loop autoplay="autoplay" autoplay playsinline style="pointer-events: none;" muted></video>
                 
         </div>
 
