@@ -300,9 +300,9 @@ echo '
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a target="_self" class="dropdown-item" href="notredame.php?lang='.$langue.'"> <img src="../img/notredame_emoji.png" width="25" height="25"> Notre Dame</a>
                 <a target="_self" class="dropdown-item" href="palaisdejustice.php?lang='.$langue.'"><img src="../img/justice_emoji.png" width="25" height="25"> Palais de Justice</a>
-                <a target="_self" class="dropdown-item" href="lesponts.php?lang='.$langue.'"><img src="../img/pont_emoji.png" width="25" height="25"> Les Ponts</a>
                 <a target="_self" class="dropdown-item" href="saintechapelle.php?lang='.$langue.'"><img src="../img/chapelle_logo.png" width="25" height="25"> La Sainte-Chapelle</a>
-              </div>
+                <a target="_self" class="dropdown-item" href="lesponts.php?lang='.$langue.'"><img src="../img/pont_emoji.png" width="25" height="25"> Les Ponts</a>
+                </div>
             </li>
 
             <li><a target="_self" href="informations.php?lang='.$langue.'"><img src="../img/info_emoji.png" width="25" height="25">  Informations</a></li>
@@ -315,7 +315,6 @@ echo '
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a target="_self" class="dropdown-item" href="restaurants.php?lang='.$langue.'"><img src="../img/resto_emoji.png" width="25" height="25">  Restaurants</a>
                 <a target="_self" class="dropdown-item" href="endroitsAvisiter.php?lang='.$langue.'"><img src="../img/av_emoji.png" width="25" height="25">  '. $nav_discover_tovisit[$langue].'</a></a>
-                <a target="_self" class="dropdown-item" href="adeuxpas.php?lang='.$langue.'"><img src="../img/adeux.png" width="25" height="25"> '. $nav_discover_near[$langue].'</a>
               </div>
             </li>
             <li><a target="_self" href="galerie.php?lang='.$langue.'"><img src="../img/g_emoji.png" width="25" height="25">  '. $nav_gallery[$langue].'</a></li>

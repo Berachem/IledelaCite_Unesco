@@ -430,15 +430,19 @@ include('../php/header.inc.php');
     </div>
 
     <br>
+        <h2 style="text-align: center; font-size: 2.5vw;">
+          Un film à aller regarder... <img src="../img/pop-corn.png" width="35" height="35">
+        </h2>
+    <br>
     <div class="embed-responsive embed-responsive-16by9 video" >
       <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/YlDXdPSEtgk"></iframe>
     </div>
 
-    <!-- Site officiel  -->
+    <!-- Site officiel  
     <br>
     <a class="btn btn-primary siteofficiel" href="https://www.notredamedeparis.fr/">
     <i class="fas fa-globe"></i> Consulter le Site Web officiel de la cathédrale Notre-Dame</a>
-
+-->
     <br>
 
     <?php

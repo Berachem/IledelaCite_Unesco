@@ -45,8 +45,9 @@ include('../php/header.inc.php');
                   Le Pont-Neuf est sans doute le pont le plus célèbre de Paris, mais également le plus vieux, et pour cause : il voit le jour entre la fin du XVIe siècle et le début du XVIIe siècle.
                   </p>
                   <span class="collapse card-text" id="viewdetails"> 
-                    
-                  Le Pont-Neuf devait, comment c’était le cas de tous les ponts existants à Paris à l’époque, accueillir des maisons et des échoppes de tout son long. Mais Henri IV en décidera autrement : pour la première fois, il décide de faire un pont dépourvu de bâtisses, mais composé de trottoirs pour protéger les piétons de la boue et des chevaux. 
+                  Plus ancien pont de Paris, troisième pont le plus long (238 mètres), premier pont en pierre traversant la Seine, premier pont vide d’habitations et doté de trottoirs… Le Pont Neuf a constitué une véritable innovation pour Paris. Il a d’ailleurs gardé depuis tout ce temps le nom qu’on lui avait initialement attribué au 17ème siècle du fait de ses spécificités.
+
+La construction fut décidée en 1577 par le roi Henri III qui désigne une commission chargée d'assurer le bon déroulement des travaux. Un an plus tard, la première pierre du pont est posée par le roi lui-même, en présence de la reine mère Catherine de Médicis et de l’épouse du roi, Louise de Lorraine. Les travaux se prolongeront jusqu'en 1588, sous le règne d'Henri IV, puis cesseront soudainement pendant dix ans à cause des soulèvements populaires qui ont alors lieu à Paris contre le roi. En 1599, la construction reprend enfin pour être achevée en 1607.
                   </span> 
                   <br>
                   <br>
@@ -120,7 +121,7 @@ include('../php/header.inc.php');
           <div class="card bg-dark" style="max-width: 1750px;">
             <div class="row no-gutters">
               <div class="col-sm-5" style="background: #868e96;">
-                <img src="../img/pontchange.jpeg" class="card-img-top h-100" alt="...">
+                <img src="../img/pont-au-change.jpg" class="card-img-top h-100" alt="...">
               </div>
               <div class="col-sm-7">
                 <div class="card-body">
@@ -181,7 +182,7 @@ Depuis 2014, il est interdit à toute circulation motorisée et réservé aux pi
               </div>             
             </div>
             <div class="col-sm-5" style="background: #868e96;">
-              <img src="../img/saintlouis.jpeg" class="card-img-top h-100" alt="...">
+              <img src="../img/pont-saint-Louis.jpg" class="card-img-top h-100" alt="...">
             </div>
           </div>
         </div>
@@ -208,7 +209,7 @@ L'actuel pont, construit en 1853, lors des transformations haussmanniennes, mesu
               </div> 
             </div>
             <div class="col-sm-5" style="background: #868e96;">
-              <img src="../img/pontnotredame.jpeg" class="card-img-top h-100" alt="...">
+              <img src="../img/pont-notre-dame.png" class="card-img-top h-100" alt="...">
             </div>
           </div>
         </div>
@@ -241,7 +242,7 @@ Petit pont neuf, par opposition au petit pont situé légèrement plus en amont.
               </div>
             </div>
             <div class="col-sm-5" style="background: #868e96;">
-              <img src="../img/pontsaintmichel.jpeg" class="card-img-top h-100" alt="...">
+              <img src="../img/pont-saint-michel.jpg" class="card-img-top h-100" alt="...">
             </div>
           </div>
         </div>
