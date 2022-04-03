@@ -32,7 +32,7 @@ include('../php/header.inc.php');
           <div class='carousel-caption'>
             <h2>Notre Dame</h2>
             <p> <?php echo $index_carousel_notredame_subtitle[$langue] ?></p>
-            <a href='notredame.php'><button type='button' class='btn btn-primary'><i class='fas fa-arrow-right'></i> <?php echo $index_carousel_Yaller[$langue] ?></button></a>
+            <a target="_self" href='notredame.php'><button type='button' class='btn btn-primary'><i class='fas fa-arrow-right'></i> <?php echo $index_carousel_Yaller[$langue] ?></button></a>
           </div>
         </div>
 
@@ -42,7 +42,7 @@ include('../php/header.inc.php');
           <div class='carousel-caption'>
             <h2>La Sainte Chapelle</h2>
             <p> <?php echo $index_carousel_chapelle_subtitle[$langue] ?></p>
-            <a href='saintechapelle.php'><button type='button' class='btn btn-primary'><i class='fas fa-arrow-right'></i> <?php echo $index_carousel_Yaller[$langue] ?></button></a>
+            <a target="_self" href='saintechapelle.php'><button type='button' class='btn btn-primary'><i class='fas fa-arrow-right'></i> <?php echo $index_carousel_Yaller[$langue] ?></button></a>
           </div>
         </div>
 
@@ -52,7 +52,7 @@ include('../php/header.inc.php');
           <div class='carousel-caption'>
             <h2>Le Palais de Justice</h2>
             <p> <?php echo $index_carousel_palaisjustice_subtitle[$langue] ?></p>
-            <a href='palaisdejustice.php'><button type='button' class='btn btn-primary'><i class='fas fa-arrow-right'></i> <?php echo $index_carousel_Yaller[$langue] ?></button></a>
+            <a target="_self" href='palaisdejustice.php'><button type='button' class='btn btn-primary'><i class='fas fa-arrow-right'></i> <?php echo $index_carousel_Yaller[$langue] ?></button></a>
           </div>
         </div>
         <!-- Carousel Pont Neuf-->
@@ -61,7 +61,7 @@ include('../php/header.inc.php');
           <div class='carousel-caption'>
             <h2>Le Pont Neuf</h2>
             <p> <?php echo $index_carousel_pontneuf_subtitle[$langue] ?></p>
-            <a href='lesponts.php'><button type='button' class='btn btn-primary'><i class='fas fa-arrow-right'></i> <?php echo $index_carousel_Yaller[$langue] ?></button></a>
+            <a target="_self" href='lesponts.php'><button type='button' class='btn btn-primary'><i class='fas fa-arrow-right'></i> <?php echo $index_carousel_Yaller[$langue] ?></button></a>
           </div>
         </div>
 
