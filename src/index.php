@@ -35,6 +35,17 @@ include('../php/header.inc.php');
             <a href='notredame.php'><button type='button' class='btn btn-primary'><i class='fas fa-arrow-right'></i> <?php echo $index_carousel_Yaller[$langue] ?></button></a>
           </div>
         </div>
+
+        <!-- Carousel Saintechapelle-->
+        <div class='carousel-item'>
+          <img src='../img/saintechapelle.jpg' class='img-fluid'  alt='sainte chapelle'>
+          <div class='carousel-caption'>
+            <h2>La Sainte Chapelle</h2>
+            <p> <?php echo $index_carousel_chapelle_subtitle[$langue] ?></p>
+            <a href='saintechapelle.php'><button type='button' class='btn btn-primary'><i class='fas fa-arrow-right'></i> <?php echo $index_carousel_Yaller[$langue] ?></button></a>
+          </div>
+        </div>
+
         <!-- Carousel Palais de Justice-->
         <div class='carousel-item'>
           <img src='../img/Palais_de_Justice.jpg' class='img-fluid'  alt='Palais de justice'>
@@ -53,15 +64,7 @@ include('../php/header.inc.php');
             <a href='lesponts.php'><button type='button' class='btn btn-primary'><i class='fas fa-arrow-right'></i> <?php echo $index_carousel_Yaller[$langue] ?></button></a>
           </div>
         </div>
-        <!-- Carousel Saintechapelle-->
-        <div class='carousel-item'>
-          <img src='../img/saintechapelle.jpg' class='img-fluid'  alt='sainte chapelle'>
-          <div class='carousel-caption'>
-            <h2>La Sainte Chapelle</h2>
-            <p> <?php echo $index_carousel_chapelle_subtitle[$langue] ?></p>
-            <a href='saintechapelle.php'><button type='button' class='btn btn-primary'><i class='fas fa-arrow-right'></i> <?php echo $index_carousel_Yaller[$langue] ?></button></a>
-          </div>
-        </div>
+
       </div>
       
       <!-- Left and right controls -->

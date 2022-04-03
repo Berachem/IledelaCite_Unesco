@@ -59,11 +59,11 @@ include('../php/header.inc.php');
         <p class="grey-text"></p>
         <ul class="list-unstyled mb-0">
           <!-- Github -->
-          <a class="p-2 fa-lg ins-ic" href="https://github.com/Berachem">
+          <a class="p-2 fa-lg ins-ic" href="https://github.com/CaptainTortue">
             <i class="fab fa-github"> </i>
           </a>
           <!-- Linkedin -->
-          <a class="p-2 fa-lg ins-ic" href="https://github.com/Berachem">
+          <a class="p-2 fa-lg ins-ic" href="https://www.linkedin.com/in/tristan-martinez-8459a1229/">
             <i class="fab fa-linkedin"> </i>
           </a>
 
@@ -189,7 +189,18 @@ include('../php/header.inc.php');
       <p class="grey-text"></p>
       
         <a class="btn btn-primary" href="https://www.gouvernement.fr/le-programme-d-investissements-d-avenir">Site Officiel</a>
+    </div>
+
+        <!-- MCN -->
+        <div class="col col-lg-2">
+      <div class="avatar mx-auto">
+        <img src="../img/investissementavenir.png" width="100" height="100" class="rounded-circle z-depth-1">
+      </div>
+      <h5 class="font-weight-bold mt-4 mb-3"><b style="color: #f7af3e;">Investissement d'avenir</b></h5>
+      <p class="text-uppercase blue-text"><strong>Programme d’investissement de l’État français pour l'enseignement supérieur et la recherche</strong></p>
+      <p class="grey-text"></p>
       
+        <a class="btn btn-primary" href="https://www.gouvernement.fr/le-programme-d-investissements-d-avenir">Site Officiel</a>
     </div>
 
       <!-- université Gustave Eiffel -->

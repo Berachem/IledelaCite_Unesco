@@ -113,6 +113,11 @@ BARRE DE NAVIGATION
     border-radius: 10px;
 }
 
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+  }
 
 .carousel-inner {
     width: 100%; 
