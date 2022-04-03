@@ -255,6 +255,19 @@ include('../php/header.inc.php');
       
     </div>
 
+     <!-- Centre des monuments nationaux -->
+     <div class="col col-lg-2">
+      <div class="avatar mx-auto">
+        <img src="../img/centremonuments.jpg" width="100" height="100" class="rounded-circle z-depth-1">
+      </div>
+      <h5 class="font-weight-bold mt-4 mb-3"><b style="color: #f7af3e;">Centre des monuments nationaux</b></h5>
+      <p class="text-uppercase blue-text"><strong>établissement public à caractère administratif français placé sous tutelle du ministère de la Culture.</strong></p>
+      <p class="grey-text"></p>
+      
+        <a class="btn btn-light" href="https://www.youtube.com/channel/UCD17G4L4xmn4VNWU0EIWqAw">Site</a>
+      
+    </div>
+
 
   </div>
 
