@@ -88,7 +88,7 @@ include('../php/header.inc.php');
     </div>
 
     <div class='sous_titre'>
-        <h2 style='color: #f7af3e;'><i class='fas fa-money-bill'></i> Prix</h2>
+        <h2 style='color: #f7af3e;'><i class='fas fa-money-bill'></i> <?php echo $info_prix[$langue] ?></h2>
         <img src='../img/sous_titre.png' alt=''>
     </div>
     
@@ -97,7 +97,7 @@ include('../php/header.inc.php');
         <tr>
           <th scope='col'>Monument</th>
           <th scope='col'> <?php echo $info_tarifnormal[$langue] ?></th>
-          <th scope='col'> <?php echo $info_tarifreduit[$langue] ?><span class='badge rounded-pill bg-primary' data-toggle='tooltip' data-placement='top' title=' <?php echo $info_gratuitrequis[$langue] ?>'>?</span></th>
+          <th scope='col'> <?php echo $info_tarifreduit[$langue] ?> <span class='badge rounded-pill bg-primary' data-toggle='tooltip' data-placement='top' title=' <?php echo $info_gratuitrequis[$langue] ?>'>?</span></th>
         </tr>
       </thead>
       <tbody>

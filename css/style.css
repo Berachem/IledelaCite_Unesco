@@ -223,10 +223,14 @@ hr{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    transition: transform .7s ease-in-out
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
 #logoIle:hover{
-    transform: rotate(360deg);
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
 }
 .rota,
 i{
