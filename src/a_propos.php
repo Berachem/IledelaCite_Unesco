@@ -28,7 +28,7 @@ include('../php/header.inc.php');
       <!-- Berachem MARKRIA -->
       <div class="col-lg-7 col-md-6 mb-md-0 mb-5">
         <div class="avatar mx-auto">
-          <img src="../img/moi.jpg" width="250" height="250" class="rounded-circle z-depth-1 berachem"
+          <img src="../img/moi_bg.png" width="250" height="250" class="rounded-circle z-depth-1 berachem"
             alt="Berachem" data-toggle="tooltip" data-placement="top" title="Enlevez votre souris d'ici svp ;)">
         </div>
         <h5 class="font-weight-bold mt-4 mb-3">Berachem MARKRIA</h5>
@@ -74,30 +74,193 @@ include('../php/header.inc.php');
   
   </section>
 
-
-
-
-
-    <p class="presentation">
+  <p class="presentation">
     
     Nous sommes deux étudiants motivés, soucieux de notre réussite et qui mènent un projet magnifique en lien avec la Culture française.
     <br>
     <br>
-    Nous remercions
+    </p>
 
-    <br>
-    <br>
+
+    <div class='description'>
+        <p style="color:white" >
+            Nous remercions la maîtrise d'ouvrage <img src="../img/merci.png"  width="45" height="45" alt="merci">
+        </p>
+    </div>
+
+
+  <!-- Présentation du corps enseignants -->
+<section class="team-section text-center my-6">
+  
+  <div class="row justify-content-md-center">
+
+    <!-- ETTAYEB Tewfik -->
+    <div class="col col-lg-2">
+      <div class="avatar mx-auto">
+        <img src="../img/ETTAYEB.jpg" width="100" height="100" class="rounded-circle z-depth-1"
+          alt="ETTAYEB" data-toggle="tooltip" data-placement="top" title="Enlevez votre souris d'ici svp ;)">
+      </div>
+      <h5 class="font-weight-bold mt-4 mb-3"><b style="color: #ea5c0d;">ETTAYEB Tewfik </b></h5>
+      <p class="text-uppercase blue-text"><strong>Responsable du Forum UNESCO - UGE</strong></p>
+      <p class="grey-text"></p>
+      <ul class="list-unstyled mb-0">
+        <!-- Linkedin -->
+        <a class="p-2 fa-lg ins-ic" href="https://www.linkedin.com/in/tewfikettayeb/">
+          <i class="fab fa-linkedin"> </i>
+        </a>
 
         
-          <b style="color: #ea5c0d;">ETTAYEB Tewfik </b> Responsable du Forum UNESCO - UGE
-          <b style="color: #ea5c0d;">CESSY David </b> Chef du département Informatique de l'IUT
-          <b style="color: #ea5c0d;">REBY Yann </b> Enseignant en Anglais
-				
+      </ul>
+    </div>
 
-          <br>
-          <br>
-          Vous souhaitez nous contacter ?
-    </p>
+    <!-- CESSY David -->
+    <div class="col-md-auto">
+      <div class="avatar mx-auto">
+        <img src="../img/CESSY.jpg" width="100" height="100" class="rounded-circle z-depth-1"
+          alt="CESSY" data-toggle="tooltip" data-placement="top" title="01000101 01101110 01101100 01100101 01110110 01100101 01111010 00100000 01110110 01101111 01110100 01110010 01100101 00100000 01110011 01101111 01110101 01110010 01101001 01110011 00100000 01100100 00100111 01101001 01100011 01101001 00100000 01110011 01110110 01110000 00100000 00111011 00101001">
+      </div>
+      <h5 class="font-weight-bold mt-4 mb-3"><b style="color: #ea5c0d;">CESSY David </b></h5>
+      <p class="text-uppercase blue-text"><strong>Chef du département Informatique de l'IUT</strong></p>
+      <p class="grey-text"></p>
+      <ul class="list-unstyled mb-0">
+        <!-- Linkedin -->
+        <a class="p-2 fa-lg ins-ic" href="https://www.linkedin.com/in/david-cessy-b8042239/">
+          <i class="fab fa-linkedin"> </i>
+        </a>  
+      </ul>
+    </div>
+    
+
+
+
+
+      <!-- REBY Yann -->
+      <div class="col col-lg-2">
+      <div class="avatar mx-auto">
+        <img src="../img/REBY.jpg" width="100" height="100" class="rounded-circle z-depth-1"
+          alt="REBY" data-toggle="tooltip" data-placement="top" title="Please take your mouse away from here ;)">
+      </div>
+      <h5 class="font-weight-bold mt-4 mb-3"><b style="color: #ea5c0d;">REBY Yann </b></h5>
+      <p class="text-uppercase blue-text"><strong>Enseignant en Anglais</strong></p>
+      <p class="grey-text"></p>
+      <ul class="list-unstyled mb-0">
+        <!-- Linkedin -->
+        <a class="p-2 fa-lg ins-ic" href="https://www.linkedin.com/in/yann-reby/">
+          <i class="fab fa-linkedin"> </i>
+        </a>
+
+        
+      </ul>
+    </div>
+    </div>
+
+</section>
+
+<div class='description'>
+        <p style="color:white" >
+            Nos partenaires <img src="../img/partenaires.png"  width="45" height="45" alt="partenaires">
+        </p>
+    </div>
+
+
+  <!-- Présentation de nos partenaires -->
+<section class="team-section text-center my-6">
+  
+  <div class="row justify-content-md-center">
+
+    <!-- UNESCO -->
+    <div class="col col-lg-2">
+      <div class="avatar mx-auto">
+        <img src="../img/UNESCO-logo.jpg" width="100" height="100" class="rounded-circle z-depth-1">
+      </div>
+      <h5 class="font-weight-bold mt-4 mb-3"><b style="color: #f7af3e;"> <i class="fa fa-star checked"></i> l'UNESCO</b></h5>
+      <p class="text-uppercase blue-text"><strong>L'Organisation des Nations unies pour l'éducation, la science et la culture</strong></p>
+      <p class="grey-text"></p>
+       <a class="btn btn-primary" href="https://www.unesco.org/fr">Site Officiel</a>
+    </div>
+
+    <!-- Investissement d'avenir -->
+    <div class="col col-lg-2">
+      <div class="avatar mx-auto">
+        <img src="../img/investissementavenir.png" width="100" height="100" class="rounded-circle z-depth-1">
+      </div>
+      <h5 class="font-weight-bold mt-4 mb-3"><b style="color: #f7af3e;">Investissement d'avenir</b></h5>
+      <p class="text-uppercase blue-text"><strong>Programme d’investissement de l’État français pour l'enseignement supérieur et la recherche</strong></p>
+      <p class="grey-text"></p>
+      
+        <a class="btn btn-primary" href="https://www.gouvernement.fr/le-programme-d-investissements-d-avenir">Site Officiel</a>
+      
+    </div>
+
+      <!-- université Gustave Eiffel -->
+      <div class="col col-lg-2">
+      <div class="avatar mx-auto">
+        <img src="../img/univ-eiffel.png" width="100" height="100" class="rounded-circle z-depth-1">
+      </div>
+      <h5 class="font-weight-bold mt-4 mb-3"><b style="color: #f7af3e;">L'université Gustave Eiffel </b></h5>
+      <p class="text-uppercase blue-text"><strong>(anciennement nommée l'Université Paris-Est, Marne-la-Vallée)</strong></p>
+      <p class="grey-text"></p>
+      
+      <a class="btn btn-primary" href="https://www.univ-gustave-eiffel.fr/">Site Officiel</a>
+    </div>
+    </div>
+
+</section>
+
+<div class='description'>
+        <p style="color:white" >
+            Les sources <img src="../img/helpers.png"  width="45" height="45" alt="helpers">
+        </p>
+    </div>
+
+
+  <!-- Présentation de nos sources -->
+<section class="team-section text-center my-6">
+  
+  <div class="row justify-content-md-center">
+
+    <!-- Dronalist -->
+    <div class="col col-lg-2">
+      <div class="avatar mx-auto">
+        <img src="../img/dronalist.jpg" width="100" height="100" class="rounded-circle z-depth-1">
+      </div>
+      <h5 class="font-weight-bold mt-4 mb-3"><b style="color: #f7af3e;">the Dronalist</b></h5>
+      <p class="text-uppercase blue-text"><strong>Plans en Drone et vidéos de l'île de la Cité</strong></p>
+      <p class="grey-text"></p>
+       <a class="btn btn-info" href="https://www.youtube.com/c/theDronalist/featured">Chaine YouTube</a>
+    </div>
+
+      <!-- Michelin -->
+      <div class="col col-lg-2">
+      <div class="avatar mx-auto">
+        <img src="../img/michelin.jpg" width="100" height="100" class="rounded-circle z-depth-1">
+      </div>
+      <h5 class="font-weight-bold mt-4 mb-3"><b style="color: #f7af3e;">Michelin Voyage </b></h5>
+      <p class="text-uppercase blue-text"><strong>Collection de guides touristiques qui met l'accent sur la découverte du patrimoine naturel et culturel des régions.</strong></p>
+      <p class="grey-text"></p>
+      
+      <a class="btn btn-light" href="https://voyages.michelin.fr/">Site</a>
+    </div>
+
+    <!-- paristoric -->
+    <div class="col col-lg-2">
+      <div class="avatar mx-auto">
+        <img src="../img/paristoric.png" width="100" height="100" class="rounded-circle z-depth-1">
+      </div>
+      <h5 class="font-weight-bold mt-4 mb-3"><b style="color: #f7af3e;">Paristoric</b></h5>
+      <p class="text-uppercase blue-text"><strong>Premier site de découvertes thématiques de Paris.</strong></p>
+      <p class="grey-text"></p>
+      
+        <a class="btn btn-light" href="https://www.paristoric.com/index.php/transports-et-voirie/quartiers/1285-l-ile-de-la-cite">Site</a>
+      
+    </div>
+
+
+  </div>
+
+</section>
+
+
 
 
 <?php
