@@ -352,7 +352,8 @@ ul.social-icons {
     background-color: #0073a4;
 }
 .fa-github,
-.fa-linkedin {
+.fa-linkedin,
+.fa-envelope {
     padding:10px 14px;
     -o-transition:.5s;
     -ms-transition:.5s;
@@ -362,8 +363,13 @@ ul.social-icons {
     color: #0275d8;
 }
 .fa-github:hover,
-.fa-linkedin:hover {
+.fa-linkedin:hover,
+.fa-envelope:hover {
     background-color: #5a32a3;
+}
+
+.icones-contact:hover{
+    background-color: white;
 }
 
 

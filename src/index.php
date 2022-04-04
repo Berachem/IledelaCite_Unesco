@@ -93,7 +93,10 @@ include('../php/header.inc.php');
 
     <!-- Vidéo -->
     <div class='embed-responsive embed-responsive-16by9 center-block' id='Video'>
-      <iframe class='embed-responsive-item' src="https://www.youtube.com/embed/k4KAhO6XgOw"></iframe>
+      <iframe class='embed-responsive-item' src="
+      <?php echo $index_video[$langue]?>"
+      controls=0 
+      ></iframe>
     </div>
 
 

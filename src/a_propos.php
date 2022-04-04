@@ -37,11 +37,14 @@ include('../php/header.inc.php');
         <ul class="list-unstyled mb-0">
           <!-- Github -->
           <a class="p-2 fa-lg ins-ic" href="https://github.com/Berachem">
-            <i class="fab fa-github"> </i>
+            <i class="fab fa-github icones-contact"> </i>
           </a>
           <!-- Linkedin -->
           <a class="p-2 fa-lg ins-ic" href="https://github.com/Berachem">
-            <i class="fab fa-linkedin"> </i>
+            <i class="fab fa-linkedin icones-contact"> </i>
+          </a>
+          <a class="p-2 fa-lg ins-ic" href="mailto:berachem.markria@gmail.com">
+            <i class="fa fa-envelope icones-contact"> </i>
           </a>
 
           
@@ -49,7 +52,7 @@ include('../php/header.inc.php');
       </div>
   
       <!-- Tristan MARTINEZ -->
-      <div class="col-lg-2 col-md-6">
+      <div class="col-lg-3 col-md-6">
         <div class="avatar mx-auto">
           <img src="../img/tristan.png" width="250" height="250" class="rounded-circle z-depth-1 tristan"
             alt="Tristan" data-toggle="tooltip" data-placement="top" title="Enlevez votre souris d'ici svp ;)">
@@ -60,11 +63,14 @@ include('../php/header.inc.php');
         <ul class="list-unstyled mb-0">
           <!-- Github -->
           <a class="p-2 fa-lg ins-ic" href="https://github.com/CaptainTortue">
-            <i class="fab fa-github"> </i>
+            <i class="fab fa-github icones-contact"> </i>
           </a>
           <!-- Linkedin -->
           <a class="p-2 fa-lg ins-ic" href="https://www.linkedin.com/in/tristan-martinez-8459a1229/">
-            <i class="fab fa-linkedin"> </i>
+            <i class="fab fa-linkedin icones-contact"> </i>
+          </a>
+          <a class="p-2 fa-lg ins-ic" href="mailto:tristan.martinez@sfr">
+            <i class="fa fa-envelope icones-contact"> </i>
           </a>
 
         </ul>
@@ -106,7 +112,7 @@ include('../php/header.inc.php');
       <ul class="list-unstyled mb-0">
         <!-- Linkedin -->
         <a class="p-2 fa-lg ins-ic" href="https://www.linkedin.com/in/tewfikettayeb/">
-          <i class="fab fa-linkedin"> </i>
+          <i class="fab fa-linkedin icones-contact"> </i>
         </a>
 
         
@@ -125,7 +131,7 @@ include('../php/header.inc.php');
       <ul class="list-unstyled mb-0">
         <!-- Linkedin -->
         <a class="p-2 fa-lg ins-ic" href="https://www.linkedin.com/in/david-cessy-b8042239/">
-          <i class="fab fa-linkedin"> </i>
+          <i class="fab fa-linkedin icones-contact"> </i>
         </a>  
       </ul>
     </div>
@@ -146,7 +152,7 @@ include('../php/header.inc.php');
       <ul class="list-unstyled mb-0">
         <!-- Linkedin -->
         <a class="p-2 fa-lg ins-ic" href="https://www.linkedin.com/in/yann-reby/">
-          <i class="fab fa-linkedin"> </i>
+          <i class="fab fa-linkedin icones-contact"> </i>
         </a>
 
         
