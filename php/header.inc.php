@@ -264,8 +264,19 @@ echo
         echo '<link rel="stylesheet" href="../css/Decouvrir.css">';
     }
     
+
+$titleList = array($nav_home, $nav_discover,$nav_discover_near, $nav_discover_tovisit, $nav_gallery, $nav_home, $nav_about);
+function getTranslateTitle($titre,$titleList,$langue){
+  foreach ($titleList as $a){
+    if ($a[0] == $titre || $a[1] == $titre){
+      echo '<title> '.$a[$langue].' - Paris</title>' ;
+      return;
+    }
+  }
+  echo '<title> '.$titre.' - Paris</title>' ;
+}
+getTranslateTitle($page,$titleList,$langue);
 echo '
-    <title> '.$page.' - Paris</title>
   </head>
   <body>
     <header>
