@@ -1,5 +1,27 @@
+
+<img src="../img/goTop.png" alt="go Top" onclick='topFunction()' id='goTop'>
+
+
+<style>
+    #goTop {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  width: 50px;
+}
+
+#goTop:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+</style>
+
 <?php
 echo "
+
 <footer>
 <!-- logo-->
 <img src='../img/logo_Unesco.png' alt='Logo Unescite' id='logoIle'>

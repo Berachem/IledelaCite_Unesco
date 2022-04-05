@@ -440,7 +440,7 @@ ul.social-icons {
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 1100px) {
     /* Barre de navigation */
     .navbar {
         flex-direction: column;

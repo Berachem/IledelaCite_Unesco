@@ -5,11 +5,10 @@ toggleButton.addEventListener('click', () => {
   navbarLinks.classList.toggle('active')
 })
 
-$(document).on('scroll', function (e) {
-  if ($(window).width() > 992) {
- $('.navbar').css('bg-dark', ($(document).scrollTop() / 500));
-}
-})
+
+
+
+// ----- TOOLTIPS ----
 
 $(document).ready(function(){
   $("a").tooltip();
@@ -17,6 +16,8 @@ $(document).ready(function(){
   $("img").tooltip();
   $("span").tooltip();
 });
+
+// -----caroussel same height----
 
 function normalizeSlideHeights() {
   $('.carousel').each(function(){
@@ -30,6 +31,9 @@ function normalizeSlideHeights() {
     items.css('min-height', maxHeight + 'px');
   })
 }
+
+
+// ----- SCROLL NAV BAR EFFECTS ----
 
 $(window).on(
   'load resize orientationchange', 
@@ -47,3 +51,28 @@ $(window).on(
       $('.navbar').removeClass('change-color');
     }
   });
+
+
+
+
+// -----GO TOP BUTTON ----
+
+//Get the button:
+mybutton = document.getElementById("goTop");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  mybutton.style.display = "block";
+} else {
+  mybutton.style.display = "none";
+}
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+
+}
