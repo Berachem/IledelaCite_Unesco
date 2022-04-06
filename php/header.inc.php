@@ -23,6 +23,7 @@ $nav_discover_tovisit = array('Endroits à visiter', "Places to visit");
 $nav_discover_near = array('A deux pas', "Two steps away");
 $nav_about = array('A propos', "About us");
 $nav_gallery = array('Galerie', "Gallery");
+$nav_road = array('Parcours', "Recommended itinerary")
 
 
 /* INDEX */
@@ -268,7 +269,7 @@ echo
     }
     
 
-$titleList = array($nav_home, $nav_discover,$nav_discover_near, $nav_discover_tovisit, $nav_gallery, $nav_home, $nav_about);
+$titleList = array($nav_home, $nav_discover,$nav_discover_near, $nav_discover_tovisit, $nav_gallery, $nav_home, $nav_about, $nav_road);
 function getTranslateTitle($titre,$titleList,$langue){
   foreach ($titleList as $a){
     if ($a[0] == $titre || $a[1] == $titre){
@@ -289,12 +290,24 @@ echo '
       top :0;
       left :0;">
         <div class="brand-title">
-          <a href="#"><img src="../img/mcn.png" 
+          <a target="_self" href="#"><img src="../img/mcn.png" 
           alt="logoMCN" 
           width="165"
           height="50"></a>
-        </div>
+        </div>';
 
+  if ($page== "Admin"){
+    echo '
+        <div class="brand-title">
+        <a target="_self" href="#"><img src="../img/admin.png" 
+        alt="Admin" 
+        width="50"
+        height="50"></a>
+      </div>';
+    
+  }
+  
+echo'
         <a href="#" class="toggle-button" style="top: 25px;" target="_self">
           <span class="bar"></span>
           <span class="bar"></span>
@@ -329,6 +342,7 @@ echo '
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a target="_self" class="dropdown-item" href="restaurants.php?lang='.$langue.'"><img src="../img/resto_emoji.png" width="25" height="25">  Restaurants</a>
                 <a target="_self" class="dropdown-item" href="endroitsAvisiter.php?lang='.$langue.'"><img src="../img/av_emoji.png" width="25" height="25">  '. $nav_discover_tovisit[$langue].'</a></a>
+                <a target="_self" class="dropdown-item" href="parcours.php?lang='.$langue.'"><img src="../img/parcours.png" width="25" height="25">  '. $nav_road[$langue].'</a></a>
               </div>
             </li>
             <li><a target="_self" href="galerie.php?lang='.$langue.'"><img src="../img/g_emoji.png" width="25" height="25">  '. $nav_gallery[$langue].'</a></li>

@@ -85,12 +85,11 @@ body{
 }
 
 .navbar-links li:hover{
-    background-color: #555;
+    background-color: rgba(250, 250, 250, 0.686);
 }
 
-
-.navbar-links li:hover {
-    background-color: #555;
+.change-color .navbar-links li:hover{
+    background-color: rgba(250, 250, 250, 0.178);
 }
 
 .toggle-button {
