@@ -23,12 +23,12 @@ include('../php/header.inc.php');
 
         <form>
           <div class="form-group" action="../php/adminlogin.php" method="POST">
-            <label for="exampleInputEmail1">Identifiant</label>
+            <label for="email">Identifiant</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Entrez votre identifiant">
             <small id="emailHelp" class="form-text text-muted">Entrez les 6 chiffres...</small>
           </div>
           <div class="form-group">
-            <label for="exampleInputPassword1">Mot de passe</label>
+            <label for="password">Mot de passe</label>
             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
           </div>
           <div class="form-check">
