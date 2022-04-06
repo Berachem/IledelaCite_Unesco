@@ -22,7 +22,7 @@ include('../php/header.inc.php');
         <br>
 
         <form>
-          <div class="form-group" action="adminlogin.php" method="POST>
+          <div class="form-group" action="../php/adminlogin.php" method="POST>
             <label for="exampleInputEmail1">Identifiant</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Entrez votre identifiant">
             <small id="emailHelp" class="form-text text-muted">Entrez les 6 chiffres...</small>
