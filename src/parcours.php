@@ -1,5 +1,5 @@
 <?php
-$page = 'Restaurants';
+$page = 'Parcours';
 include('../php/header.inc.php');
 
 ?>

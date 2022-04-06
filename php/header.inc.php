@@ -269,7 +269,7 @@ echo
     }
     
 
-$titleList = array($nav_home, $nav_discover,$nav_discover_near, $nav_discover_tovisit, $nav_gallery, $nav_home, $nav_about);
+$titleList = array($nav_home, $nav_discover,$nav_discover_near, $nav_discover_tovisit, $nav_gallery, $nav_home, $nav_about, $nav_road);
 function getTranslateTitle($titre,$titleList,$langue){
   foreach ($titleList as $a){
     if ($a[0] == $titre || $a[1] == $titre){
