@@ -19,12 +19,13 @@
 }
 </style>
 
-<?php
-echo "
+
 
 <footer>
-<!-- logo-->
-<img src='../img/logo_Unesco.png' alt='Logo Unescite' id='logoIle'>
+
+<img src='../img/logo_Unesco.png' alt='Logo Unescite' class='logoIle'>
+
+
 <!-- Copyright-->
 <div id='Credits'>
     <h3 >&copy; Copyright 2022, <a href='https://www.linkedin.com/in/berachem-markria/'>Berachem MARKRIA </a> & <a href='https://www.linkedin.com/in/tristan-martinez-8459a1229/'> Tristan Martinez</a> 
@@ -46,6 +47,3 @@ echo "
 </body>
 </html>
 ";
-
-
-?>
