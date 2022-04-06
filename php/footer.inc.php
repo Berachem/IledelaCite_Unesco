@@ -26,7 +26,7 @@
 <img src='../img/logo_Unesco.png' alt='Logo Unescite' id='logoIle'>
 <!-- Copyright-->
 <div id='Credits'>
-    <h3 >&copy; Copyright 2022, <a href='https://www.linkedin.com/in/berachem-markria/'>Berachem MARKRIA </a> & <a href='https://www.linkedin.com/in/tristan-martinez-8459a1229/'> Tristan Martinez</a> 
+    <h3 >&copy; Copyright 2022, <a href='https://www.linkedin.com/in/berachem-markria/' style='color: #f7af3e;'>Berachem MARKRIA </a> & <a href='https://www.linkedin.com/in/tristan-martinez-8459a1229/' style='color: #f7af3e;'> Tristan Martinez</a> 
     
   </h3> 
 </div>
@@ -38,7 +38,18 @@
             <li><a href='https://twitter.com/IleCiteParis' class='social-icon'> <i class='fa fa-twitter'></i></a></li>
             <li><a href='' class='social-icon'> <i class='fa fa-instagram'></i></a></li>
             <li><a href='https://fr.unesco.org/' class='social-icon'> <i class='fas fa-landmark'></i></a></li>
-            <li><a href='https://github.com/Berachem' class='social-icon'> <i class='fa fa-github'></i></a></li>
+            
+
+            <?php
+              if ($page=="A propos"){
+                echo "<li><a href='https://github.com/Berachem' class='social-icon'> <i class='fa fa-github' style='color:white;'></i></a></li>";
+                echo "<li><a target='_self' href='admin.php' class='social-icon'> <i class='fa fa-wrench'></i></a></li>";
+              }else{
+                echo "<li><a href='https://github.com/Berachem' class='social-icon'> <i class='fa fa-github'></i></a></li>";
+              }
+
+              ?>
+
         </ul>
 </div>
 </footer>

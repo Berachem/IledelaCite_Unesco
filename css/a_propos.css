@@ -352,7 +352,9 @@ ul.social-icons {
 }
 .fa-github,
 .fa-linkedin,
-.fa-envelope {
+.fa-envelope,
+.fa-wrench
+ {
     padding:10px 14px;
     -o-transition:.5s;
     -ms-transition:.5s;
@@ -361,9 +363,15 @@ ul.social-icons {
     transition: .5s;
     color: #0275d8;
 }
-.fa-github:hover,
-.fa-linkedin:hover,
-.fa-envelope:hover {
+.fa-wrench{
+    color: white;
+}
+.fa-wrench:hover{
+    background-color: green;
+}
+
+.fa-github:hover
+{
     background-color: #5a32a3;
 }
 

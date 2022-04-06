@@ -262,7 +262,7 @@ echo
     
     if ($page =='Ile de la Cité'){
     echo '<link rel="stylesheet" href="../css/style.css">';
-    }elseif ($page=='A propos' or $page=='Restaurants') {
+    }elseif ($page=='A propos' or $page=='Restaurants' or $page=='Admin') {
         echo '<link rel="stylesheet" href="../css/a_propos.css">';
     } else{
         echo '<link rel="stylesheet" href="../css/Decouvrir.css">';

@@ -15,9 +15,6 @@ include('../php/header.inc.php');
         </p>
       </div>
 
-
-
-
         <br>
         <br>
 
@@ -25,20 +22,31 @@ include('../php/header.inc.php');
     <div class="row h-100 justify-content-center align-items-center">
         <div class="col-10 col-md-8 col-lg-6">
             <!-- Form -->
-            <form class="form-example" action="" method="post">
+            <form class="form-example" action="../php/adminconnect.php" method="GET">
                 <h1>Connectez vous...</h1>
                 <!-- Input f-ields -->
                 <div class="form-group">
                     <label for="if">idenifiant:</label>
-                    <input type="text" class="form-control username" id="username" placeholder="identifiant..." name="username">
+                    <input type="text" class="form-control username" id="username" placeholder="Identifiant..." name="id">
                 </div>
                 <div class="form-group">
                     <label for="password">Mot de passe:</label>
-                    <input type="password" class="form-control password" id="password" placeholder="motdepasse..." name="password">
+                    <input type="password" class="form-control password" id="password" placeholder="Mot de passe..." name="password">
                 </div>
                 <button type="submit" class="btn btn-warning btn-customized">Connexion</button>
             </form>
             <!-- Form end -->
+            <br>
+<?php
+    if (isset($_GET["error"]) && $_GET["error"]==1){
+        echo '
+        <div class="alert alert-danger" role="alert">
+            Erreur de connexion :/
+        </div>';
+    }
+
+?>
+
         </div>
     </div>
 </div>
