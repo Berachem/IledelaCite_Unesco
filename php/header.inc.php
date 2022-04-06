@@ -298,12 +298,13 @@ echo '
 
   if ($page== "Admin"){
     echo '
-        <div class="brand-title">
-        <a target="_self" href="#"><img src="../img/admin.png" 
-        alt="Admin" 
-        width="50"
-        height="50"></a>
-      </div>';
+        <style>
+        body{
+          background-image: url("https://images.pling.com/img/00/00/50/91/40/1304700/fbd1f1f39015f25f6de6b1d003ee7b518f15.png");
+
+      }
+
+      </style>';
     
   }
   
