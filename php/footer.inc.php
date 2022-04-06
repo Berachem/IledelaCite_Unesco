@@ -19,8 +19,7 @@
 }
 </style>
 
-<?php
-echo "
+
 
 <footer>
 <!-- logo-->
@@ -45,7 +44,3 @@ echo "
 </footer>
 </body>
 </html>
-";
-
-
-?>
