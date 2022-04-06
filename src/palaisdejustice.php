@@ -33,6 +33,7 @@ include('../php/header.inc.php');
         <li data-target="#demo2" data-slide-to="1"></li>
         <li data-target="#demo2" data-slide-to="2"></li>
         <li data-target="#demo2" data-slide-to="3"></li>
+        <li data-target="#demo2" data-slide-to="4"></li>
       </ul>
 
       <div class="carousel-inner">
@@ -60,7 +61,7 @@ include('../php/header.inc.php');
                 </div>             
               </div>
               <div class="col-sm-5" style="background: #868e96;">
-                <img src="../img/Notre_Dame_architecture.jpg" class="card-img-top h-100" alt="...">
+                <img src="../img/Palais_de_justice2.jpg" class="card-img-top h-100" alt="...">
               </div>
             </div>
           </div>
@@ -90,7 +91,7 @@ include('../php/header.inc.php');
                 </div> 
               </div>
               <div class="col-sm-5" style="background: #868e96;">
-                <img src="../img/architecurenotredame1.jpg" class="card-img-top h-100" alt="...">
+                <img src="../img/Palais_de_justice3.jpg" class="card-img-top h-100" alt="...">
               </div>
             </div>
           </div>
@@ -128,7 +129,7 @@ include('../php/header.inc.php');
                 </div>      
               </div>
               <div class="col-sm-5" style="background: #868e96;">
-                <img src="../img/evolutionNotreDame.jpg" class="card-img-top h-100" alt="...">
+                <img src="../img/Palais_de_justice4.jpg" class="card-img-top h-100" alt="...">
               </div>
             </div>
           </div>
@@ -159,7 +160,7 @@ include('../php/header.inc.php');
                 </div>
               </div>
               <div class="col-sm-5" style="background: #868e96;">
-                <img src="../img/Notre_dame_architecture2.jpg" class="card-img-top h-100" alt="...">
+                <img src="../img/Palais_de_justice5.jpg" class="card-img-top h-100" alt="...">
               </div>
             </div>
           </div>
@@ -172,18 +173,21 @@ include('../php/header.inc.php');
                 <div class="card-body">
                   <h5 class="card-title">Le Palais de justice au début du XXie siècle</h5>
                   <p class="card-text">
+                    En 2018, une nouvelle page de l’histoire du Palais de justice s’est tournée, avec le déménagement du Tribunal de grande instance sur le nouveau site des Batignolles, dans un palais neuf, inauguré pour l’occasion.
                   </p>
-                  <span class="collapse card-text" id="viewdetailsd"> 
+                  <span class="collapse card-text" id="viewdetailse"> 
+                    Mais de récent éléments ont forcer à réouvrir temporairement plusieurs salle pour des cours de cassation et d'appel. Des études et des travaux sont mis en oeuvre pour la restauration de la zone.
+                    Les services et les batiment sont peu à peu réouvert de 2018 à 2021. Ces réaménagement ont pour but de mettre aux normes les batiments et d'accentuer l'aspect du patrimoine et de 'histoire par rapport à la justice.'
                   </span>
                   <br>
                   <br>
-                  <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetailsd" >En savoir plus</a>
+                  <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetailse" >En savoir plus</a>
                     
                     
                 </div>
               </div>
               <div class="col-sm-5" style="background: #868e96;">
-                <img src="../img/Notre_dame_architecture2.jpg" class="card-img-top h-100" alt="...">
+                <img src="../img/Palais_de_justice6.jpg" class="card-img-top h-100" alt="...">
               </div>
             </div>
           </div>
@@ -219,6 +223,9 @@ include('../php/header.inc.php');
         <li data-target="#demo" data-slide-to="0" class="active"></li>
         <li data-target="#demo" data-slide-to="1"></li>
         <li data-target="#demo" data-slide-to="2"></li>
+        <li data-target="#demo" data-slide-to="3"></li>
+        <li data-target="#demo" data-slide-to="4"></li>
+        <li data-target="#demo" data-slide-to="5"></li>
       </ul>
 
       <!-- Element 1 dans carrousel  -->
@@ -227,18 +234,24 @@ include('../php/header.inc.php');
           <div class="card bg-dark" style="max-width: 1750px;">
             <div class="row no-gutters">
               <div class="col-sm-5" style="background: #868e96;">
-                <img src="../img/histoireNotreDame.jpg" class="card-img-top h-100" alt="...">
+                <img src="../img/Tribunale.jpg" class="card-img-top h-100" alt="...">
               </div>
               <div class="col-sm-7">
                 <div class="card-body">
-                  <h5 class="card-title">1163, l'année où tout a commencé...</h5>
-                  <p class="card-text" >Notre-Dame de Paris, un monument d’exception 
-                    Au-delà de sa vocation religieuse, la cathédrale Notre-Dame de Paris est l’un des fleurons du patrimoine culturel national et mondial. C’est l’une des plus anciennes cathédrales gothiques de France (avec Noyon, Senlis, Laon et Sens). La majeure partie de la construction débute en 1163 et s’achève en 1345. 
+                  <h5 class="card-title">Plusieurs procès iconique ont eu lieu ici.</h5>
+                  <p class="card-text" >
+                    Le Palais de Justice, une fois que les rois l'ont désertés, à servie de tribunal, l'un des plus imposant de France.
                   </p>
                   <span class="collapse card-text" id="viewdetails1">                     
-                  En 1844, Notre-Dame est dans un état de conservation préoccupant. Privée d’une partie importante de ses sculptures décoratives au cours du XVIIIe siècle, de sa flèche (1792), de la statuaire de la galerie des Rois (1793), elle bénéficie jusqu’en 1865 d’importants travaux sous la direction d’Eugène-Emmanuel Viollet-le-Duc.  
-                  Depuis cette intervention majeure, les travaux d’entretien et de restauration de ce monument appartenant à l’État n’ont pas cessé.
-                    </span> 
+                  Parmis ces incendit on peut trouver :
+                    <ul>
+                      <li>27 Juillet 1794 : Robespierre fut arrêter par le tribunale, puis condamné à mort le lendemin</li>
+                      <li>1793-1795 : Acueille le tribunale révolutionnaire</li>
+                      <li>1857 : Gustave Flaubert est jugé pour son écrit "Madame Bovary", et Charles Baudelaire pour "Les Fleurs du mal".</li>
+                      <li>1945 : le maréchal Pétain, puis le chef du gouvernement Pierre Laval sont condamnés</li>
+                      <li>8 septembre 2021 : Le procès des attentats du 13 novembre 2015</li>
+                    </ul>
+                  </span> 
                   <br>
                   <br>
                   <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails1" >En savoir plus</a>
@@ -256,7 +269,7 @@ include('../php/header.inc.php');
           <div class="card bg-dark" style="max-width: 1750px;">
             <div class="row no-gutters">
               <div class="col-sm-5" style="background: #868e96;">
-                <img src="../img/notredamepeinture2.jpeg" class="card-img-top h-100" alt="...">
+                <img src="../img/Tribunale1.jpg" class="card-img-top h-100" alt="...">
               </div>
               <div class="col-sm-7">
                 <div class="card-body">
@@ -285,11 +298,110 @@ include('../php/header.inc.php');
         </div>
 
         <!-- Element 3 dans carrousel  -->
+        <div class="carousel-item">    
+          <div class="card bg-dark" style="max-width: 1750px;">
+            <div class="row no-gutters">
+              <div class="col-sm-5" style="background: #868e96;">
+                <img src="../img/Tribunale2.jpg" class="card-img-top h-100" alt="...">
+              </div>
+              <div class="col-sm-7">
+                <div class="card-body">
+                  <h5 class="card-title"><i>Notre-Dame de Paris</i>  de Victor Hugo</h5>
+                  <p class="card-text" >
+                    En plus d’être la cathédrale gothique la plus célèbre de France, Notre-Dame de Paris est aussi un roman majeur de Victor Hugo.
+                  </p>
+                  <span class="collapse card-text" id="viewdetails1c">
+                    Publié en 1831, il nous conte l’histoire de Quasimodo, Esmeralda, Frollo et Phoebus. Histoire d’amour, de haine et d’indifférence, histoire de passion aussi, dont les péripéties sont surtout connues pour les nombreuses adaptations, plus que pour le texte lui-même.
+                    En effet, ce roman de 940 pages est à réserver aux mains et aux yeux des lecteurs aguerris, voraces ou déterminés. Les intrigues à tiroirs sont aussi complexes que les personnages, les scènes s’étirent sur des pages et des pages d’action comme de description.
+                    Et pourtant, une qualité littéraire exceptionnelle, comme une récompense, attend le lecteur qui ouvrira les pages de Notre-Dame de Paris, sans doute l’un des plus beaux romans jamais écrits en langue française.
+                  </span> 
+                  <br>
+                  <br>
+                  <blockquote class="blockquote">
+                    <p class="mb-0">"La bohémienne dansait ... agile, légère, joyeuse, et ne sentant pas le poids du regard redoutable qui tombait à plomb sur sa tête."</p>
+                    <footer class="blockquote-footer">Victor Hugo dans son roman <cite title="Source Title">Notre-Dame de Paris</cite></footer>
+                  </blockquote>
+                  <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails1c" >En savoir plus</a>
+                  <a class="btn btn-primary" href="https://www.google.com/aclk?sa=l&ai=DChcSEwjajLv0--31AhXZjWgJHRPQCKQYABAFGgJ3Zg&sig=AOD64_1f_vO3rbt3pkaOVGohTvt-0pX0TA&ctype=46&q=&ved=0ahUKEwjMlK30--31AhUyzIUKHUd-A9wQqygIvQg&adurl=">
+                    <i class="fas fa-book infobtn"></i> Acheter le roman</a>           
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Element 4 dans carrousel  -->
+        <div class="carousel-item">    
+          <div class="card bg-dark" style="max-width: 1750px;">
+            <div class="row no-gutters">
+              <div class="col-sm-5" style="background: #868e96;">
+                <img src="../img/Tribunale3.jpg" class="card-img-top h-100" alt="...">
+              </div>
+              <div class="col-sm-7">
+                <div class="card-body">
+                  <h5 class="card-title"><i>Notre-Dame de Paris</i>  de Victor Hugo</h5>
+                  <p class="card-text" >
+                    En plus d’être la cathédrale gothique la plus célèbre de France, Notre-Dame de Paris est aussi un roman majeur de Victor Hugo.
+                  </p>
+                  <span class="collapse card-text" id="viewdetails1d">
+                    Publié en 1831, il nous conte l’histoire de Quasimodo, Esmeralda, Frollo et Phoebus. Histoire d’amour, de haine et d’indifférence, histoire de passion aussi, dont les péripéties sont surtout connues pour les nombreuses adaptations, plus que pour le texte lui-même.
+                    En effet, ce roman de 940 pages est à réserver aux mains et aux yeux des lecteurs aguerris, voraces ou déterminés. Les intrigues à tiroirs sont aussi complexes que les personnages, les scènes s’étirent sur des pages et des pages d’action comme de description.
+                    Et pourtant, une qualité littéraire exceptionnelle, comme une récompense, attend le lecteur qui ouvrira les pages de Notre-Dame de Paris, sans doute l’un des plus beaux romans jamais écrits en langue française.
+                  </span> 
+                  <br>
+                  <br>
+                  <blockquote class="blockquote">
+                    <p class="mb-0">"La bohémienne dansait ... agile, légère, joyeuse, et ne sentant pas le poids du regard redoutable qui tombait à plomb sur sa tête."</p>
+                    <footer class="blockquote-footer">Victor Hugo dans son roman <cite title="Source Title">Notre-Dame de Paris</cite></footer>
+                  </blockquote>
+                  <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails1d" >En savoir plus</a>
+                  <a class="btn btn-primary" href="https://www.google.com/aclk?sa=l&ai=DChcSEwjajLv0--31AhXZjWgJHRPQCKQYABAFGgJ3Zg&sig=AOD64_1f_vO3rbt3pkaOVGohTvt-0pX0TA&ctype=46&q=&ved=0ahUKEwjMlK30--31AhUyzIUKHUd-A9wQqygIvQg&adurl=">
+                    <i class="fas fa-book infobtn"></i> Acheter le roman</a>           
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Element 5 dans carrousel  -->
+        <div class="carousel-item">    
+          <div class="card bg-dark" style="max-width: 1750px;">
+            <div class="row no-gutters">
+              <div class="col-sm-5" style="background: #868e96;">
+                <img src="../img/Tribunale4.jpg" class="card-img-top h-100" alt="...">
+              </div>
+              <div class="col-sm-7">
+                <div class="card-body">
+                  <h5 class="card-title"><i>Notre-Dame de Paris</i>  de Victor Hugo</h5>
+                  <p class="card-text" >
+                    En plus d’être la cathédrale gothique la plus célèbre de France, Notre-Dame de Paris est aussi un roman majeur de Victor Hugo.
+                  </p>
+                  <span class="collapse card-text" id="viewdetails1e">
+                    Publié en 1831, il nous conte l’histoire de Quasimodo, Esmeralda, Frollo et Phoebus. Histoire d’amour, de haine et d’indifférence, histoire de passion aussi, dont les péripéties sont surtout connues pour les nombreuses adaptations, plus que pour le texte lui-même.
+                    En effet, ce roman de 940 pages est à réserver aux mains et aux yeux des lecteurs aguerris, voraces ou déterminés. Les intrigues à tiroirs sont aussi complexes que les personnages, les scènes s’étirent sur des pages et des pages d’action comme de description.
+                    Et pourtant, une qualité littéraire exceptionnelle, comme une récompense, attend le lecteur qui ouvrira les pages de Notre-Dame de Paris, sans doute l’un des plus beaux romans jamais écrits en langue française.
+                  </span> 
+                  <br>
+                  <br>
+                  <blockquote class="blockquote">
+                    <p class="mb-0">"La bohémienne dansait ... agile, légère, joyeuse, et ne sentant pas le poids du regard redoutable qui tombait à plomb sur sa tête."</p>
+                    <footer class="blockquote-footer">Victor Hugo dans son roman <cite title="Source Title">Notre-Dame de Paris</cite></footer>
+                  </blockquote>
+                  <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails1be" >En savoir plus</a>
+                  <a class="btn btn-primary" href="https://www.google.com/aclk?sa=l&ai=DChcSEwjajLv0--31AhXZjWgJHRPQCKQYABAFGgJ3Zg&sig=AOD64_1f_vO3rbt3pkaOVGohTvt-0pX0TA&ctype=46&q=&ved=0ahUKEwjMlK30--31AhUyzIUKHUd-A9wQqygIvQg&adurl=">
+                    <i class="fas fa-book infobtn"></i> Acheter le roman</a>           
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Element 6 dans carrousel  -->
         <div class="carousel-item">  
           <div class="card bg-dark" style="max-width: 1750px;">
             <div class="row no-gutters">
               <div class="col-sm-5" style="background: #868e96;">
-                  <img src="../img/sacrenapoleon.png" class="card-img-top h-100" alt="...">
+                  <img src="../img/Tribunale5.png" class="card-img-top h-100" alt="...">
               </div>
               <div class="col-sm-7">
                 <div class="card-body">
