@@ -42,7 +42,7 @@ include('../php/header.inc.php');
 
 
 
-    <?php
+<?php
 
 include('../php/footer.inc.php');
 
