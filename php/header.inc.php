@@ -289,7 +289,7 @@ echo '
       top :0;
       left :0;">
         <div class="brand-title">
-          <a href="#"><img src="../img/mcn.png" 
+          <a target="_self" href="#"><img src="../img/mcn.png" 
           alt="logoMCN" 
           width="165"
           height="50"></a>
