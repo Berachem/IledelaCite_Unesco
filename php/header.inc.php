@@ -294,8 +294,20 @@ echo '
           alt="logoMCN" 
           width="165"
           height="50"></a>
-        </div>
-        
+        </div>';
+
+  if ($page== "Admin"){
+    echo '
+        <div class="brand-title">
+        <a target="_self" href="#"><img src="../img/admin.png" 
+        alt="Admin" 
+        width="50"
+        height="50"></a>
+      </div>';
+    
+  }
+  
+echo'
         <a href="#" class="toggle-button" style="top: 25px;" target="_self">
           <span class="bar"></span>
           <span class="bar"></span>
