@@ -23,12 +23,12 @@ $nav_discover_tovisit = array('Endroits à visiter', "Places to visit");
 $nav_discover_near = array('A deux pas', "Two steps away");
 $nav_about = array('A propos', "About us");
 $nav_gallery = array('Galerie', "Gallery");
-$nav_road = array('Parcours', "Recommended itinerary")
+$nav_road = array('Parcours', "Recommended itinerary");
 
 
 /* INDEX */
 
-$index_carousel_ileCite_subtitle = array('Un coffre de patrimoines mondiaux.', 'A chest of world heritages.');
+$index_carousel_ileCite_subtitle = array("Un coffre de patrimoines mondiaux.", "A chest of world heritages.");
 $index_carousel_notredame_subtitle = array("Le monument iconique mondial.","The world's iconic monument.");
 $index_carousel_palaisjustice_subtitle = array("Au coeur de l'histoire française.","");
 $index_carousel_pontneuf_subtitle = array("Le plus ancien pont de Paris.","The oldest bridge in Paris.");
