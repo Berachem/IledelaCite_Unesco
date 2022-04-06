@@ -23,6 +23,7 @@ $nav_discover_tovisit = array('Endroits à visiter', "Places to visit");
 $nav_discover_near = array('A deux pas', "Two steps away");
 $nav_about = array('A propos', "About us");
 $nav_gallery = array('Galerie', "Gallery");
+$nav_road = array('Parcours', "Recommended itinerary")
 
 
 /* INDEX */
@@ -329,6 +330,7 @@ echo '
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a target="_self" class="dropdown-item" href="restaurants.php?lang='.$langue.'"><img src="../img/resto_emoji.png" width="25" height="25">  Restaurants</a>
                 <a target="_self" class="dropdown-item" href="endroitsAvisiter.php?lang='.$langue.'"><img src="../img/av_emoji.png" width="25" height="25">  '. $nav_discover_tovisit[$langue].'</a></a>
+                <a target="_self" class="dropdown-item" href="parcours.php?lang='.$langue.'"><img src="../img/parcours.png" width="25" height="25">  '. $nav_road[$langue].'</a></a>
               </div>
             </li>
             <li><a target="_self" href="galerie.php?lang='.$langue.'"><img src="../img/g_emoji.png" width="25" height="25">  '. $nav_gallery[$langue].'</a></li>
