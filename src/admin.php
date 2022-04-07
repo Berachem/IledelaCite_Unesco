@@ -1,6 +1,7 @@
 <?php
 $page = 'Admin';
 include('../php/header.inc.php');
+include('../php/connexionBDD.inc.php');
 
 ?>
 
@@ -32,6 +33,50 @@ body{
             <div class="alert alert-success" role="alert"> <img src="../img/succes.png"  width="25" height="25" alt="succès">
             Vous êtes connecté...
             </div>
+
+    <div class='description'>
+        <p style="color:white" >
+            Tous les messages reçus<img src="../img/message.png"  width="45" height="45" alt="contact">
+        </p>
+    </div>
+
+    <div class="container">
+  <h2>Liste</h2>        
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Nom complet</th>
+        <th>Email</th>
+        <th>Message</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <?php
+        $statement = $conn->prepare("SELECT * from messages");
+        $statement->execute(array());
+        while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
+            $nom = $row['nom_complet'];
+            $email = $row['email'];
+            $contenu = $row['contenu'];
+
+            echo "<td>".$nom ."</td>";
+            echo "<td>". $email ."</td>";
+            echo "<td> ".$contenu ."</td>";
+            echo '</tr>';
+        }
+
+
+        ?>
+    </tbody>
+  </table>
+</div>
+
+
+
+<br>
+
+
 
 
 

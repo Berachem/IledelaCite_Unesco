@@ -16,14 +16,18 @@ if(isset($_POST["email"]) && isset($_POST["message"])){
     </p>';
 
     $retour = mail('berachem.markria@gmail.com', 'Ile de la Cité - Médiation culturelle et numérique', $message, $entete);
+    $retour = mail('tristan.martinez@sfr.fr', 'Ile de la Cité - Médiation culturelle et numérique', $message, $entete);
 
-    
-    $error = "email or/and name";
+    $sql = "INSERT INTO messages (nom_complet,email,contenu) VALUES (?,?,?)";
+    $sql= $conn->prepare($sql);
+    $sql->execute([$_POST["nom"], $_POST["email"], $_POST["message"]]);
 
-    $conn->exec("INSERT INTO messages VALUES ('".$_POST["nom"].",'".$_POST["email"]."','".$_POST["message"]."')");
+
+    header('Location: ../src/a_propos.php?lang='.$_GET["lang"].'&messagesent=1#sent');
+
 
 }
-    header('Location: ../src/a_propos.php?lang='.$_GET["lang"].'&messagesent=1');
+    
     
 
 ?>

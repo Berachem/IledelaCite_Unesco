@@ -326,7 +326,7 @@ include('../php/header.inc.php');
 
 <?php
 if (isset($_GET["messagesent"])){
-  echo '<div class="alert alert-success" role="alert"> <img src="../img/succes.png"  width="25" height="25" alt="succès">
+  echo '<div class="alert alert-success" role="alert" id="sent"> <img src="../img/succes.png"  width="25" height="25" alt="succès">
   '.$message_thankyou[$langue].'
 </div>';
 }
