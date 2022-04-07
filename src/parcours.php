@@ -13,7 +13,7 @@ include('../php/header.inc.php');
           
           <br>
           <br>
-      Vous pourrez réaliser ce parcours peut vous prendre <b style='color: #f7af3e;'> 2 heures </b> ou bien <b style='color: #f7af3e;'>une journée entière</b> si vous êtes curieux et attentionné. <img src="../img/question.png"  width="45" height="45" alt="parcours">
+      Vous pourrez réaliser ce parcours en <b style='color: #f7af3e;'> 2 heures </b> ou en <b style='color: #f7af3e;'>une journée entière</b> si vous êtes curieux. <img src="../img/question.png"  width="45" height="45" alt="parcours">
       </p>
     </div>
     <br>

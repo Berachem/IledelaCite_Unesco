@@ -346,7 +346,7 @@ include('../php/header.inc.php');
                       <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails3" >En savoir plus</a>
                   
                       <a class="btn btn-success btn-annexe" href="https://www.toutsurmesfinances.com/argent/a/comment-faire-un-don-pour-rebatir-notre-dame-de-paris#:~:text=Il%20est%20aussi%20possible%20d'effectuer%20un%20don%20%3A,BIC%20de%20la%20banque%20%3A%20SOGEFRPP)">
-                    <i class="fas fa-heartbeat infobtn"></i> Faire un don pour aider Notre Dame</a>
+                    <i class="fas fa-heartbeat infobtn"></i> Faire un don</a>
                   </div>
                 </div>
               </div>
@@ -378,7 +378,7 @@ include('../php/header.inc.php');
                     <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails3b" >En savoir plus</a>
                   
                     <a class="btn btn-info btn-annexe" href="https://www.eternellenotredame.com">
-                    <i class="fas fa-vr-cardboard"></i> Site officiel de <i>éternelle notre dame</i> </a>
+                    <i class="fas fa-vr-cardboard"></i> Visiter en VR </a>
                     </div>
                 </div>
               </div>

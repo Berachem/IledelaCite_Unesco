@@ -16,12 +16,19 @@ include('../php/header.inc.php');
 
 
     <!-- Spot 1 -->
-    <div class='card bg-dark' style='max-width: 1000px;'>
+    <div class='card bg-dark spot' style='max-width: 1000px;'>
       <div class='row no-gutters'>
         <!-- Caroussel Images -->
         <div id='marchefleurs' class='carousel slide col-sm-5' data-ride='carousel'>
- 
+
+        <ol class="carousel-indicators">
+          <li data-target="#marchefleurs" data-slide-to="0" class="active"></li>
+          <li data-target="#marchefleurs" data-slide-to="1"></li>
+        </ol>
+
           <div class='carousel-inner'>
+    
+
             <div class='carousel-item active'>
               <img class='d-block w-100' src='../img/marchefleurs.png' alt='Marché aux fleurs'>
             </div>
@@ -56,8 +63,12 @@ include('../php/header.inc.php');
     <div class='card bg-dark' style='max-width: 1000px;'>
       <div class='row no-gutters'>
         <!-- Caroussel Images -->
-        <div id='carouselExampleIndicators' class='carousel slide col-sm-5' data-ride='carousel'>
-  
+        <div id='Crypte' class='carousel slide col-sm-5' data-ride='carousel'>
+
+        <ol class="carousel-indicators">
+          <li data-target="#Crypte" data-slide-to="0" class="active"></li>
+          <li data-target="#Crypte" data-slide-to="1"></li>
+        </ol>
           <div class='carousel-inner'>
             <div class='carousel-item active'>
               <img class='d-block w-100' src='../img/crypte.png' alt='Crypte'>
@@ -90,8 +101,13 @@ include('../php/header.inc.php');
         <div class='card bg-dark' style='max-width: 1000px;'>
           <div class='row no-gutters'>
             <!-- Caroussel Images -->
-            <div id='carouselExampleIndicators' class='carousel slide col-sm-5' data-ride='carousel'>
-     
+            <div id='Square' class='carousel slide col-sm-5' data-ride='carousel'>
+
+            <ol class="carousel-indicators">
+              <li data-target="#Square" data-slide-to="0" class="active"></li>
+              <li data-target="#Square" data-slide-to="1"></li>
+            </ol>
+
               <div class='carousel-inner'>
                 <div class='carousel-item active'>
                   <img class='d-block w-100' src='../img/Square-Vert.png' alt='Square Vert-Galant'>
@@ -126,8 +142,12 @@ include('../php/header.inc.php');
         <div class='card bg-dark' style='max-width: 1000px;'>
           <div class='row no-gutters'>
             <!-- Caroussel Images -->
-            <div id='carouselExampleIndicators' class='carousel slide col-sm-5' data-ride='carousel'>
-      
+            <div id='faussemaison' class='carousel slide col-sm-5' data-ride='carousel'>
+
+            <ol class="carousel-indicators">
+              <li data-target="#faussemaison" data-slide-to="0" class="active"></li>
+              <li data-target="#faussemaison" data-slide-to="1"></li>
+            </ol>
               <div class='carousel-inner'>
                 <div class='carousel-item active'>
                   <img class='d-block w-100' src='../img/faussemaison.jfif' alt='Fausse Maison'>

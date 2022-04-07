@@ -162,12 +162,16 @@ include('../php/header.inc.php');
 
 </section>
 
+<br>
+
+
 <div class='description'>
         <p style="color:white" >
             Nos partenaires <img src="../img/partenaires.png"  width="45" height="45" alt="partenaires">
         </p>
     </div>
 
+<br>
 
   <!-- Présentation de nos partenaires -->
 <section class="team-section text-center my-6">
@@ -200,10 +204,10 @@ include('../php/header.inc.php');
         <!-- MCN -->
         <div class="col col-lg-2">
       <div class="avatar mx-auto">
-        <img src="../img/investissementavenir.png" width="100" height="100" class="rounded-circle z-depth-1">
+        <img src="../img/anr.jpg" width="100" height="100" class="rounded-circle z-depth-1">
       </div>
-      <h5 class="font-weight-bold mt-4 mb-3"><b style="color: #f7af3e;">Investissement d'avenir</b></h5>
-      <p class="text-uppercase blue-text"><strong>Programme d’investissement de l’État français pour l'enseignement supérieur et la recherche</strong></p>
+      <h5 class="font-weight-bold mt-4 mb-3"><b style="color: #f7af3e;">Agence nationale de la recherche</b></h5>
+      <p class="text-uppercase blue-text"><strong>Finance la recherche publique et la recherche partenariale en France</strong></p>
       <p class="grey-text"></p>
       
         <a class="btn btn-primary" href="https://www.gouvernement.fr/le-programme-d-investissements-d-avenir">Site Officiel</a>
@@ -224,12 +228,17 @@ include('../php/header.inc.php');
 
 </section>
 
+<br>
+<br>
+
+
 <div class='description'>
         <p style="color:white" >
             Les sources <img src="../img/helpers.png"  width="45" height="45" alt="helpers">
         </p>
     </div>
 
+<br>
 
   <!-- Présentation de nos sources -->
 <section class="team-section text-center my-6">
@@ -244,7 +253,7 @@ include('../php/header.inc.php');
       <h5 class="font-weight-bold mt-4 mb-3"><b style="color: #f7af3e;">the Dronalist</b></h5>
       <p class="text-uppercase blue-text"><strong>Plans en Drone et vidéos de l'île de la Cité</strong></p>
       <p class="grey-text"></p>
-       <a class="btn btn-info" href="https://www.youtube.com/c/theDronalist/featured">Chaine YouTube</a>
+       <a class="btn btn-danger" href="https://www.youtube.com/c/theDronalist/featured" style="background-color: red;">Chaine YouTube</a>
     </div>
 
       <!-- Michelin -->
@@ -253,10 +262,10 @@ include('../php/header.inc.php');
         <img src="../img/michelin.jpg" width="100" height="100" class="rounded-circle z-depth-1">
       </div>
       <h5 class="font-weight-bold mt-4 mb-3"><b style="color: #f7af3e;">Michelin Voyage </b></h5>
-      <p class="text-uppercase blue-text"><strong>Collection de guides touristiques qui met l'accent sur la découverte du patrimoine naturel et culturel des régions.</strong></p>
+      <p class="text-uppercase blue-text"><strong>Collection de guides touristiques sur la découverte du patrimoine culturel des régions.</strong></p>
       <p class="grey-text"></p>
       
-      <a class="btn btn-light" href="https://voyages.michelin.fr/">Site</a>
+      <a class="btn btn-info" href="https://voyages.michelin.fr/">Site</a>
     </div>
 
     <!-- paristoric -->
@@ -268,7 +277,7 @@ include('../php/header.inc.php');
       <p class="text-uppercase blue-text"><strong>Premier site de découvertes thématiques de Paris.</strong></p>
       <p class="grey-text"></p>
       
-        <a class="btn btn-light" href="https://www.paristoric.com/index.php/transports-et-voirie/quartiers/1285-l-ile-de-la-cite">Site</a>
+        <a class="btn btn-danger" href="https://www.paristoric.com/index.php/transports-et-voirie/quartiers/1285-l-ile-de-la-cite">Site</a>
       
     </div>
 
@@ -278,7 +287,7 @@ include('../php/header.inc.php');
         <img src="../img/centremonuments.jpg" width="100" height="100" class="rounded-circle z-depth-1">
       </div>
       <h5 class="font-weight-bold mt-4 mb-3"><b style="color: #f7af3e;">Centre des monuments nationaux</b></h5>
-      <p class="text-uppercase blue-text"><strong>établissement public à caractère administratif français placé sous tutelle du ministère de la Culture.</strong></p>
+      <p class="text-uppercase blue-text"><strong>Gère, anime et ouvre à la visite à près de 100 monuments nationaux.</strong></p>
       <p class="grey-text"></p>
       
         <a class="btn btn-light" href="https://www.youtube.com/channel/UCD17G4L4xmn4VNWU0EIWqAw">Site</a>
@@ -289,20 +298,7 @@ include('../php/header.inc.php');
   </div>
 
 </section>
-
-
-
-
-<?php
-if (isset($_GET["messagesent"])){
-  echo '<div class="alert alert-success" role="alert"> <img src="../img/succes.png"  width="25" height="25" alt="succès">
-  '.$message_thankyou[$langue].'
-</div>';
-}
-
-?>
-    
-          
+       
 <!--
         <ul id="rendus" style="display: table;
         margin: 0 auto; color: #b94503;">
@@ -316,6 +312,26 @@ if (isset($_GET["messagesent"])){
 -->
 
 
+<br>
+<br>
+
+
+<div class='description'>
+        <p style="color:white" >
+            Nous contacter <img src="../img/message.png"  width="45" height="45" alt="contact">
+        </p>
+    </div>
+
+<br>
+
+<?php
+if (isset($_GET["messagesent"])){
+  echo '<div class="alert alert-success" role="alert"> <img src="../img/succes.png"  width="25" height="25" alt="succès">
+  '.$message_thankyou[$langue].'
+</div>';
+}
+
+?>
 
 
 <!-- Wrapper container -->
@@ -327,19 +343,19 @@ if (isset($_GET["messagesent"])){
     <!-- Nom input -->
     <div class="mb-3">
       <label class="form-label" for="nom"><img src="../img/user.png"  width="25" height="25" alt="nom"> Nom</label>
-      <input class="form-control" id="nom" type="text" placeholder="Nom" />
+      <input class="form-control" id="nom" type="text" name="nom" placeholder="Nom" />
     </div>
 
     <!-- Addresse email input -->
     <div class="mb-3">
       <label class="form-label" for="email"><img src="../img/email.png"  width="25" height="25" alt="email"> Adresse Email</label>
-      <input class="form-control" id="email" type="email" placeholder="bidule@exemple.com" />
+      <input class="form-control" id="email" name="email" type="email" placeholder="bidule@exemple.com" />
     </div>
 
     <!-- Message input -->
     <div class="mb-3">
       <label class="form-label" for="message"><img src="../img/message.png"  width="25" height="25" alt="message"> Message</label>
-      <textarea class="form-control" id="message" type="text" placeholder="Bonjour,..." style="height: 10rem;"></textarea>
+      <textarea class="form-control" id="message" type="text" name="message" placeholder="Bonjour,..." style="height: 10rem;"></textarea>
     </div>
 
     <!-- Formulaire boutton submit -->

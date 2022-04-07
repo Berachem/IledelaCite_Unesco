@@ -188,9 +188,11 @@ hr{
     border:none; 
     height:2px; 
     margin:0px;
-    width:50%; 
-    margin-left:25% !important; 
-    margin-right:25% !important;
+    width:40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+
     
 }
 #Contact{
@@ -416,6 +418,11 @@ ul.social-icons {
         padding-bottom: 1cm;
         width: 95%;
         height: 9cm;
+    }
+
+    hr{
+        width: 65%;
+
     }
 
 }

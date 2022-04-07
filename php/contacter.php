@@ -1,6 +1,8 @@
 <?php 
 
-if(!empty($_POST["email"]) && !empty($_POST["message"])){
+include('connexionBDD.inc.php');
+
+if(isset($_POST["email"]) && isset($_POST["message"])){
 
     $entete = 'Content-type: text/html; charset=utf-8' . "\r\n";
     $entete .= 'From: ' . $_POST['email'] . "\r\n";
@@ -17,6 +19,9 @@ if(!empty($_POST["email"]) && !empty($_POST["message"])){
 
     
     $error = "email or/and name";
+
+    $conn->exec("INSERT INTO messages VALUES ('".$_POST["nom"].",'".$_POST["email"]."','".$_POST["message"]."')");
+
 }
     header('Location: ../src/a_propos.php?lang='.$_GET["lang"].'&messagesent=1');
     

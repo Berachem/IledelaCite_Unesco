@@ -20,10 +20,9 @@ include('../php/header.inc.php');
 
 
   <div class="container">
-        <div class="row d-flex flex-wrap align-items-center" data-toggle="modal" data-target="#lightbox">
+        <div class="row d-flex flex-wrap align-items-center" data-toggle="modal" data-target="#lightbox" >
           <div class="col-12 col-md-6 col-lg-3">
-            
-        <img src="../img/galerie/1.jpg" data-target="#indicators" data-slide-to="0" alt="" data-toggle="tooltip" data-placement="top" title="The Quai Saint-Michel and Notre-Dame, Maximilien Luce, 1901"/> 
+            <img src="../img/galerie/1.jpg" data-target="#indicators" data-slide-to="0" alt="" data-toggle="tooltip" data-placement="top" title="The Quai Saint-Michel and Notre-Dame, Maximilien Luce, 1901"/> 
           </div>
           <div class="col-12 col-md-6 col-lg-3">
               <img src="../img/galerie/2.jpg" data-target="#indicators" data-slide-to="1" alt="" data-toggle="tooltip" data-placement="top" title="Frank Boggs, Quai à la Seinie, Paris, au Clair de Lune, 1898"/>
@@ -32,7 +31,7 @@ include('../php/header.inc.php');
             <img src="../img/galerie/3.jpeg" data-target="#indicators" data-slide-to="2"  alt="" />
           </div>
           <div class="col-12 col-md-6 col-lg-3">
-              <img src="../img/galerie/4.jpg" data-target="#indicators" data-slide-to="3" alt="" />
+              <img src="../img/galerie/4.jpg" data-target="#indicators" data-slide-to="3" alt="" data-toggle="tooltip" data-placement="top" title="Les Très Riches Heures du duc de Berry, 1411-1416" />
           </div>
           <div class="col-12 col-md-6 col-lg-3">
               <img src="../img/galerie/5.jpg" data-target="#indicators" data-slide-to="3"  alt="" />

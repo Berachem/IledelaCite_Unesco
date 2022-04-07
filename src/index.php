@@ -84,7 +84,7 @@ include('../php/header.inc.php');
     </h2>
 
     <!-- Texte -->
-    <h2 style='padding-top: 1cm; text-align: center;'>
+    <h2 style='padding: 1cm; text-align: center;'>
      <?php echo $index_subtitle2[$langue] ?>
     </h2>
     <p style='padding: 1cm; text-align: center;font-family: cicle; font-size: 3vh;'>

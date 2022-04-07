@@ -123,6 +123,22 @@ body{
     object-fit: cover;}
 
 
+.no-gutters > div > ol {
+    z-index: 50;
+    
+}
+.no-gutters > div > ol > .active {
+    background-color: #ea5c0d;
+}
+.no-gutters > div > ol > li {
+    background-color: white;
+    border-color: #ea5c0d;
+
+}
+.no-gutters > div > ol > li:hover {
+    background-color: #f7af3e;
+}
+
 /* ============TITRE...============== */
 
 #TitrePage{
@@ -519,10 +535,14 @@ ul.social-icons {
         width: 80%;
 
     }
+
+}
+
+@media (max-width: 1100px) {
     .learnmore {
         
-      width: 25vw;
-    } 
+        width: 35vw;
+      } 
 
 }
 
