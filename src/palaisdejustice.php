@@ -255,8 +255,6 @@ include('../php/header.inc.php');
                   <br>
                   <br>
                   <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails1" >En savoir plus</a>
-                
-                  <a class="btn btn-danger" href="https://www.youtube.com/watch?v=UoXD4S3DqNI" style="background-color:red;">
                 </div>
               </div>
             </div>
@@ -277,17 +275,12 @@ include('../php/header.inc.php');
                     Après la chute de la monarchie en France, le désordre était omniprésent dans Paris, la France netière était en train d'être remodeler, mais Paris était la ville la plus toucher, là où tout à commencé, là où tout doit être organiser, en digne capitale de France.
                   </p>
                   <span class="collapse card-text" id="viewdetails1b">
-                    Afin de remmettre en ordre la ville est condamné les personnes contre le nouveaux gouvernement, elle à été mise en place du 10 mars 1793 jusqu'au 31 mai 1795. Ce tribunale aura grandement contribuer au règne de la terreur, avec 1500 personnes executer durant cette période, et 2 585 condamnation à mort durant sa création.
+                    Afin de remmettre en ordre la ville est condamné les personnes contre le nouveaux gouvernement, elle à été mise en place du 10 mars 1793 jusqu'au 31 mai 1795. Ce tribunale aura grandement contribuer au règne de la terreur, avec 1500 personnes executer durant cette période, et 2 585 condamnation à mort durant son activité.
+                    Ce tribunale, appelé à l'époque "Tribunale criminel extraordinaire", est installer dans la Grand-chambre du parlement de Paris rebaptisée "Salle de la Liberté". Les séances sont retranscrit dans le bulletin du tribunal révolutionnaire. Il disposait de règles spéciales en plus de celles mises en place à chaque tribunal.
                   </span> 
                   <br>
                   <br>
-                  <blockquote class="blockquote">
-                    <p class="mb-0">"La bohémienne dansait ... agile, légère, joyeuse, et ne sentant pas le poids du regard redoutable qui tombait à plomb sur sa tête."</p>
-                    <footer class="blockquote-footer">Victor Hugo dans son roman <cite title="Source Title">Notre-Dame de Paris</cite></footer>
-                  </blockquote>
                   <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails1b" >En savoir plus</a>
-                  <a class="btn btn-primary" href="https://www.google.com/aclk?sa=l&ai=DChcSEwjajLv0--31AhXZjWgJHRPQCKQYABAFGgJ3Zg&sig=AOD64_1f_vO3rbt3pkaOVGohTvt-0pX0TA&ctype=46&q=&ved=0ahUKEwjMlK30--31AhUyzIUKHUd-A9wQqygIvQg&adurl=">
-                    <i class="fas fa-book infobtn"></i> Acheter le roman</a>           
                 </div>
               </div>
             </div>
@@ -303,9 +296,9 @@ include('../php/header.inc.php');
               </div>
               <div class="col-sm-7">
                 <div class="card-body">
-                  <h5 class="card-title"><i>Notre-Dame de Paris</i>  de Victor Hugo</h5>
+                  <h5 class="card-title">Execution de Robespierre</h5>
                   <p class="card-text" >
-                    En plus d’être la cathédrale gothique la plus célèbre de France, Notre-Dame de Paris est aussi un roman majeur de Victor Hugo.
+                    Robespierre est devenue l'un des chefs du nouveau gouvernement après l'abolition de la monarchie en France. Mais lors du règne de terreur, il devint tyranique, 
                   </p>
                   <span class="collapse card-text" id="viewdetails1c">
                     Publié en 1831, il nous conte l’histoire de Quasimodo, Esmeralda, Frollo et Phoebus. Histoire d’amour, de haine et d’indifférence, histoire de passion aussi, dont les péripéties sont surtout connues pour les nombreuses adaptations, plus que pour le texte lui-même.
