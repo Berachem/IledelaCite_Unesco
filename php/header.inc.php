@@ -288,28 +288,17 @@ echo '
       <nav class="navbar" style="background-color: rgba(0, 0, 0, 0.3);
       position:fixed;
       top :0;
-      left :0;">
+      left :0;
+      z-index:99;">
         <div class="brand-title">
           <a target="_self" href="#"><img src="../img/mcn.png" 
           alt="logoMCN" 
           width="165"
           height="50"></a>
         </div>';
-
-  if ($page== "Admin"){
-    echo '
-        <style>
-        body{
-          background-image: url("https://images.pling.com/img/00/00/50/91/40/1304700/fbd1f1f39015f25f6de6b1d003ee7b518f15.png");
-
-      }
-
-      </style>';
-    
-  }
   
 echo'
-        <a href="#" class="toggle-button" style="top: 25px;" target="_self">
+        <a class="toggle-button" style="top: 25px;" target="_self">
           <span class="bar"></span>
           <span class="bar"></span>
           <span class="bar"></span>

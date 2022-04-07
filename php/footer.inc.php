@@ -43,7 +43,7 @@
             <?php
               if ($page=="A propos"){
                 echo "<li><a href='https://github.com/Berachem' class='social-icon'> <i class='fa fa-github' style='color:white;'></i></a></li>";
-                echo "<li><a target='_self' href='admin.php' class='social-icon'> <i class='fa fa-wrench'></i></a></li>";
+                echo "<li><a target='_self' href='admin_connect.php' class='social-icon'> <i class='fa fa-wrench'></i></a></li>";
               }else{
                 echo "<li><a href='https://github.com/Berachem' class='social-icon'> <i class='fa fa-github'></i></a></li>";
               }
