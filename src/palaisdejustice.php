@@ -245,8 +245,8 @@ include('../php/header.inc.php');
                   <span class="collapse card-text" id="viewdetails1">                     
                   Parmis ces incendit on peut trouver :
                     <ul>
-                      <li>27 Juillet 1794 : Robespierre fut arrêter par le tribunale, puis condamné à mort le lendemin</li>
                       <li>1793-1795 : Acueille le tribunale révolutionnaire</li>
+                      <li>27 Juillet 1794 : Robespierre fut arrêter par le tribunale, puis condamné à mort le lendemin</li>
                       <li>1857 : Gustave Flaubert est jugé pour son écrit "Madame Bovary", et Charles Baudelaire pour "Les Fleurs du mal".</li>
                       <li>1945 : le maréchal Pétain, puis le chef du gouvernement Pierre Laval sont condamnés</li>
                       <li>8 septembre 2021 : Le procès des attentats du 13 novembre 2015</li>
@@ -257,7 +257,6 @@ include('../php/header.inc.php');
                   <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails1" >En savoir plus</a>
                 
                   <a class="btn btn-danger" href="https://www.youtube.com/watch?v=UoXD4S3DqNI" style="background-color:red;">
-                  <i class="fab fa-youtube infobtn"></i> Regarder une animation</a>
                 </div>
               </div>
             </div>
@@ -273,14 +272,12 @@ include('../php/header.inc.php');
               </div>
               <div class="col-sm-7">
                 <div class="card-body">
-                  <h5 class="card-title"><i>Notre-Dame de Paris</i>  de Victor Hugo</h5>
+                  <h5 class="card-title">Le tribunale révolutionnaire</h5>
                   <p class="card-text" >
-                    En plus d’être la cathédrale gothique la plus célèbre de France, Notre-Dame de Paris est aussi un roman majeur de Victor Hugo.
+                    Après la chute de la monarchie en France, le désordre était omniprésent dans Paris, la France netière était en train d'être remodeler, mais Paris était la ville la plus toucher, là où tout à commencé, là où tout doit être organiser, en digne capitale de France.
                   </p>
                   <span class="collapse card-text" id="viewdetails1b">
-                    Publié en 1831, il nous conte l’histoire de Quasimodo, Esmeralda, Frollo et Phoebus. Histoire d’amour, de haine et d’indifférence, histoire de passion aussi, dont les péripéties sont surtout connues pour les nombreuses adaptations, plus que pour le texte lui-même.
-                    En effet, ce roman de 940 pages est à réserver aux mains et aux yeux des lecteurs aguerris, voraces ou déterminés. Les intrigues à tiroirs sont aussi complexes que les personnages, les scènes s’étirent sur des pages et des pages d’action comme de description.
-                    Et pourtant, une qualité littéraire exceptionnelle, comme une récompense, attend le lecteur qui ouvrira les pages de Notre-Dame de Paris, sans doute l’un des plus beaux romans jamais écrits en langue française.
+                    Afin de remmettre en ordre la ville est condamné les personnes contre le nouveaux gouvernement, elle à été mise en place du 10 mars 1793 jusqu'au 31 mai 1795. Ce tribunale aura grandement contribuer au règne de la terreur, avec 1500 personnes executer durant cette période, et 2 585 condamnation à mort durant sa création.
                   </span> 
                   <br>
                   <br>
