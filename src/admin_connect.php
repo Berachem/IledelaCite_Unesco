@@ -3,6 +3,15 @@ $page = 'Admin';
 include('../php/header.inc.php');
 
 ?>
+
+<style>
+body{
+    background-image: url("https://images.pling.com/img/00/00/50/91/40/1304700/fbd1f1f39015f25f6de6b1d003ee7b518f15.png") !important;
+
+}
+
+</style>
+
         <br>
         <br>
         <br>
@@ -22,7 +31,7 @@ include('../php/header.inc.php');
     <div class="row h-100 justify-content-center align-items-center">
         <div class="col-10 col-md-8 col-lg-6">
             <!-- Form -->
-            <form class="form-example" action="../php/adminconnect.php" method="GET">
+            <form class="form-example" action="../php/checkadminconnect.php" method="GET">
                 <h1>Connectez vous...</h1>
                 <!-- Input f-ields -->
                 <div class="form-group">
