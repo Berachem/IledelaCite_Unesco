@@ -288,7 +288,8 @@ echo '
       <nav class="navbar" style="background-color: rgba(0, 0, 0, 0.3);
       position:fixed;
       top :0;
-      left :0;">
+      left :0;
+      z-index:99;">
         <div class="brand-title">
           <a target="_self" href="#"><img src="../img/mcn.png" 
           alt="logoMCN" 
@@ -297,7 +298,7 @@ echo '
         </div>';
   
 echo'
-        <a href="#" class="toggle-button" style="top: 25px;" target="_self">
+        <a class="toggle-button" style="top: 25px;" target="_self">
           <span class="bar"></span>
           <span class="bar"></span>
           <span class="bar"></span>
