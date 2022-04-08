@@ -12,6 +12,10 @@ $langue = 0;
 				$langue = 0; break;
 			case 1:
 				$langue = 1; break;
+      case 2:
+        $langue = 2; break;
+      case 3:
+        $langue = 3; break;
 		}
 	}
 
