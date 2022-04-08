@@ -343,6 +343,9 @@ echo'
             } else {
                 echo '<li><a target="_self" href="'.$_SERVER["PHP_SELF"].'" target="_self" class="frflag"><img src="../img/fr_flag.png" alt="" width="27" height="25"></a></li>';
             } 
+            echo '<li><a target="_self" href="#" target="_self" class="chinaflag"><img src="../img/china.png" alt="" width="27" height="27"></a></li>';
+            echo '<li><a target="_self" href="#" target="_self" class="arabflag"><img src="../img/arab.png" alt="" width="27" height="27"></a></li>';
+
 
          
          echo'   </ul>
