@@ -1,6 +1,7 @@
 <?php
 $page = 'Galerie';
 include('../php/header.inc.php');
+include('../php/connexionBDD.inc.php');
 ?>
 
 <div class="embed-responsive embed-responsive-16by9">
@@ -33,9 +34,26 @@ include('../php/header.inc.php');
           <div class="col-12 col-md-6 col-lg-3">
               <img src="../img/galerie/4.jpg" data-target="#indicators" data-slide-to="3" alt="" data-toggle="tooltip" data-placement="top" title="Les Très Riches Heures du duc de Berry, 1411-1416" />
           </div>
-          <div class="col-12 col-md-6 col-lg-3">
-              <img src="../img/galerie/5.jpg" data-target="#indicators" data-slide-to="3"  alt="" />
-          </div>
+
+          <?php
+                $statement = $conn->prepare("SELECT * from galerie");
+                $statement->execute(array());
+                while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
+                    $img = $row['image'];
+                    $desc = $row['description'];
+
+                    echo '<div class="col-12 col-md-6 col-lg-3">';
+
+                    echo '<img src="'.$img.'" data-target="#indicators" data-slide-to="3"  alt="" data-toggle="tooltip" data-placement="top" title="'.$desc.'"  />';
+
+                    echo '</div>';
+                }
+                ?>
+
+
+          
+              
+          
           <div class="col-12 col-md-6 col-lg-3">
               <img src="../img/galerie/6.jpg" data-target="#indicators" data-slide-to="4" alt="" />
           </div>
@@ -72,9 +90,22 @@ include('../php/header.inc.php');
             <div class="carousel-item">
               <img class="d-block w-100" src="../img/galerie/4.jpg" alt="Fourth slide">
             </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="../img/galerie/5.jpg" alt="Fifth slide">
-            </div>
+
+            <?php
+                $statement = $conn->prepare("SELECT * from galerie");
+                $statement->execute(array());
+                while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
+                    $img = $row['image'];
+                    $desc = $row['description'];
+
+                    echo '<div class="carousel-item">';
+
+                    echo '<img src="'.$img.'" class="d-block w-100"  alt="Fifth slide" />';
+
+                    echo '</div>';
+                }
+                ?>
+          
             <div class="carousel-item">
               <img class="d-block w-100" src="../img/galerie/6.jpg" alt="Sixth slide">
             </div>

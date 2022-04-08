@@ -118,9 +118,18 @@ body{
 
 <div class="row h-100 justify-content-center align-items-center">
         <div class="col-10 col-md-8 col-lg-6">
+        <?php
+        if (isset($_GET["added"])){
+          echo '<div class="alert alert-success" role="alert" id="sent"> <img src="../img/succes.png"  width="25" height="25" alt="succès">
+          Tableau ajouté avec succès :)
+        </div>';
+        }
+
+        ?>
+
             <!-- Form -->
-            <form class="form-example" action="../php/addpainting.php" method="GET">
-            
+            <form class="form-example" action="../php/ajouterTableau.php" method="GET">
+                
                 <!-- Input f-ields -->
                 <div class="form-group">
                 <h1>Rajoutez un tableau</h1>

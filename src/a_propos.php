@@ -324,18 +324,18 @@ include('../php/header.inc.php');
 
 <br>
 
+
+
+<!-- Wrapper container -->
+<div class="container py-4">
 <?php
 if (isset($_GET["messagesent"])){
-  echo '<div class="alert alert-success" role="alert" id="#sent"> <img src="../img/succes.png"  width="25" height="25" alt="succès">
+  echo '<div class="alert alert-success" role="alert" id="sent"> <img src="../img/succes.png"  width="25" height="25" alt="succès">
   '.$message_thankyou[$langue].'
 </div>';
 }
 
 ?>
-
-
-<!-- Wrapper container -->
-<div class="container py-4">
 
   <!-- Formulaire de Contacte -->
   <form id="contactForm" action="../php/contacter.php?lang=".$_GET[$lang] method="post" target="_self">
