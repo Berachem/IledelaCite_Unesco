@@ -13,7 +13,8 @@ include('../php/connexionBDD.inc.php');
 
 <div class="description" >
   <p style="color:white">
-  L'Île de la Cité a toujours été une grande <b style="color: #ea5c0d;">inspiration</b> pour les <b style="color: #ea5c0d;"> artistes </b> de toutes les époques. 
+  
+  <?php echo $Gallery_title[$langue] ?>
 
   </p>
 </div>

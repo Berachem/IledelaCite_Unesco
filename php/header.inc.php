@@ -21,28 +21,32 @@ $langue = 0;
 
 /* Barre de Navigation */
 
-$nav_home = array('Accueil', "Home");
-$nav_discover = array('Découvrir', "Discover");
-$nav_discover_tovisit = array('Endroits à visiter', "Places to visit");
-$nav_discover_near = array('A deux pas', "Two steps away");
-$nav_about = array('A propos', "About us");
-$nav_gallery = array('Galerie', "Gallery");
-$nav_road = array('Parcours', "Recommended itinerary");
+$nav_home = array('Accueil', "Home",'ترحيب','主頁');
+$nav_discover = array('Découvrir', "Discover",'يكتشف','發現');
+$nav_monuments = array('Monuments', "Monuments",'آثار','紀念碑');
+$nav_infos = array('Informations', "Informations",'معلومة','信息');
+$nav_restaurants = array('Restaurants', "Restaurants",'مطاعم','餐廳');
+$nav_discover_tovisit = array('Endroits à visiter', "Places to visit",'اماكن للزيارة','參觀的地點');
+$nav_discover_near = array('A deux pas', "Two steps away",'خطوتين','兩步');
+$nav_about = array('A propos', "About us",'في ما يخص','關於');
+$nav_gallery = array('Galerie', "Gallery",'صالة عرض','畫廊');
+$nav_road = array('Parcours', "Recommended itinerary",'رحلة','旅行');
 
 
 /* INDEX */
 
-$index_carousel_ileCite_subtitle = array("Un coffre de patrimoines mondiaux.", "A chest of world heritages.");
-$index_carousel_notredame_subtitle = array("Le monument iconique mondial.","The world's iconic monument.");
-$index_carousel_palaisjustice_subtitle = array("Au coeur de l'histoire française.","");
-$index_carousel_pontneuf_subtitle = array("Le plus ancien pont de Paris.","The oldest bridge in Paris.");
-$index_carousel_chapelle_subtitle = array("Un joyau de l'art du vitrail.","A jewel in the art of stained glass.");
-$index_carousel_Yaller = array("Y aller","Go to");
-$index_subtitle = array("Un patrimoine mondial reconnu par l'Unesco.","A world heritage recognized by Unesco.");
-$index_subtitle2 = array("L'Île de la Cité regroupe de nombreux monuments incontournables et iconiques qui font l'histoire de France et sont reconnus comme patrimoine mondial de l'Unesco.","The Ile de la Cité is home to many iconic monuments that make up the history of France and are recognized as Unesco World Heritage sites.");
-$index_description = array("Paris ne serait pas Paris sans ses îles. Comme deux yeux au milieu du visage, l’île de la Cité et l’île Saint-Louis sont le cœur du cœur de la capitale, son exception, mais aussi et surtout la raison d’être de tous ses ponts, véritables œuvres d’art qui dessinent le paysage fluvial de la ville et dressent des traits d’union en pointillé entre les rives. Le plaisir de déambuler sur ces îles vient d’abord de là, du plaisir d’enjamber la Seine sur ces ponts en pierre de taille, historiques et majestueux, du plaisir de se savoir cerné d’eau mais les pieds au sec, de ce sentiment de se trouver au niveau du noyau.","Paris would not be Paris without its islands. Like two eyes in the middle of the face, the Ile de la Cité and the Ile Saint-Louis are the heart of the capital, its exception, but also and above all the reason for the existence of all its bridges, true works of art that draw the river landscape of the city and draw up dotted lines between the banks. The pleasure of wandering on these islands comes first of all from there, from the pleasure of spanning the Seine on these historical and majestic bridges made of cut stone, from the pleasure of knowing that one is surrounded by water but with dry feet, from the feeling of being at the core.");
-$index_localisation = array("Localisation", "Location");
-$index_video = array("https://www.youtube.com/embed/k4KAhO6XgOw","https://www.youtube.com/embed/C6FbHlo-TEA");
+$index_carousel_ileCite_subtitle = array("Un coffre de patrimoines mondiaux.", "A chest of world heritages.","صندوق التراث العالمي.","世界遺產寶箱。");
+$index_carousel_notredame_subtitle = array("Le monument iconique mondial.","The world's iconic monument.","النصب الأيقوني العالمي.","全球標誌性紀念碑。");
+$index_carousel_palaisjustice_subtitle = array("Au coeur de l'histoire française.","","في قلب التاريخ الفرنسي.","在法國歷史的核心。");
+$index_carousel_pontneuf_subtitle = array("Le plus ancien pont de Paris.","The oldest bridge in Paris.","أقدم جسر في باريس.","巴黎最古老的橋樑。");
+$index_carousel_chapelle_subtitle = array("Un joyau de l'art du vitrail.","A jewel in the art of stained glass.","جوهرة من فن الزجاج المعشق.","彩色玻璃藝術的瑰寶。");
+$index_carousel_Yaller = array("Y aller","Go to","و هناك","那裡");
+$index_subtitle = array("Un patrimoine mondial reconnu par l'Unesco.","A world heritage recognized by Unesco.","تراث عالمي معترف به من قبل اليونسكو.","聯合國教科文組織承認的世界遺產。");
+$index_subtitle2 = array("L'Île de la Cité regroupe de nombreux monuments incontournables et iconiques qui font l'histoire de France et sont reconnus comme patrimoine mondial de l'Unesco.","The Ile de la Cité is home to many iconic monuments that make up the history of France and are recognized as Unesco World Heritage sites.","يجمع فندق Île de la Cité بين العديد من المعالم الأثرية التي لا يمكن تفويتها والتي تشكل تاريخ فرنسا والتي تم الاعتراف بها على أنها تراث عالمي من قبل اليونسكو.","Île de la Cité 匯集了許多不可錯過的標誌性古蹟，這些古蹟構成了法國的歷史，並被聯合國教科文組織認定為世界遺產。");
+$index_description = array("Paris ne serait pas Paris sans ses îles. Comme deux yeux au milieu du visage, l’île de la Cité et l’île Saint-Louis sont le cœur du cœur de la capitale, son exception, mais aussi et surtout la raison d’être de tous ses ponts, véritables œuvres d’art qui dessinent le paysage fluvial de la ville et dressent des traits d’union en pointillé entre les rives. Le plaisir de déambuler sur ces îles vient d’abord de là, du plaisir d’enjamber la Seine sur ces ponts en pierre de taille, historiques et majestueux, du plaisir de se savoir cerné d’eau mais les pieds au sec, de ce sentiment de se trouver au niveau du noyau.","Paris would not be Paris without its islands. Like two eyes in the middle of the face, the Ile de la Cité and the Ile Saint-Louis are the heart of the capital, its exception, but also and above all the reason for the existence of all its bridges, true works of art that draw the river landscape of the city and draw up dotted lines between the banks. The pleasure of wandering on these islands comes first of all from there, from the pleasure of spanning the Seine on these historical and majestic bridges made of cut stone, from the pleasure of knowing that one is surrounded by water but with dry feet, from the feeling of being at the core.","لن تكون باريس باريس بدون جزرها. مثل عينين في منتصف الوجه ، فإن Île de la Cité و le Saint-Louis هما قلب قلب العاصمة ، استثناءً لها ، ولكن أيضًا وقبل كل شيء سبب وجود كل جسورها ، صحيح الأعمال الفنية التي ترسم المناظر الطبيعية النهرية للمدينة وتنص صب شرائط منقطة بين الضفاف. تأتي متعة التنزه على هذه الجزر أولاً وقبل كل شيء من هناك ، من متعة التنزه فوق نهر السين على هذه الجسور الحجرية التاريخية المهيبة ، ومن دواعي سروري معرفة أنك محاط بالمياه ولكن بأقدام جافة ، من هذا الشعور يجري في المستوى الأساسي.","沒有島嶼，巴黎就不是巴黎。就像臉中間的兩隻眼睛一樣  ，Île de la Cité 和 Île Saint-Louis 是首都的心臟，它的例外，但最重要的是它所有橋樑的存在理由，真實藝術作品，描繪城市河流景觀的藝術作品，在兩岸之間豎立著虛線連字符。在這些島嶼上漫步的樂趣首先來自於那裡，來自於在這些歷史悠久、氣勢磅礴的砂石橋上跨過塞納河的樂趣，來自於知道自己四面環水卻雙腳乾燥的樂趣，來自於 這種感覺處於核心水平。");
+$index_localisation = array("Localisation", "Location","موقع","地點");
+
+$index_video = array("https://www.youtube.com/embed/k4KAhO6XgOw","https://www.youtube.com/embed/C6FbHlo-TEA","https://www.youtube.com/embed/C6FbHlo-TEA","https://www.youtube.com/embed/C6FbHlo-TEA");
 
 
 
@@ -194,52 +198,57 @@ $Avisiter_maison_phrase = array("Une maison du millieu du XXe s ressemblant aux 
 
 /* Informations */
 
-$info_description=array("Vous trouverez sur cette pages les <b style='color: #ea5c0d;'>informations utiles </b> pour vous aider à préparer votre visite sur l'Île telles que les <b style='color: #f7af3e;'>horaires</b> des monuments, le <b style='color: #f7af3e;'>prix</b> d'entrée et enfin les <b style='color: #f7af3e;'>transports en commun</b> à proximité.","You will find on this page <b style='color: #ea5c0d;'>useful information</b> to help you prepare your visit to the island such as the <b style='color: #f7af3e;'>schedules</b> of the monuments, the entrance <b style='color: #f7af3e;'>fees</b> and finally the <b style='color: #f7af3e;'>public transport </b> in the vicinity." );
-$info_horaires=array("HORAIRES","SCHEDULE");
+$info_description=array("Vous trouverez sur cette pages les <b style='color: #ea5c0d;'>informations utiles </b> pour vous aider à préparer votre visite sur l'Île telles que les <b style='color: #f7af3e;'>horaires</b> des monuments, le <b style='color: #f7af3e;'>prix</b> d'entrée et enfin les <b style='color: #f7af3e;'>transports en commun</b> à proximité.","You will find on this page <b style='color: #ea5c0d;'>useful information</b> to help you prepare your visit to the island such as the <b style='color: #f7af3e;'>schedules</b> of the monuments, the entrance <b style='color: #f7af3e;'>fees</b> and finally the <b style='color: #f7af3e;'>public transport </b> in the vicinity." ,"ستجد في هذه الصفحة <b style = 'color: # ea5c0d؛'> معلومات مفيدة </ b> لمساعدتك في الاستعداد لزيارتك للجزيرة ، مثل <b style = 'color: # f7af3e؛'> الجداول الزمنية </b> من المعالم ، <b style = 'color: # f7af3e؛'> سعر الدخول </ b> وأخيرًاا <b style = 'color: # f7af3e؛'> النقل العام </ b> في مكان قريب.","在此頁面上，您將找到<b style='color: #ea5c0d;'>有用信息</b>，以幫助您為訪問該島做準備，例如<b style='color: #f7af3e;'> 時間表</b> 的古蹟，<b style='color: #f7af3e;'>門票</b>，最後是附近的<b style='color: #f7af3e;'>公共交通</b>。");
+$info_horaires=array("HORAIRES","SCHEDULE","برنامج","日程");
 
-$info_notredame_status = array("Suspendue (Covid et travaux)", "Suspended (Covid and works)");
-$info_notredame_description = array("Nous n'avons pas plus d'informations malheureusement :/", "We do not have more information unfortunately :/");
+$info_notredame_status = array("Suspendue (Covid et travaux)", "Suspended (Covid and works)","معلق (كوفيد ويعمل)","暫停（Covid 和作品）");
+$info_notredame_description = array("Nous n'avons pas plus d'informations malheureusement :/", "We do not have more information unfortunately :/","للأسف ، ليس لدينا المزيد من المعلومات: /","不幸的是，我們沒有更多信息：/");
 
-$info_palaisjustice_status = array("Suspendue (Covid)","Suspended (Covid)");
+$info_palaisjustice_status = array("Suspendue (Covid)","Suspended (Covid)","معلق (كوفيد)","暫停（covid）");
 $info_palaisjustice_description = $info_notredame_description;
 
-$info_conciergerie_status = array("Ouvert au public","Open to public");
-$info_conciergerie_description = array("Vous pouvez réserver pour tous les jours de l'année sauf exceptions.","Reservations can be made for any day of the year with some exceptions.");
+$info_conciergerie_status = array("Ouvert au public","Open to public","مفتوح للعامة","向公眾公開的");
+$info_conciergerie_description = array("Vous pouvez réserver pour tous les jours de l'année sauf exceptions.","Reservations can be made for any day of the year with some exceptions.","يمكنك الحجز في أي يوم من أيام السنة باستثناءات.","您可以預訂一年中的任何一天，但有例外。");
 
-$info_pontneuf_status = array("Ouvert au grand public","Open to public");
-$info_pontneuf_description = array("La visite ne nécessite aucun achat de billet ou autre.","The visit does not require the purchase of a ticket or anything else.");
+$info_pontneuf_status = array("Ouvert au grand public","Open to public","فتح للجمهور العام","向公眾開放");
+$info_pontneuf_description = array("La visite ne nécessite aucun achat de billet ou autre.","The visit does not require the purchase of a ticket or anything else.","الزيارة لا تتطلب أي تذكرة أو شراء آخر.","參觀不需要任何門票或其他購買。");
 
 $info_crypte_status = $info_palaisjustice_status;
 $info_crypte_description = $info_notredame_description;
 
 $info_chapelle_status = $info_conciergerie_status;
-$info_chapelle_description = array("Vous pouvez réserver pour tous les jours de l'année sauf exceptions.","Reservations can be made for any day of the year with some exceptions.");
+$info_chapelle_description = array("Vous pouvez réserver pour tous les jours de l'année sauf exceptions.","Reservations can be made for any day of the year with some exceptions.","يمكنك الحجز في أي يوم من أيام السنة باستثناءات.","您可以預訂一年中的任何一天，但有例外。");
 
-$info_reserve = array("Réserver", "Book");
-$info_VR = array("Visiter en VR", "Visit in VR");
+$info_reserve = array("Réserver", "Book","للحجز","預訂");
+$info_VR = array("Visiter en VR", "Visit in VR","زيارة في VR","在 VR 中訪問");
 
-$info_gratuitrequis = array("Les jeunes de moins de 26 ans habitant dans l Union européenne peuvent accéder gratuitement à certains musées et monuments nationaux, sur simple présentation d une pièce d identité.","Young people under 26 years of age living in the European Union can enter certain national museums and monuments free of charge upon presentation of an identity document.");
-$info_prix = array("PRIX","PRICES");
-$info_tarifnormal = array("Tarif Normal","Normal rate");
-$info_tarifreduit = array("Tarif Réduit","Reduced rate");
-$info_gratuit = array("Gratuit","Free");
+$info_gratuitrequis = array("Les jeunes de moins de 26 ans habitant dans l Union européenne peuvent accéder gratuitement à certains musées et monuments nationaux, sur simple présentation d une pièce d identité.","Young people under 26 years of age living in the European Union can enter certain national museums and monuments free of charge upon presentation of an identity document.","يمكن للشباب الذين تقل أعمارهم عن 26 عامًا والذين يعيشون في الاتحاد الأوروبي الدخول إلى متاحف ومعالم أثرية وطنية معينة مجانًا ، بمجرد تقديم وثيقة هوية.","居住在歐盟的 26 歲以下的年輕人只需出示身份證件即可免費進入某些國家博物館和   紀念碑。");
+$info_prix = array("PRIX","PRICES","السعر","價格");
+$info_tarifnormal = array("Tarif Normal","Normal rate","وصفة عادية","配方正常");
+$info_tarifreduit = array("Tarif Réduit","Reduced rate","السعر المخفض","減價");
+$info_gratuit = array("Gratuit","Free","حر","自由");
 
-$info_trajetGPS = array("Vous souhaitez connaître le chemin exact depuis une adresse précise ?", "Do you want to know the exact route from a specific address?");
-$info_cliquer = array("Cliquez ici", "Click here");
+$info_trajetGPS = array("Vous souhaitez connaître le chemin exact depuis une adresse précise ?", "Do you want to know the exact route from a specific address?","هل تريد معرفة المسار الدقيق من عنوان معين؟","您想知道特定地址的確切路徑嗎？");
+$info_cliquer = array("Cliquez ici", "Click here","انقر هنا","點擊這裡");
+
+
+/* Galerie */
+
+$Gallery_title = array("L'Île de la Cité a toujours été une grande <b style='color: #ea5c0d;'>inspiration</b> pour les <b style='color: #ea5c0d;'> artistes </b> de toutes les époques. ","The Île de la Cité has always been a great <b style='color: #ea5c0d;'>inspiration</b> for <b style='color: #ea5c0d;'>artists</b> of all eras. ","لطالما كانت لعبة Île de la Cité <b style = 'color: #ea5c0d;'> مصدر إلهام </b> لـ <b style = 'color: #ea5c0d;'> الفنانين </b> من جميع الأعمار.","Île de la Cité 一直是各個年齡段 <b style='color: #ea5c0d;'>藝術家 </b>的偉大<b style='color: #ea5c0d;'>靈感</b>。時代。");
 
 /* About Us */
 
-$AboutUs_title = array("Qui sommes-nous ?", "Who are we?");
-$AboutUs_subtitle = array("Nous sommes un binôme d'étudiants à l'Université Gustave Eiffel qui ont pour objectif de participer à la valorisation d'un patrimoine mondial reconnu par l'UNESCO en France (kokorico ^^) qui est L' Ile de la Cité.","We are a pair of students at the University Gustave Eiffel whose objective is to participate in the development of a world heritage recognized by UNESCO in France (kokorico ^^) which is the Ile de la Cité.");
-$AboutUs_berachem = array("CHEF DE PROJET ET PRINCIPAL DÉVELOPPEUR","PROJECT MANAGER AND LEAD DEVELOPER");
-$AboutUs_tristan = array("DÉVELOPPEUR ET SPÉCIALISTE DE L'ÎLE", "DEVELOPER AND SPECIALIST OF THE ISLAND");
-$AboutUs_name = array("Nom Complet", "Full Name");
-$AboutUs_email= array("Addresse Email", "Email Address");
-$AboutUs_envoyer = array("Envoyer", "Send");
+$AboutUs_title = array("Qui sommes-nous ?", "Who are we?","من نحن ؟","我們是誰 ？");
+$AboutUs_subtitle = array("Nous sommes un binôme d'étudiants à l'Université Gustave Eiffel qui ont pour objectif de participer à la valorisation d'un patrimoine mondial reconnu par l'UNESCO en France (kokorico ^^) qui est L' Ile de la Cité.","We are a pair of students at the University Gustave Eiffel whose objective is to participate in the development of a world heritage recognized by UNESCO in France (kokorico ^^) which is the Ile de la Cité.","نحن زوجان من الطلاب في جامعة Gustave Eiffel نهدف إلى المشاركة في الترويج للتراث العالمي المعترف به من قبل اليونسكو في فرنسا (kokorico ^^) وهو Ile de la Cité.","我 們是Gustave Eiffel大學的一對學生，他們的目標是參與促進法國聯合國教科文組織認可的世界遺產（kokorico ^^），即Ile de la Cité。");
+$AboutUs_berachem = array("CHEF DE PROJET ET PRINCIPAL DÉVELOPPEUR","PROJECT MANAGER AND LEAD DEVELOPER","مدير المشروع والمطور الرئيسي","項目經理和首席開發人員");
+$AboutUs_tristan = array("DÉVELOPPEUR ET SPÉCIALISTE DE L'ÎLE", "DEVELOPER AND SPECIALIST OF THE ISLAND","مطور وأخصائي جزر","開發商和島嶼專家");
+$AboutUs_name = array("Nom Complet", "Full Name","الاسم الكامل","全名");
+$AboutUs_email= array("Addresse Email", "Email Address","عنوان البريد الإلكتروني","地址 電子郵件");
+$AboutUs_envoyer = array("Envoyer", "Send","يرسل","發送");
 
 
 /* Message recu */
-$message_thankyou = array("Message envoyé ! Merci !", "Message sent! Thank you!");
+$message_thankyou = array("Message envoyé ! Merci !", "Message sent! Thank you!","رسالة مرسلة ! شكرا لك !","消息已發送！謝謝 ！");
 
 echo 
 '<!DOCTYPE html>
@@ -316,7 +325,7 @@ echo'
             <!-- Dropdown Monuments -->
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <img src="../img/monuments_emoji.png" width="25" height="25">  Monuments
+              <img src="../img/monuments_emoji.png" width="25" height="25">  '.$nav_monuments[$langue].'
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a target="_self" class="dropdown-item" href="notredame.php?lang='.$langue.'"> <img src="../img/notredame_emoji.png" width="25" height="25"> Notre Dame</a>
@@ -326,7 +335,7 @@ echo'
                 </div>
             </li>
 
-            <li><a target="_self" href="informations.php?lang='.$langue.'"><img src="../img/info_emoji.png" width="25" height="25">  Informations</a></li>
+            <li><a target="_self" href="informations.php?lang='.$langue.'"><img src="../img/info_emoji.png" width="25" height="25">  '.$nav_infos[$langue].'</a></li>
 
             <!-- dropdown Découvrir -->
             <li class="nav-item dropdown">
@@ -334,7 +343,7 @@ echo'
               <img src="../img/boussole_emoji.png" width="25" height="25">  '. $nav_discover[$langue].'
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a target="_self" class="dropdown-item" href="restaurants.php?lang='.$langue.'"><img src="../img/resto_emoji.png" width="25" height="25">  Restaurants</a>
+                <a target="_self" class="dropdown-item" href="restaurants.php?lang='.$langue.'"><img src="../img/resto_emoji.png" width="25" height="25">  '.$nav_restaurants[$langue].'</a>
                 <a target="_self" class="dropdown-item" href="endroitsAvisiter.php?lang='.$langue.'"><img src="../img/av_emoji.png" width="25" height="25">  '. $nav_discover_tovisit[$langue].'</a></a>
                 <a target="_self" class="dropdown-item" href="parcours.php?lang='.$langue.'"><img src="../img/parcours.png" width="25" height="25">  '. $nav_road[$langue].'</a></a>
               </div>
@@ -344,11 +353,25 @@ echo'
             
             if ($langue == 0) {
                 echo '<li><a target="_self" href="'.$_SERVER["PHP_SELF"].'?lang=1" target="_self" class="ukflag"><img src="../img/eng_flag.png" alt="" width="27" height="25"></a></li>';
-            } else {
+                echo '<li><a target="_self" href="'.$_SERVER["PHP_SELF"].'?lang=3" target="_self" class="chinaflag"><img src="../img/china.png" alt="" width="27" height="27"></a></li>';
+                echo '<li><a target="_self" href="'.$_SERVER["PHP_SELF"].'?lang=2" target="_self" class="arabflag"><img src="../img/arab.png" alt="" width="27" height="27"></a></li>';
+            } else if ($langue ==1) {
                 echo '<li><a target="_self" href="'.$_SERVER["PHP_SELF"].'" target="_self" class="frflag"><img src="../img/fr_flag.png" alt="" width="27" height="25"></a></li>';
-            } 
-            echo '<li><a target="_self" href="#" target="_self" class="chinaflag"><img src="../img/china.png" alt="" width="27" height="27"></a></li>';
-            echo '<li><a target="_self" href="#" target="_self" class="arabflag"><img src="../img/arab.png" alt="" width="27" height="27"></a></li>';
+                echo '<li><a target="_self" href="'.$_SERVER["PHP_SELF"].'?lang=3" target="_self" class="chinaflag"><img src="../img/china.png" alt="" width="27" height="27"></a></li>';
+                echo '<li><a target="_self" href="'.$_SERVER["PHP_SELF"].'?lang=2" target="_self" class="arabflag"><img src="../img/arab.png" alt="" width="27" height="27"></a></li>';
+            } else if ($langue==2){
+              echo '<li><a target="_self" href="'.$_SERVER["PHP_SELF"].'" target="_self" class="frflag"><img src="../img/fr_flag.png" alt="" width="27" height="25"></a></li>';
+              echo '<li><a target="_self" href="'.$_SERVER["PHP_SELF"].'?lang=1" target="_self" class="ukflag"><img src="../img/eng_flag.png" alt="" width="27" height="25"></a></li>';
+              echo '<li><a target="_self" href="'.$_SERVER["PHP_SELF"].'?lang=3" target="_self" class="chinaflag"><img src="../img/china.png" alt="" width="27" height="27"></a></li>';
+
+            } else{
+              echo '<li><a target="_self" href="'.$_SERVER["PHP_SELF"].'" target="_self" class="frflag"><img src="../img/fr_flag.png" alt="" width="27" height="25"></a></li>';
+              echo '<li><a target="_self" href="'.$_SERVER["PHP_SELF"].'?lang=1" target="_self" class="ukflag"><img src="../img/eng_flag.png" alt="" width="27" height="25"></a></li>';
+              echo '<li><a target="_self" href="'.$_SERVER["PHP_SELF"].'?lang=2" target="_self" class="arabflag"><img src="../img/arab.png" alt="" width="27" height="27"></a></li>';
+
+              
+
+            }
 
 
          

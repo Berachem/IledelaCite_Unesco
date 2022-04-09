@@ -29,7 +29,7 @@ include('../php/header.inc.php');
               <h5 class='card-title'>Notre Dame</h5>
               <h6 class='card-subtitle mb-2 '><i class='fas fa-hourglass-start' style='color: orange;'></i>  <?php echo $info_notredame_status[$langue] ?></h6>
               <p class='card-text'> <?php echo $info_notredame_description[$langue] ?></p>
-              <a href='https://www.notredamedeparis.fr/visiter/'><button type='button' class='btn btn-danger' ><i class="fas fa-calendar"></i> <?php echo $info_reserve[$langue] ?></button></a>
+              <a href='https://www.notredamedeparis.fr/visiter/'><button type='button' class='btn btn-danger ' ><i class="fas fa-calendar"></i> <?php echo $info_reserve[$langue] ?></button></a>
               <a href='https://eternellenotredame.placeminute.com/event/musees-expositions-visites-guidees/eternelle-notre-dame-une-expedition-immersive-en-realite-virtuelle,37026.html?sl=2618&_locale=fr&gclid=Cj0KCQiAip-PBhDVARIsAPP2xc2svLy0Y_tW93XHb50H2AoorjYxKL1Yi218uYl-vVnQmkyleP9Yt8caAqbGEALw_wcB'>
 
              <button type='button' class='btn btn-info'  > <?php echo $info_VR[$langue] ?> <i class='fas fa-vr-cardboard'></i></button></a>
@@ -97,7 +97,7 @@ include('../php/header.inc.php');
     <table class='table table-bordered table-hover table-responsive-sm' style='text-align: center;'>
       <thead>
         <tr>
-          <th scope='col'>Monument</th>
+          <th scope='col'><?php echo $nav_monuments[$langue] ?></th>
           <th scope='col'> <?php echo $info_tarifnormal[$langue] ?></th>
           <th scope='col'> <?php echo $info_tarifreduit[$langue] ?> <span class='badge rounded-pill bg-primary' data-toggle='tooltip' data-placement='top' title=' <?php echo $info_gratuitrequis[$langue] ?>'>?</span></th>
         </tr>
