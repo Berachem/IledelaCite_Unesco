@@ -76,6 +76,7 @@ body{
     display: block;
     text-decoration: none;
     color: #ea5c0d;
+    text-transform: uppercase;
     padding: 1rem;
 }
 
