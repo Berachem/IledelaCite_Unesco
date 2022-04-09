@@ -1,13 +1,13 @@
 <?php
 $page = 'Galerie';
 include('../php/header.inc.php');
-include('../php/connexionBDD.inc.php');
+//include('../php/connexionBDD.inc.php');
 ?>
 
-<div class="embed-responsive embed-responsive-16by9">
-<video src="../img/galerie_Video.mp4" loop autoplay="autoplay" autoplay playsinline style="pointer-events: none;" muted></video>
+
+<img class="img-fluid" src="../img/galerie.jpg" alt="" style="width: 100%; top:0">
         
-</div>
+
 
 <!-- Barre Orange et Titre page   -->
 
