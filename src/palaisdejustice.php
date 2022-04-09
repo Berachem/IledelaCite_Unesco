@@ -272,11 +272,11 @@ include('../php/header.inc.php');
                 <div class="card-body">
                   <h5 class="card-title">Le tribunale révolutionnaire</h5>
                   <p class="card-text" >
-                    Après la chute de la monarchie en France, le désordre était omniprésent dans Paris, la France netière était en train d'être remodeler, mais Paris était la ville la plus toucher, là où tout à commencé, là où tout doit être organiser, en digne capitale de France.
+                    Après la chute de la monarchie en France, le désordre était omniprésent dans Paris, la France entière était en train d'être remodeler, mais Paris était la ville la plus toucher, là où tout à commencé, là où tout doit devait être réorganiser, en digne capitale de France.
                   </p>
                   <span class="collapse card-text" id="viewdetails1b">
-                    Afin de remmettre en ordre la ville est condamné les personnes contre le nouveaux gouvernement, elle à été mise en place du 10 mars 1793 jusqu'au 31 mai 1795. Ce tribunale aura grandement contribuer au règne de la terreur, avec 1500 personnes executer durant cette période, et 2 585 condamnation à mort durant son activité.
-                    Ce tribunale, appelé à l'époque "Tribunale criminel extraordinaire", est installer dans la Grand-chambre du parlement de Paris rebaptisée "Salle de la Liberté". Les séances sont retranscrit dans le bulletin du tribunal révolutionnaire. Il disposait de règles spéciales en plus de celles mises en place à chaque tribunal.
+                    Afin de remmettre en ordre la ville et condamné les personnes contre le nouveaux gouvernement, elle à été mise en place du 10 mars 1793 jusqu'au 31 mai 1795. Ce tribunale aura grandement contribuer au règne de la terreur, avec 1500 personnes executer durant cette période, et 2 585 condamnation à mort durant son activité.
+                    Appelé à l'époque "Tribunale criminel extraordinaire", il s'est installer dans la Grand-chambre du parlement de Paris rebaptisée "Salle de la Liberté". Les séances sont retranscrit dans le bulletin du tribunal révolutionnaire. Il disposait de règles spéciales en plus de celles mises en place à chaque tribunal.
                   </span> 
                   <br>
                   <br>
@@ -296,20 +296,26 @@ include('../php/header.inc.php');
               </div>
               <div class="col-sm-7">
                 <div class="card-body">
-                  <h5 class="card-title">Execution de Robespierre</h5>
+                  <h5 class="card-title">Le procès de Robespierre</h5>
                   <p class="card-text" >
                     Robespierre est devenue l'un des chefs du nouveau gouvernement après l'abolition de la monarchie en France. Mais lors du règne de terreur, il devint tyranique, 
                   </p>
                   <span class="collapse card-text" id="viewdetails1c">
-                    Publié en 1831, il nous conte l’histoire de Quasimodo, Esmeralda, Frollo et Phoebus. Histoire d’amour, de haine et d’indifférence, histoire de passion aussi, dont les péripéties sont surtout connues pour les nombreuses adaptations, plus que pour le texte lui-même.
-                    En effet, ce roman de 940 pages est à réserver aux mains et aux yeux des lecteurs aguerris, voraces ou déterminés. Les intrigues à tiroirs sont aussi complexes que les personnages, les scènes s’étirent sur des pages et des pages d’action comme de description.
-                    Et pourtant, une qualité littéraire exceptionnelle, comme une récompense, attend le lecteur qui ouvrira les pages de Notre-Dame de Paris, sans doute l’un des plus beaux romans jamais écrits en langue française.
+                    Le jugement de Robespierre débuta le 26 juillet 1794, où il aura pu se défendre contre les accusation qu'on lui portait, à savoir sa responsabilité avec le règne de terreur, dont il en rejette la faute sur ces adversaire politique, et l'acusation de tyranie, qu'il proteste.
+                    Alors qu'il est sencé être en train de se défendre, Robespierrre propose une réorganisation partiel du gouvernement, en suprimant le Comité de salut public, chargé de gérer la défense extérieur et intérieur lors des situation urgente, cet objectif ont donné à ses membre de plus en plsu de pouvoir, devenant un véritable gouvernement dictatorial et participant au règne de terreur.
+                    Il dispose du soutient des Jacobins (ou du moins de la plupart), ceux qui ne l'approuve pas sont expulsé dd l'un des club les plus influant de France à l'époque. Robespierre est égalment soutenue par l'état major de la garde nationnal ainsi qu'une bonne partie de la Commune, une branche du gouvernement axer sur Paris et ses habitants.
+                    Mais la plupart des hommes qui composait le gouvernement et ce tribunale était soit opposé à Robespierre, soit apeuré par le règne de terreur qui était en cour, et dans la prommesse de l'a fin de celui-ci par les principaux opposant, ils s'allient à eux afin de pouvoir organiser une obstruction telle que ni Robespierre ni ses partisans ne puissent intervenir.
+                    Le procès au jour suivant fut beaucoup plus chaotique, empêchant Robespierre de se défendre, les seuls voies qui ont réussie à ce faire entendre sont celles qui ont proposé un décret d’arrestation contre Robespierre, accepter à la hâte par vote aux voix (ce qui dans la cacophonie générale n'était pas très pertinant).
+                    et vote une motion d’insurrection, fait sonner le tocsin pour appeler les patriotes aux armes et interdit aux concierges des prisons d’accepter de nouveaux détenus.
+                    Des hommes se masse pour tel ou tel camp, plusieurs personne qui ont été arrêter sont libéré, mais pas d'affrontement global. L'hotel de Ville qui acueillait plusieurs partisant phare de Robespierre est prise en pleine nuit, la plupart d'entre eux meurt ou son blesser dans leur tentative de se défendre.
+                    Robespierre décide de réagir trop tardivement, et est arrêter dans la nuit avec ses partisans, pui executer le lendemin avec 21 d'entre eux.
+                    Le procès et l'execution de Robespierre aura fait couler beaucoup d'encre et de sang, mais cela aura été une des étapes majeur de la fin du règne de terreur qui à eu lieu en France. 
                   </span> 
                   <br>
                   <br>
                   <blockquote class="blockquote">
-                    <p class="mb-0">"La bohémienne dansait ... agile, légère, joyeuse, et ne sentant pas le poids du regard redoutable qui tombait à plomb sur sa tête."</p>
-                    <footer class="blockquote-footer">Victor Hugo dans son roman <cite title="Source Title">Notre-Dame de Paris</cite></footer>
+                    <p class="mb-0">"Je suis fait pour combattre le crime, non pour le gouverner. Le temps n'est point arrivé où les hommes de biens peuvent servir impunément la patrie ; les défenseurs de la liberté ne seront que des proscrits tant que la horde des fripons dominera"</p>
+                    <footer class="blockquote-footer">Fin du discours de Robespierre lors de son procès du 26 juillet</footer>
                   </blockquote>
                   <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails1c" >En savoir plus</a>
                   <a class="btn btn-primary" href="https://www.google.com/aclk?sa=l&ai=DChcSEwjajLv0--31AhXZjWgJHRPQCKQYABAFGgJ3Zg&sig=AOD64_1f_vO3rbt3pkaOVGohTvt-0pX0TA&ctype=46&q=&ved=0ahUKEwjMlK30--31AhUyzIUKHUd-A9wQqygIvQg&adurl=">
@@ -329,24 +335,20 @@ include('../php/header.inc.php');
               </div>
               <div class="col-sm-7">
                 <div class="card-body">
-                  <h5 class="card-title"><i>Notre-Dame de Paris</i>  de Victor Hugo</h5>
+                  <h5 class="card-title">L'arestation et l'execution de Robespierre</h5>
                   <p class="card-text" >
-                    En plus d’être la cathédrale gothique la plus célèbre de France, Notre-Dame de Paris est aussi un roman majeur de Victor Hugo.
+                   Dès que l’arrestation de Robespierre est connue vers 17 heures, la Commune convoque son conseil général à l’hôtel de ville.
                   </p>
                   <span class="collapse card-text" id="viewdetails1d">
-                    Publié en 1831, il nous conte l’histoire de Quasimodo, Esmeralda, Frollo et Phoebus. Histoire d’amour, de haine et d’indifférence, histoire de passion aussi, dont les péripéties sont surtout connues pour les nombreuses adaptations, plus que pour le texte lui-même.
-                    En effet, ce roman de 940 pages est à réserver aux mains et aux yeux des lecteurs aguerris, voraces ou déterminés. Les intrigues à tiroirs sont aussi complexes que les personnages, les scènes s’étirent sur des pages et des pages d’action comme de description.
-                    Et pourtant, une qualité littéraire exceptionnelle, comme une récompense, attend le lecteur qui ouvrira les pages de Notre-Dame de Paris, sans doute l’un des plus beaux romans jamais écrits en langue française.
+                    Un vote une motion d’insurrection, fait sonner le tocsin pour appeler les patriotes aux armes et interdit aux concierges des prisons d’accepter de nouveaux détenus.
+                    Des hommes se masse pour tel ou tel camp, plusieurs personne qui ont été arrêter sont libéré, mais pas d'affrontement global. L'hotel de Ville qui acueillait plusieurs partisant phare de Robespierre est prise en pleine nuit, la plupart d'entre eux meurt ou son blesser dans leur tentative de se défendre.
+                    Robespierre décide de réagir trop tardivement, et est arrêter dans la nuit avec ses partisans, pui executer le lendemin avec 21 d'entre eux.
+                    Le procès et l'execution de Robespierre aura fait couler beaucoup d'encre et de sang, mais cela aura été une des étapes majeur de la fin du règne de terreur qui à eu lieu en France. 
+                   
                   </span> 
                   <br>
                   <br>
-                  <blockquote class="blockquote">
-                    <p class="mb-0">"La bohémienne dansait ... agile, légère, joyeuse, et ne sentant pas le poids du regard redoutable qui tombait à plomb sur sa tête."</p>
-                    <footer class="blockquote-footer">Victor Hugo dans son roman <cite title="Source Title">Notre-Dame de Paris</cite></footer>
-                  </blockquote>
                   <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails1d" >En savoir plus</a>
-                  <a class="btn btn-primary" href="https://www.google.com/aclk?sa=l&ai=DChcSEwjajLv0--31AhXZjWgJHRPQCKQYABAFGgJ3Zg&sig=AOD64_1f_vO3rbt3pkaOVGohTvt-0pX0TA&ctype=46&q=&ved=0ahUKEwjMlK30--31AhUyzIUKHUd-A9wQqygIvQg&adurl=">
-                    <i class="fas fa-book infobtn"></i> Acheter le roman</a>           
                 </div>
               </div>
             </div>
@@ -362,14 +364,15 @@ include('../php/header.inc.php');
               </div>
               <div class="col-sm-7">
                 <div class="card-body">
-                  <h5 class="card-title"><i>Notre-Dame de Paris</i>  de Victor Hugo</h5>
+                  <h5 class="card-title">1857 : Charles Baudelaire jugé pour son écrit "Les fleurs du mal"</h5>
                   <p class="card-text" >
-                    En plus d’être la cathédrale gothique la plus célèbre de France, Notre-Dame de Paris est aussi un roman majeur de Victor Hugo.
-                  </p>
+                   En juin 1857 l’auteur des Fleurs du mal est condamné pour «délit d’outrage à la morale publique et aux bonnes mœurs».</p>
                   <span class="collapse card-text" id="viewdetails1e">
-                    Publié en 1831, il nous conte l’histoire de Quasimodo, Esmeralda, Frollo et Phoebus. Histoire d’amour, de haine et d’indifférence, histoire de passion aussi, dont les péripéties sont surtout connues pour les nombreuses adaptations, plus que pour le texte lui-même.
-                    En effet, ce roman de 940 pages est à réserver aux mains et aux yeux des lecteurs aguerris, voraces ou déterminés. Les intrigues à tiroirs sont aussi complexes que les personnages, les scènes s’étirent sur des pages et des pages d’action comme de description.
-                    Et pourtant, une qualité littéraire exceptionnelle, comme une récompense, attend le lecteur qui ouvrira les pages de Notre-Dame de Paris, sans doute l’un des plus beaux romans jamais écrits en langue française.
+                   Rappelons d'abord le contexte: nous sommes en plein Second Empire sous le régime autoritaire de Napoléon III. Les auteurs y sont régulièrement victimes de la censure. L’écrivain, Gustave Flaubert, au début de l’année 1857, connaît un retentissant procès littéraire pour son Madame Bovary.
+                   En ce qui concerne "Les Fleurs du Mal" de Baudelaire, le 16 juillet 1857, la justice saisit tout les exemplaire produit et Baudelaire et son associé Poulet-Malassis sont poursuivis pour outrage à la moralité.
+                   Le livre est jugé trop ignoble, trop sale, trop axer sur le coté putride des sujets évoqués dedans, on doute même de la santé mental de l'auteur.
+                   Le 20 août 1857, le procureur impérial Ernest Pinard condamne le livre «pour outrage à la morale publique et aux bonnes mœurs», Baudelaire et son éditeur doivent payer de lourdes amendes. L’ouvrage est mutilé de six pièces: Les Bijoux, Le Léthé, À celle qui est trop gaie, Femmes damnées, Lesbos, et Les métamorphoses du Vampire.
+                    
                   </span> 
                   <br>
                   <br>
