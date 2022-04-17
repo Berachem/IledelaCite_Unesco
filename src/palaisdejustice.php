@@ -4,10 +4,7 @@ include('../php/header.inc.php');
 
 ?>
 
-      <div class="embed-responsive embed-responsive-16by9">
-        <video src="../img/palais-justice.mp4" loop autoplay="autoplay" autoplay playsinline style="pointer-events: none;" muted></video>
-                
-        </div>
+<img class="img-fluid" src="../img/Palais_de_Justice_de_Paris.jpg" alt="" style="width: 100%; top:0">
 
         <!-- Barre Orange et Titre page   -->
 

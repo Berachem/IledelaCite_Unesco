@@ -1,7 +1,7 @@
 <?php
 $page = 'Galerie';
 include('../php/header.inc.php');
-//include('../php/connexionBDD.inc.php');
+include('../php/connexionBDD.inc.php');
 ?>
 
 
