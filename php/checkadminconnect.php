@@ -10,10 +10,10 @@ $_SESSION["password"] = $_GET["password"];
     if ($_SESSION["id"]=='0' && $_SESSION["password"]=='0'){ // Si les codes sont bons.
 
 
-        header("Refresh:0; url=../src/admin.php");
+        header("Location: ../src/admin.php");
 
     }else{
-        header("Refresh:0; url=../src/admin_connect.php?error=1");
+        header("Location: ../src/admin_connect.php?error=1");
     }
     
 ?>

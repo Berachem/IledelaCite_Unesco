@@ -1,7 +1,13 @@
 <?php
 $page = 'Admin';
 include('../php/header.inc.php');
+
+if ($_SESSION["id"]!='0' && $_SESSION["password"]!='0'){ // Si les codes sont bons.
+
+  header("Location: ../src/admin_connect.php");
+}
 include('../php/connexionBDD.inc.php');
+
 
 ?>
 
@@ -78,7 +84,7 @@ body{
 
 <div class='description'>
         <p style="color:white" >
-            Tous les tableaux de la galerie <img src="https://cdn-icons.flaticon.com/png/512/3157/premium/3157837.png?token=exp=1649361688~hmac=7d5fa50c437150d9b9f3cf4adb2e492f"  width="45" height="45" alt="contact">
+            Tous les tableaux de la galerie <img src="../img/tableau.png"  width="45" height="45" alt="contact">
         </p>
     </div>
 

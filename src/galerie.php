@@ -30,13 +30,26 @@ include('../php/connexionBDD.inc.php');
               <img src="../img/galerie/2.jpg" data-target="#indicators" data-slide-to="1" alt="" data-toggle="tooltip" data-placement="top" title="Frank Boggs, Quai à la Seinie, Paris, au Clair de Lune, 1898"/>
           </div>
           <div class="col-12 col-md-6 col-lg-3">
-            <img src="../img/galerie/3.jpeg" data-target="#indicators" data-slide-to="2"  alt="" />
+            <img src="../img/galerie/3.jpg" data-target="#indicators" data-slide-to="2"  alt="" data-toggle="tooltip" data-placement="top" title="Démolition de l'église Saint-Barthelemy en 1791"/>
           </div>
           <div class="col-12 col-md-6 col-lg-3">
-              <img src="../img/galerie/4.jpg" data-target="#indicators" data-slide-to="3" alt="" data-toggle="tooltip" data-placement="top" title="Les Très Riches Heures du duc de Berry, 1411-1416" />
+              <img src="../img/galerie/4.jpg" data-target="#indicators" data-slide-to="3" alt="" data-toggle="tooltip" data-placement="top" title="Le palace est le Palais de la Cité avec la Sainte Chapelle" />
           </div>
-
+          <div class="col-12 col-md-6 col-lg-3">
+              <img src="../img/galerie/5.jpg" data-target="#indicators" data-slide-to="4" alt="" data-toggle="tooltip" data-placement="top" title="Le Sacre de Napoléon, tableau de David, 1805-1808" />
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+              <img src="../img/galerie/6.jpg" data-target="#indicators" data-slide-to="5" alt="" data-toggle="tooltip" data-placement="top" title="Les Très Riches Heures du duc de Berry, 1411-1416" />
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+              <img src="../img/galerie/7.jpg" data-target="#indicators" data-slide-to="6" alt="" data-toggle="tooltip" data-placement="top" title="Pierre-Denis Martin, Louis XV sortant du lit de justice tenu au parlement en septembre 1715." />
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+              <img src="../img/galerie/8.jpg" data-target="#indicators" data-slide-to="7" alt="" data-toggle="tooltip" data-placement="top" title="Plan dit de Bâle de l'île de la Cité en 1550" />
+          </div>
+          
           <?php
+          $count = 8;
                 $statement = $conn->prepare("SELECT * from galerie");
                 $statement->execute(array());
                 while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
@@ -45,19 +58,13 @@ include('../php/connexionBDD.inc.php');
 
                     echo '<div class="col-12 col-md-6 col-lg-3">';
 
-                    echo '<img src="'.$img.'" data-target="#indicators" data-slide-to="3"  alt="" data-toggle="tooltip" data-placement="top" title="'.$desc.'"  />';
+                    echo '<img src="'.$img.'" data-target="#indicators" data-slide-to="'.$count.'"  alt="" data-toggle="tooltip" data-placement="top" title="'.str_replace("'", ' ', $desc).'"  />';
 
                     echo '</div>';
+
+                    $count++;
                 }
                 ?>
-
-
-          
-              
-          
-          <div class="col-12 col-md-6 col-lg-3">
-              <img src="../img/galerie/6.jpg" data-target="#indicators" data-slide-to="4" alt="" />
-          </div>
         </div>
 
         <!-- Modal -->
@@ -75,6 +82,21 @@ include('../php/connexionBDD.inc.php');
             <li data-target="#indicators" data-slide-to="3"></li>
             <li data-target="#indicators" data-slide-to="4"></li>
             <li data-target="#indicators" data-slide-to="5"></li>
+            <li data-target="#indicators" data-slide-to="6"></li>
+            <li data-target="#indicators" data-slide-to="7"></li>
+            <?php
+              $count = 8;
+                  $statement = $conn->prepare("SELECT * from galerie");
+                  $statement->execute(array());
+                  while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
+                      $img = $row['image'];
+                      $desc = $row['description'];
+
+                      echo '<li data-target="#indicators" data-slide-to="'.$count.'"></li>';
+
+                      $count++;
+                }
+                ?>
           </ol>
           <div class="carousel-inner">
             
@@ -86,10 +108,22 @@ include('../php/connexionBDD.inc.php');
               <img class="d-block w-100" src="../img/galerie/2.jpg" alt="Second slide">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="../img/galerie/3.jpeg" alt="Third slide">
+              <img class="d-block w-100" src="../img/galerie/3.jpg" alt="Third slide">
             </div>
             <div class="carousel-item">
               <img class="d-block w-100" src="../img/galerie/4.jpg" alt="Fourth slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="../img/galerie/5.jpg" alt="5 slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="../img/galerie/6.jpg" alt="6 slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="../img/galerie/7.jpg" alt="6 slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="../img/galerie/8.jpg" alt="6 slide">
             </div>
 
             <?php
@@ -101,15 +135,12 @@ include('../php/connexionBDD.inc.php');
 
                     echo '<div class="carousel-item">';
 
-                    echo '<img src="'.$img.'" class="d-block w-100"  alt="Fifth slide" />';
+                    echo '<img src="'.$img.'" class="d-block w-100"  alt=" slide" />';
 
                     echo '</div>';
+                    
                 }
                 ?>
-          
-            <div class="carousel-item">
-              <img class="d-block w-100" src="../img/galerie/6.jpg" alt="Sixth slide">
-            </div>
           </div>
           <a class="carousel-control-prev" href="#indicators" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>

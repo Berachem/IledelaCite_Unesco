@@ -5,10 +5,7 @@ include('../php/header.inc.php');
 ?>
 
     
-      <div class="embed-responsive embed-responsive-16by9">
-        <video src="../img/saintechapelle.mp4" loop autoplay="autoplay" autoplay playsinline style="pointer-events: none;" muted></video>
-                
-        </div>
+<img class="img-fluid" src="../img/saintechapelle.jpg" alt="" style="width: 100%; top:0">
 
         <!-- Barre Orange et Titre page   -->
 
