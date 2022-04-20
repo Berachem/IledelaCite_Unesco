@@ -42,13 +42,17 @@ $(window).on(
 
   $(window).scroll(function() {
     if ($(document).scrollTop() > 200) {
+      
       $('.navbar').addClass('bg-dark');
       $('.navbar').addClass('change-color');
       $('.navbar-links .nav-item .dropdown-menu').addClass('bg-dark');
+      document.getElementsByClassName('arrows')[0].style.visibility='hidden';
     } else {
+      
       $('.navbar').removeClass('bg-dark');
       $('.navbar-links .nav-item .dropdown-menu').removeClass('bg-dark');
       $('.navbar').removeClass('change-color');
+      document.getElementsByClassName('arrows')[0].style.visibility='visible';
     }
   });
 
@@ -74,5 +78,13 @@ if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
   window.scrollTo({ top: 0, behavior: 'smooth' });
+  
 
 }
+
+jQuery('#Parcours2').click( function(e) {
+  jQuery('#collapse1').collapse('hide');
+});
+jQuery('#Parcours1').click( function(e) {
+  jQuery('#collapse2').collapse('hide');
+});
