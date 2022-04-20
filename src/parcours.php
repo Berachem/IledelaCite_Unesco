@@ -20,6 +20,13 @@ include('../php/header.inc.php');
 
     <iframe id= "Rallye_map" width="100%" height="600px" frameborder="0" allowfullscreen src="https://www.google.com/maps/d/u/0/embed?mid=1vSrjAa3AV4QliLCg__vC7r_eriF9yZ2I&ehbc=2E312F"></iframe>
 
+      <br>
+      <br>
+      
+
+      <iframe id= "Rallye_map" width="100%" height="600px" frameborder="0" allowfullscreen src="https://www.google.com/maps/d/u/0/edit?mid=1SgylBzEgvyETxx28E5v391zrw_n1Hsj7&usp=sharing"></iframe>
+
+
     <br>
 
 
