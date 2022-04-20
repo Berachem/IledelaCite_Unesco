@@ -238,7 +238,7 @@ include('../php/header.inc.php');
           <div class="card bg-dark" style="max-width: 1750px;">
             <div class="row no-gutters">
               <div class="col-sm-5" style="background: #868e96;">
-                <img src="../img/notredamepeinture2.jpeg" class="card-img-top h-100" alt="...">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Fran%C3%A7ois-Nicolas_Chifflart_-_Attaque_de_Notre-Dame.jpg/220px-Fran%C3%A7ois-Nicolas_Chifflart_-_Attaque_de_Notre-Dame.jpg" class="card-img-top h-100" alt="...">
               </div>
               <div class="col-sm-7">
                 <div class="card-body">
