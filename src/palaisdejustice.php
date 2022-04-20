@@ -315,8 +315,7 @@ include('../php/header.inc.php');
                     <footer class="blockquote-footer">Fin du discours de Robespierre lors de son procès du 26 juillet</footer>
                   </blockquote>
                   <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails1c" >En savoir plus</a>
-                  <a class="btn btn-primary" href="https://www.google.com/aclk?sa=l&ai=DChcSEwjajLv0--31AhXZjWgJHRPQCKQYABAFGgJ3Zg&sig=AOD64_1f_vO3rbt3pkaOVGohTvt-0pX0TA&ctype=46&q=&ved=0ahUKEwjMlK30--31AhUyzIUKHUd-A9wQqygIvQg&adurl=">
-                    <i class="fas fa-book infobtn"></i> Acheter le roman</a>           
+         
                 </div>
               </div>
             </div>
@@ -357,7 +356,7 @@ include('../php/header.inc.php');
           <div class="card bg-dark" style="max-width: 1750px;">
             <div class="row no-gutters">
               <div class="col-sm-5" style="background: #868e96;">
-                <img src="../img/Tribunale4.jpg" class="card-img-top h-100" alt="...">
+                <img src="../img/proces-fleurs-du-mal.jpg" class="card-img-top h-100" alt="...">
               </div>
               <div class="col-sm-7">
                 <div class="card-body">
@@ -373,13 +372,8 @@ include('../php/header.inc.php');
                   </span> 
                   <br>
                   <br>
-                  <blockquote class="blockquote">
-                    <p class="mb-0">"La bohémienne dansait ... agile, légère, joyeuse, et ne sentant pas le poids du regard redoutable qui tombait à plomb sur sa tête."</p>
-                    <footer class="blockquote-footer">Victor Hugo dans son roman <cite title="Source Title">Notre-Dame de Paris</cite></footer>
-                  </blockquote>
-                  <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails1be" >En savoir plus</a>
-                  <a class="btn btn-primary" href="https://www.google.com/aclk?sa=l&ai=DChcSEwjajLv0--31AhXZjWgJHRPQCKQYABAFGgJ3Zg&sig=AOD64_1f_vO3rbt3pkaOVGohTvt-0pX0TA&ctype=46&q=&ved=0ahUKEwjMlK30--31AhUyzIUKHUd-A9wQqygIvQg&adurl=">
-                    <i class="fas fa-book infobtn"></i> Acheter le roman</a>           
+                  <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails1e" >En savoir plus</a>
+         
                 </div>
               </div>
             </div>
@@ -391,20 +385,29 @@ include('../php/header.inc.php');
           <div class="card bg-dark" style="max-width: 1750px;">
             <div class="row no-gutters">
               <div class="col-sm-5" style="background: #868e96;">
-                  <img src="../img/Tribunale5.png" class="card-img-top h-100" alt="...">
+                  <img src="../img/Petain.png" class="card-img-top h-100" alt="...">
               </div>
               <div class="col-sm-7">
                 <div class="card-body">
-                  <h5 class="card-title">Le sacre de Napoléon dans la cathédrale de Notre Dame, le 18 mai 1804.</h5>
-                  <p class="card-text" >Le sacre de Napoléon Ier est la cérémonie d’intronisation et de couronnement qui suivit la proclamation de Napoléon Bonaparte comme empereur des Français sous le titre de Napoléon Ier du 18 mai 1804.
+                  <h5 class="card-title">Le procès du Maréchale Pétain.</h5>
+                  <p class="card-text" >Le 23 juillet 1945, au Palais de justice de Paris, s'ouvre, devant la Haute Cour, le procès de Philippe Pétain, chef de l'Etat français pendant l'Occupation allemande.
                   </p>
-                  <span class="collapse card-text" id="viewdetails1c">
-                    La cérémonie religieuse du sacre, officié par le pape Pie VII, suivie de celle du couronnement, se déroula, le dimanche 2 décembre 1804, à Notre-Dame de Paris. Elle dura près de cinq heures et le peintre Jacques-Louis David en fit deux tableaux : le Sacre de Napoléon et la Distribution des aigles.
-                    Le Sacre de Napoléon (titre complet Sacre de l'empereur Napoléon Ier et couronnement de l'impératrice Joséphine dans la cathédrale Notre-Dame de Paris, le 2 décembre 1804) est un tableau peint entre 1805 et 1807 par Jacques-Louis David, peintre officiel de Napoléon Ier, qui représente une des cérémonies du couronnement. Imposante par ses dimensions, presque dix mètres sur plus de six, la toile de David est conservée au Louvre. Une réplique quasiment identique commencée en 1808 par David et terminée lors de l'exil du peintre à Bruxelles est accrochée au musée du château de Versailles dans la salle du Sacre. Le couronnement et le sacre ont eu lieu à Notre-Dame de Paris.
-                    </span> 
-                    <br>
-                    <br>
-                    <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails1c" >En savoir plus</a>
+                  <span class="collapse card-text" id="viewdetails1f">
+                    Il a été accusé de complicité avec le gouvernement allemand pendant la 2ème guerre mondial, au détrimant de la sureté de l'État français.
+                    Après s'être déplacé à Sigmaringen en Allemagne puis en Suisse, il refuse l'asile politique que lui propose ce pays pour aller afronté un jugement français.
+                    Le GPRF (gouvernement provisoire de la République française), issu de la Résistance, et supervisé par le général de Gaulle, a réouvert une Haute Cour au Palais de justice, afin de pouvoir juger l'inculpé le 23 juillet 1945.
+                    Se défendant à l'aide de ses trois avocats et avec comme argument son dévouement pour la France, ses hauts faits à Verdun, sa légitimité au plein pouvoir qu'il dit avoir acquis de manière complétement légale, et sa volonté d'utiliser ces pouvoirs pour "protéger le peuple français".
+                    Pétain est poursuivi pour crime contre la sûreté intérieure et intelligence avec l'ennemi. L'accusation lui reproche sa politique de collaboration qui a "contribué au fonctionnement de la machine de guerre allemande", en particulier avec la mise en place de service du travail obligatoire, qui fera de la France l'un des principale fournisseur en homme au gouvernement nazi pour la main d'oeuvre.
+                    La quasi-totalité des témoins appelés à la barre exprime la résignance du Maréchal lors de l'occupation, et le peu de résistance qu'il a démontrer au demande des Allemands 
+                    n raison de son grand âge, sa peine est commuée en emprisonnement à perpétuité. Il n'est pas prouvé que l'accusé ait comploté contre le régime avant 40. Mais il a profité de son pouvoir pour l'abattre, estime la Cour. Le 23 juillet 1951, Philippe Pétain meurt à Port-Joinville.
+                  </span> 
+                  <br>
+                  <br>
+                  <blockquote class="blockquote">
+                    <p class="mb-0">"Je ne ferai pas d'autre déclaration. Je ne répondrai à aucune question". "Lorsque j'ai demandé l'armistice, d'accord avec nos chefs militaires, j'ai accompli un acte nécessaire et sauveur", "Je suis demeuré à la tête d'un pays sous l'Occupation. Voudra-t-on comprendre la difficulté de gouverner dans de telles conditions ? Chaque jour, un poignard sur la gorge. J'ai lutté contre les exigences de l'ennemi. L'histoire dira tout ce que je vous ai évité".</p>
+                    <footer class="blockquote-footer">Citations du Maréchal lors de son procès</footer>
+                  </blockquote>
+                  <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails1f" >En savoir plus</a>
                 </div>
               </div>
             </div>
@@ -437,12 +440,14 @@ include('../php/header.inc.php');
           </div>
           <div class="col-sm-7">
               <div class="card-body">
-                  <h5 class="card-title">Les incendies de Notre Dame</h5>
-                  <p class="card-text">L’incendie de Notre-Dame de Paris est un incendie majeur survenu à la cathédrale Notre-Dame de Paris, les 15 et 16 avril 2019, pendant près de 15 heures.
-                    </p>
+                  <h5 class="card-title">Le procès du 8 septembre 2021 </h5>
+                  <p class="card-text">Le procès du 8 septembre 2021 a eu lieu pour juger les actes d'attentats commis le 13 novembre 2015.</p>
                     <span class="collapse card-text" id="viewdetails3"> 
-                    Le sinistre se déclare en fin d'après midi à l'intérieur de sa charpente et prend rapidement une grande ampleur. Les flammes détruisent intégralement sa flèche, les toitures de la nef et du transept ainsi que sa charpente. En s'effondrant, la flèche provoque l'écroulement de la voûte de la croisée du transept, d'une partie de celle du bras nord et de celle d'une travée de la nef. L'intervention de centaines de pompiers, jusqu'au lever du jour, permet de sauver la structure globale de l'édifice et d'épargner les deux tours, ainsi que la façade occidentale, le trésor et l'essentiel des œuvres d'art de la cathédrale. Il s'agit du plus important sinistre subi par la cathédrale depuis sa construction.
-                      L'incendie entraîne une très forte émotion, tant en France que dans le reste du monde, ainsi qu'une importante couverture médiatique. Le président de la République, Emmanuel Macron, annonce immédiatement vouloir reconstruire la cathédrale dans un délai de cinq ans. Après des débats sur la construction d'un édifice plus moderne à l'ancien emplacement de la flèche, il est finalement décidé de la reconstruire à l'identique. </span> 
+                      Le 13 novembre 2015, plusieurs attaques simultanées conduites par des terroristes à Paris ont coûté la vie à 130 personnes. Le 8 septembre 2021, le procès des attentats s'ouvre au Palias de Justice de Paris, réouvert spécialement pour cet évênement.
+                      A partir de cette date, et durant les 9 mois suivants, 20 accusés seront jugés à la cour d'assises spéciale de Paris. Face à eux, 1 800 victimes sur les bancs des parties civiles et plus de 300 avocats.
+                      Une salle a été construite spécialement pour ce procès monumental sur le site du Palais. Près de 700m² d'espace pour accueillir environ 500 personnes à la fois et des caméras qui filmeront intégralement ce procès.
+                      Égalment 14 autres salles seront utilisées, pour accueillir les parties civiles, les proches des accusés mais aussi les journalistes et le public.
+                    </span> 
                     <br>
                       
                         <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails3" >En savoir plus</a>
