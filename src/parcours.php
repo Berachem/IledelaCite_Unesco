@@ -24,7 +24,7 @@ include('../php/header.inc.php');
       </a>
       <a class="btn btn-primary btn-lg" id ="Parcours2" data-toggle="collapse" href="#collapse2" role="button" aria-expanded="false" aria-controls="collapse2 collapse1">
       <img src="../img/marathon.png"  width="45" height="45" alt="marathon"> 
-      Parcours Marathon
+      Parcours Rapide
       </a>
   </p>
   <div class="collapse" id="collapse1">
