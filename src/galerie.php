@@ -25,7 +25,7 @@ include('../php/connexionBDD.inc.php');
 
 
 
-  <div class="container">
+  <div class="container" id="galerie">
         <div class="row d-flex flex-wrap align-items-center" data-toggle="modal" data-target="#lightbox" >
           <div class="col-12 col-md-6 col-lg-3">
             <img src="../img/galerie/1.jpg" data-target="#indicators" data-slide-to="0" alt="" data-toggle="tooltip" data-placement="top" title="The Quai Saint-Michel and Notre-Dame, Maximilien Luce, 1901"/> 
