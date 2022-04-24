@@ -23,7 +23,7 @@ include('../php/connexionBDD.inc.php');
   </p>
 </div>
 
-
+<section>
 
   <div class="container" id="galerie">
         <div class="row d-flex flex-wrap align-items-center" data-toggle="modal" data-target="#lightbox" >
@@ -161,7 +161,7 @@ include('../php/connexionBDD.inc.php');
         </div>
 </div>
 
-
+</section>
 <?php
 
 include('../php/footer.inc.php');

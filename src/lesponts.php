@@ -22,7 +22,7 @@ include('../php/header.inc.php');
           </p>
       </div>
     
-
+<section data-aos="fade-up">
     <!-- SECTION Pont neuf-->
     <div class="sous_titre">
       <h2 style="color: #f7af3e;"><i class="fas fa-star"></i>  Le Pont Neuf</h2>
@@ -109,8 +109,9 @@ La construction fut décidée en 1577 par le roi Henri III qui désigne une comm
     </div>
 
 
+</section>
 
-
+<section data-aos="fade-up">
     <!-- SECTION Pont au Change-->
     <div class="sous_titre">
       <h2 style="color: #f7af3e;">Le Pont au Change</h2>
@@ -145,6 +146,10 @@ La construction fut décidée en 1577 par le roi Henri III qui désigne une comm
 
     </div>
 
+</section>
+
+
+<section data-aos="fade-up">
 
   <!-- SECTION Les autres Ponts-->
   <div class="sous_titre">
@@ -267,7 +272,7 @@ Petit pont neuf, par opposition au petit pont situé légèrement plus en amont.
   </div>
 
 
-
+</section>
 
   <?php
 

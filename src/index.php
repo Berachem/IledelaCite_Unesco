@@ -77,7 +77,7 @@ include('../php/header.inc.php');
 
     </div>
 
-
+<section data-aos="fade-up">
     <!-- Phrase d'accroche en orange-->
     <h2 id='PhraseUnesco'>
      <?php echo $index_subtitle[$langue] ?> <img src='../img/unesco_emoji.png' class='rota' width='35' height='35' alt='unesco'>
@@ -110,7 +110,7 @@ include('../php/header.inc.php');
         frameborder='0'
         style='border:0'></iframe>
 
-
+</section>
 
 <?php
 include('../php/footer.inc.php');

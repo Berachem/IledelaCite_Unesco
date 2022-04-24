@@ -23,7 +23,7 @@ include('../php/header.inc.php');
           </p>
       </div>
 
-
+<section data-aos="fade-up">
     <!-- SECTION ARCHITECTURE-->
     <div class="sous_titre">
       <h2 style="color: #f7af3e;"><i class="fas fa-hammer"></i> Architecture</h2>
@@ -184,9 +184,9 @@ include('../php/header.inc.php');
 
     </div>
 
+</section>
 
-
-
+<section data-aos="fade-up">
     <!-- SECTION HISTOIRE-->
     <div class="sous_titre">
       <h2 style="color: #f7af3e;"><i class="fas fa-history"></i> Histoire</h2>
@@ -317,8 +317,10 @@ include('../php/header.inc.php');
     <br>
     
 
+</section>
 
 
+<section data-aos="fade-up">
     <!-- Section Actualité  -->
     <div class="sous_titre">
       <h2 style="color: #f7af3e;"><i class="fas fa-newspaper"></i> Actualité</h2>
@@ -403,7 +405,10 @@ include('../php/header.inc.php');
         </a>
       </div>
     </div>
+</section>
 
+
+<section data-aos="fade-up">
     <br>
         <h2 style="text-align: center; font-size: 2.5vw;">
           Un film à aller regarder... <img src="../img/pop-corn.png" width="35" height="35">
@@ -413,6 +418,7 @@ include('../php/header.inc.php');
       <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/YlDXdPSEtgk"></iframe>
     </div>
 
+</section>
     <!-- Site officiel  
     <br>
     <a class="btn btn-primary siteofficiel" href="https://www.notredamedeparis.fr/">

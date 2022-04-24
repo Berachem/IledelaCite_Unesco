@@ -21,6 +21,7 @@ include('../php/header.inc.php');
         <img src='../img/sous_titre.png' alt='' >
     </div>
     
+  <section data-aos="fade-up">
     <div class='card-group justify-content-center'>
       <div class='row'>
         <div class='card bg-dark CardEffectHover' style='width: 18rem;'>
@@ -88,7 +89,9 @@ include('../php/header.inc.php');
         </div>
       </div> 
     </div>
+</section>
 
+<section data-aos="fade-up">
     <div class='sous_titre'>
         <h2 style='color: #f7af3e;'><i class='fas fa-money-bill'></i> <?php echo $info_prix[$langue] ?></h2>
         <img src='../img/sous_titre.png' alt=''>
@@ -134,7 +137,9 @@ include('../php/header.inc.php');
         </tr>
       </tbody>
     </table>
+</section>
 
+<section data-aos="fade-up">
     <div class='sous_titre'>
       <h2 style='color: #f7af3e;'><i class='fas fa-bus'></i> | <i class='fas fa-train'></i> Transports</h2>
       <img src='../img/sous_titre.png' alt=''>
@@ -153,7 +158,7 @@ include('../php/header.inc.php');
        <?php echo $info_trajetGPS[$langue] ?> <a href='https://moovitapp.com/paris-662/poi/%C3%8Ele%20de%20la%20Cit%C3%A9,%20Paris/t/fr?tll=48.854847_2.347469&customerId=4908&ref=1&poiType=efsite' data-toggle='tooltip' data-placement='top' title='Moovit GPS'> <?php echo $info_cliquer[$langue] ?></a>
     </p>
       
-   
+  </section>
     <?php
     include('../php/footer.inc.php');
     

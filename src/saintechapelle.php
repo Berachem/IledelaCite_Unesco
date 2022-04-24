@@ -1,5 +1,5 @@
 <?php
-$page = 'Notre Dame';
+$page = 'Sainte Chapelle';
 include('../php/header.inc.php');
 
 ?>
@@ -20,7 +20,7 @@ include('../php/header.inc.php');
           </p>
       </div>
 
-
+<section data-aos="fade-up">
     <!-- SECTION ARCHITECTURE-->
     <div class="sous_titre">
       <h2 style="color: #f7af3e;"><i class="fas fa-hammer"></i> Architecture</h2>
@@ -182,8 +182,9 @@ include('../php/header.inc.php');
     </div>
 
 
+</section>
 
-
+<section data-aos="fade-up">
     <!-- SECTION HISTOIRE-->
     <div class="sous_titre">
       <h2 style="color: #f7af3e;"><i class="fas fa-history"></i> Histoire</h2>
@@ -314,8 +315,9 @@ include('../php/header.inc.php');
     <br>
     
 
+</section>
 
-
+<section data-aos="fade-up">
     <!-- Section Actualité  -->
     <div class="sous_titre">
       <h2 style="color: #f7af3e;"><i class="fas fa-newspaper"></i> Actualité</h2>
@@ -400,21 +402,16 @@ include('../php/header.inc.php');
         </a>
       </div>
     </div>
-
+</section>
     <br>
         <h2 style="text-align: center; font-size: 2.5vw;">
-          Un film à aller regarder... <img src="../img/pop-corn.png" width="35" height="35">
+          Nous vous conseillons cette vidéo... <img src="../img/pop-corn.png" width="35" height="35">
         </h2>
     <br>
     <div class="embed-responsive embed-responsive-16by9 video" >
-      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/YlDXdPSEtgk"></iframe>
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/iiU9s3vHhi4"></iframe>
     </div>
 
-    <!-- Site officiel  
-    <br>
-    <a class="btn btn-primary siteofficiel" href="https://www.notredamedeparis.fr/">
-    <i class="fas fa-globe"></i> Consulter le Site Web officiel de la cathédrale Notre-Dame</a>
--->
     <br>
 
     <?php

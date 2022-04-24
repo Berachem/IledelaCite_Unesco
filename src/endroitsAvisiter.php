@@ -14,7 +14,7 @@ include('../php/header.inc.php');
           </p>
       </div>
 
-
+<section data-aos="fade-up">
     <!-- Spot 1 -->
     <div class='card bg-dark spot' style='max-width: 1000px;'>
       <div class='row no-gutters'>
@@ -56,9 +56,10 @@ include('../php/header.inc.php');
           </div>
       </div>
     </div>
-
+</section>
 <br>
 
+<section data-aos="fade-up">
         <!-- Spot 2 -->
     <div class='card bg-dark' style='max-width: 1000px;'>
       <div class='row no-gutters'>
@@ -95,8 +96,10 @@ include('../php/header.inc.php');
           </div>
       </div>
     </div>
-
+</section>
     <br>
+
+<section data-aos="fade-up">
         <!-- Spot 3 -->
         <div class='card bg-dark' style='max-width: 1000px;'>
           <div class='row no-gutters'>
@@ -135,9 +138,10 @@ include('../php/header.inc.php');
               </div>
           </div>
         </div>       
-        
+</section>       
         <br>
 
+<section data-aos="fade-up">
         <!-- Spot 4 -->
         <div class='card bg-dark' style='max-width: 1000px;'>
           <div class='row no-gutters'>
@@ -176,7 +180,7 @@ include('../php/header.inc.php');
               </div>
           </div>
         </div>
- 
+</section>
 
 <?php
 include('../php/footer.inc.php');

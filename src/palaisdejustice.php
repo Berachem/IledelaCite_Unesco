@@ -20,6 +20,7 @@ include('../php/header.inc.php');
           </p>
       </div>
 
+<section data-aos="fade-up">
     <!-- SECTION Histoire-->
     <div class="sous_titre">
       <h2 style="color: #f7af3e;"><i class="fas fa-history"></i> Histoire</h2>
@@ -209,8 +210,10 @@ include('../php/header.inc.php');
     </div>
 
 
+</section>
 
 
+<section data-aos="fade-up">
     <!-- SECTION Procès-->
     <div class="sous_titre">
       <h2 style="color: #f7af3e;"><i class="fa fa-balance-scale"></i> Procès iconiques</h2>
@@ -431,6 +434,9 @@ include('../php/header.inc.php');
 
     </div>
 
+</section>
+
+<section data-aos="fade-up">
     <!-- Section Actualité  -->
     <div class="sous_titre">
       <h2 style="color: #f7af3e;"><i class="fas fa-newspaper"></i> Actualité</h2>
@@ -464,7 +470,7 @@ include('../php/header.inc.php');
       </div>
     </div>
 
-
+</section>
     <!-- Site officiel  -->
     <br>
     <a class="btn btn-primary siteofficiel" href="https://www.notredamedeparis.fr/">
