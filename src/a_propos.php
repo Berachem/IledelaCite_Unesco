@@ -96,7 +96,7 @@ include('../php/header.inc.php');
 
 
   <!-- Présentation du corps enseignants -->
-<section class="team-section text-center my-6">
+<section class="team-section text-center my-6" data-aos="fade-up">
   
   <div class="row justify-content-md-center">
 
@@ -107,7 +107,7 @@ include('../php/header.inc.php');
           alt="ETTAYEB" data-toggle="tooltip" data-placement="top" title="Enlevez votre souris d'ici svp ;)">
       </div>
       <h5 class="font-weight-bold mt-4 mb-3"><b style="color: #ea5c0d;">ETTAYEB Tewfik </b></h5>
-      <p class="text-uppercase blue-text"><strong>Responsable du Forum UNESCO - UGE</strong></p>
+      <p class="text-uppercase blue-text"><strong>Responsable du Forum UNESCO</strong></p>
       <p class="grey-text"></p>
       <ul class="list-unstyled mb-0">
         <!-- Linkedin -->
@@ -174,7 +174,7 @@ include('../php/header.inc.php');
 <br>
 
   <!-- Présentation de nos partenaires -->
-<section class="team-section text-center my-6">
+<section class="team-section text-center my-6" data-aos="fade-up">
   
   <div class="row justify-content-md-center">
 
@@ -241,7 +241,7 @@ include('../php/header.inc.php');
 <br>
 
   <!-- Présentation de nos sources -->
-<section class="team-section text-center my-6">
+<section class="team-section text-center my-6" data-aos="fade-up">
   
   <div class="row justify-content-md-center">
 
@@ -336,7 +336,7 @@ if (isset($_GET["messagesent"])){
 }
 
 ?>
-
+<section data-aos="fade-up">
   <!-- Formulaire de Contacte -->
   <form id="contactForm" action="../php/contacter.php?lang=".$_GET[$lang] method="post" target="_self">
 
@@ -366,7 +366,7 @@ if (isset($_GET["messagesent"])){
   </form>
 
 </div>
-
+</section>
 
 <?php
 
