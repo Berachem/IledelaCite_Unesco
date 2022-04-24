@@ -99,7 +99,9 @@ include('../php/header.inc.php');
       ></iframe>
     </div>
 
+</section>
 
+<section data-aos="fade-up">
     <!-- Carte localisation-->
     <hr style='margin-top: 6em;'>
     <h2 id='Contact'> <img src='../img/localisation.png'  class='rota' width='35' height='35' alt='localisation'> <?php echo $index_localisation[$langue] ?></h2>
