@@ -108,6 +108,7 @@ include('../php/header.inc.php');
       </div>
       <h5 class="font-weight-bold mt-4 mb-3"><b style="color: #ea5c0d;">ETTAYEB Tewfik </b></h5>
       <p class="text-uppercase blue-text"><strong>Responsable du Forum UNESCO</strong></p>
+      <p class="grey-text" style="font-style: italic;color:bisque">Gestion de projet & de l'équipe</p>
       <p class="grey-text"></p>
       <ul class="list-unstyled mb-0">
         <!-- Linkedin -->
@@ -127,6 +128,7 @@ include('../php/header.inc.php');
       </div>
       <h5 class="font-weight-bold mt-4 mb-3"><b style="color: #ea5c0d;">CESSY David </b></h5>
       <p class="text-uppercase blue-text"><strong>Chef du département Informatique de l'IUT</strong></p>
+      <p class="grey-text" style="font-style: italic;color:bisque">Developpement & aspect technique</p>
       <p class="grey-text"></p>
       <ul class="list-unstyled mb-0">
         <!-- Linkedin -->
@@ -148,7 +150,7 @@ include('../php/header.inc.php');
       </div>
       <h5 class="font-weight-bold mt-4 mb-3"><b style="color: #ea5c0d;">REBY Yann </b></h5>
       <p class="text-uppercase blue-text"><strong>Enseignant en Anglais</strong></p>
-      <p class="grey-text"></p>
+      <p class="grey-text" style="font-style: italic;color:bisque">Créativité & inspiration</p>
       <ul class="list-unstyled mb-0">
         <!-- Linkedin -->
         <a class="p-2 fa-lg ins-ic" href="https://www.linkedin.com/in/yann-reby/">

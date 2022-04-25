@@ -110,7 +110,8 @@ include('../php/header.inc.php');
         width='640' 
         height='480' 
         frameborder='0'
-        style='border:0'></iframe>
+        style='border:0'
+        ></iframe>
 
 </section>
 
