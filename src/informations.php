@@ -43,7 +43,7 @@ include('../php/header.inc.php');
               <h5 class='card-title'>Palais de Justice</h5>
               <h6 class='card-subtitle mb-2 '><i class='fas fa-hourglass-start' style='color: orange;'></i>  <?php echo $info_palaisjustice_status[$langue] ?></h6>
               <p class='card-text'> <?php echo $info_palaisjustice_description[$langue] ?></p>
-              <a href='https://tickets.monuments-nationaux.fr/fr-FR/familles?site=2035140822090400170'><button type='button' class='btn btn-danger' ><i class="fas fa-calendar"></i> <?php echo $info_reserve[$langue] ?></button></a>
+              <a href='https://exploreparis.com/fr/2776-palais-justice-paris.html'><button type='button' class='btn btn-danger' ><i class="fas fa-calendar"></i> <?php echo $info_reserve[$langue] ?></button></a>
             </div>
         </div>
 
@@ -84,7 +84,7 @@ include('../php/header.inc.php');
               <h5 class='card-title'>Sainte Chapelle</h5>
               <h6 class='card-subtitle mb-2 '><i class='fas fa-check' style='color: green;'></i>  <?php echo $info_chapelle_status[$langue] ?></h6>
               <p class='card-text'> <?php echo $info_chapelle_description[$langue] ?></p>
-              <a href='https://tickets.monuments-nationaux.fr/fr-FR/produits-seances'><button type='button' class='btn btn-danger' ><i class="fas fa-calendar"></i> <?php echo $info_reserve[$langue] ?></button></a>
+              <a href='https://reservation.parisinfo.com/il4-offre_i535-sainte-chapelle.aspx'><button type='button' class='btn btn-danger' ><i class="fas fa-calendar"></i> <?php echo $info_reserve[$langue] ?></button></a>
             </div>
         </div>
       </div> 
