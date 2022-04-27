@@ -382,6 +382,24 @@ echo'
          
          echo'   </ul>
         </div>
-      </nav>
+      </nav>';
+
+      // BARRE DE PROGRESSION
+        echo'
+      <div class="progress" style="background-color: #f7af3e; height: 4.2px; z-index: 100;"></div>
+      <style>
+
+      .progress { 
+        position: fixed;
+         top: 0; 
+         left: 0; 
+         height: 10px; 
+         background-color: #0d6efd; 
+         transition: all linear 0.1s; 
+         min-width: 0%; 
+      
+      }
+      </style>
+
     </header>';
 ?>

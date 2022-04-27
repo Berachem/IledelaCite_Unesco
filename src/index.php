@@ -4,7 +4,7 @@ include('../php/header.inc.php');
 
 ?>
 
-
+<section>
     <!-- Carousel-->
     <div id='demo' class='carousel slide' data-ride='carousel'>
 
@@ -76,6 +76,8 @@ include('../php/header.inc.php');
       </a>
 
     </div>
+
+</section>
 
 <section data-aos="fade-up">
     <!-- Phrase d'accroche en orange-->
