@@ -178,21 +178,23 @@ $notredame_carousel2_lien_text3 = array("Site officiel de éternelle notre dame"
 
 /* PAGE Avisiter.php */
 $Avisiter_title = $nav_discover_tovisit;
-$Avisiter_description = array("L'Île de la Cité, outre le fait que ce patrimoine française regorge de monuments iconiques, on peut y trouver beaucoup d'<b style='color: #ea5c0d;'>emplacements cachés et magnifiques</b>.","The Ile de la Cité, besides the fact that this French heritage is full of iconic monuments, has <b style='color: #ea5c0d;'>many hidden and beautiful places</b>.");
+$Avisiter_description = array("L'Île de la Cité, outre le fait que ce patrimoine française regorge de monuments iconiques, on peut y trouver beaucoup d'<b style='color: #ea5c0d;'>emplacements cachés et magnifiques</b>.","The Ile de la Cité, besides the fact that this French heritage is full of iconic monuments, has <b style='color: #ea5c0d;'>many hidden and beautiful places</b>.","The Île de la Cité ، إلى جانب حقيقة أن هذا التراث الفرنسي مليء بالآثار الشهيرة ، يمكنك العثور على الكثير من <b style = 'color: # ea5c0d؛'> المواقع المخفية والرائعة </ b>.","Île de la Cité，除了這個法國遺產遍布標誌性古蹟之外，您還可以找到許多<b style='color: #ea5c0d;'>隱藏而壯麗的地點</b>。");
 
-$Avisiter_marchefleurs_time = array("Du lundi au Samedi, de 8h00 à 19h30","From Monday to Saturday, from 8h00 to 19h30");
-$Avisiter_marchefleurs_phrase = array("Respirez les roses, les tulipes et beaucoup plus d'espèces florales au Marché aux fleurs au bord de quai.","Breathe in the roses, tulips and many more floral species at the Wharfside Flower Market.");
+$Avisiter_marchefleurs_time = array("Du lundi au Samedi, de 8h00 à 19h30","From Monday to Saturday, from 8h00 to 19h30","من الاثنين إلى السبت ، من 8:00 صباحًا إلى 7:30 مساءً","週一至週六，上午 8:00 至
+晚上 7:30");
+$Avisiter_marchefleurs_phrase = array("Respirez les roses, les tulipes et beaucoup plus d'espèces florales au Marché aux fleurs au bord de quai.","Breathe in the roses, tulips and many more floral species at the Wharfside Flower Market.","استنشق الورود والزنبق والعديد من أنواع الأزهار الأخرى في سوق كوايسايد للزهور.","在碼頭區花卉市場呼吸玫瑰、鬱金香和更多花卉品種。");
 
-$Avisiter_crypte_lieu = array("En-dessous de la Cathédrale Notre Dame","Below the Notre Dame Cathedral");
-$Avisiter_crypte_time = array("Du Mardi au Dimanche, de 10h à 18h","Tuesday to Sunday, from 10am to 6pm");
-$Avisiter_crypte_phrase = array("Visitez la plus importante crypte archéologique d’Europe et offre une vision unique de l’évolution urbaine et architecturale de l’île de la Cité.","Visit the most important archaeological crypt in Europe and offers a unique vision of the urban and architectural evolution of the Ile de la Cité.");
+$Avisiter_crypte_lieu = array("En-dessous de la Cathédrale Notre Dame","Below the Notre Dame Cathedral","أسفل كاتدرائية نوتردام","巴黎圣母院下方");
+$Avisiter_crypte_time = array("Du Mardi au Dimanche, de 10h à 18h","Tuesday to Sunday, from 10am to 6pm","من الثلاثاء إلى الأحد ، من الساعة 10 صباحًا حتى الساعة 6 مساءً","週二至週日，上午 10 點至下午 6 6 點。");
+$Avisiter_crypte_phrase = array("Visitez la plus importante crypte archéologique d’Europe et offre une vision unique de l’évolution urbaine et architecturale de l’île de la Cité.","Visit the most important archaeological crypt in Europe and offers a unique vision of the urban and architectural evolution of the Ile de la Cité.","قم بزيارة أهم سرداب أثري في أوروبا وقدم رؤية فريدة للتطور الحضري والمعماري في إيل دو لا سيتي.","參觀歐洲最重要的考古地下室，並以獨特的視角了解 Ile de la Cité 的城市和建築演變。");
 
-$Avisiter_Square_time = array("Pas d'horaires","No schedule");
-$Avisiter_Square_phrase = array("Le square offre une faune et une flore impressionnante pour un parc se trouvant au centre de la capitale. Il donne sur une vue magnifique de la Seine, du Musée du Louvre et de l'Hôtel de la Monnaie.","The square offers an impressive flora and fauna for a park located in the center of the capital. It offers a magnificent view of the Seine, the Louvre Museum and the Hôtel de la Monnaie.");
+$Avisiter_Square_time = array("Pas d'horaires","No schedule","لا ساعات","沒有時間表");
+$Avisiter_Square_phrase = array("Le square offre une faune et une flore impressionnante pour un parc se trouvant au centre de la capitale. Il donne sur une vue magnifique de la Seine, du Musée du Louvre et de l'Hôtel de la Monnaie.","The square offers an impressive flora and fauna for a park located in the center of the capital. It offers a magnificent view of the Seine, the Louvre Museum and the Hôtel de la Monnaie.","توفر الساحة نباتات وحيوانات رائعة لحديقة تقع في وسط العاصمة. وتطل على منظر رائع لنهر السين ومتحف اللوفر وفندق دي لا موناي","廣場為位於首都中心的公園提供了令人印象深刻的動植物群。 它俯瞰著塞納河、盧浮宮和 Hôtel de la Monnaie 的壯麗景色。");
 
-$Avisiter_maison_title=array("La fausse maison médiévale de l’île de la Cité","The fake medieval house on the Ile de la Cité");
-$Avisiter_maison_time = array("Pas d'horaires","No schedule");
-$Avisiter_maison_phrase = array("Une maison du millieu du XXe s ressemblant aux maison de l'époque de la construction de la cathédrale.","A house of the middle of the XXth century resembling the houses of the time of the construction of the cathedral.");
+$Avisiter_maison_title=array("La fausse maison médiévale de l’île de la Cité","The fake medieval house on the Ile de la Cité","منزل القرون الوسطى المزيف في إيل دو لا سيتي","Ile de la Cité 上的假中世紀
+房屋");
+$Avisiter_maison_time = array("Pas d'horaires","No schedule","لا ساعات","沒有時間表");
+$Avisiter_maison_phrase = array("Une maison du millieu du XXe s ressemblant aux maison de l'époque de la construction de la cathédrale.","A house of the middle of the XXth century resembling the houses of the time of the construction of the cathedral.","منزل من منتصف القرن العشرين يشبه المنازل من وقت بناء الكاتدرائية.","一座 20 世紀中葉的房屋，與建造大教堂時的房屋相似。");
 
 
 
