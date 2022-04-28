@@ -201,6 +201,121 @@ $Avisiter_maison_time = array("Pas d'horaires","No schedule","لا ساعات","
 $Avisiter_maison_phrase = array("Une maison du millieu du XXe s ressemblant aux maison de l'époque de la construction de la cathédrale.","A house of the middle of the XXth century resembling the houses of the time of the construction of the cathedral.","منزل من منتصف القرن العشرين يشبه المنازل من وقت بناء الكاتدرائية.","一座 20 世紀中葉的房屋，與建造大教堂時的房屋相似。");
 
 
+/* Palais de justice*/
+
+$palais_description = array("Le <b style=\"color: #ea5c0d;\">Palais de justice</b> est le monument qui prend en compte la plus grande partie de l'île, sa superficie correspond à 1 cinquème de l'île, et comprend plusieurs batiments tous plus impressionnant les uns que les autres.","The <b style=\"color: #ea5c0d;\">Judicial Palace</b> is the monument that takes up the largest part of the island, its area corresponds to 1 fifth of the island, and includes several buildings all more impressive than each other."); 
+
+/* caroussel 1 histoire */
+
+$palais_histoire = array("Histoire", "Hystory");
+
+/* element 1 */
+
+$palais_carousel1_card_title1 = array("Centre du pouvoir royal et de la justice en France durant plus de 8 siècles.", "Center of royal power and justice in France for over 8 centuries.");
+$palais_carousel1_card_text1 = array("Robert II le Pieux fut le premier souverain au alentour du Xe siècle à entreprendre des travaux conséquents mais ce n’est qu’à partir du XIIIe siècle que les rois commençaient à établir leur sièges au Palais.", "Robert II the Pious was the first sovereign around the Xth century to undertake consequent works but it is only from the XIIIth century that the kings began to establish their seats in the Palace.");
+$palais_carousel1_colapse_card_text1 = array("N'ayant aucun domicile vraiment fixe parmis les nombreux chateaux, palais et autre lieux de résidence auquel les rois avait accès ,
+le Palais de justice est donc la première \"demeure royal\", occupé par la ligné des Mérovingien set des Capétiens comme le grand Philippe Auguste (1180-1226).
+Elle aura servit de lieu de vie pour les rois pendant un peu moins de 3 siècles. Jusqu'à ce que Charles V (1338-1380)
+le délaisse comme résidence au profit du Louvre, de l’Hôtel Saint-Pol et du château de Vincennes. Il devient le siège de la justice souveraine du Parlement
+de Paris et de l’administration du royaume.", "Having no real fixed abode among the many castles, palaces and other places of residence to which the kings had access, the Palace of Justice is therefore the first \"royal residence\", occupied by the lineage of the Merovingians and the Capetians as the great Philip Augustus (1180-1226). It will have served as a place of life for the kings for a little less than 3 centuries. Until Charles V (1338-1380) abandoned it as a residence in favor of the Louvre, the Hôtel Saint-Pol and the Château de Vincennes. It becomes the seat of the sovereign justice of the Parliament of Paris and of the administration of the kingdom.");
+
+/* element 2 */
+
+$palais_carousel1_card_title2 = array("Une construction en plusieurs étapes", "A construction in several step");
+$palais_carousel1_card_text2 = array("Chaque roi a apporté sa touche personnel à la zone, rendant l'édifice de plus en plus grand, polyvalent et complet.", "Each king has brought his personal touch to the area, making the building increasingly large, versatile and complete.");
+$palais_carousel1_colapse_card_text2 = array("L'un des changement majeur à été effectuer par Saint Louis (1226-1270) qui érigea la Sainte Chapelle ainsi que la galerie mercière, la salle sur l’eau et la tour Bonbec. Philippe le Bel (1285-1314) remodèle et agrandit le palais pour y rassembler les institutions judiciaires et financières du royaume. Centralisant le plus en plus la gouvernance et le pouvoir au Palais. Dès le XVe siècle, la cour souveraine est dotée d’une prison : la Conciergerie. Dont il reste encore quelque vestige.", "One of the major changes was made by Saint Louis (1226-1270) who erected the Sainte Chapelle as well as the Mercier Gallery, the Water Room and the Bonbec Tower. Philippe le Bel (1285-1314) remodeled and enlarged the palace to bring together the judicial and financial and financial institutions of the kingdom. Centralizing more and more the governance and the power in the Palace. As early as the 15th century, the sovereign court was provided with a prison: the Conciergerie. Of which there is still some vestige.");
+
+/* element 3 */
+
+$palais_carousel1_card_title3 = array("Un site qui aura subit beaucoup d'épreuve au cour de son existence.", "A site which will have undergone many tests during its existence.");
+$palais_carousel1_card_text3 = array("Même si la royauté avait délaisser la zone comme lieux de résidence, le Palais de justice et ces environ était une cible de choix pour les pyromans, et toute les rénovation et reconstruction qui ont eu lieux ne se sont pas faite sans mal.", "Even though the royalty had abandoned the area as a place of residence, the courthouse and its surroundings were a prime target for arsonists, and all the renovations and rebuilding that have taken place have not been easy.");
+$palais_carousel1_colapse_card_text3 = array("<p class = \"card-text\">
+En effet plusieurs institution de justice avaient encore maintenue leur activité après le départ des monarques, notament le Parlement de Paris, la Chambre des comptes ou encore la Chancellerie.
+Ces instances furent des cibles privilégié par ceux qui voulait atteindre le gouvernement de l'époque, et plusieurs incendis, dont certains non-accidentel, ont été déclarer.
+<br>
+Parmis ces incendit on peut trouver :
+</p>
+<ul>
+  <li>1601 : incendit de la salle des pas perdus, qui servait de grande salle d'attente</li>
+  <li>1618 : la Grande Salle fut ravagé par un incendit</li>
+  <li>1630 : la flèche de la Sainte Chapelle connu le même sort</li>
+  <li>1737 : la Cour de s compte est égalment incendié</li>
+  <li>1776 : un incendit a eu lieu entre la Consiergerie et la Sainte Chapelle, <br> probablement le plus grand incendit parmis tous ceux citer</li>
+</ul>", "<p class = \"card-text\">
+En effet plusieurs institution de justice avaient encore maintenue leur activité après le départ des monarques, notament le Parlement de Paris, la Chambre des comptes ou encore la Chancellerie.
+Ces instances furent des cibles privilégié par ceux qui voulait atteindre le gouvernement de l'époque, et plusieurs incendis, dont certains non-accidentel, ont été déclarer.
+<br>
+Parmis ces incendit on peut trouver :
+</p>
+<ul>
+  <li>1601 : incendit de la salle des pas perdus, qui servait de grande salle d'attente</li>
+  <li>1618 : la Grande Salle fut ravagé par un incendit</li>
+  <li>1630 : la flèche de la Sainte Chapelle connu le même sort</li>
+  <li>1737 : la Cour de s compte est égalment incendié</li>
+  <li>1776 : un incendit a eu lieu entre la Consiergerie et la Sainte Chapelle, <br> probablement le plus grand incendit parmis tous ceux citer</li>
+</ul>");
+
+
+/* element 4 */
+
+$palais_carousel1_card_title4 = array("Changement de décor pour le Palais de justice", "Change of scenery for the courthouse");
+$palais_carousel1_card_text4 = array("A partir de l'époque de la Restauration, le palais passe d'une dimension politique à une dimension judiciaire.", "From the time of the Restoration, the palace moves from a political to a judicial dimension.");
+$palais_carousel1_colapse_card_text4 = array("C'est lors du retour de la monarchie en France que de nouveaux changement au Palais ont eu lieu, notament par la création de plusieurs nouveaux postes et l'agrandissement du Palais pour pouvoir supporter le nombre croissant d'affire à régler. Ces travaux ont été lancé pour de bon par la Monarchie de Juillet, juste après la l'époque de la Restauration. Le chantier prendra énormément de retard et d'arrêt temporaire, du à plusieurs incendit (en particulier le multi-incendit de 1871), aux guerres et refonte des plans. La consiergerie ne sera restauré qu'en 1883, et la plupart des batiments auront soit été abondonné, soit restauré les années qui suivent. Depuis 1914, nous n'avons plus eu de restaurations à grandes échelles comme celles-ci.", "With the return of the monarchy to France, new changes were made to the Palace, including the creation of several new posts and the enlargement of the Palace to accommodate the growing number of cases. These works were launched in earnest by the July Monarchy, just after the Restoration period. The building site will take a lot of delay and temporary stop, due to several fires (in particular the multi-incendit of 1871), to the wars and redesign of the plans. The consiergerie will be restored only in 1883, and most of the buildings will have either been abandoned or restored in the following years. Since 1914, France has had no more large-scale restorations like these.");
+
+/* element 5 */
+
+$palais_carousel1_card_title5 = array("Le Palais de justice au début du XXie siècle", "The courthouse at the beginning of the 20th century");
+$palais_carousel1_card_text5 = array("En 2018, une nouvelle page de l’histoire du Palais de justice s’est tournée, avec le déménagement du Tribunal de grande instance sur le nouveau site des Batignolles, dans un palais neuf, inauguré pour l’occasion.", "In 2018, a new page in the history of the Palais de Justice was turned, with the relocation of the Tribunal de Grande Instance to the new Batignolles site, in a new palace, inaugurated for the occasion.");
+$palais_carousel1_colapse_card_text5 = array("Mais de récent éléments ont forcer à réouvrir temporairement plusieurs salle pour des cours de cassation et d'appel. Des études et des travaux sont mis en oeuvre pour la restauration de la zone. Les services et les batiment sont peu à peu réouvert de 2018 à 2021. Ces réaménagement ont pour but de mettre aux normes les batiments et d'accentuer l'aspect du patrimoine et de 'histoire par rapport à la justice.", "But recent elements have forced the temporary reopening of several rooms for courts of cassation and appeal. Studies and works are implemented for the restoration of the area. The services and buildings are gradually reopened from 2018 to 2021. The aim of these renovations is to bring the buildings up to standard and to emphasize the aspect of heritage and history in relation to justice.");
+
+/* caroussel 2 prcès */
+
+$palais_proces = array("Procès iconiques", "Iconic trials");
+
+/* element 1 */
+$palais_carousel2_card_title1 = array("Plusieurs procès iconique ont eu lieu ici.", "Several iconic trials have taken place here.");
+$palais_carousel2_card_text1 = array("Le Palais de Justice, une fois que les rois l'ont désertés, à servie de tribunal, l'un des plus imposant de France.", "The Palace of Justice, once deserted by the kings, served as a court, one of the most imposing in France.");
+$palais_carousel2_colapse_card_text1 = array("Parmi ces incendit on peut trouver :
+<ul>
+  <li>1793-1795 : Acueille le tribunale révolutionnaire</li>
+  <li>27 Juillet 1794 : Robespierre fut arrêter par le tribunale, puis condamné à mort le lendemin</li>
+  <li>1857 : Gustave Flaubert est jugé pour son écrit \"Madame Bovary\", et Charles Baudelaire pour \"Les Fleurs du mal\".</li>
+  <li>1945 : le maréchal Pétain, puis le chef du gouvernement Pierre Laval sont condamnés</li>
+  <li>8 septembre 2021 : Le procès des attentats du 13 novembre 2015</li>
+</ul>", "Among these incendiaries we can find:
+<ul>
+<li>1793-1795 : hosts the revolutionary court</li>
+<li>1857: Gustave Flaubert is tried for his writing \"Madame Bovary\", and Charles Baudelaire for \"Les Fleurs du mal\".</li>
+<li>1945: Marshal Pétain, then the head of government Pierre Laval are convicted</li>
+<li>September 8, 2021: The trial of the attacks of November 13, 2015.</li>");
+
+/* element 2 */
+
+$palais_carousel2_card_title2 = array("Le tribunale révolutionnaire", "The revolutionary tribune");
+$palais_carousel2_card_text2 = array("Robespierre est devenue l'un des chefs du nouveau gouvernement après l'abolition de la monarchie en France. Mais lors du règne de terreur, il devint tyranique,", "Robespierre became one of the leaders of the new government after the abolition of the monarchy in France. But during the reign of terror, he became tyrannical,");
+$palais_carousel2_colapse_card_text2 = array("Afin de remmettre en ordre la ville et condamné les personnes contre le nouveaux gouvernement, elle à été mise en place du 10 mars 1793 jusqu'au 31 mai 1795. Ce tribunale aura grandement contribuer au règne de la terreur, avec 1500 personnes executer durant cette période, et 2 585 condamnation à mort durant son activité. Appelé à l'époque \"Tribunale criminel extraordinaire\", il s'est installer dans la Grand-chambre du parlement de Paris rebaptisée \"Salle de la Liberté\". Les séances sont retranscrit dans le bulletin du tribunal révolutionnaire. Il disposait de règles spéciales en plus de celles mises en place à chaque tribunal.", "In order to put the city back in order and condemn people against the new government, it was set up from March 10, 1793 until May 31, 1795. This tribunal contributed greatly to the reign of terror, with 1500 people executed during this period, and 2585 death sentences during its activity.Called at the time \"Tribunale criminel extraordinaire\" (Extraordinary Criminal Court), it was installed in the Grand Chamber of the Parliament of Paris, renamed \"Salle de la Liberté\" (Hall of Liberty). The sessions were transcribed in the bulletin of the revolutionary court. It had special rules in addition to those established for each court.");
+
+/* element 3 */
+
+$palais_carousel2_card_title3 = array("Le procès de Robespierre", "The trial of Robespierre");
+$palais_carousel2_card_text3 = array("Robespierre est devenue l'un des chefs du nouveau gouvernement après l'abolition de la monarchie en France. Mais lors du règne de terreur, il devint tyranique,", "Robespierre became one of the leaders of the new government after the abolition of the monarchy in France. But during the reign of terror, he became tyrannical,");
+$palais_carousel2_colapse_card_text3 = array("Le jugement de Robespierre débuta le 26 juillet 1794, où il aura pu se défendre contre les accusation qu'on lui portait, à savoir sa responsabilité avec le règne de terreur, dont il en rejette la faute sur ces adversaire politique, et l'acusation de tyranie, qu'il proteste.
+Alors qu'il est sencé être en train de se défendre, Robespierrre propose une réorganisation partiel du gouvernement, en suprimant le Comité de salut public, chargé de gérer la défense extérieur et intérieur lors des situation urgente, cet objectif ont donné à ses membre de plus en plsu de pouvoir, devenant un véritable gouvernement dictatorial et participant au règne de terreur.
+Il dispose du soutient des Jacobins (ou du moins de la plupart), ceux qui ne l'approuve pas sont expulsé dd l'un des club les plus influant de France à l'époque. Robespierre est égalment soutenue par l'état major de la garde nationnal ainsi qu'une bonne partie de la Commune, une branche du gouvernement axer sur Paris et ses habitants.
+Mais la plupart des hommes qui composait le gouvernement et ce tribunale était soit opposé à Robespierre, soit apeuré par le règne de terreur qui était en cour, et dans la prommesse de l'a fin de celui-ci par les principaux opposant, ils s'allient à eux afin de pouvoir organiser une obstruction telle que ni Robespierre ni ses partisans ne puissent intervenir.
+Le procès au jour suivant fut beaucoup plus chaotique, empêchant Robespierre de se défendre, les seuls voies qui ont réussie à ce faire entendre sont celles qui ont proposé un décret d’arrestation contre Robespierre, accepter à la hâte par vote aux voix (ce qui dans la cacophonie générale n'était pas très pertinant).
+et vote une motion d’insurrection, fait sonner le tocsin pour appeler les patriotes aux armes et interdit aux concierges des prisons d’accepter de nouveaux détenus.
+Des hommes se masse pour tel ou tel camp, plusieurs personne qui ont été arrêter sont libéré, mais pas d'affrontement global. L'hotel de Ville qui acueillait plusieurs partisant phare de Robespierre est prise en pleine nuit, la plupart d'entre eux meurt ou son blesser dans leur tentative de se défendre.
+Robespierre décide de réagir trop tardivement, et est arrêter dans la nuit avec ses partisans, pui executer le lendemin avec 21 d'entre eux.
+Le procès et l'execution de Robespierre aura fait couler beaucoup d'encre et de sang, mais cela aura été une des étapes majeur de la fin du règne de terreur qui à eu lieu en France.", "Robespierre's trial began on July 26, 1794, when he was able to defend himself against the accusations made against him, namely his responsibility for the reign of terror, which he blamed on his political opponents, and the accusation of tyranny, which he protested.
+While he is supposed to be defending himself, Robespierrre proposes a partial reorganization of the government, abolishing the Committee of Public Safety, in charge of managing the external and internal defense in urgent situations, which gave its members more and more power, becoming a real dictatorial government and participating in the reign of terror.
+He had the support of the Jacobins (or at least most of them), those who did not approve of him were expelled from one of the most influential clubs in France at that time. Robespierre was also supported by the general staff of the National Guard and much of the Commune, a branch of the government focused on Paris and its inhabitants.
+But most of the men who made up the government and this tribune were either opposed to Robespierre or frightened by the reign of terror that was in progress, and in anticipation of the end of it by the principal opponents, they allied themselves with them in order to organize an obstruction such that neither Robespierre nor his supporters could intervene.
+The next day's trial was much more chaotic, preventing Robespierre from defending himself, the only voices that managed to be heard were those that proposed a decree of arrest against Robespierre, accepted in haste by vote (which in the general cacophony was not very relevant).
+and votes a motion of insurrection, rings the tocsin to call the patriots to arms and forbids the prison wardens to accept new prisoners.
+Men massed for this or that camp, several people who had been arrested were released, but no global confrontation. The Hotel de Ville, which housed many of Robespierre's leading supporters, was taken in the middle of the night, and most of them died or were wounded in their attempt to defend themselves.Robespierre decides to react too late, and is arrested in the night with his supporters, then executed the next day with 21 of them.The trial and execution of Robespierre will have caused a lot of ink and bloodshed, but it will have been one of the major steps in the end of the reign of terror that took place in France.");
+$palais_carousel2_card_quote3 = array("\"Je suis fait pour combattre le crime, non pour le gouverner. Le temps n'est point arrivé où les hommes de biens peuvent servir impunément la patrie ; les défenseurs de la liberté ne seront que des proscrits tant que la horde des fripons dominera\"", "\"I am made to fight crime, not to govern it. The time has not arrived when good men can serve their country with impunity; the defenders of liberty will only be outcasts as long as the horde of rascals dominates\"");
+$palais_carousel2_card_footer3 = array("Fin du discours de Robespierre lors de son procès du 26 juillet", "End of Robespierre's speech during his trial on July 26");
 
 /* Informations */
 
