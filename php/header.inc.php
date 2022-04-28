@@ -50,10 +50,13 @@ $index_video = array("https://www.youtube.com/embed/k4KAhO6XgOw","https://www.yo
 
 
 
+/* Commun */
+
+$savoirplus = array("En savoir plus", "Read more");
+
 /* Notredame */
 
-$notredame_titrePage = array("Notre-Dame", "Notre-Dame");
-$notredame_description = array("La cathédrale Notre-Dame de Paris, chef d’œuvre de l’architecture gothique, est le monument le plus visité de France.", "The Notre-Dame de Paris cathedral, a masterpiece of Gothic architecture, is the most visited monument in France.");
+$notredame_description = array("La cathédrale <b style=\"color: #ea5c0d;\"> Notre-Dame </b> de Paris, chef d’œuvre de l’architecture gothique, est le monument le plus visité de France.", "The cathedral <b style=\"color: #ea5c0d;\"> Notre-Dame </b> of Paris, a masterpiece of Gothic architecture, is the most visited monument in France.");
 
 /* caroussel 1, architecture */
 $notredame_sous_titre_architecture = array("Architecture", "Architecture");
@@ -149,6 +152,7 @@ And yet, an exceptional literary quality, like a reward, awaits the reader who w
 $notredame_carousel2_colapse_card_blockquote_text = array("« La bohémienne dansait ... agile, légère, joyeuse, et ne sentant pas le poids du regard redoutable qui tombait à plomb sur sa tête. »", "« La tête, le cœur, la moelle de la ville entière. »",
 "« La bohémienne dansait ... agile, légère, joyeuse, et ne sentant pas le poids du regard redoutable qui tombait à plomb sur sa tête. »", "« La tête, le cœur, la moelle de la ville entière. »");
 $notredame_carousel2_colapse_card_blockquote_footer = array("Victor Hugo dans son roman", "Victor Hugo in his novel");
+$notredame_carousel2_colapse_card_blockquote_button = array("Acheter le roman", "Buy the book");
 
 /* element 3 */
 $notredame_carousel2_card_title3 = array("Le sacre de Napoléon dans la cathédrale de Notre Dame, le 18 mai 1804.", "The coronation of Napoleon in the cathedral of Notre Dame, May 18, 1804.");
@@ -162,19 +166,19 @@ The Rite of Napoleon (full title Rite of Emperor Napoleon I and Coronation of Em
 $notredame_sous_titre_actualite = array("Actualité", "News");
 
 /* element 1 */
-$notredame_carousel2_card_title3 = array("Les incendies de Notre Dame", "The fires of Notre Dame");
-$notredame_carousel2_card_text3 = array("L’incendie de Notre-Dame de Paris est un incendie majeur survenu à la cathédrale Notre-Dame de Paris, les 15 et 16 avril 2019, pendant près de 15 heures.", "The Notre Dame de Paris fire was a major fire at the Notre Dame Cathedral in Paris on April 15 and 16, 2019, for nearly 15 hours.");
-$notredame_carousel2_colapse_card_text3 = array("Le sinistre se déclare en fin d'après midi à l'intérieur de sa charpente et prend rapidement une grande ampleur. Les flammes détruisent intégralement sa flèche, les toitures de la nef et du transept ainsi que sa charpente. En s'effondrant, la flèche provoque l'écroulement de la voûte de la croisée du transept, d'une partie de celle du bras nord et de celle d\'une travée de la nef. L\'intervention de centaines de pompiers, jusqu\'au lever du jour, permet de sauver la structure globale de l\'édifice et d\'épargner les deux tours, ainsi que la façade occidentale, le trésor et l\'essentiel des œuvres d\'art de la cathédrale. Il s\'agit du plus important sinistre subi par la cathédrale depuis sa construction.
+$notredame_carousel3_card_title1 = array("Les incendies de Notre Dame", "The fires of Notre Dame");
+$notredame_carousel3_card_text1 = array("L’incendie de Notre-Dame de Paris est un incendie majeur survenu à la cathédrale Notre-Dame de Paris, les 15 et 16 avril 2019, pendant près de 15 heures.", "The Notre Dame de Paris fire was a major fire at the Notre Dame Cathedral in Paris on April 15 and 16, 2019, for nearly 15 hours.");
+$notredame_carousel3_colapse_card_text1 = array("Le sinistre se déclare en fin d'après midi à l'intérieur de sa charpente et prend rapidement une grande ampleur. Les flammes détruisent intégralement sa flèche, les toitures de la nef et du transept ainsi que sa charpente. En s'effondrant, la flèche provoque l'écroulement de la voûte de la croisée du transept, d'une partie de celle du bras nord et de celle d\'une travée de la nef. L\'intervention de centaines de pompiers, jusqu\'au lever du jour, permet de sauver la structure globale de l\'édifice et d\'épargner les deux tours, ainsi que la façade occidentale, le trésor et l\'essentiel des œuvres d\'art de la cathédrale. Il s\'agit du plus important sinistre subi par la cathédrale depuis sa construction.
 L'incendie entraîne une très forte émotion, tant en France que dans le reste du monde, ainsi qu'une importante couverture médiatique. Le président de la République, Emmanuel Macron, annonce immédiatement vouloir reconstruire la cathédrale dans un délai de cinq ans. Après des débats sur la construction d'un édifice plus moderne à l'ancien emplacement de la flèche, il est finalement décidé de la reconstruire à l\'identique.", "The fire broke out at the end of the afternoon inside its framework and quickly took on a large scale. The flames completely destroyed the spire, the roofs of the nave and transept as well as the roof structure. As the spire collapsed, the vault of the transept crossing, part of the north arm and a bay of the nave collapsed. The intervention of hundreds of firefighters, until daybreak, saved the overall structure of the building and spared the two towers, as well as the western facade, the treasure and most of the works of art of the cathedral. This was the most important fire suffered by the cathedral since its construction.
 The fire caused great emotion in France and around the world, as well as extensive media coverage. The President of the Republic, Emmanuel Macron, immediately announced his intention to rebuild the cathedral within five years. After debates on the construction of a more modern building on the former site of the spire, it was finally decided to rebuild it identically.");
-
+$notredame_carousel3_button = array("Faire un don", "Make a donation");
 /* element 2 */
-$notredame_carousel2_card_title3 = array("Comment visiter Notre Dame ?", "How to visit Notre Dame?");
-$notredame_carousel2_card_text3 = array("Aujourd'hui la reconstruction est toukours en cour, et une réouverture complète n'est pas à prévoir avant 2024, mais l'on peut encore visiter le monument grace à un méthodes inédite, la réalité virtuel.", "Today the reconstruction is still in progress, and a complete reopening is not expected before 2024, but we can still visit the monument thanks to a new method, virtual reality.");
-$notredame_carousel2_colapse_card_text3 = array("Visite immersive proposer sous le parvis de Notre Dame et dans la Défence, elle vous fait voir la cathédrale sous différent angle et à différentes époques, vous permettant ed marcher à l'intérieur comme si vous y étiez.
-Disposible jusqu'au 14 avril, c'est une expérience à ne pas manquer qui vous permet de traverser les âges et de découvrir le passé avec les technologies du présent, en attendant de pourvoir remettre un pied dans la cathédrâle dans un future proche.", "An immersive visit proposed under the square of Notre Dame and in the Defense, it makes you see the cathedral from different angles and at different times, allowing you to walk inside as if you were there.
-Available until April 14th, this is an experience not to be missed, allowing you to cross the ages and discover the past with the technologies of the present, while waiting to be able to step into the cathedral again in the near future.");
-$notredame_carousel2_lien_text3 = array("Site officiel de éternelle notre dame", "Official website of eternal notre dame");
+$notredame_carousel3_card_title2 = array("Comment visiter Notre Dame ?", "How to visit Notre Dame?");
+$notredame_carousel3_card_text2 = array("Aujourd'hui la reconstruction est toukours en cour, et une réouverture complète n'est pas à prévoir avant 2024, mais l'on peut encore visiter le monument grace à un méthodes inédite, la réalité virtuel.", "Today the reconstruction is still in progress, and a complete reopening is not expected before 2024, but we can still visit the monument thanks to a new method, virtual reality.");
+$notredame_carousel3_colapse_card_text2 = array("Visite immersive proposer sous le parvis de Notre Dame et dans la Défence, elle vous fait voir la cathédrale sous différent angle et à différentes époques, vous permettant ed marcher à l'intérieur comme si vous y étiez.
+Disposible à l'origine jusqu'au 14 avril, elle est pour l'instant maintenue jusqu'au 4 septembre 2022, c'est une expérience à ne pas manquer qui vous permet de traverser les âges et de découvrir le passé avec les technologies du présent, en attendant de pourvoir remettre un pied dans la cathédrâle dans un future proche.", "An immersive visit proposed under the square of Notre Dame and in the Defense, it makes you see the cathedral from different angles and at different times, allowing you to walk inside as if you were there.
+Originally available until  April 14th, it is maintained until the 4th september 2022, this is an experience not to be missed, allowing you to cross the ages and discover the past with the technologies of the present, while waiting to be able to step into the cathedral again in the near future.");
+$notredame_carousel3_lien_text2 = array("Site officiel de éternelle notre dame", "Official website of eternal notre dame");
 
 /* PAGE Avisiter.php */
 $Avisiter_title = $nav_discover_tovisit;

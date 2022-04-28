@@ -60,7 +60,7 @@ include('../php/header.inc.php');
                   </span> 
                   <br>
                   <br>
-                  <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails" >En savoir plus</a>
+                  <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails" ><?php echo $savoirplus[$langue] ?></a>
                 </div>             
               </div>
               <div class="col-sm-5" style="background: #868e96;">
@@ -90,7 +90,7 @@ include('../php/header.inc.php');
                   </span>
                   <br>
                   <br>
-                  <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetailsb" >En savoir plus</a>
+                  <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetailsb" ><?php echo $savoirplus[$langue] ?></a>
                 </div> 
               </div>
               <div class="col-sm-5" style="background: #868e96;">
@@ -128,7 +128,7 @@ include('../php/header.inc.php');
                   </span>
                   <br>
                   <br>
-                  <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetailsc" >En savoir plus</a>    
+                  <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetailsc" ><?php echo $savoirplus[$langue] ?></a>    
                 </div>      
               </div>
               <div class="col-sm-5" style="background: #868e96;">
@@ -157,7 +157,7 @@ include('../php/header.inc.php');
                   </span>
                   <br>
                   <br>
-                  <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetailsd" >En savoir plus</a>
+                  <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetailsd" ><?php echo $savoirplus[$langue] ?></a>
                     
                     
                 </div>
@@ -184,7 +184,7 @@ include('../php/header.inc.php');
                   </span>
                   <br>
                   <br>
-                  <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetailse" >En savoir plus</a>
+                  <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetailse" ><?php echo $savoirplus[$langue] ?></a>
                     
                     
                 </div>
@@ -259,7 +259,7 @@ include('../php/header.inc.php');
                   </span> 
                   <br>
                   <br>
-                  <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails1" >En savoir plus</a>
+                  <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails1" ><?php echo $savoirplus[$langue] ?></a>
                 </div>
               </div>
             </div>
@@ -285,7 +285,7 @@ include('../php/header.inc.php');
                   </span> 
                   <br>
                   <br>
-                  <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails1b" >En savoir plus</a>
+                  <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails1b" ><?php echo $savoirplus[$langue] ?></a>
                 </div>
               </div>
             </div>
@@ -322,7 +322,7 @@ include('../php/header.inc.php');
                     <p class="mb-0">"Je suis fait pour combattre le crime, non pour le gouverner. Le temps n'est point arrivé où les hommes de biens peuvent servir impunément la patrie ; les défenseurs de la liberté ne seront que des proscrits tant que la horde des fripons dominera"</p>
                     <footer class="blockquote-footer">Fin du discours de Robespierre lors de son procès du 26 juillet</footer>
                   </blockquote>
-                  <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails1c" >En savoir plus</a>
+                  <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails1c" ><?php echo $savoirplus[$langue] ?></a>
          
                 </div>
               </div>
@@ -352,7 +352,7 @@ include('../php/header.inc.php');
                   </span> 
                   <br>
                   <br>
-                  <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails1d" >En savoir plus</a>
+                  <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails1d" ><?php echo $savoirplus[$langue] ?></a>
                 </div>
               </div>
             </div>
@@ -380,7 +380,7 @@ include('../php/header.inc.php');
                   </span> 
                   <br>
                   <br>
-                  <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails1e" >En savoir plus</a>
+                  <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails1e" ><?php echo $savoirplus[$langue] ?></a>
          
                 </div>
               </div>
@@ -415,7 +415,7 @@ include('../php/header.inc.php');
                     <p class="mb-0">"Je ne ferai pas d'autre déclaration. Je ne répondrai à aucune question". "Lorsque j'ai demandé l'armistice, d'accord avec nos chefs militaires, j'ai accompli un acte nécessaire et sauveur", "Je suis demeuré à la tête d'un pays sous l'Occupation. Voudra-t-on comprendre la difficulté de gouverner dans de telles conditions ? Chaque jour, un poignard sur la gorge. J'ai lutté contre les exigences de l'ennemi. L'histoire dira tout ce que je vous ai évité".</p>
                     <footer class="blockquote-footer">Citations du Maréchal lors de son procès</footer>
                   </blockquote>
-                  <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails1f" >En savoir plus</a>
+                  <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails1f" ><?php echo $savoirplus[$langue] ?></a>
                 </div>
               </div>
             </div>
@@ -461,7 +461,7 @@ include('../php/header.inc.php');
                     </span> 
                     <br>
                       
-                        <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails3" >En savoir plus</a>
+                        <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails3" ><?php echo $savoirplus[$langue] ?></a>
                   <a class="btn btn-success" href="https://www.toutsurmesfinances.com/argent/a/comment-faire-un-don-pour-rebatir-notre-dame-de-paris#:~:text=Il%20est%20aussi%20possible%20d'effectuer%20un%20don%20%3A,BIC%20de%20la%20banque%20%3A%20SOGEFRPP)">
                     <i class="fas fa-heartbeat infobtn"></i> Faire un don pour aider Notre Dame</a>
                   
