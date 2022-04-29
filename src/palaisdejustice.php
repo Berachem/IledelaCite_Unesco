@@ -296,16 +296,12 @@ include('../php/header.inc.php');
               </div>
               <div class="col-sm-7">
                 <div class="card-body">
-                  <h5 class="card-title">L'arestation et l'execution de Robespierre</h5>
+                  <h5 class="card-title"><?php echo $palais_carousel2_card_title4[$langue] ?></h5>
                   <p class="card-text" >
-                   Dès que l’arrestation de Robespierre est connue vers 17 heures, la Commune convoque son conseil général à l’hôtel de ville.
+                  <?php echo $palais_carousel2_card_text4[$langue] ?>
                   </p>
                   <span class="collapse card-text" id="viewdetails1d">
-                    Un vote une motion d’insurrection, fait sonner le tocsin pour appeler les patriotes aux armes et interdit aux concierges des prisons d’accepter de nouveaux détenus.
-                    Des hommes se masse pour tel ou tel camp, plusieurs personne qui ont été arrêter sont libéré, mais pas d'affrontement global. L'hotel de Ville qui acueillait plusieurs partisant phare de Robespierre est prise en pleine nuit, la plupart d'entre eux meurt ou son blesser dans leur tentative de se défendre.
-                    Robespierre décide de réagir trop tardivement, et est arrêter dans la nuit avec ses partisans, pui executer le lendemin avec 21 d'entre eux.
-                    Le procès et l'execution de Robespierre aura fait couler beaucoup d'encre et de sang, mais cela aura été une des étapes majeur de la fin du règne de terreur qui à eu lieu en France. 
-                   
+                    <?php echo $palais_carousel2_colapse_card_text4[$langue] ?>
                   </span> 
                   <br>
                   <br>
@@ -325,15 +321,12 @@ include('../php/header.inc.php');
               </div>
               <div class="col-sm-7">
                 <div class="card-body">
-                  <h5 class="card-title">1857 : Charles Baudelaire jugé pour son écrit "Les fleurs du mal"</h5>
+                  <h5 class="card-title"><?php echo $palais_carousel2_card_title5[$langue] ?></h5>
                   <p class="card-text" >
-                   En juin 1857 l’auteur des Fleurs du mal est condamné pour «délit d’outrage à la morale publique et aux bonnes mœurs».</p>
+                  <?php echo $palais_carousel2_card_text5[$langue] ?>
+                  </p>
                   <span class="collapse card-text" id="viewdetails1e">
-                   Rappelons d'abord le contexte: nous sommes en plein Second Empire sous le régime autoritaire de Napoléon III. Les auteurs y sont régulièrement victimes de la censure. L’écrivain, Gustave Flaubert, au début de l’année 1857, connaît un retentissant procès littéraire pour son Madame Bovary.
-                   En ce qui concerne "Les Fleurs du Mal" de Baudelaire, le 16 juillet 1857, la justice saisit tout les exemplaire produit et Baudelaire et son associé Poulet-Malassis sont poursuivis pour outrage à la moralité.
-                   Le livre est jugé trop ignoble, trop sale, trop axer sur le coté putride des sujets évoqués dedans, on doute même de la santé mental de l'auteur.
-                   Le 20 août 1857, le procureur impérial Ernest Pinard condamne le livre «pour outrage à la morale publique et aux bonnes mœurs», Baudelaire et son éditeur doivent payer de lourdes amendes. L’ouvrage est mutilé de six pièces: Les Bijoux, Le Léthé, À celle qui est trop gaie, Femmes damnées, Lesbos, et Les métamorphoses du Vampire.
-                    
+                  <?php echo $palais_carousel2_colapse_card_text5[$langue] ?>
                   </span> 
                   <br>
                   <br>
@@ -354,23 +347,18 @@ include('../php/header.inc.php');
               </div>
               <div class="col-sm-7">
                 <div class="card-body">
-                  <h5 class="card-title">Le procès du Maréchale Pétain.</h5>
-                  <p class="card-text" >Le 23 juillet 1945, au Palais de justice de Paris, s'ouvre, devant la Haute Cour, le procès de Philippe Pétain, chef de l'Etat français pendant l'Occupation allemande.
+                  <h5 class="card-title"><?php echo $palais_carousel2_card_title6[$langue] ?></h5>
+                  <p class="card-text" >
+                  <?php echo $palais_carousel2_card_text6[$langue] ?>
                   </p>
                   <span class="collapse card-text" id="viewdetails1f">
-                    Il a été accusé de complicité avec le gouvernement allemand pendant la 2ème guerre mondial, au détrimant de la sureté de l'État français.
-                    Après s'être déplacé à Sigmaringen en Allemagne puis en Suisse, il refuse l'asile politique que lui propose ce pays pour aller afronté un jugement français.
-                    Le GPRF (gouvernement provisoire de la République française), issu de la Résistance, et supervisé par le général de Gaulle, a réouvert une Haute Cour au Palais de justice, afin de pouvoir juger l'inculpé le 23 juillet 1945.
-                    Se défendant à l'aide de ses trois avocats et avec comme argument son dévouement pour la France, ses hauts faits à Verdun, sa légitimité au plein pouvoir qu'il dit avoir acquis de manière complétement légale, et sa volonté d'utiliser ces pouvoirs pour "protéger le peuple français".
-                    Pétain est poursuivi pour crime contre la sûreté intérieure et intelligence avec l'ennemi. L'accusation lui reproche sa politique de collaboration qui a "contribué au fonctionnement de la machine de guerre allemande", en particulier avec la mise en place de service du travail obligatoire, qui fera de la France l'un des principale fournisseur en homme au gouvernement nazi pour la main d'oeuvre.
-                    La quasi-totalité des témoins appelés à la barre exprime la résignance du Maréchal lors de l'occupation, et le peu de résistance qu'il a démontrer au demande des Allemands 
-                    n raison de son grand âge, sa peine est commuée en emprisonnement à perpétuité. Il n'est pas prouvé que l'accusé ait comploté contre le régime avant 40. Mais il a profité de son pouvoir pour l'abattre, estime la Cour. Le 23 juillet 1951, Philippe Pétain meurt à Port-Joinville.
+                  <?php echo $palais_carousel2_colapse_card_text6[$langue] ?>
                   </span> 
                   <br>
                   <br>
                   <blockquote class="blockquote">
-                    <p class="mb-0">"Je ne ferai pas d'autre déclaration. Je ne répondrai à aucune question". "Lorsque j'ai demandé l'armistice, d'accord avec nos chefs militaires, j'ai accompli un acte nécessaire et sauveur", "Je suis demeuré à la tête d'un pays sous l'Occupation. Voudra-t-on comprendre la difficulté de gouverner dans de telles conditions ? Chaque jour, un poignard sur la gorge. J'ai lutté contre les exigences de l'ennemi. L'histoire dira tout ce que je vous ai évité".</p>
-                    <footer class="blockquote-footer">Citations du Maréchal lors de son procès</footer>
+                    <p class="mb-0"><?php echo $palais_carousel2_card_quote6[$langue] ?></p>
+                    <footer class="blockquote-footer"><?php echo $palais_carousel2_card_footer6[$langue] ?></footer>
                   </blockquote>
                   <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails1f" ><?php echo $savoirplus[$langue] ?></a>
                 </div>
@@ -396,7 +384,7 @@ include('../php/header.inc.php');
 <section data-aos="fade-up">
     <!-- Section Actualité  -->
     <div class="sous_titre">
-      <h2 style="color: #f7af3e;"><i class="fas fa-newspaper"></i> Actualité</h2>
+      <h2 style="color: #f7af3e;"><i class="fas fa-newspaper"></i><?php echo $palais_actualite[$langue] ?></h2>
       <img src="../img/sous_titre.png" alt="" >
     </div>
     <div id="demo3" class="carousel slide" data-ride="carousel">
@@ -415,20 +403,14 @@ include('../php/header.inc.php');
               </div>
               <div class="col-sm-7">
                   <div class="card-body">
-                      <h5 class="card-title">L'état procès du 8 septembre 2021 </h5>
-                      <p class="card-text">Le procès du 8 septembre 2021 a eu lieu pour juger les actes d'attentats commis le 13 novembre 2015.</p>
-                        <span class="collapse card-text" id="viewdetails3"> 
-                          Le 13 novembre 2015, plusieurs attaques simultanées conduites par des terroristes à Paris ont coûté la vie à 130 personnes. Le 8 septembre 2021, le procès des attentats s'ouvre au Palias de Justice de Paris, réouvert spécialement pour cet évênement.
-                          A partir de cette date, et durant les 9 mois suivants, 20 accusés seront jugés à la cour d'assises spéciale de Paris. Face à eux, 1 800 victimes sur les bancs des parties civiles et plus de 300 avocats.
-                          Une salle a été construite spécialement pour ce procès monumental sur le site du Palais. Près de 700m² d'espace pour accueillir environ 500 personnes à la fois et des caméras qui filmeront intégralement ce procès.
-                          Égalment 14 autres salles seront utilisées, pour accueillir les parties civiles, les proches des accusés mais aussi les journalistes et le public.
-                        </span> 
-                        <br>
-                          
-                            <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails3" ><?php echo $savoirplus[$langue] ?></a>
-                      <a class="btn btn-success" href="https://www.toutsurmesfinances.com/argent/a/comment-faire-un-don-pour-rebatir-notre-dame-de-paris#:~:text=Il%20est%20aussi%20possible%20d'effectuer%20un%20don%20%3A,BIC%20de%20la%20banque%20%3A%20SOGEFRPP)">
-                        <i class="fas fa-heartbeat infobtn"></i> Faire un don pour aider Notre Dame</a>
-                      
+                      <h5 class="card-title"><?php echo $palais_carousel3_card_title1[$langue] ?></h5>
+                      <p class="card-text"><?php echo $palais_carousel3_card_text1[$langue] ?></p>
+                      <span class="collapse card-text" id="viewdetails3">
+                        <?php echo $palais_carousel3_colapse_card_text1[$langue] ?>
+                      </span> 
+                      <br>
+                        
+                          <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails3" ><?php echo $savoirplus[$langue] ?></a>
                   </div>
               </div>
           </div>
@@ -444,20 +426,15 @@ include('../php/header.inc.php');
               </div>
               <div class="col-sm-7">
                   <div class="card-body">
-                      <h5 class="card-title">Le procès du 8 septembre 2021 </h5>
-                      <p class="card-text">Le procès du 8 septembre 2021 a eu lieu pour juger les actes d'attentats commis le 13 novembre 2015.</p>
+                      <h5 class="card-title"><?php echo $palais_carousel3_card_title2[$langue] ?></h5>
+                      <p class="card-text"><?php echo $palais_carousel3_card_text2[$langue] ?></p>
                         <span class="collapse card-text" id="viewdetails3"> 
-                          Le 13 novembre 2015, plusieurs attaques simultanées conduites par des terroristes à Paris ont coûté la vie à 130 personnes. Le 8 septembre 2021, le procès des attentats s'ouvre au Palias de Justice de Paris, réouvert spécialement pour cet évênement.
-                          A partir de cette date, et durant les 9 mois suivants, 20 accusés seront jugés à la cour d'assises spéciale de Paris. Face à eux, 1 800 victimes sur les bancs des parties civiles et plus de 300 avocats.
-                          Une salle a été construite spécialement pour ce procès monumental sur le site du Palais. Près de 700m² d'espace pour accueillir environ 500 personnes à la fois et des caméras qui filmeront intégralement ce procès.
-                          Égalment 14 autres salles seront utilisées, pour accueillir les parties civiles, les proches des accusés mais aussi les journalistes et le public.
+                          <?php echo $palais_carousel3_colapse_card_text2[$langue] ?>
                         </span> 
                         <br>
                           
                             <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails3" ><?php echo $savoirplus[$langue] ?></a>
-                      <a class="btn btn-success" href="https://www.toutsurmesfinances.com/argent/a/comment-faire-un-don-pour-rebatir-notre-dame-de-paris#:~:text=Il%20est%20aussi%20possible%20d'effectuer%20un%20don%20%3A,BIC%20de%20la%20banque%20%3A%20SOGEFRPP)">
-                        <i class="fas fa-heartbeat infobtn"></i> Faire un don pour aider Notre Dame</a>
-                      
+
                   </div>
               </div>
           </div>
@@ -473,12 +450,6 @@ include('../php/header.inc.php');
     </div>
 
 </section>
-    <!-- Site officiel  -->
-    <br>
-    <a class="btn btn-primary siteofficiel" href="https://www.notredamedeparis.fr/">
-    <i class="fas fa-globe"></i> Consulter le Site Web officiel de la cathédrale Notre-Dame</a>
-
-    <br>
 
 
     <?php
