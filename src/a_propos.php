@@ -12,7 +12,7 @@ include('../php/header.inc.php');
   
     <div class='description'>
         <p style="color:white" >
-        Nous sommes un <b style="color: #ea5c0d;"> binôme d'étudiants </b> à l'Université Gustave Eiffel qui ont pour objectif de <b style="color: #f7af3e;">participer à la valorisation d'un patrimoine mondial reconnu par l'UNESCO </b> en France ( kokorico <img src="../img/poule.png" width="25" height="25" alt=""> ) qui est L' Ile de la Cité. 
+        <?php echo $AboutUs_title[$langue] ?>
 
         </p>
     </div>
@@ -32,7 +32,9 @@ include('../php/header.inc.php');
             alt="Berachem" data-toggle="tooltip" data-placement="top" title="Enlevez votre souris d'ici svp ;)">
         </div>
         <h5 class="font-weight-bold mt-4 mb-3">Berachem MARKRIA</h5>
-        <p class="text-uppercase blue-text"><strong>Chef de Projet et Principal Développeur</strong></p>
+        <p class="text-uppercase blue-text"><strong>
+          <?php echo $AboutUs_berachem[$langue] ?>
+        </strong></p>
         <p class="grey-text"></p>
         <ul class="list-unstyled mb-0">
           <!-- Github -->
@@ -58,7 +60,9 @@ include('../php/header.inc.php');
             alt="Tristan" data-toggle="tooltip" data-placement="top" title="Enlevez votre souris d'ici svp ;)">
         </div>
         <h5 class="font-weight-bold mt-4 mb-3">Tristan MARTINEZ</h5>
-        <p class="text-uppercase blue-text"><strong>Développeur et Spécialiste de l'Île</strong></p>
+        <p class="text-uppercase blue-text"><strong>
+        <?php echo $AboutUs_tristan[$langue] ?>
+        </strong></p>
         <p class="grey-text"></p>
         <ul class="list-unstyled mb-0">
           <!-- Github -->
@@ -82,7 +86,7 @@ include('../php/header.inc.php');
 
   <p class="presentation">
     
-    Nous sommes deux étudiants motivés, soucieux de notre réussite et qui mènent un projet magnifique en lien avec la Culture française.
+  <?php echo $AboutUs_presentation[$langue] ?>
     <br>
     <br>
     </p>
@@ -90,7 +94,7 @@ include('../php/header.inc.php');
 
     <div class='description'>
         <p style="color:white" >
-            Nous remercions la maîtrise d'ouvrage <img src="../img/merci.png"  width="45" height="45" alt="merci">
+        <?php echo $AboutUs_maitriseOuvrage[$langue] ?> <img src="../img/merci.png"  width="45" height="45" alt="merci">
         </p>
     </div>
 
@@ -107,8 +111,12 @@ include('../php/header.inc.php');
           alt="ETTAYEB" data-toggle="tooltip" data-placement="top" title="Enlevez votre souris d'ici svp ;)">
       </div>
       <h5 class="font-weight-bold mt-4 mb-3"><b style="color: #ea5c0d;">ETTAYEB Tewfik </b></h5>
-      <p class="text-uppercase blue-text"><strong>Responsable du Forum UNESCO</strong></p>
-      <p class="grey-text" style="font-style: italic;color:bisque">Gestion de projet & de l'équipe</p>
+      <p class="text-uppercase blue-text"><strong>
+      <?php echo $AboutUs_ETTAYEB[$langue] ?>
+      </strong></p>
+      <p class="grey-text" style="font-style: italic;color:bisque">
+      <?php echo $AboutUs_ETTAYEB_help[$langue] ?>
+    </p>
       <p class="grey-text"></p>
       <ul class="list-unstyled mb-0">
         <!-- Linkedin -->
@@ -127,8 +135,12 @@ include('../php/header.inc.php');
           alt="CESSY" data-toggle="tooltip" data-placement="top" title="01000101 01101110 01101100 01100101 01110110 01100101 01111010 00100000 01110110 01101111 01110100 01110010 01100101 00100000 01110011 01101111 01110101 01110010 01101001 01110011 00100000 01100100 00100111 01101001 01100011 01101001 00100000 01110011 01110110 01110000 00100000 00111011 00101001">
       </div>
       <h5 class="font-weight-bold mt-4 mb-3"><b style="color: #ea5c0d;">CESSY David </b></h5>
-      <p class="text-uppercase blue-text"><strong>Chef du département Informatique de l'IUT</strong></p>
-      <p class="grey-text" style="font-style: italic;color:bisque">Developpement & aspect technique</p>
+      <p class="text-uppercase blue-text"><strong>
+      <?php echo $AboutUs_CESSY[$langue] ?>
+      </strong></p>
+      <p class="grey-text" style="font-style: italic;color:bisque">
+      <?php echo $AboutUs_CESSY_help[$langue] ?>
+    </p>
       <p class="grey-text"></p>
       <ul class="list-unstyled mb-0">
         <!-- Linkedin -->
@@ -149,8 +161,12 @@ include('../php/header.inc.php');
           alt="REBY" data-toggle="tooltip" data-placement="top" title="Please take your mouse away from here ;)">
       </div>
       <h5 class="font-weight-bold mt-4 mb-3"><b style="color: #ea5c0d;">REBY Yann </b></h5>
-      <p class="text-uppercase blue-text"><strong>Enseignant en Anglais</strong></p>
-      <p class="grey-text" style="font-style: italic;color:bisque">Créativité & inspiration</p>
+      <p class="text-uppercase blue-text"><strong>
+      <?php echo $AboutUs_REBY[$langue] ?>
+      </strong></p>
+      <p class="grey-text" style="font-style: italic;color:bisque">
+      <?php echo $AboutUs_REBY_help[$langue] ?>
+    </p>
       <ul class="list-unstyled mb-0">
         <!-- Linkedin -->
         <a class="p-2 fa-lg ins-ic" href="https://www.linkedin.com/in/yann-reby/">
@@ -169,7 +185,7 @@ include('../php/header.inc.php');
 
 <div class='description'>
         <p style="color:white" >
-            Nos partenaires <img src="../img/partenaires.png"  width="45" height="45" alt="partenaires">
+        <?php echo $AboutUs_partners[$langue] ?> <img src="../img/partenaires.png"  width="45" height="45" alt="partenaires">
         </p>
     </div>
 
@@ -186,9 +202,11 @@ include('../php/header.inc.php');
         <img src="../img/UNESCO-logo.jpg" width="100" height="100" class="rounded-circle z-depth-1">
       </div>
       <h5 class="font-weight-bold mt-4 mb-3"><b style="color: #f7af3e;"> <i class="fa fa-star checked"></i> l'UNESCO</b></h5>
-      <p class="text-uppercase blue-text"><strong>L'Organisation des Nations unies pour l'éducation, la science et la culture</strong></p>
+      <p class="text-uppercase blue-text"><strong>
+      <?php echo $AboutUs_Unesco[$langue] ?>
+      </strong></p>
       <p class="grey-text"></p>
-       <a class="btn btn-primary" href="https://www.unesco.org/fr">Site Officiel</a>
+       <a class="btn btn-primary" href="https://www.unesco.org/fr"><?php echo $AboutUs_SITEOFFICIEL[$langue] ?></a>
     </div>
 
     <!-- Investissement d'avenir -->
@@ -197,10 +215,12 @@ include('../php/header.inc.php');
         <img src="../img/investissementavenir.png" width="100" height="100" class="rounded-circle z-depth-1">
       </div>
       <h5 class="font-weight-bold mt-4 mb-3"><b style="color: #f7af3e;">Investissement d'avenir</b></h5>
-      <p class="text-uppercase blue-text"><strong>Programme d’investissement de l’État français pour l'enseignement supérieur et la recherche</strong></p>
+      <p class="text-uppercase blue-text"><strong>
+      <?php echo $AboutUs_investissementAvenir[$langue] ?>
+      </strong></p>
       <p class="grey-text"></p>
       
-        <a class="btn btn-primary" href="https://www.gouvernement.fr/le-programme-d-investissements-d-avenir">Site Officiel</a>
+        <a class="btn btn-primary" href="https://www.gouvernement.fr/le-programme-d-investissements-d-avenir"><?php echo $AboutUs_SITEOFFICIEL[$langue] ?></a>
     </div>
 
         <!-- MCN -->
@@ -209,10 +229,12 @@ include('../php/header.inc.php');
         <img src="../img/anr.jpg" width="100" height="100" class="rounded-circle z-depth-1">
       </div>
       <h5 class="font-weight-bold mt-4 mb-3"><b style="color: #f7af3e;">Agence nationale de la recherche</b></h5>
-      <p class="text-uppercase blue-text"><strong>Finance la recherche publique et la recherche partenariale en France</strong></p>
+      <p class="text-uppercase blue-text"><strong>
+      <?php echo $AboutUs_agenceNationale[$langue] ?>
+      </strong></p>
       <p class="grey-text"></p>
       
-        <a class="btn btn-primary" href="https://www.gouvernement.fr/le-programme-d-investissements-d-avenir">Site Officiel</a>
+        <a class="btn btn-primary" href="https://www.gouvernement.fr/le-programme-d-investissements-d-avenir"><?php echo $AboutUs_SITEOFFICIEL[$langue] ?></a>
     </div>
 
       <!-- université Gustave Eiffel -->
@@ -221,10 +243,12 @@ include('../php/header.inc.php');
         <img src="../img/univ-eiffel.png" width="100" height="100" class="rounded-circle z-depth-1">
       </div>
       <h5 class="font-weight-bold mt-4 mb-3"><b style="color: #f7af3e;">L'université Gustave Eiffel </b></h5>
-      <p class="text-uppercase blue-text"><strong>(anciennement nommée l'Université Paris-Est, Marne-la-Vallée)</strong></p>
+      <p class="text-uppercase blue-text"><strong>
+      <?php echo $AboutUs_Univ[$langue] ?>
+      </strong></p>
       <p class="grey-text"></p>
       
-      <a class="btn btn-primary" href="https://www.univ-gustave-eiffel.fr/">Site Officiel</a>
+      <a class="btn btn-primary" href="https://www.univ-gustave-eiffel.fr/"><?php echo $AboutUs_SITEOFFICIEL[$langue] ?></a>
     </div>
     </div>
 
@@ -236,7 +260,7 @@ include('../php/header.inc.php');
 
 <div class='description'>
         <p style="color:white" >
-            Les sources <img src="../img/helpers.png"  width="45" height="45" alt="helpers">
+        <?php echo $AboutUs_sources[$langue] ?> <img src="../img/helpers.png"  width="45" height="45" alt="helpers">
         </p>
     </div>
 
@@ -253,9 +277,11 @@ include('../php/header.inc.php');
         <img src="../img/dronalist.jpg" width="100" height="100" class="rounded-circle z-depth-1">
       </div>
       <h5 class="font-weight-bold mt-4 mb-3"><b style="color: #f7af3e;">the Dronalist</b></h5>
-      <p class="text-uppercase blue-text"><strong>Plans en Drone et vidéos de l'île de la Cité</strong></p>
+      <p class="text-uppercase blue-text"><strong>
+      <?php echo $AboutUs_dronalist[$langue] ?>
+      </strong></p>
       <p class="grey-text"></p>
-       <a class="btn btn-danger" href="https://www.youtube.com/c/theDronalist/featured" style="background-color: red;">Chaine YouTube</a>
+       <a class="btn btn-danger" href="https://www.youtube.com/c/theDronalist/featured" style="background-color: red;">YouTube</a>
     </div>
 
       <!-- Michelin -->
@@ -264,7 +290,9 @@ include('../php/header.inc.php');
         <img src="../img/michelin.jpg" width="100" height="100" class="rounded-circle z-depth-1">
       </div>
       <h5 class="font-weight-bold mt-4 mb-3"><b style="color: #f7af3e;">Michelin Voyage </b></h5>
-      <p class="text-uppercase blue-text"><strong>Collection de guides touristiques sur la découverte du patrimoine culturel des régions.</strong></p>
+      <p class="text-uppercase blue-text"><strong>
+      <?php echo $AboutUs_michelin[$langue] ?>
+      </strong></p>
       <p class="grey-text"></p>
       
       <a class="btn btn-info" href="https://voyages.michelin.fr/">Site</a>
@@ -276,7 +304,9 @@ include('../php/header.inc.php');
         <img src="../img/paristoric.png" width="100" height="100" class="rounded-circle z-depth-1">
       </div>
       <h5 class="font-weight-bold mt-4 mb-3"><b style="color: #f7af3e;">Paristoric</b></h5>
-      <p class="text-uppercase blue-text"><strong>Premier site de découvertes thématiques de Paris.</strong></p>
+      <p class="text-uppercase blue-text"><strong>
+      <?php echo $AboutUs_paristoric[$langue] ?>
+      </strong></p>
       <p class="grey-text"></p>
       
         <a class="btn btn-danger" href="https://www.paristoric.com/index.php/transports-et-voirie/quartiers/1285-l-ile-de-la-cite">Site</a>
@@ -289,7 +319,9 @@ include('../php/header.inc.php');
         <img src="../img/centremonuments.jpg" width="100" height="100" class="rounded-circle z-depth-1">
       </div>
       <h5 class="font-weight-bold mt-4 mb-3"><b style="color: #f7af3e;">Centre des monuments nationaux</b></h5>
-      <p class="text-uppercase blue-text"><strong>Gère, anime et ouvre à la visite à près de 100 monuments nationaux.</strong></p>
+      <p class="text-uppercase blue-text"><strong>
+      <?php echo $AboutUs_CentreMonu[$langue] ?>
+      </strong></p>
       <p class="grey-text"></p>
       
         <a class="btn btn-light" href="https://www.youtube.com/channel/UCD17G4L4xmn4VNWU0EIWqAw">Site</a>
@@ -320,7 +352,7 @@ include('../php/header.inc.php');
 
 <div class='description'>
         <p style="color:white" >
-            Nous contacter <img src="../img/message.png"  width="45" height="45" alt="contact">
+        <?php echo $AboutUs_contact[$langue] ?> <img src="../img/message.png"  width="45" height="45" alt="contact">
         </p>
     </div>
 
@@ -344,25 +376,25 @@ if (isset($_GET["messagesent"])){
 
     <!-- Nom input -->
     <div class="mb-3">
-      <label class="form-label" for="nom"><img src="../img/user.png"  width="25" height="25" alt="nom"> Nom</label>
-      <input class="form-control" id="nom" type="text" name="nom" placeholder="Nom" />
+      <label class="form-label" for="nom"><img src="../img/user.png"  width="25" height="25" alt="nom"> <?php echo $AboutUs_nom[$langue] ?></label>
+      <input class="form-control" id="nom" type="text" name="nom" placeholder="<?php echo $AboutUs_nom[$langue] ?>" />
     </div>
 
     <!-- Addresse email input -->
     <div class="mb-3">
-      <label class="form-label" for="email"><img src="../img/email.png"  width="25" height="25" alt="email"> Adresse Email</label>
+      <label class="form-label" for="email"><img src="../img/email.png"  width="25" height="25" alt="email"> <?php echo $AboutUs_mail[$langue] ?></label>
       <input class="form-control" id="email" name="email" type="email" placeholder="bidule@exemple.com" />
     </div>
 
     <!-- Message input -->
     <div class="mb-3">
-      <label class="form-label" for="message"><img src="../img/message.png"  width="25" height="25" alt="message"> Message</label>
+      <label class="form-label" for="message"><img src="../img/message.png"  width="25" height="25" alt="message"> <?php echo $AboutUs_message[$langue] ?></label>
       <textarea class="form-control" id="message" type="text" name="message" placeholder="Bonjour,..." style="height: 10rem;"></textarea>
     </div>
 
     <!-- Formulaire boutton submit -->
     <div class="d-grid">
-      <button class="btn btn-danger btn-lg" name="submit" type="submit">Envoyer</button>
+      <button class="btn btn-danger btn-lg" name="submit" type="submit"><?php echo $AboutUs_envoyer[$langue] ?></button>
     </div>
 
   </form>

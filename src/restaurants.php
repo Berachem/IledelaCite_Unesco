@@ -9,14 +9,14 @@ include('../php/header.inc.php');
 
       <div class="description" >
           <p style="color:white">
-          Sur l'Île de la Cité et même autour, vous trouverez de <b style='color: #ea5c0d;'> nombreux endroits pour vous restaurer </b> !
+          <?php echo $restaurants_title[$langue] ?>
           </p>
       </div>
 
 
 
     <p class="presentation">
-      Chaque couverts sur cette carte représente un point de restauration. Vous y trouverez des restaurants de haute gastronomie française, des restaurants huppés, des fast-food.
+    <?php echo $restaurants_desc[$langue] ?>
      </p> 
      <br> 
       <br>

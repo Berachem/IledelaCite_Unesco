@@ -18,7 +18,7 @@ include('../php/header.inc.php');
 
       <div class="description" >
           <p style="color:white">
-            L'île de la Cité est <b style="color: #ea5c0d;">entourée de 9 ponts</b> et parmi eux, certains ont une histoire magnifique.
+            <?php echo $ponts_title[$langue] ?>
           </p>
       </div>
     
@@ -45,14 +45,12 @@ include('../php/header.inc.php');
             <div class="row no-gutters">
               <div class="col-sm-7">
                 <div class="card-body">
-                  <h5 class="card-title">La naissance du Pont-neuf</h5>
+                  <h5 class="card-title"><?php echo $ponts_carroussel1_title[$langue] ?></h5>
                   <p class="card-text">
-                  Le Pont-Neuf est sans doute le pont le plus célèbre de Paris, mais également le plus vieux, et pour cause : il voit le jour entre la fin du XVIe siècle et le début du XVIIe siècle.
+                  <?php echo $ponts_carroussel1_text[$langue] ?>
                   </p>
                   <span class="collapse card-text" id="viewdetails"> 
-                  Plus ancien pont de Paris, troisième pont le plus long (238 mètres), premier pont en pierre traversant la Seine, premier pont vide d’habitations et doté de trottoirs… Le Pont Neuf a constitué une véritable innovation pour Paris. Il a d’ailleurs gardé depuis tout ce temps le nom qu’on lui avait initialement attribué au 17ème siècle du fait de ses spécificités.
-
-La construction fut décidée en 1577 par le roi Henri III qui désigne une commission chargée d'assurer le bon déroulement des travaux. Un an plus tard, la première pierre du pont est posée par le roi lui-même, en présence de la reine mère Catherine de Médicis et de l’épouse du roi, Louise de Lorraine. Les travaux se prolongeront jusqu'en 1588, sous le règne d'Henri IV, puis cesseront soudainement pendant dix ans à cause des soulèvements populaires qui ont alors lieu à Paris contre le roi. En 1599, la construction reprend enfin pour être achevée en 1607.
+                  <?php echo $ponts_carroussel1_more[$langue] ?>
                   </span> 
                   <br>
                   <br>
@@ -73,12 +71,12 @@ La construction fut décidée en 1577 par le roi Henri III qui désigne une comm
             <div class="row no-gutters">           
               <div class="col-sm-7">
                 <div class="card-body">
-                  <h5 class="card-title">Une architecture extraordinaire </h5>
+                  <h5 class="card-title"><?php echo $ponts_carroussel1_title2[$langue] ?> </h5>
                   <p class="card-text" >
-                  Son architecture en pierre magnifique, constituée de 12 arches parées chacune d’un balcon en demi-cercle, nous offre un décor splendide digne d’une carte postale avec l’île de la Cité en fond. 
+                  <?php echo $ponts_carroussel1_text2[$langue] ?>
                   </p>
                   <span class="collapse card-text" id="viewdetailsb"> 
-                  Son histoire et son architecture lui ont permis d’être classé Monument historique dès 1889, tandis que son  esthétique a inspiré une foule de peintres et artistes de renom comme Auguste Renoir qui en a fait, en 1872, une oeuvre intitulée « Le Pont Neuf », aujourd’hui visible au National Gallery Of Art de Washington.
+                  <?php echo $ponts_carroussel1_more2[$langue] ?>
                     </span>
                   <br>
             
@@ -131,9 +129,9 @@ La construction fut décidée en 1577 par le roi Henri III qui désigne une comm
               </div>
               <div class="col-sm-7">
                 <div class="card-body">
-                  <h5 class="card-title">Le pont au change : une ancienne zone de commerce dans Paris</h5>
+                  <h5 class="card-title"><?php echo $ponts_carroussel2_title[$langue] ?></h5>
                   <p class="card-text" >
-                  Le change, c’est la référence à l’argent et aux monnaies. Paris était en effet zone de commerce et nombreuses monnaies s’y déferlaient en venant de la Seine. C’est dans ce contexte que les changeurs intervenaient. Ils avaient établis leur banc et boutique sur ce pont.
+                  <?php echo $ponts_carroussel2_text[$langue] ?>
                   </p>
                
                 </div>
@@ -153,7 +151,7 @@ La construction fut décidée en 1577 par le roi Henri III qui désigne une comm
 
   <!-- SECTION Les autres Ponts-->
   <div class="sous_titre">
-    <h2 style="color: #f7af3e;">Les autres Ponts</h2>
+    <h2 style="color: #f7af3e;"><?php echo $ponts_autres_ponts[$langue] ?></h2>
     <img src="../img/sous_titre.png" alt="" >
   </div>
 
@@ -177,14 +175,10 @@ La construction fut décidée en 1577 par le roi Henri III qui désigne une comm
               <div class="card-body">
                 <h5 class="card-title">Le pont Saint Louis</h5>
                 <p class="card-text">
-                Le pont Saint-Louis, d'une longueur de 67 mètres et d'une largeur de 16 mètres, a été construit en 1970 par les ingénieurs Coste et Long-Depaquit et les ingénieurs Creuzot et Jabouille. Il comporte une travée unique d'une grande sobriété, réservé aux piétons mais peut permettre exceptionnellement le passage des voitures.
-
-                Il  relie la pointe ouest de l'île Saint-Louis à l'est de l'île de la Cité près du square Jean XXIII et du square de l'île de France .
+                <?php echo $ponts_carroussel3_text[$langue] ?>
                 </p>
                 <span class="collapse card-text" id="viewdetailsSaintLouis"> 
-                Imaginé par les architectes Jabouille et Creuzot puis réalisé par les ingénieurs Long-Depaquit et Coste, ce pont en poutre, tout en acier, est commencé en 1969 et terminé en 1970 sous la maîtrise d'ouvrage de la Ville de Paris1.
-
-Depuis 2014, il est interdit à toute circulation motorisée et réservé aux piétons et cyclistes. Il est très fréquenté par les touristes, et des artistes de rue l'animent souvent à la belle saison.
+                <?php echo $ponts_carroussel3_more[$langue] ?>
                 </span> 
                 <br>
                 <br>
@@ -207,12 +201,10 @@ Depuis 2014, il est interdit à toute circulation motorisée et réservé aux pi
               <div class="card-body">
                 <h5 class="card-title">Le Pont de Notre Dame</h5>
                 <p class="card-text" >
-                Le pont Notre-Dame est un pont situé à Paris et traversant le grand bras de la Seine, reliant le quai de Gesvres au quai de la Corse sur l'île de la Cité.
-
-L'actuel pont, construit en 1853, lors des transformations haussmanniennes, mesure 105 m de longueur pour une largeur de 20 m, ses cinq arches initiales ayant été réduites à trois en 1912, dont une arche centrale métallique de 60 m
+                <?php echo $ponts_carroussel3_text2[$langue] ?>
                 </p>
                 <span class="collapse card-text" id="viewdetailspontnotredame"> 
-                C'est à sa place que le premier pont de Paris, appelé Grand-Pont franchissait la Seine sur son grand bras dès l'Antiquité, dans le prolongement du Petit-Pont. En 886, le siège de Paris et les attaques normandes le condamnent, et il est remplacé par un pont de planches justement nommé pont des Planches de Milbray, qui tiendra jusqu'aux inondations de 1406.
+                <?php echo $ponts_carroussel3_more2[$langue] ?>
                   </span>
                 <br>
                 <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetailspontnotredame" >En savoir plus</a>
@@ -233,16 +225,10 @@ L'actuel pont, construit en 1853, lors des transformations haussmanniennes, mesu
               <div class="card-body">
                   <h5 class="card-title">Le Pont Saint-Michel</h5>
                   <p class="card-text">
-                  Ce pont construit initialement en 1378 fut reconstruit plusieurs fois, en dernier lieu en 1857. Avant le milieu du xixe siècle, il débouchait du côté de la Rive gauche sur la place du Pont-Saint-Michel et du côté de l'île de la Cité sur la rue de la Barillerie.
+                  <?php echo $ponts_carroussel3_text3[$langue] ?>
                   </p>
                   <span class="collapse card-text" id="viewdetailsd"> 
-                  Il doit son nom au voisinage de l'ancienne chapelle Saint-Michel du Palais qui existait dans le Palais royal.
-
-Pendant de nombreux siècles, Paris s’est structurée entre la Cité et la rive gauche. Aussi, le pont Saint Michel représenta à partir du XIVe siècle, le deuxième point de passage sur la Seine au niveau du petit bras.
-
-Il fut décidé par le Parlement de Paris en 1353, qui siégeait alors au niveau du Palais, en concertation avec le puissant chapitre de Notre Dame de Paris, le prévôt, qui dirigeait la police au Châtelet. Ce premier pont, en pierre, fut construit entre 1379 et 1387, dans l’axe de la rue Saint Denis, située sur la rive droite.
-
-Petit pont neuf, par opposition au petit pont situé légèrement plus en amont. Puis pont Saint Michel !
+                  <?php echo $ponts_carroussel3_more3[$langue] ?>
                   </span>
                   <br>
                   <br>
