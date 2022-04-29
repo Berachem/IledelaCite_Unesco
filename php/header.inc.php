@@ -54,7 +54,7 @@ $index_video = array("https://www.youtube.com/embed/k4KAhO6XgOw","https://www.yo
 
 $savoirplus = array("En savoir plus", "Read more");
 
-/* Notredame */
+/*============== Notredame =================== */
 
 $notredame_description = array("La cathédrale <b style=\"color: #ea5c0d;\"> Notre-Dame </b> de Paris, chef d’œuvre de l’architecture gothique, est le monument le plus visité de France.", "The cathedral <b style=\"color: #ea5c0d;\"> Notre-Dame </b> of Paris, a masterpiece of Gothic architecture, is the most visited monument in France.");
 
@@ -179,6 +179,9 @@ $notredame_carousel3_colapse_card_text2 = array("Visite immersive proposer sous 
 Disposible à l'origine jusqu'au 14 avril, elle est pour l'instant maintenue jusqu'au 4 septembre 2022, c'est une expérience à ne pas manquer qui vous permet de traverser les âges et de découvrir le passé avec les technologies du présent, en attendant de pourvoir remettre un pied dans la cathédrâle dans un future proche.", "An immersive visit proposed under the square of Notre Dame and in the Defense, it makes you see the cathedral from different angles and at different times, allowing you to walk inside as if you were there.
 Originally available until  April 14th, it is maintained until the 4th september 2022, this is an experience not to be missed, allowing you to cross the ages and discover the past with the technologies of the present, while waiting to be able to step into the cathedral again in the near future.");
 $notredame_carousel3_lien_text2 = array("Site officiel de éternelle notre dame", "Official website of eternal notre dame");
+
+$notredame_film= array("Un film à aller regarder...","A film that deserves to be seen ......");
+
 
 /* PAGE Avisiter.php */
 $Avisiter_title = $nav_discover_tovisit;

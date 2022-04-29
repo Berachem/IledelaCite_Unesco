@@ -241,7 +241,7 @@ include('../php/header.inc.php');
                   </blockquote>
                   <div style="display: flex;">
                   <a class="btn btn-primary" href="https://www.youtube.com/embed/xSOtXtTXx-s">
-                    <i class="fas fa-book infobtn"></i><?php echo $notredame_carousel2_colapse_card_blockquote_button[$langue] ?></a>  
+                    <i class="fas fa-book infobtn"></i> <?php echo $notredame_carousel2_colapse_card_blockquote_button[$langue] ?></a>  
                   <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails1b" ><?php echo $savoirplus[$langue] ?></a>
                  
                   </div>
@@ -330,7 +330,7 @@ include('../php/header.inc.php');
                       <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails3" ><?php echo $savoirplus[$langue] ?></a>
                   
                       <a class="btn btn-success btn-annexe" href="https://www.toutsurmesfinances.com/argent/a/comment-faire-un-don-pour-rebatir-notre-dame-de-paris#:~:text=Il%20est%20aussi%20possible%20d'effectuer%20un%20don%20%3A,BIC%20de%20la%20banque%20%3A%20SOGEFRPP)">
-                    <i class="fas fa-heartbeat infobtn"></i><?php echo $notredame_carousel3_button[$langue] ?></a>
+                    <i class="fas fa-heartbeat infobtn"></i> <?php echo $notredame_carousel3_button[$langue] ?></a>
                   </div>
                 </div>
               </div>
@@ -387,7 +387,7 @@ include('../php/header.inc.php');
 <section data-aos="fade-up">
     <br>
         <h2 style="text-align: center; font-size: 2.5vw;">
-          Un film à aller regarder... <img src="../img/pop-corn.png" width="35" height="35">
+          <?php echo $notredame_film[$langue] ?> <img src="../img/pop-corn.png" width="35" height="35">
         </h2>
     <br>
     <div class="embed-responsive embed-responsive-16by9 video" >
