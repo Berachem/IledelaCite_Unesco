@@ -77,7 +77,7 @@ include('../php/header.inc.php');
                   <?php echo $palais_carousel1_card_text2[$langue] ?>
                   </p>
                   <span class="collapse card-text" id="viewdetailsb"> 
-                  <?php echo $palais_carousel1_card_colapse_card_text2[$langue] ?>
+                  <?php echo $palais_carousel1_colapse_card_text2[$langue] ?>
                   </span>
                   <br>
                   <br>
@@ -384,7 +384,7 @@ include('../php/header.inc.php');
 <section data-aos="fade-up">
     <!-- Section Actualité  -->
     <div class="sous_titre">
-      <h2 style="color: #f7af3e;"><i class="fas fa-newspaper"></i><?php echo $palais_actualite[$langue] ?></h2>
+      <h2 style="color: #f7af3e;"><i class="fas fa-newspaper"></i><?php echo $palais_actu[$langue] ?></h2>
       <img src="../img/sous_titre.png" alt="" >
     </div>
     <div id="demo3" class="carousel slide" data-ride="carousel">
