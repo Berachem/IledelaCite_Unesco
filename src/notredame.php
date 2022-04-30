@@ -300,7 +300,7 @@ include('../php/header.inc.php');
 <section data-aos="fade-up">
     <!-- Section Actualité  -->
     <div class="sous_titre">
-      <h2 style="color: #f7af3e;"><i class="fas fa-newspaper"></i> Actualité</h2>
+      <h2 style="color: #f7af3e;"><i class="fas fa-newspaper"></i> <?php echo $notredame_sous_titre_actualite[$langue] ?></h2>
       <img src="../img/sous_titre.png" alt="" >
     </div>
     <div id="demo3" class="carousel slide" data-ride="carousel">
