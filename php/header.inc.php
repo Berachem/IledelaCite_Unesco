@@ -236,9 +236,40 @@ $palais_carousel2_card_footer6 = array("Citations du Maréchal lors de son proc�
 $palais_actu= array("Actualité", "News",'أخبار','消息');
 /* element 1 */
 
-$palais_carousel3_card_title5 = array("L'état procès du 8 septembre 2021", "The state trial of September 8, 2021");
-$palais_carousel3_card_text5 = array("Actuellement le procès suit son cour malgré plusieurs retard du en grande partie au covid", "Currently the trial follows its course despite several delays due in large part to the covid.");
-$palais_carousel3_colapse_card_text5 = array("Plusieurs témoin on déjà pu être entendue ainsi que les accusées sur plusieurs sujet comme le déroulement de l'attentat, son execution, leurs implication dans tous ça, leurs objectifs, leurs passé etc... Malgré une grande fermeture sur lui-même au début de son arrestation et plusieurs mois après, Salah Abdeslam, le principale accusé, s'est récement montrer plus ouvert et a accepter une analyse psychiatrique, permettant de faire avancer le jugement, qui devrait durer les 9 mois initialement prévue pour celui-ci.", "Several witnesses have already been heard as well as the defendants on several subjects such as the course of the attack, its execution, their involvement in all this, their objectives, their past etc... In spite of a great closure on himself at the beginning of his arrest and several months later, Salah Abdeslam, the main accused, has recently shown himself to be more open and has accepted a psychiatric analysis, allowing the trial to progress, which should last the 9 months initially planned for it.");
+$palais_carousel3_card_title1 = array("Le procès du 8 septembre 2021", "The trial on September 8, 2021");
+$palais_carousel3_card_text1 = array("Le procès du 8 septembre 2021 a eu lieu pour juger les actes d'attentats commis le 13 novembre 2015.", "The September 8, 2021 trial was held to try the acts of attacks committed on November 13, 2015.");
+$palais_carousel3_colapse_card_text1 = array("Le 13 novembre 2015, plusieurs attaques simultanées conduites par des terroristes à Paris ont coûté la vie à 130 personnes. Le 8 septembre 2021, le procès des attentats s'ouvre au Palais de Justice de Paris, réouvert spécialement pour cet évênement. A partir de cette date, et durant les 9 mois suivants, 14 accusés seront jugés à la cour d'assises spéciale de Paris. Face à eux, 1 800 victimes sur les bancs des parties civiles et plus de 300 avocats.  Une salle a été construite spécialement pour ce procès monumental sur le site du Palais. Près de 700m² d'espace pour accueillir environ 500 personnes à la fois et des caméras qui filmeront intégralement ce procès. Également 14 autres salles seront utilisées, pour accueillir les parties civiles, les proches des accusés mais aussi les journalistes et le public.", "On November 13, 2015, several simultaneous attacks conducted by terrorists in Paris took the lives of 130 people. On September 8, 2021, the trial of the attacks opens at the Palais de Justice in Paris, reopened especially for this event. From that date on, and for the next 9 months, 14 defendants will be tried at the Special Assize Court of Paris. Facing them, 1,800 victims on the benches of the civil parties and more than 300 lawyers.  A room was built especially for this monumental trial on the site of the Palais. Nearly 700m² of space to accommodate about 500 people at a time and cameras that will film the entire trial. Also 14 other rooms will be used, to accommodate the civil parties, the relatives of the accused but also journalists and the public.");
+
+/* element 2 */
+
+$palais_carousel3_card_title2 = array("L'état procès du 8 septembre 2021", "The state trial of September 8, 2021");
+$palais_carousel3_card_text2 = array("Actuellement le procès suit son cour malgré plusieurs retard du en grande partie au covid", "Currently the trial follows its course despite several delays due in large part to the covid.");
+$palais_carousel3_colapse_card_text2 = array("Plusieurs témoin on déjà pu être entendue ainsi que les accusées sur plusieurs sujet comme le déroulement de l'attentat, son execution, leurs implication dans tous ça, leurs objectifs, leurs passé etc... Malgré une grande fermeture sur lui-même au début de son arrestation et plusieurs mois après, Salah Abdeslam, le principale accusé, s'est récement montrer plus ouvert et a accepter une analyse psychiatrique, permettant de faire avancer le jugement, qui devrait durer les 9 mois initialement prévue pour celui-ci.", "Several witnesses have already been heard as well as the defendants on several subjects such as the course of the attack, its execution, their involvement in all this, their objectives, their past etc... In spite of a great closure on himself at the beginning of his arrest and several months later, Salah Abdeslam, the main accused, has recently shown himself to be more open and has accepted a psychiatric analysis, allowing the trial to progress, which should last the 9 months initially planned for it.");
+
+
+/* ========== Sainte chapelle ==================*/
+
+$chapelle_description = array("Véritable chef-d'œuvre de l'art Gothique, la  <b style=\"color: #ea5c0d;\"> sainte-chapelle</b> n'est pas une église classique.");
+
+
+/* caroussel 1, architecture */
+$chapelle_sous_titre_architecture = array("Architecture", "Architecture",'بنيان','建築學');
+
+/* element 1 */
+
+$chapelle_carousel1_card_title1 = array("La construction et trésors de la Sainte Chappelle");
+$chapelle_carousel1_card_text1 = array("Construite à la demande de Saint Louis pour abriter les reliques de la Passion du Christ, la Sainte-Chapelle se distingue notamment par ses merveilleux vitraux.");
+$chapelle_carousel1_colapse_card_text1 = array("Construite sur deux niveaux, la chapelle basse, dédiée aux domestiques du palais et aux officiers, et la chapelle haute, plus grande et plus riche en vitraux, dédiée au roi et à sa famille. Ces vitraux sont sencé représenter plusieurs scène de la bible, de la création d'adam et Eve à l'Apocalypse. La Sainte chapelle à acquellie en son sein pas moins de 22 relique que Saint-Louis avait réussie à se procurer (dont certaines pour un prix qui dépasse le cout de construction de la chapelle), il n’en reste aujourd’hui plus que 3 : un fragment de la croix, un clou, et la couronne d’épines, elles avaient toutes les 3 été conserver dans le trésor de Notre-Dame et ont heureusement pu être sauvé de l'incencie"); 
+
+/* element 1 */
+
+$chapelle_carousel1_card_title1 = array("La chapelle basse");
+$chapelle_carousel1_card_text1 = array("Peu haute et faiblement éclairée, la chapelle basse a des allures de crypte, deux colonnades, chargées de soutenir la chapelle haute");
+$chapelle_carousel1_colapse_card_text1 = array("A cause des dégradations qu'elle a subie, la chapelle basse et son décor actuel est en grande partie une reconstitution du XIIIe siècle, réalisée sans sources anciennes et donc probablement différent de ce que l’on pouvait voir à l’origine, mais au vu de son usage prévu pour les domestiques et le peu de lumière que l'on pouvait laisser entrer à l'intérieur, on se doute qu'elle a été principalement conçue pour servir de support à la haute chappelle, mais actuelment les divers rénovation et travaux d'embellissement l'ont rendue plus éclatante que jamais.");
+
+
+
+
 
 /* Informations */
 

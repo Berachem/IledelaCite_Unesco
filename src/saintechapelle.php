@@ -16,14 +16,14 @@ include('../php/header.inc.php');
 
       <div class="description" >
           <p style="color:white">
-            Véritable chef-d'œuvre de l'art Gothique, la  <b style="color: #ea5c0d;"> sainte-chapelle</b> n'est pas une église classique.
+          <?php echo $chapelle_description[$langue] ?>
           </p>
       </div>
 
 <section data-aos="fade-up">
     <!-- SECTION ARCHITECTURE-->
     <div class="sous_titre">
-      <h2 style="color: #f7af3e;"><i class="fas fa-hammer"></i> Architecture</h2>
+      <h2 style="color: #f7af3e;"><i class="fas fa-hammer"></i><?php echo $chapelle_sous_titre_architecture[$langue] ?></h2>
       <img src="../img/sous_titre.png" alt="" >
     </div>
 
@@ -45,14 +45,12 @@ include('../php/header.inc.php');
             <div class="row no-gutters">
               <div class="col-sm-7">
                 <div class="card-body">
-                  <h5 class="card-title">Un Style principalement gothique</h5>
+                  <h5 class="card-title"><?php echo $chapelle_carousel1_card_title1[$langue] ?></h5>
                   <p class="card-text tovisit">
-                    Clarté de la composition, équilibre des verticales et des horizontales frappent tous les visiteurs à l’approche de la façade de la cathédrale.
+                  <?php echo $chapelle_carousel1_card_text1[$langue] ?>
                   </p>
                   <span class="collapse card-text tovisit" id="viewdetails"> 
-                    L’abondance du décor sculpté attire les regards par la verve et la qualité des sculptures, qu’elles soient d’origine ou issues du grand chantier de restauration mené au XIXe siècle. 
-                    L’ambiance intérieure de la cathédrale ne laisse personne indifférent au regard de la monumentalité de l’espace, des roses des transepts, de la statuaire votive ou de la majesté du grand-orgue. Les grands tableaux présents dans les chapelles permettent de comprendre le rôle essentiel de la peinture religieuse aux XVIIe et XVIIIe siècles. Le trésor de la cathédrale conserve nombre d’œuvres d’intérêt majeur, affectées au culte. Notre-Dame de Paris est ainsi un édifice fondamental, tant pour l’histoire de l’architecture gothique que pour l’histoire de l’art depuis le Moyen Âge ou celle de la restauration aux XIXe et XXe siècles. 
-                    Classée au titre des monuments historiques sur la liste de 1862, elle est partie intégrante du bien « Paris, rives de la Seine » inscrit sur la liste du patrimoine mondial de l’Unesco. L’espace classé comprend les grands monuments, immeubles, jardins, places et quais qui bordent la Seine, depuis l’Ile Saint-Louis, à l’est, jusqu’à l’Ile aux Cygnes, à l’ouest.
+                  <?php echo $chapelle_carousel1_colapse_card_text1[$langue] ?>
                   </span> 
                   <br>
                   <br>
@@ -60,7 +58,7 @@ include('../php/header.inc.php');
                 </div>             
               </div>
               <div class="col-sm-5" style="background: #868e96;">
-                <img src="../img/Notre_Dame_architecture.jpg" class="card-img-top h-100" alt="...">
+                <img src="../img/Chapelle1.jpg" class="card-img-top h-100" alt="...">
               </div>
             </div>
           </div>
@@ -93,7 +91,7 @@ include('../php/header.inc.php');
                 </div> 
               </div>
               <div class="col-sm-5" style="background: #868e96;">
-                <img src="../img/architecurenotredame1.jpg" class="card-img-top h-100" alt="...">
+                <img src="../img/Chapelle2.jfif" class="card-img-top h-100" alt="...">
               </div>
             </div>
           </div>

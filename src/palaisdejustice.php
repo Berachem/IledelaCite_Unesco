@@ -399,18 +399,18 @@ include('../php/header.inc.php');
         <div class="card bg-dark" style="max-width: 1750px;">
           <div class="row no-gutters">
               <div class="col-sm-5" style="background: #868e96;">
-                  <img src="../img/incendiesNotreDame.jpg" class="card-img-top h-100" alt="...">
+                  <img src="../img/Palais_de_justice_actu.jpg" class="card-img-top h-100" alt="...">
               </div>
               <div class="col-sm-7">
                   <div class="card-body">
                       <h5 class="card-title"><?php echo $palais_carousel3_card_title1[$langue] ?></h5>
                       <p class="card-text"><?php echo $palais_carousel3_card_text1[$langue] ?></p>
-                      <span class="collapse card-text" id="viewdetails3">
+                      <span class="collapse card-text" id="viewdetails3b">
                         <?php echo $palais_carousel3_colapse_card_text1[$langue] ?>
                       </span> 
                       <br>
                         
-                          <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails3" ><?php echo $savoirplus[$langue] ?></a>
+                          <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails3b" ><?php echo $savoirplus[$langue] ?></a>
                   </div>
               </div>
           </div>
@@ -422,7 +422,7 @@ include('../php/header.inc.php');
         <div class="card bg-dark" style="max-width: 1750px;">
           <div class="row no-gutters">
               <div class="col-sm-5" style="background: #868e96;">
-                  <img src="../img/incendiesNotreDame.jpg" class="card-img-top h-100" alt="...">
+                  <img src="../img/Palais_de_justice_actu.jpg" class="card-img-top h-100" alt="...">
               </div>
               <div class="col-sm-7">
                   <div class="card-body">
