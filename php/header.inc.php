@@ -259,17 +259,40 @@ $chapelle_sous_titre_architecture = array("Architecture", "Architecture",'بني
 
 $chapelle_carousel1_card_title1 = array("La construction et trésors de la Sainte Chappelle");
 $chapelle_carousel1_card_text1 = array("Construite à la demande de Saint Louis pour abriter les reliques de la Passion du Christ, la Sainte-Chapelle se distingue notamment par ses merveilleux vitraux.");
-$chapelle_carousel1_colapse_card_text1 = array("Construite sur deux niveaux, la chapelle basse, dédiée aux domestiques du palais et aux officiers, et la chapelle haute, plus grande et plus riche en vitraux, dédiée au roi et à sa famille. Ces vitraux sont sencé représenter plusieurs scène de la bible, de la création d'adam et Eve à l'Apocalypse. La Sainte chapelle à acquellie en son sein pas moins de 22 relique que Saint-Louis avait réussie à se procurer (dont certaines pour un prix qui dépasse le cout de construction de la chapelle), il n’en reste aujourd’hui plus que 3 : un fragment de la croix, un clou, et la couronne d’épines, elles avaient toutes les 3 été conserver dans le trésor de Notre-Dame et ont heureusement pu être sauvé de l'incencie"); 
+$chapelle_carousel1_colapse_card_text1 = array("Comme tout batiment gothique de cette taille, la Sainte Chappelle a été construite de sorte à laisser entrer la lumière (tout en la sublimant), et a construire le plus possible en hauteur pour ce rapproché des cieux. Construite sur deux niveaux, la chapelle basse, dédiée aux domestiques du palais et aux officiers, et la chapelle haute, plus grande et plus riche en vitraux, dédiée au roi et à sa famille. Ces vitraux sont sencé représenter plusieurs scène de la bible, de la création d'adam et Eve à l'Apocalypse. La Sainte chapelle à acquellie en son sein pas moins de 22 relique que Saint-Louis avait réussie à se procurer (dont certaines pour un prix qui dépasse le cout de construction de la chapelle), il n’en reste aujourd’hui plus que 3 : un fragment de la croix, un clou, et la couronne d’épines, elles avaient toutes les 3 été conserver dans le trésor de Notre-Dame et ont heureusement pu être sauvé de l'incencie"); 
+
+/* element 2 */
+
+$chapelle_carousel1_card_title2 = array("La chapelle basse");
+$chapelle_carousel1_card_text2 = array("Peu haute et faiblement éclairée, la chapelle basse a des allures de crypte, deux colonnades, chargées de soutenir la chapelle haute");
+$chapelle_carousel1_colapse_card_text2 = array("A cause des dégradations qu'elle a subie, la chapelle basse et son décor actuel est en grande partie une reconstitution du XIIIe siècle, réalisée sans sources anciennes et donc probablement différent de ce que l’on pouvait voir à l’origine, mais au vu de son usage prévu pour les domestiques et le peu de lumière que l'on pouvait laisser entrer à l'intérieur, on se doute qu'elle a été principalement conçue pour servir de support à la haute chappelle, mais actuellement les divers rénovations et travaux d'embellissement l'ont rendue plus éclatante que jamais.");
+
+/* element 3 */
+
+$chapelle_carousel1_card_title3 = array("La rosace, un exemple parfait de la beauté de la chapelle");
+$chapelle_carousel1_card_text3 = array("La rosace est de style gothique flamboyant, nom qui provient des effets de flammes utilisés pour les vitraux. Elle ne date pas du 13e siècle comme les verrières, mais du 15e siècle. Elle compte 87 pétales. Restaurer en 2014, elle est une piece maitresse de l'histoire que nous content ces vitraux, et embellie toute la façade occidentale lorsque le soleil brille de ce coté du batiment");
+
+
+/* caroussel 2, histoire */
+$chapelle_sous_titre_histoire = array("Histoire", "History",'قصة','故事');
 
 /* element 1 */
 
-$chapelle_carousel1_card_title1 = array("La chapelle basse");
-$chapelle_carousel1_card_text1 = array("Peu haute et faiblement éclairée, la chapelle basse a des allures de crypte, deux colonnades, chargées de soutenir la chapelle haute");
-$chapelle_carousel1_colapse_card_text1 = array("A cause des dégradations qu'elle a subie, la chapelle basse et son décor actuel est en grande partie une reconstitution du XIIIe siècle, réalisée sans sources anciennes et donc probablement différent de ce que l’on pouvait voir à l’origine, mais au vu de son usage prévu pour les domestiques et le peu de lumière que l'on pouvait laisser entrer à l'intérieur, on se doute qu'elle a été principalement conçue pour servir de support à la haute chappelle, mais actuelment les divers rénovation et travaux d'embellissement l'ont rendue plus éclatante que jamais.");
+$chapelle_carousel2_card_title1 = array("L'acquisition des reliques");
+$chapelle_carousel2_card_text1 = array("A partir de 1239, le très croyant Louis IX, dit Saint Louis, commence à acquérir les Saintes Reliques du Christ. Il se porte dans un premier temps acquéreur de la Sainte Couronne à prix d’or :");
+$chapelle_carousel2_colapse_card_text1 = array("De nombreuse reliques ont été racheté de la même manière que la couronne (comme un morceaux de la croix, l'un des clou etc...), une fois ajouter à ceux récipérer lors des croisades et autre guerre, ils constitue un trésors unique au monde et valant plus que tout pour un homme de foi. Ces acquisitions permettent d’accroître le prestige de la France et de Paris qui devient une capitale de la chrétienté. C'est afin de les entreposé et de les vénérer que la Sainte Chapelle a été construite.");
 
+/* element 2 */
 
+$chapelle_carousel2_card_title2 = array("La contruction de la Sainte Chapelle");
+$chapelle_carousel2_card_text2 = array("Construite de 1241 à 1248, sa construction coûte 40 000 livres tournois, une somme déjà conséquente mais qui reste bien peu par rapport au prix des reliques");
+$chapelle_carousel2_colapse_card_text2 = array("Elle est conçue comme tout batiment gothique, mais est destinée à une utilisation différente des chapelle classique, ce n'est pas un lieu de pélerinage ou un sanctiaire pour tous les chrétiens, c'est un lieu à usage familiale, prévue pour montrer la puissance de la royauté et sa dévotion en la religion chrétienne, l'accès y est donc pour restrint, et cela a été pris en compte lors de la construction, avec moins d'accès à l'extérieur et un espace pour cloisoné");
 
+/* element 3 */
 
+$chapelle_carousel2_card_title3 = array("Les épreuves de la Sainte Chapelle");
+$chapelle_carousel2_card_text3 = array("La Sainte chapelle aura subit plusieurs coup durs durant les siècles qui ont suivie sa construcetion.");
+$chapelle_carousel2_colapse_card_text3 = array("Innodation de la chapelle basse, désacralisation et icendit. La chapelle a subit beaucoup d'outrage au fil du temps. Par exemple un incendit de nuit éclata le 6-7 Mars 1618 au Palais et déborda sur la Sainte Chapelle. Lors de la Révolution française, le nouveaux gouvernement souhaitait détruire tout ce qui avait un lien avec le pouvoir précédent, la monarchie et l'ancien régime, la foi et la royauté étant les deux pillier du système précédent, la Sainte Chapelle fut évidemment visée, désacralisé en profondeur, servant de grenier aux sans-cullotte, ce fut sa période la moins éclatante, plusieurs reliques ont été perdue durant ces années de décrépitude"); 
 
 /* Informations */
 

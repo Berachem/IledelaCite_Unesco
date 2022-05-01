@@ -135,7 +135,7 @@ include('../php/header.inc.php');
                     <?php echo $notredame_carousel1_card_text4[$langue] ?>
                   </p>
                   <span class="collapse card-text tovisit" id="viewdetailsd"> 
-                    <?php echo $notredame_carousel1notredame_carousel1_colapse_card_text4_card_text3[$langue] ?>
+                    <?php echo $palais_carousel1_colapse_card_text4[$langue] ?>
                   </span>
                   <br>
                   <br>

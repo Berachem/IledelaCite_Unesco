@@ -35,7 +35,6 @@ include('../php/header.inc.php');
         <li data-target="#demo" data-slide-to="0" class="active"></li>
         <li data-target="#demo" data-slide-to="1"></li>
         <li data-target="#demo" data-slide-to="2"></li>
-        <li data-target="#demo" data-slide-to="3"></li>
       </ul>
 
       <div class="carousel-inner">
@@ -71,27 +70,20 @@ include('../php/header.inc.php');
             <div class="row no-gutters">           
               <div class="col-sm-7">
                 <div class="card-body">
-                  <h5 class="card-title">Un Projet gigantesque d'une ampleur phénoménale</h5>
+                  <h5 class="card-title"><?php echo $chapelle_carousel1_card_title2[$langue] ?></h5>
                   <p class="card-text tovisit" >
-                      Après la forte croissance démographique et religieuse de la France, La basilique Saint-Étienne, malgré ses dimensions imposantes,
-                      ne suffit plus à la ferveur des Parisiens et aux  ambitions du nouvel évêque Maurice de Sully face au rayonnement intellectuel de la ville et à son essor.
+                  <?php echo $chapelle_carousel1_card_text2[$langue] ?>
                   </p>
                   <span class="collapse card-text tovisit" id="viewdetailsb"> 
-                    Ce fit donc sentir le besoin d'un édifice plus grand, plus majestieux, à la mesure de la capitale de l'évêcher et du pays, ainsi que de l'ambition du nouvel évêque Maurice de Sully.
-                    S'entamme donc l'un des projet de construction les plus longs qu'aura jamais eu la France à effectuer, un projet qui a duré près de 200 ans, et qui a nécessité énormément de technique 
-                    , d'organisaion et de savoi-faire pour aboutir à ce manifique résultat.
-                    </span>
+                  <?php echo $chapelle_carousel1_colapse_card_text2[$langue] ?>
+                  </span>
                   <br>
                   <br>
-                  <blockquote class="blockquote">
-                    <p class="mb-0">« La tête, le cœur, la moelle de la ville entière. »</p>
-                    <footer class="blockquote-footer">Gui de Bazoches, chroniqueur du XIIe siècle</footer>
-                  </blockquote>
                   <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetailsb" >En savoir plus</a>
                 </div> 
               </div>
               <div class="col-sm-5" style="background: #868e96;">
-                <img src="../img/Chapelle2.jfif" class="card-img-top h-100" alt="...">
+                <img src="../img/Chapelle2.jpg" class="card-img-top h-100" alt="...">
               </div>
             </div>
           </div>
@@ -103,69 +95,18 @@ include('../php/header.inc.php');
             <div class="row no-gutters">
               <div class="col-sm-7">
                 <div class="card-body">
-                  <h5 class="card-title">Deux siècles de technique, d'archtecture et de travail</h5>
+                  <h5 class="card-title"><?php echo $chapelle_carousel1_card_title3[$langue] ?></h5>
                   <p class="card-text tovisit">
-                    En 1163 est posée la première pierre de Notre-Dame en présence du Pape Alexandre III.
+                  <?php echo $chapelle_carousel1_card_text3[$langue] ?>
                   </p>
-                  <span class="collapse" id="viewdetailsc"> 
-                    <p class = "card-text tovisit"> <!--différent des autres pour les puce soit en style par défaut du body-->
-                    Elle est emblématique de l'art ogival, aussi appelé art gothique,
-                    style novateur récement utilisé pour la construction des églises et des cathédrales à l'époque.
-                    Système de voûtes en croisées d’ogives, afin de pouvoir placé les vitraux et laisser passé la lumière.
-                    Hauteur sous voûte élevée, pour être au plus près du ciel.
-                    Élévation à quatre étages étayés par des tribunes afin de faire tenir le toit.
-                    De nombreux arcs-boutants à l'extérieur pour contrebalancé la poussée des voûtes de grande hauteur.
-                    <br>
-                    Plusieurs campagne de travaux ont eu lieu, de sorte que l'on peut distinguer de étapes :
-                    </p>
-                    <ul class="card-text">
-                      <li>1163-1225 : construction du chœur et de son double déambulatoire, de la nef, des bas-côtés et des tribunes, façade élevée jusqu'à la galerie des rois</li>
-                      <li>1225-1250 : galerie haute et les deux tours sur la façade, modification et agrandissements des fenêtres hautes et aménagement des chapelles latérales de la nef.</li>
-                    </ul>
-                  </span>
-                  <br>
-                  <br>
-                  <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetailsc" >En savoir plus</a>    
                 </div>      
               </div>
               <div class="col-sm-5" style="background: #868e96;">
-                <img src="../img/evolutionNotreDame.jpg" class="card-img-top h-100" alt="...">
+                <img src="../img/Chapelle3.jpg" class="card-img-top h-100" alt="...">
               </div>
             </div>
           </div>
         </div>
-
-        <!-- Element 4 dans carrousel  -->    
-        <div class="carousel-item">
-          <div class="card bg-dark" style="max-width: 1750px;">
-            <div class="row no-gutters">    
-              <div class="col-sm-7">
-                <div class="card-body">
-                    <h5 class="card-title">Deux siècles de technique, d'archtecture et de travail</h5>
-                    <p class="card-text tovisit">
-                      Ayant subi les outrages du temps et des Hommes, notament avec plusieurs incendits (dont un récemment), 
-                    </p>
-                    <span class="collapse card-text tovisit" id="viewdetailsd"> 
-                      Notre-Dame aura été 
-                      modifier et rénové de nombreuse fois et ce dès sa création, d'une par pour remplacer es partie romane subsistance, 
-                      d'autre part pour remforcer la structure ou encore refaire une partie de la cathédrale.
-                      Les architectes se sont succedé et on manque d'information sur les artisans de l'ouvrage au cours du XIIe siècle, car leurs
-                      nombre devait être extrême pour un projet de cette taille, néanmoins les comptes de fabrique sont conservés à partir de 1333.
-                    </span>
-                    <br>
-                    <br>
-                    <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetailsd" >En savoir plus</a>
-                    
-                    
-                </div>
-              </div>
-              <div class="col-sm-5" style="background: #868e96;">
-                <img src="../img/Notre_dame_architecture2.jpg" class="card-img-top h-100" alt="...">
-              </div>
-            </div>
-          </div>
-        </div>
-
 
       </div>
 
@@ -185,7 +126,7 @@ include('../php/header.inc.php');
 <section data-aos="fade-up">
     <!-- SECTION HISTOIRE-->
     <div class="sous_titre">
-      <h2 style="color: #f7af3e;"><i class="fas fa-history"></i> Histoire</h2>
+      <h2 style="color: #f7af3e;"><i class="fas fa-history"></i><?php echo $chapelle_sous_titre_histoire[$langue] ?></h2>
       <img src="../img/sous_titre.png" alt="" >
     </div>
 
@@ -209,25 +150,17 @@ include('../php/header.inc.php');
               </div>
               <div class="col-sm-7">
                 <div class="card-body">
-                  <h5 class="card-title">1163, l'année où tout a commencé...</h5>
-                  <p class="card-text tovisit" >Notre-Dame de Paris, un monument d’exception 
-                    Au-delà de sa vocation religieuse, la cathédrale Notre-Dame de Paris est l’un des fleurons du patrimoine culturel national et mondial. C’est l’une des plus anciennes cathédrales gothiques de France (avec Noyon, Senlis, Laon et Sens). La majeure partie de la construction débute en 1163 et s’achève en 1345. 
+                  <h5 class="card-title"><?php echo $chapelle_carousel2_card_title1[$langue] ?></h5>
+                  <p class="card-text tovisit" >
+                    <?php echo $chapelle_carousel2_card_text1[$langue] ?>
                   </p>
                   <span class="collapse card-text tovisit" id="viewdetails1">                     
-                  En 1844, Notre-Dame est dans un état de conservation préoccupant. Privée d’une partie importante de ses sculptures décoratives au cours du XVIIIe siècle, de sa flèche (1792), de la statuaire de la galerie des Rois (1793), elle bénéficie jusqu’en 1865 d’importants travaux sous la direction d’Eugène-Emmanuel Viollet-le-Duc.  
-                  Depuis cette intervention majeure, les travaux d’entretien et de restauration de ce monument appartenant à l’État n’ont pas cessé.
-                    </span> 
+                  <?php echo $chapelle_carousel2_colapse_card_text1[$langue] ?>
+                  </span> 
                   <br>
                   <br>
 
-                  <div style="display: flex;">
-                  
-                  <a class="btn btn-light"  href="https://www.youtube.com/embed/xSOtXtTXx-s">
-                  <i class="fa fa-youtube"></i> Regarder une vidéo</a>  
                   <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails1" >En savoir plus</a>
-                
-                  
-                  </div>
                 </div>
               </div>
             </div>
@@ -243,27 +176,16 @@ include('../php/header.inc.php');
               </div>
               <div class="col-sm-7">
                 <div class="card-body">
-                  <h5 class="card-title"><i>Notre-Dame de Paris</i>  de Victor Hugo</h5>
+                  <h5 class="card-title"><?php echo $chapelle_carousel2_card_title2[$langue] ?></h5>
                   <p class="card-text tovisit" >
-                    En plus d’être la cathédrale gothique la plus célèbre de France, Notre-Dame de Paris est aussi un roman majeur de Victor Hugo.
+                  <?php echo $chapelle_carousel2_card_text2[$langue] ?>
                   </p>
                   <span class="collapse card-text tovisit" id="viewdetails1b">
-                    Publié en 1831, il nous conte l’histoire de Quasimodo, Esmeralda, Frollo et Phoebus. Histoire d’amour, de haine et d’indifférence, histoire de passion aussi, dont les péripéties sont surtout connues pour les nombreuses adaptations, plus que pour le texte lui-même.
-                    En effet, ce roman de 940 pages est à réserver aux mains et aux yeux des lecteurs aguerris, voraces ou déterminés. Les intrigues à tiroirs sont aussi complexes que les personnages, les scènes s’étirent sur des pages et des pages d’action comme de description.
-                    Et pourtant, une qualité littéraire exceptionnelle, comme une récompense, attend le lecteur qui ouvrira les pages de Notre-Dame de Paris, sans doute l’un des plus beaux romans jamais écrits en langue française.
+                  <?php echo $chapelle_carousel2_colapse_card_text2[$langue] ?>
                   </span> 
                   <br>
                   <br>
-                  <blockquote class="blockquote">
-                    <p class="mb-0">"La bohémienne dansait ... agile, légère, joyeuse, et ne sentant pas le poids du regard redoutable qui tombait à plomb sur sa tête."</p>
-                    <footer class="blockquote-footer">Victor Hugo dans son roman <cite title="Source Title">Notre-Dame de Paris</cite></footer>
-                  </blockquote>
-                  <div style="display: flex;">
-                  <a class="btn btn-primary" href="https://www.youtube.com/embed/xSOtXtTXx-s">
-                    <i class="fas fa-book infobtn"></i> Acheter le roman</a>  
                   <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails1b" >En savoir plus</a>
-                 
-                  </div>
                     <br>
                     <br>
                              
