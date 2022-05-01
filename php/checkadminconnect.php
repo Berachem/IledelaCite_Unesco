@@ -5,7 +5,7 @@ session_start();
 
 
 
-    if ($_SESSION["id"]=='0' && $_SESSION["password"]=='0'){ // Si les codes sont bons.
+    if ($_POST["id"]=='0' && $_POST["password"]=='0'){ // Si les codes sont bons.
         $_SESSION["id"] = $_GET["id"];
         $_SESSION["password"] = $_GET["password"];
         

@@ -41,7 +41,7 @@ body{
     <div class="row h-100 justify-content-center align-items-center">
         <div class="col-10 col-md-8 col-lg-6">
             <!-- Form -->
-            <form class="form-example" action="../php/checkadminconnect.php" method="GET">
+            <form class="form-example" action="../php/checkadminconnect.php" method="POST">
                 <h1>Connectez vous...</h1>
                 <!-- Input f-ields -->
                 <div class="form-group">
