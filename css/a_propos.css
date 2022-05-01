@@ -381,7 +381,7 @@ ul.social-icons {
 }
 
 
-@media screen and (max-width: 1650px) {
+@media screen and (max-width: 1500px) {
     /* Barre de navigation */
     .navbar {
         flex-direction: column;
