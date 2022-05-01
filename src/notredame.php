@@ -240,7 +240,7 @@ include('../php/header.inc.php');
                     <footer class="blockquote-footer"><?php echo $notredame_carousel2_colapse_card_blockquote_footer[$langue] ?><cite title="Source Title">Notre-Dame de Paris</cite></footer>
                   </blockquote>
                   <div style="display: flex;">
-                  <a class="btn btn-primary" href="https://www.youtube.com/embed/xSOtXtTXx-s">
+                  <a class="btn btn-primary" href="https://www.fnac.com/livre-numerique/a13708073/Victor-Hugo-Notre-Dame-de-Paris?Origin=fnac_google#FORMAT=ebook%20(ePub)">
                     <i class="fas fa-book infobtn"></i> <?php echo $notredame_carousel2_colapse_card_blockquote_button[$langue] ?></a>  
                   <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails1b" ><?php echo $savoirplus[$langue] ?></a>
                  
