@@ -1,6 +1,7 @@
 <?php
 $page = 'Admin';
 include('../php/header.inc.php');
+session_start();
 
 if ($_SESSION["id"]!='0' && $_SESSION["password"]!='0'){ // Si les codes sont bons.
 
