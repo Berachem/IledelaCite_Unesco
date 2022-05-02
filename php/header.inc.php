@@ -264,13 +264,19 @@ $chapelle_carousel1_colapse_card_text1 = array("Comme tout batiment gothique de 
 /* element 2 */
 
 $chapelle_carousel1_card_title2 = array("La chapelle basse");
-$chapelle_carousel1_card_text2 = array("Peu haute et faiblement éclairée, la chapelle basse a des allures de crypte, deux colonnades, chargées de soutenir la chapelle haute");
-$chapelle_carousel1_colapse_card_text2 = array("A cause des dégradations qu'elle a subie, la chapelle basse et son décor actuel est en grande partie une reconstitution du XIIIe siècle, réalisée sans sources anciennes et donc probablement différent de ce que l’on pouvait voir à l’origine, mais au vu de son usage prévu pour les domestiques et le peu de lumière que l'on pouvait laisser entrer à l'intérieur, on se doute qu'elle a été principalement conçue pour servir de support à la haute chappelle, mais actuellement les divers rénovations et travaux d'embellissement l'ont rendue plus éclatante que jamais.");
+$chapelle_carousel1_card_text2 = array("Peu haute et faiblement éclairée pour un domaine religieux, la chapelle basse a des allures de crypte, deux colonnades, chargées de soutenir la chapelle haute");
+$chapelle_carousel1_colapse_card_text2 = array("A cause des dégradations qu'elle a subie, la chapelle basse et son décor actuel sont en grande partie une reconstitution du XIIIe siècle, réalisée sans sources anciennes et donc probablement différent de ce que l’on pouvait voir à l’origine, mais au vu de son usage prévu pour les domestiques et le peu de lumière que l'on pouvait laisser entrer à l'intérieur, on se doute qu'elle a été principalement conçue pour servir de support à la haute chappelle, mais actuellement les divers rénovations et travaux d'embellissement l'ont rendue plus éclatante que jamais.");
 
 /* element 3 */
 
-$chapelle_carousel1_card_title3 = array("La rosace, un exemple parfait de la beauté de la chapelle");
-$chapelle_carousel1_card_text3 = array("La rosace est de style gothique flamboyant, nom qui provient des effets de flammes utilisés pour les vitraux. Elle ne date pas du 13e siècle comme les verrières, mais du 15e siècle. Elle compte 87 pétales. Restaurer en 2014, elle est une piece maitresse de l'histoire que nous content ces vitraux, et embellie toute la façade occidentale lorsque le soleil brille de ce coté du batiment");
+$chapelle_carousel1_card_title3 = array("La chapelle haute");
+$chapelle_carousel1_card_text3 = array("A l'inverse de la chapelle basse, la chapelle haute est non seulemen plus grande, mais aussi plus éclairer, plus travailler, et actuellement assez fidèle à l'origine");
+$chapelle_carousel1_colapse_card_text3 = array("La lumière rentre beaucoup plus aisément grâce à l'ajout de très nombreux vitraux, environ 15 verrière entour de 15 mètre chacune la salle, soit plus de 1100 panneaux de verre de toute les couleurs, font baigner l'endroit dans leurs lumières au couleur des verres, et raconte le début de la bible en image. C'était là que les reliques était conserver, et que la famille royal priait lorsqu'elle habitait au Palais de la cité, qui devint de Palais de justice.");
+
+/* element 4 */
+
+$chapelle_carousel1_card_title4 = array("La rosace, un exemple parfait de la beauté de la chapelle");
+$chapelle_carousel1_card_text4 = array("La rosace est de style gothique flamboyant, nom qui provient des effets de flammes utilisés pour les vitraux. Elle ne date pas du 13e siècle comme les verrières, mais du 15e siècle. Elle compte 87 pétales. Restaurer en 2014, elle est une piece maitresse de l'histoire que nous content ces vitraux, et embellie toute la façade occidentale lorsque le soleil brille de ce coté du batiment");
 
 
 /* caroussel 2, histoire */
@@ -294,6 +300,11 @@ $chapelle_carousel2_card_title3 = array("Les épreuves de la Sainte Chapelle");
 $chapelle_carousel2_card_text3 = array("La Sainte chapelle aura subit plusieurs coup durs durant les siècles qui ont suivie sa construcetion.");
 $chapelle_carousel2_colapse_card_text3 = array("Innodation de la chapelle basse, désacralisation et icendit. La chapelle a subit beaucoup d'outrage au fil du temps. Par exemple un incendit de nuit éclata le 6-7 Mars 1618 au Palais et déborda sur la Sainte Chapelle. Lors de la Révolution française, le nouveaux gouvernement souhaitait détruire tout ce qui avait un lien avec le pouvoir précédent, la monarchie et l'ancien régime, la foi et la royauté étant les deux pillier du système précédent, la Sainte Chapelle fut évidemment visée, désacralisé en profondeur, servant de grenier aux sans-cullotte, ce fut sa période la moins éclatante, plusieurs reliques ont été perdue durant ces années de décrépitude"); 
 
+/* element 4 */
+
+$chapelle_carousel2_card_title4 = array("L'impact de la Sainte Chapelle");
+$chapelle_carousel2_card_text4 = array("La Sainte Chapelle de Paris a servit de model à la quasi totalité des autres sainte chapelle présente en France. qui servait égalment de lieux de culte pour les rois, prince, et membre de la royauté.");
+$chapelle_carousel2_colapse_card_text4 = array("Elles servaient aussi de lieux de culte pour les rois, prince, et membre de la royauté. Et avait un rôle important pour la monarchie et le pouvoir de l'époque, d'où la désacralisation qu'elle et d'autres ont subie lors de la révolution. Son importance historique ne pouvait néanmoins pas être ignoré, c'est pour cela que dans les années 1830, à une époque où de nombreux travaux de restauration avaient été entreprises, afin de restaurer les monuments du moyen-age, que des archéologue et historiens se sont intéresser à la Sainte Chapelle, essayant de trouver des information dans des écrit et de s'inspirer d'autres chapelles pour rénover le batiment etle faire revenir à sa splendeur d'antan. C'est dans les années 1840 que les travaux commencèrent, elles durèrent près de 30 ans, avec un résultat semblable à ce que l'on peut trouver aujourd'hui");
 /* Informations */
 
 $info_description=array("Vous trouverez sur cette pages les <b style='color: #ea5c0d;'>informations utiles </b> pour vous aider à préparer votre visite sur l'Île telles que les <b style='color: #f7af3e;'>horaires</b> des monuments, le <b style='color: #f7af3e;'>prix</b> d'entrée et enfin les <b style='color: #f7af3e;'>transports en commun</b> à proximité.","You will find on this page <b style='color: #ea5c0d;'>useful information</b> to help you prepare your visit to the island such as the <b style='color: #f7af3e;'>schedules</b> of the monuments, the entrance <b style='color: #f7af3e;'>fees</b> and finally the <b style='color: #f7af3e;'>public transport </b> in the vicinity." ,"ستجد في هذه الصفحة <b style = 'color: # ea5c0d؛'> معلومات مفيدة </ b> لمساعدتك في الاستعداد لزيارتك للجزيرة ، مثل <b style = 'color: # f7af3e؛'> الجداول الزمنية </b> من المعالم ، <b style = 'color: # f7af3e؛'> سعر الدخول </ b> وأخيرًاا <b style = 'color: # f7af3e؛'> النقل العام </ b> في مكان قريب.","在此頁面上，您將找到<b style='color: #ea5c0d;'>有用信息</b>，以幫助您為訪問該島做準備，例如<b style='color: #f7af3e;'> 時間表</b> 的古蹟，<b style='color: #f7af3e;'>門票</b>，最後是附近的<b style='color: #f7af3e;'>公共交通</b>。");
