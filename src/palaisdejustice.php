@@ -15,15 +15,15 @@ include('../php/header.inc.php');
 
       <div class="description" >
           <p style="color:white">
-            Le <b style="color: #ea5c0d;">Palais de justice</b> est le monument qui prend en compte la plus grande partie de l'île, sa superficie correspond à 1 cinquème de l'île, et comprend plusieurs batiments tous plus impressionnant les uns que les autres.
-
+            
+            <?php echo $palais_description[$langue] ?>
           </p>
       </div>
 
 <section data-aos="fade-up">
     <!-- SECTION Histoire-->
     <div class="sous_titre">
-      <h2 style="color: #f7af3e;"><i class="fas fa-history"></i><?php echo $palais_histoire[$langue] ?></h2>
+      <h2 style="color: #f7af3e;"><i class="fas fa-history"></i> <?php echo $palais_histoire[$langue] ?></h2>
       <img src="../img/sous_titre.png" alt="" >
     </div>
 
@@ -189,7 +189,7 @@ include('../php/header.inc.php');
 <section data-aos="fade-up">
     <!-- SECTION Procès-->
     <div class="sous_titre">
-      <h2 style="color: #f7af3e;"><i class="fa fa-balance-scale"></i><?php echo $palais_proces[$langue] ?></h2>
+      <h2 style="color: #f7af3e;"><i class="fa fa-balance-scale"></i> <?php echo $palais_proces[$langue] ?></h2>
       <img src="../img/sous_titre.png" alt="" >
     </div>
 
@@ -384,7 +384,7 @@ include('../php/header.inc.php');
 <section data-aos="fade-up">
     <!-- Section Actualité  -->
     <div class="sous_titre">
-      <h2 style="color: #f7af3e;"><i class="fas fa-newspaper"></i><?php echo $palais_actu[$langue] ?></h2>
+      <h2 style="color: #f7af3e;"><i class="fas fa-newspaper"></i> <?php echo $palais_actu[$langue] ?></h2>
       <img src="../img/sous_titre.png" alt="" >
     </div>
     <div id="demo3" class="carousel slide" data-ride="carousel">

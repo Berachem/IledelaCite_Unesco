@@ -45,7 +45,7 @@ include('../php/header.inc.php');
             <div class="row no-gutters">
               <div class="col-sm-7">
                 <div class="card-body">
-                  <h5 class="card-title"><?php echo $chapelle_carousel1_card_title1[$langue] ?></h5>
+                  <h5 class="card-title"> <?php echo $chapelle_carousel1_card_title1[$langue] ?></h5>
                   <p class="card-text tovisit">
                   <?php echo $chapelle_carousel1_card_text1[$langue] ?>
                   </p>
@@ -71,7 +71,7 @@ include('../php/header.inc.php');
             <div class="row no-gutters">           
               <div class="col-sm-7">
                 <div class="card-body">
-                  <h5 class="card-title"><?php echo $chapelle_carousel1_card_title2[$langue] ?></h5>
+                  <h5 class="card-title"> <?php echo $chapelle_carousel1_card_title2[$langue] ?></h5>
                   <p class="card-text tovisit" >
                   <?php echo $chapelle_carousel1_card_text2[$langue] ?>
                   </p>

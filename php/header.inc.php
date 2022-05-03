@@ -145,7 +145,7 @@ $Avisiter_maison_phrase = array("Une maison du millieu du XXe s ressemblant aux 
 
 /* ========== Palais de justice ==================*/
 
-$palais_description = array("Le <b style='color: #ea5c0d;'>Palais de justice</b> est le monument qui prend en compte la plus grande partie de l'île, sa superficie correspond à 1 cinquème de l'île, et comprend plusieurs batiments tous plus impressionnant les uns que les autres.","The <b style='color: #ea5c0d;'>Judicial Palace</b> is the monument that takes up the largest part of the island, its area corresponds to 1 fifth of the island, and includes several buildings all more impressive than each other.",'<b style = "color: #ea5c0d;">؛"> مبنى المحكمة </b> هو النصب التذكاري الذي يأخذ في الاعتبار الجزء الأكبر من الجزيرة ، وتطابق مساحته خُمس مساحة الجزيرة ، ويتضمن العديد من المباني الأكثر إثارة للإعجاب من بعضهم البعض.','<b style="color: #ea5c0d;">Courthouse</b> 是島上最大部
+$palais_description = array("Le <b style='color: #ea5c0d;'>Palais de justice</b> est le monument qui prend en compte la plus grande partie de l'île, sa superficie correspond à 1 cinquème de l'île, et comprend plusieurs batiments tous plus impressionnant les uns que les autres.","The <b style='color: #ea5c0d;'>Judicial Palace</b> is the monument that takes up the largest part of the island, its area corresponds to 1 fifth of the island, and includes several buildings all more impressive than each other.",'<b style = "color: #ea5c0d;">مبنى المحكمة </b> هو النصب التذكاري الذي يأخذ في الاعتبار الجزء الأكبر من الجزيرة ، وتطابق مساحته خُمس مساحة الجزيرة ، ويتضمن العديد من المباني الأكثر إثارة للإعجاب من بعضهم البعض.','<b style="color: #ea5c0d;">Palais de Justice</b> 是島上最大部
 分的紀念碑，其面積相當於島的五分之一，包括幾座建築物，都比彼此。'); 
 
 /* caroussel 1 histoire */
