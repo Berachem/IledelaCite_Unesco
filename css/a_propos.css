@@ -75,14 +75,14 @@ body{
 .navbar-links li a {
     display: block;
     text-decoration: none;
-    color: #ea5c0d;
+    color: white;
     text-transform: uppercase;
     padding: 1rem;
 }
 
-.dropdown-menu > a:hover{
-    background-color: #555;
+.dropdown-menu > a:active{
     color: #ea5c0d;
+    background-color: white;
 }
 
 .navbar-links li:hover{

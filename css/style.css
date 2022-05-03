@@ -52,6 +52,7 @@ BARRE DE NAVIGATION
 }
 
 
+
 .navbar-wrapper {
     position:relative;
 }
@@ -64,6 +65,10 @@ BARRE DE NAVIGATION
     width:100%;
 }
 
+.dropdown-menu > a:active{
+    color: #ea5c0d;
+    background-color: white;
+}
 
 .navbar-links {
     height: 100%;
@@ -82,7 +87,7 @@ BARRE DE NAVIGATION
 .navbar-links li a {
     display: block;
     text-decoration: none;
-    color: #ea5c0d;
+    color: white;
     text-transform: uppercase;
     padding: 1rem;
 }
@@ -126,7 +131,7 @@ BARRE DE NAVIGATION
     }
 
 .carousel-item{
-    height: 75vh;
+    height: 87vh;
 }
 .carousel-item > img{
     display: block;
@@ -426,4 +431,10 @@ ul.social-icons {
 
     }
 
+}
+
+@media screen and (max-width: 640px) {
+    .carousel-item{
+        height: 83vh;
+    }
 }

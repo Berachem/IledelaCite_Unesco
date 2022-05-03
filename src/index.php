@@ -53,6 +53,7 @@ include('../php/header.inc.php');
             <h2>Le Palais de Justice</h2>
             <p> <?php echo $index_carousel_palaisjustice_subtitle[$langue] ?></p>
             <a target="_self" href='palaisdejustice.php<?php echo '?lang='.$langue ?>'><button type='button' class='btn btn-primary'><i class='fas fa-arrow-right'></i> <?php echo $index_carousel_Yaller[$langue] ?></button></a>
+          
           </div>
         </div>
         <!-- Carousel Pont Neuf-->
@@ -79,12 +80,13 @@ include('../php/header.inc.php');
 
 </section>
 
-<section data-aos="fade-up">
+
     <!-- Phrase d'accroche en orange-->
     <h2 id='PhraseUnesco'>
      <?php echo $index_subtitle[$langue] ?> <img src='../img/unesco_emoji.png' class='rota' width='35' height='35' alt='unesco'>
     </h2>
 
+<section data-aos="fade-up">
     <!-- Texte -->
     <h2 style='padding: 1cm; text-align: center;'>
      <?php echo $index_subtitle2[$langue] ?>

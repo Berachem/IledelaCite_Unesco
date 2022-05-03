@@ -11,6 +11,7 @@ toggleButton.addEventListener('click', () => {
 // ----- TOOLTIPS ----
 
 $(document).ready(function(){
+  $('.dropdown-menu').addClass('bg-dark');
   $("a").tooltip();
   $("span").tooltip();
   $("img").tooltip();
@@ -44,12 +45,12 @@ $(window).on(
       
       $('.navbar').addClass('bg-dark');
       $('.navbar').addClass('change-color');
-      $('.navbar-links .nav-item .dropdown-menu').addClass('bg-dark');
+      
       document.getElementsByClassName('arrows')[0].style.visibility='hidden';
     } else {
       
       $('.navbar').removeClass('bg-dark');
-      $('.navbar-links .nav-item .dropdown-menu').removeClass('bg-dark');
+ 
       $('.navbar').removeClass('change-color');
       document.getElementsByClassName('arrows')[0].style.visibility='visible';
     }
