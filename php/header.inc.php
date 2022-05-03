@@ -499,7 +499,7 @@ echo'
         <!-- Barre de navigation -->
         <div class="navbar-links">
           <ul>
-            <li><a target="_self" href="index.php?lang='.$langue.'"><img src="../img/home_emoji.png" width="25" height="25">  '. $nav_home[$langue].'</a></li>
+            <li class="nav-item"><a target="_self" href="index.php?lang='.$langue.'"><img src="../img/home_emoji.png" width="25" height="25">  '. $nav_home[$langue].'</a></li>
 
             <!-- Dropdown Monuments -->
             <li class="nav-item dropdown">
@@ -514,7 +514,7 @@ echo'
                 </div>
             </li>
 
-            <li><a target="_self" href="informations.php?lang='.$langue.'"><img src="../img/info_emoji.png" width="25" height="25">  '.$nav_infos[$langue].'</a></li>
+            <li class="nav-item"><a target="_self" href="informations.php?lang='.$langue.'"><img src="../img/info_emoji.png" width="25" height="25">  '.$nav_infos[$langue].'</a></li>
 
             <!-- dropdown Découvrir -->
             <li class="nav-item dropdown">
@@ -527,26 +527,26 @@ echo'
                 <a target="_self" class="dropdown-item" href="parcours.php?lang='.$langue.'"><img src="../img/parcours.png" width="25" height="25">  '. $nav_road[$langue].'</a></a>
               </div>
             </li>
-            <li><a target="_self" href="galerie.php?lang='.$langue.'"><img src="../img/g_emoji.png" width="25" height="25">  '. $nav_gallery[$langue].'</a></li>
-            <li><a target="_self" href="a_propos.php?lang='.$langue.'"><img src="../img/nous_emoji.png" width="25" height="25">  '. $nav_about[$langue].'</a></li>';
+            <li class="nav-item"><a target="_self" href="galerie.php?lang='.$langue.'"><img src="../img/g_emoji.png" width="25" height="25">  '. $nav_gallery[$langue].'</a></li>
+            <li class="nav-item"><a target="_self" href="a_propos.php?lang='.$langue.'"><img src="../img/nous_emoji.png" width="25" height="25">  '. $nav_about[$langue].'</a></li>';
             
             if ($langue == 0) {
-                echo '<li><a target="_self" href="'.$_SERVER["PHP_SELF"].'?lang=1" target="_self" class="ukflag"><img src="../img/eng_flag.png" alt="" width="27" height="25"></a></li>';
-                echo '<li><a target="_self" href="'.$_SERVER["PHP_SELF"].'?lang=3" target="_self" class="chinaflag"><img src="../img/china.png" alt="" width="27" height="27"></a></li>';
-                echo '<li><a target="_self" href="'.$_SERVER["PHP_SELF"].'?lang=2" target="_self" class="arabflag"><img src="../img/arab.png" alt="" width="27" height="27"></a></li>';
+                echo '<li class="nav-item"><a target="_self" href="'.$_SERVER["PHP_SELF"].'?lang=1" target="_self" class="ukflag"><img src="../img/eng_flag.png" alt="" width="27" height="25"></a></li>';
+                echo '<li class="nav-item"><a target="_self" href="'.$_SERVER["PHP_SELF"].'?lang=3" target="_self" class="chinaflag"><img src="../img/china.png" alt="" width="27" height="27"></a></li>';
+                echo '<li class="nav-item"><a target="_self" href="'.$_SERVER["PHP_SELF"].'?lang=2" target="_self" class="arabflag"><img src="../img/arab.png" alt="" width="27" height="27"></a></li>';
             } else if ($langue ==1) {
-                echo '<li><a target="_self" href="'.$_SERVER["PHP_SELF"].'" target="_self" class="frflag"><img src="../img/fr_flag.png" alt="" width="27" height="25"></a></li>';
-                echo '<li><a target="_self" href="'.$_SERVER["PHP_SELF"].'?lang=3" target="_self" class="chinaflag"><img src="../img/china.png" alt="" width="27" height="27"></a></li>';
-                echo '<li><a target="_self" href="'.$_SERVER["PHP_SELF"].'?lang=2" target="_self" class="arabflag"><img src="../img/arab.png" alt="" width="27" height="27"></a></li>';
+                echo '<li class="nav-item"><a target="_self" href="'.$_SERVER["PHP_SELF"].'" target="_self" class="frflag"><img src="../img/fr_flag.png" alt="" width="27" height="25"></a></li>';
+                echo '<li class="nav-item"><a target="_self" href="'.$_SERVER["PHP_SELF"].'?lang=3" target="_self" class="chinaflag"><img src="../img/china.png" alt="" width="27" height="27"></a></li>';
+                echo '<li class="nav-item"><a target="_self" href="'.$_SERVER["PHP_SELF"].'?lang=2" target="_self" class="arabflag"><img src="../img/arab.png" alt="" width="27" height="27"></a></li>';
             } else if ($langue==2){
-              echo '<li><a target="_self" href="'.$_SERVER["PHP_SELF"].'" target="_self" class="frflag"><img src="../img/fr_flag.png" alt="" width="27" height="25"></a></li>';
-              echo '<li><a target="_self" href="'.$_SERVER["PHP_SELF"].'?lang=1" target="_self" class="ukflag"><img src="../img/eng_flag.png" alt="" width="27" height="25"></a></li>';
-              echo '<li><a target="_self" href="'.$_SERVER["PHP_SELF"].'?lang=3" target="_self" class="chinaflag"><img src="../img/china.png" alt="" width="27" height="27"></a></li>';
+              echo '<li class="nav-item"><a target="_self" href="'.$_SERVER["PHP_SELF"].'" target="_self" class="frflag"><img src="../img/fr_flag.png" alt="" width="27" height="25"></a></li>';
+              echo '<li class="nav-item"><a target="_self" href="'.$_SERVER["PHP_SELF"].'?lang=1" target="_self" class="ukflag"><img src="../img/eng_flag.png" alt="" width="27" height="25"></a></li>';
+              echo '<li class="nav-item"><a target="_self" href="'.$_SERVER["PHP_SELF"].'?lang=3" target="_self" class="chinaflag"><img src="../img/china.png" alt="" width="27" height="27"></a></li>';
 
             } else{
-              echo '<li><a target="_self" href="'.$_SERVER["PHP_SELF"].'" target="_self" class="frflag"><img src="../img/fr_flag.png" alt="" width="27" height="25"></a></li>';
-              echo '<li><a target="_self" href="'.$_SERVER["PHP_SELF"].'?lang=1" target="_self" class="ukflag"><img src="../img/eng_flag.png" alt="" width="27" height="25"></a></li>';
-              echo '<li><a target="_self" href="'.$_SERVER["PHP_SELF"].'?lang=2" target="_self" class="arabflag"><img src="../img/arab.png" alt="" width="27" height="27"></a></li>';
+              echo '<li class="nav-item"><a target="_self" href="'.$_SERVER["PHP_SELF"].'" target="_self" class="frflag"><img src="../img/fr_flag.png" alt="" width="27" height="25"></a></li>';
+              echo '<li class="nav-item"><a target="_self" href="'.$_SERVER["PHP_SELF"].'?lang=1" target="_self" class="ukflag"><img src="../img/eng_flag.png" alt="" width="27" height="25"></a></li>';
+              echo '<li class="nav-item"><a target="_self" href="'.$_SERVER["PHP_SELF"].'?lang=2" target="_self" class="arabflag"><img src="../img/arab.png" alt="" width="27" height="27"></a></li>';
 
               
 
