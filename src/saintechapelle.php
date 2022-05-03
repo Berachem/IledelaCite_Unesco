@@ -54,7 +54,7 @@ include('../php/header.inc.php');
                   </span> 
                   <br>
                   <br>
-                  <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails" >En savoir plus</a>
+                  <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails" ><?php echo $savoirplus[$langue] ?></a>
                 </div>             
               </div>
               <div class="col-sm-5" style="background: #868e96;">
@@ -80,7 +80,7 @@ include('../php/header.inc.php');
                   </span>
                   <br>
                   <br>
-                  <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetailsb" >En savoir plus</a>
+                  <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetailsb" ><?php echo $savoirplus[$langue] ?></a>
                 </div> 
               </div>
               <div class="col-sm-5" style="background: #868e96;">
@@ -105,7 +105,7 @@ include('../php/header.inc.php');
                   </span>
                   <br>
                   <br>
-                  <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetailsc" >En savoir plus</a>
+                  <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetailsc" ><?php echo $savoirplus[$langue] ?></a>
                 </div>      
               </div>
               <div class="col-sm-5" style="background: #868e96;">
@@ -187,7 +187,7 @@ include('../php/header.inc.php');
                   <br>
                   <br>
 
-                  <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails1" >En savoir plus</a>
+                  <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails1" ><?php echo $savoirplus[$langue] ?></a>
                 </div>
               </div>
             </div>
@@ -212,7 +212,7 @@ include('../php/header.inc.php');
                   </span> 
                   <br>
                   <br>
-                  <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails1b" >En savoir plus</a>
+                  <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails1b" ><?php echo $savoirplus[$langue] ?></a>
                     <br>
                     <br>
                              
@@ -240,7 +240,7 @@ include('../php/header.inc.php');
                   </span> 
                   <br>
                   <br>
-                  <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails1c" >En savoir plus</a>
+                  <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails1c" ><?php echo $savoirplus[$langue] ?></a>
                 </div>
               </div>
             </div>
@@ -265,7 +265,7 @@ include('../php/header.inc.php');
                   </span> 
                   <br>
                   <br>
-                  <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails1d" >En savoir plus</a>
+                  <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails1d" ><?php echo $savoirplus[$langue] ?></a>
                 </div>
               </div>
             </div>
