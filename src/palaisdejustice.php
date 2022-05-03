@@ -389,11 +389,6 @@ include('../php/header.inc.php');
     </div>
     <div id="demo3" class="carousel slide" data-ride="carousel">
 
-      <!-- Indicateurs -->
-      <ul class="carousel-indicators">
-        <li data-target="#demo" data-slide-to="0" class="active"></li>
-        <li data-target="#demo" data-slide-to="1"></li>
-      </ul>
       <!-- Element 1 dans carrousel  -->
       <div class="carousel-item active">  
         <div class="card bg-dark" style="max-width: 1750px;">
@@ -417,36 +412,6 @@ include('../php/header.inc.php');
         </div>
       </div>
     
-      <!-- Element 2 dans carrousel  -->
-      <div class="carousel-item">  
-        <div class="card bg-dark" style="max-width: 1750px;">
-          <div class="row no-gutters">
-              <div class="col-sm-5" style="background: #868e96;">
-                  <img src="../img/Palais_de_justice_actu.jpg" class="card-img-top h-100" alt="...">
-              </div>
-              <div class="col-sm-7">
-                  <div class="card-body">
-                      <h5 class="card-title"><?php echo $palais_carousel3_card_title2[$langue] ?></h5>
-                      <p class="card-text"><?php echo $palais_carousel3_card_text2[$langue] ?></p>
-                        <span class="collapse card-text" id="viewdetails3"> 
-                          <?php echo $palais_carousel3_colapse_card_text2[$langue] ?>
-                        </span> 
-                        <br>
-                          
-                            <a href="#" class="btn btn-danger stretched-link learnmore" data-toggle="collapse" data-target="#viewdetails3" ><?php echo $savoirplus[$langue] ?></a>
-
-                  </div>
-              </div>
-          </div>
-        </div>
-      </div>
-      <!-- Left and right controless -->
-      <a class="carousel-control-prev" href="#demo3" data-slide="prev" >
-        <span class="carousel-control-prev-icon"></span>
-      </a>
-      <a class="carousel-control-next" href="#demo3" data-slide="next">
-        <span class="carousel-control-next-icon"></span>
-      </a>
     </div>
 
 </section>
