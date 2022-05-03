@@ -173,7 +173,7 @@ include('../php/header.inc.php');
           <div class="card bg-dark" style="max-width: 1750px;">
             <div class="row no-gutters">
               <div class="col-sm-5" style="background: #868e96;">
-                <img src="../img/histoireNotreDame.jpg" class="card-img-top h-100" alt="...">
+                <img src="../img/ChapelleHistoire1.jpg" class="card-img-top h-100" alt="...">
               </div>
               <div class="col-sm-7">
                 <div class="card-body">
@@ -199,7 +199,7 @@ include('../php/header.inc.php');
           <div class="card bg-dark" style="max-width: 1750px;">
             <div class="row no-gutters">
               <div class="col-sm-5" style="background: #868e96;">
-                <img src="../img/notredamepeinture2.jpeg" class="card-img-top h-100" alt="...">
+                <img src="../img/ChapelleHistoire2.jfif" class="card-img-top h-100" alt="...">
               </div>
               <div class="col-sm-7">
                 <div class="card-body">
@@ -227,7 +227,7 @@ include('../php/header.inc.php');
           <div class="card bg-dark" style="max-width: 1750px;">
             <div class="row no-gutters">
               <div class="col-sm-5" style="background: #868e96;">
-                  <img src="../img/sacrenapoleon.png" class="card-img-top h-100" alt="...">
+                  <img src="../img/ChapelleHistoire3.jpg" class="card-img-top h-100" alt="...">
               </div>
               <div class="col-sm-7">
                 <div class="card-body">
@@ -252,7 +252,7 @@ include('../php/header.inc.php');
           <div class="card bg-dark" style="max-width: 1750px;">
             <div class="row no-gutters">
               <div class="col-sm-5" style="background: #868e96;">
-                  <img src="../img/sacrenapoleon.png" class="card-img-top h-100" alt="...">
+                  <img src="../img/ChapelleHistoire4.jfif" class="card-img-top h-100" alt="...">
               </div>
               <div class="col-sm-7">
                 <div class="card-body">
