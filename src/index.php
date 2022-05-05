@@ -108,7 +108,10 @@ include('../php/header.inc.php');
 <section data-aos="fade-up">
     <!-- Carte localisation-->
     <hr style='margin-top: 6em;'>
-    <h2 id='Contact'> <img src='../img/localisation.png'  class='rota' width='35' height='35' alt='localisation'> <?php echo $index_localisation[$langue] ?></h2>
+    <h2 id='Contact' style="color: white;"> 
+      <img src='../img/localisation.png'  class='rota' width='35' height='35' alt='localisation'> 
+      <?php echo $index_localisation[$langue] ?>
+    </h2>
     <iframe src='https://www.google.com/maps/d/u/1/embed?mid=1zvLOOu0uRy-fJ94OVHyyFzAQ8y3Kx8zZ&ehbc=2E312F' 
         id='Carte' 
         width='640' 

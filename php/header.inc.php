@@ -483,7 +483,7 @@ echo '
       left :0;
       z-index:99;">
         <div class="brand-title">
-          <a target="_self" href="#"><img src="../img/mcn.png" 
+          <a target="_self" href="../src/index.php?lang='.$langue.'"><img src="../img/mcn.png" 
           alt="logoMCN" 
           width="165"
           height="50"></a>

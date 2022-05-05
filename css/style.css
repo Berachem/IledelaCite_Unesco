@@ -280,6 +280,14 @@ i{
     content: url('../img/baguette.png');
     height: 20px;
 }
+.arabflag:hover > img{
+    content: url('../img/lanternArab.png');
+    height: 25px;
+}
+.chinaflag:hover > img{
+    content: url('../img/lantern.png');
+    height: 25px;
+}
 
 /* ============RESEAUX SOCIAUX============== */
 .footer-social-icons {
