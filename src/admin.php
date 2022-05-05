@@ -3,9 +3,9 @@ $page = 'Admin';
 include('../php/header.inc.php');
 session_start();
 
-if ($_SESSION["id"]!='0' && $_SESSION["password"]!='0'){ // Si les codes sont bons.
+if (!isset($_SESSION["id"]) || !isset($_SESSION["password"]) || $_SESSION["id"]!='0' || $_SESSION["password"]!='0'){ // Si les codes sont bons.
 
-  header("Location: ../src/admin_connect.php");
+  header("Location: ../src/admin_connect.php?error=1");
 }
 include('../php/connexionBDD.inc.php');
 
