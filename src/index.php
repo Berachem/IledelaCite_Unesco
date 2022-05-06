@@ -88,10 +88,12 @@ include('../php/header.inc.php');
 
 <section data-aos="fade-up">
     <!-- Texte -->
-    <h2 style='padding: 1cm; text-align: center;'>
+    <h2 style='padding: 1cm; text-align: center; font-family:Arial, Helvetica, sans-serif '>
      <?php echo $index_subtitle2[$langue] ?>
     </h2>
-    <p style='padding: 1cm; text-align: center;font-family: cicle; font-size: 3vh;'>
+    <p style='padding: 1cm; text-align: center;font-family: cicle; font-size: 3vh;
+    text-align: justify;
+    text-align-last: center;'>
      <?php echo $index_description[$langue] ?>
     </p>
 
@@ -108,7 +110,7 @@ include('../php/header.inc.php');
 <section data-aos="fade-up">
     <!-- Carte localisation-->
     <hr style='margin-top: 6em;'>
-    <h2 id='Contact' style="color: white;"> 
+    <h2 id='Contact' style="color: white; font-family: dynoregular;"> 
       <img src='../img/localisation.png'  class='rota' width='35' height='35' alt='localisation'> 
       <?php echo $index_localisation[$langue] ?>
     </h2>

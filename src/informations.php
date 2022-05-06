@@ -53,7 +53,7 @@ include('../php/header.inc.php');
               <h5 class='card-title'>Conciergerie</h5>
               <h6 class='card-subtitle mb-2 '><i class='fas fa-check' style='color: green;'></i>  <?php echo $info_conciergerie_status[$langue] ?></h6>
               <p class='card-text'> <?php echo $info_conciergerie_description[$langue] ?></p>
-              <a href='https://tickets.monuments-nationaux.fr/fr-FR/familles?site=2035140822090400170' <button type='button' class='btn btn-danger' href='https://exploreparis.com/fr/2776-palais-justice-paris.html'><i class="fas fa-calendar"></i> <?php echo $info_reserve[$langue] ?></button></a>
+              <a href='https://tickets.monuments-nationaux.fr/fr-FR/familles?site=2035140822090400170'> <button type='button' class='btn btn-danger' href='https://exploreparis.com/fr/2776-palais-justice-paris.html'><i class="fas fa-calendar"></i> <?php echo $info_reserve[$langue] ?></button></a>
             </div>
         </div>
     

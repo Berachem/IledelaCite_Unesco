@@ -119,6 +119,7 @@ BARRE DE NAVIGATION
     color: white;
     text-transform: uppercase;
     padding: 1rem;
+    font-family: dynoregular;
 }
 
 
@@ -167,16 +168,26 @@ BARRE DE NAVIGATION
 .carousel-caption h2{
     color: white;
     font-size: 10vh;
-    -webkit-text-stroke-width: 1.25px;
+    -webkit-text-stroke-width: 0.25px;
     -webkit-text-stroke-color: #333333;
+    text-shadow: 0 0 10px black
 }
 .carousel-caption p{
     color: white;
+    font-family: dynoregular;
     font-size: 3vh;
-    -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: #333333;
 
 }
+.carousel-indicators {
+    bottom: -6px;
+}
+
+.btn{
+    border-radius: 18px;
+}
+
+
 
 /* ============TITRE...============== */
 #TitrePage{
@@ -201,6 +212,9 @@ BARRE DE NAVIGATION
     text-align: center;
     padding-top: 1cm;
     color: #ea5c0d;
+    font-family: dynoregular;
+ 
+
 }
 
 #Video{

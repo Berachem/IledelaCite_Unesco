@@ -6,6 +6,11 @@ toggleButton.addEventListener('click', () => {
 })
 
 
+// ----- Carousell loading ------
+
+
+
+
 
 
 // ----- TOOLTIPS ----

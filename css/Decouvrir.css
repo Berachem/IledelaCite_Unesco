@@ -85,6 +85,7 @@ body{
     color: white;
     text-transform: uppercase;
     padding: 1rem;
+    font-family: dynoregular;
 }
 
 .dropdown-menu > a:active{
@@ -236,6 +237,7 @@ body{
 }
 
 .description{
+    font-family: dynoregular;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -303,8 +305,29 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
-  width: 12vw;
-} 
+    width: 12vw;
+   
+   
+}  
+.btn{
+    border-radius: 18px;
+}
+
+.learnmore:hover{
+    background-color: #f7af3e;
+    outline-color: #f7af3e;
+}
+.learnmore:focus{
+    background-color: #f7af3e;
+    outline-color: #f7af3e;
+}
+
+.card-body > a> button:hover{
+    background-color: #f7af3e;
+}
+.card-body > a> button:active{
+    background-color: #f7af3e;
+}
 
 .btn-danger{
     background-color: #ea5c0d;

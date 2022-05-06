@@ -32,6 +32,11 @@ body{
     background-color:#f7af3e ;
 }
 
+.btn{
+    border-radius: 18px;
+}
+
+
 .navbar {
     display: flex;
     position: relative;
@@ -78,6 +83,7 @@ body{
     color: white;
     text-transform: uppercase;
     padding: 1rem;
+    font-family: dynoregular;
 }
 
 .dropdown-menu > a:active{
@@ -155,6 +161,7 @@ body{
 }
 
 .description{
+    font-family: dynoregular;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
