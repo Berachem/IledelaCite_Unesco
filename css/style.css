@@ -170,15 +170,48 @@ BARRE DE NAVIGATION
     font-size: 10vh;
     -webkit-text-stroke-width: 0.25px;
     -webkit-text-stroke-color: #333333;
-    text-shadow: 0 0 10px black
+    text-shadow: 0 0 10px black;
+    opacity: 0;
 }
 .carousel-caption p{
     color: white;
     font-family: dynoregular;
     font-size: 3vh;
     -webkit-text-stroke-color: #333333;
+    opacity: 0;
+
 
 }
+.carousel-item.active > .carousel-caption h2 {
+    animation: fadeInLeft 0.5s ease forwards;
+}
+
+.carousel-item.active > .carousel-caption p {
+    animation: fadeInRight 0.5s ease forwards;
+}
+
+
+@keyframes fadeInLeft{
+	0%{
+		opacity: 0;
+		transform: translateX(-30px);
+	}
+	100%{
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+@keyframes fadeInRight{
+	0%{
+		opacity: 0;
+		transform: translateX(30px);
+	}
+	100%{
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+
 .carousel-indicators {
     bottom: -6px;
 }
