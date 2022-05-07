@@ -182,6 +182,13 @@ BARRE DE NAVIGATION
 
 
 }
+
+.carousel-caption a{
+    opacity: 0;
+
+
+}
+
 .carousel-item.active > .carousel-caption h2 {
     animation: fadeInLeft 0.5s ease forwards;
 }
@@ -190,6 +197,9 @@ BARRE DE NAVIGATION
     animation: fadeInRight 0.5s ease forwards;
 }
 
+.carousel-item.active > .carousel-caption a {
+    animation: fadeInBottom 0.5s ease forwards;
+}
 
 @keyframes fadeInLeft{
 	0%{
@@ -209,6 +219,17 @@ BARRE DE NAVIGATION
 	100%{
 		opacity: 1;
 		transform: translateX(0px);
+	}
+}
+
+@keyframes fadeInBottom{
+	0%{
+		opacity: 0;
+		transform: translateY(30px);
+	}
+	100%{
+		opacity: 1;
+		transform: translateY(0px);
 	}
 }
 
