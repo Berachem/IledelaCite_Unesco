@@ -86,12 +86,12 @@ include('../php/header.inc.php');
      <?php echo $index_subtitle[$langue] ?> <img src='../img/unesco_emoji.png' class='rota' width='35' height='35' alt='unesco'>
     </h2>
 
-<section data-aos="fade-up">
+<section data-aos="fade-up" class="index-textes">
     <!-- Texte -->
-    <h2 style='padding: 1cm; text-align: center; font-family:Arial, Helvetica, sans-serif '>
+    <h2 style='text-align: center; font-family:Arial, Helvetica, sans-serif '>
      <?php echo $index_subtitle2[$langue] ?>
     </h2>
-    <p style='padding: 1cm; text-align: center;font-family: cicle; font-size: 3vh;
+    <p style='text-align: center;font-family: cicle; font-size: 3vh;
     text-align: justify;
     text-align-last: center;'>
      <?php echo $index_description[$langue] ?>

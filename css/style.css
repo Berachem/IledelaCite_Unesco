@@ -241,6 +241,18 @@ BARRE DE NAVIGATION
     border-radius: 18px;
 }
 
+.index-textes > * {
+ padding-top: 1cm;
+ padding-bottom: 1cm;
+}
+
+.index-textes > h2{
+    padding-top: 2cm;
+}
+.index-textes > h2 ,.index-textes > p {
+    padding-left: 7%;
+    padding-right: 7%;
+   }
 
 
 /* ============TITRE...============== */
@@ -267,9 +279,8 @@ BARRE DE NAVIGATION
     padding-top: 1cm;
     color: #ea5c0d;
     font-family: dynoregular;
- 
-
 }
+
 
 #Video{
     width: 50%;
@@ -536,4 +547,5 @@ ul.social-icons {
     .carousel-item{
         height: 83vh;
     }
+
 }
