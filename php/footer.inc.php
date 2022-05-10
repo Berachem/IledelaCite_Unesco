@@ -36,7 +36,7 @@
         <ul class='social-icons'>
             <li><a href='https://www.facebook.com/Ile-de-la-Cit%C3%A9-Unesco-107475771919467' class='social-icon'> <i class='fa fa-facebook'></i></a></li>
             <li><a href='https://twitter.com/IleCiteParis' class='social-icon'> <i class='fa fa-twitter'></i></a></li>
-            <li><a href='' class='social-icon'> <i class='fa fa-instagram'></i></a></li>
+            <li><a href='https://www.instagram.com/iledelaciteunesco?igshield=YmMyMTA2M2Y=' class='social-icon'> <i class='fa fa-instagram'></i></a></li>
             <li><a href='https://fr.unesco.org/' class='social-icon'> <i class='fas fa-landmark'></i></a></li>
             
 
