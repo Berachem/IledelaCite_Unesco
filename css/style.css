@@ -465,7 +465,7 @@ ul.social-icons {
       margin-top: -6%;
     }
     #Video{
-        width: 75%;
+        width: 5%;
     }
 }
 
@@ -505,8 +505,8 @@ ul.social-icons {
     .carousel-caption h2{
         font-size: 8vh;
     }
-
-
+}
+    @media screen and (max-width: 800px) {
     /* Titre avec barre orange */
     #TitrePage > img{
         width: 80%;
@@ -521,7 +521,6 @@ ul.social-icons {
       text-align: center;
       margin-top: -13.5%;
     }
-
     /*Video */
     #Video{
         width: 90%;
