@@ -377,19 +377,19 @@ if (isset($_GET["messagesent"])){
     <!-- Nom input -->
     <div class="mb-3">
       <label class="form-label" for="nom"><img src="../img/user.png"  width="25" height="25" alt="nom"> <?php echo $AboutUs_nom[$langue] ?></label>
-      <input class="form-control" id="nom" type="text" name="nom" placeholder="<?php echo $AboutUs_nom[$langue] ?>" />
+      <input class="form-control" id="nom" type="text" name="nom" placeholder="<?php echo $AboutUs_nom[$langue] ?>" required/>
     </div>
 
     <!-- Addresse email input -->
     <div class="mb-3">
       <label class="form-label" for="email"><img src="../img/email.png"  width="25" height="25" alt="email"> <?php echo $AboutUs_mail[$langue] ?></label>
-      <input class="form-control" id="email" name="email" type="email" placeholder="bidule@exemple.com" />
+      <input class="form-control" id="email" name="email" type="email" placeholder="bidule@exemple.com" required/>
     </div>
 
     <!-- Message input -->
     <div class="mb-3">
       <label class="form-label" for="message"><img src="../img/message.png"  width="25" height="25" alt="message"> <?php echo $AboutUs_message[$langue] ?></label>
-      <textarea class="form-control" id="message" type="text" name="message" placeholder="Bonjour,..." style="height: 10rem;"></textarea>
+      <textarea class="form-control" id="message" type="text" name="message" placeholder="Bonjour,..." style="height: 10rem;" required></textarea>
     </div>
 
     <!-- Formulaire boutton submit -->

@@ -46,11 +46,11 @@ body{
                 <!-- Input f-ields -->
                 <div class="form-group">
                     <label for="if">idenifiant:</label>
-                    <input type="text" class="form-control username" id="username" placeholder="Identifiant..." name="id">
+                    <input type="text" class="form-control username" id="username" placeholder="Identifiant..." name="id" required>
                 </div>
                 <div class="form-group">
                     <label for="password">Mot de passe:</label>
-                    <input type="password" class="form-control password" id="password" placeholder="Mot de passe..." name="password">
+                    <input type="password" class="form-control password" id="password" placeholder="Mot de passe..." name="password" required>
                 </div>
                 <button type="submit" class="btn btn-warning btn-customized">Connexion</button>
             </form>
