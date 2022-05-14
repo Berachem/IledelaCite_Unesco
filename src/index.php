@@ -48,7 +48,7 @@ include('../php/header.inc.php');
 
         <!-- Carousel Palais de Justice-->
         <div class='carousel-item'>
-          <img src='../img/Palais_de_Justice.jpg' class='img-fluid'  alt='Palais de justice'>
+          <img src='../img/Palais_de_Justice_de_Paris.jpg' class='img-fluid'  alt='Palais de justice'>
           <div class='carousel-caption'>
             <h2>Le Palais de Justice</h2>
             <p> <?php echo $index_carousel_palaisjustice_subtitle[$langue] ?></p>
