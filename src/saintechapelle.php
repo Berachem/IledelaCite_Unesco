@@ -23,7 +23,7 @@ include('../php/header.inc.php');
 <section data-aos="fade-up">
     <!-- SECTION ARCHITECTURE-->
     <div class="sous_titre">
-      <h2 style="color: #f7af3e;"><i class="fas fa-hammer"></i><?php echo $chapelle_sous_titre_architecture[$langue] ?></h2>
+      <h2 style="color: #f7af3e;"><i class="fas fa-hammer"></i> <?php echo $chapelle_sous_titre_architecture[$langue] ?></h2>
       <img src="../img/sous_titre.png" alt="" >
     </div>
 
@@ -152,7 +152,7 @@ include('../php/header.inc.php');
 <section data-aos="fade-up">
     <!-- SECTION HISTOIRE-->
     <div class="sous_titre">
-      <h2 style="color: #f7af3e;"><i class="fas fa-history"></i><?php echo $chapelle_sous_titre_histoire[$langue] ?></h2>
+      <h2 style="color: #f7af3e;"><i class="fas fa-history"></i> <?php echo $chapelle_sous_titre_histoire[$langue] ?></h2>
       <img src="../img/sous_titre.png" alt="" >
     </div>
 
