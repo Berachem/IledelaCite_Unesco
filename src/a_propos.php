@@ -84,12 +84,12 @@ include('../php/header.inc.php');
   
   </section>
 
-  <p class="presentation">
+  <p class="presentation typewriter">
     
-  <?php echo $AboutUs_presentation[$langue] ?>
-    <br>
-    <br>
-    </p>
+    <?php echo $AboutUs_presentation[$langue] ?>
+      <br>
+      <br>
+  </p>
 
 
     <div class='description'>
@@ -108,7 +108,7 @@ include('../php/header.inc.php');
     <div class="col col-lg-2">
       <div class="avatar mx-auto">
         <img src="../img/ETTAYEB.jpg" width="100" height="100" class="rounded-circle z-depth-1"
-          alt="ETTAYEB" data-toggle="tooltip" data-placement="top" title="Enlevez votre souris d'ici svp ;)">
+          alt="ETTAYEB" data-toggle="tooltip" data-placement="top" title="« L'île de la Cité apparaît. La nuit, le berceau de Paris laisse éclater sa beauté. L'eau de la Seine reflète chaque détail des longues façades qui la bordent. Notre-Dame veille de loin, protège les quartiers proches. » Victor Hugo">
       </div>
       <h5 class="font-weight-bold mt-4 mb-3"><b style="color: #ea5c0d;">ETTAYEB Tewfik </b></h5>
       <p class="text-uppercase blue-text"><strong>
@@ -132,7 +132,7 @@ include('../php/header.inc.php');
     <div class="col-md-auto">
       <div class="avatar mx-auto">
         <img src="../img/CESSY.jpg" width="100" height="100" class="rounded-circle z-depth-1"
-          alt="CESSY" data-toggle="tooltip" data-placement="top" title="01000101 01101110 01101100 01100101 01110110 01100101 01111010 00100000 01110110 01101111 01110100 01110010 01100101 00100000 01110011 01101111 01110101 01110010 01101001 01110011 00100000 01100100 00100111 01101001 01100011 01101001 00100000 01110011 01110110 01110000 00100000 00111011 00101001">
+          alt="CESSY" data-toggle="tooltip" data-placement="top" title="11000010 10101011 00100000 01010000 01100001 01110010 01101001 01110011 00100000 01101110 11100010 10000000 10011001 01100101 01110011 01110100 00100000 01110000 01100001 01110011 00100000 01110101 01101110 01100101 00100000 01110110 01101001 01101100 01101100 01100101 00101100 00100000 01100011 11100010 10000000 10011001 01100101 01110011 01110100 00100000 01110101 01101110 00100000 01110000 01100001 01111001 01110011 00101110 00100000 11000010 10111011 00100000 01000110 01110010 01100001 01101110 11000011 10100111 01101111 01101001 01110011 00100000 01001001 01100101 01110010">
       </div>
       <h5 class="font-weight-bold mt-4 mb-3"><b style="color: #ea5c0d;">CESSY David </b></h5>
       <p class="text-uppercase blue-text"><strong>
@@ -158,7 +158,7 @@ include('../php/header.inc.php');
       <div class="col col-lg-2">
       <div class="avatar mx-auto">
         <img src="../img/REBY.jpg" width="100" height="100" class="rounded-circle z-depth-1"
-          alt="REBY" data-toggle="tooltip" data-placement="top" title="Please take your mouse away from here ;)">
+          alt="REBY" data-toggle="tooltip" data-placement="top" title="« There is a difference between London and Paris in that Paris is made for the foreigner and London for the Englishman. England built London for its own use, France built Paris for the whole world. » Ralph Waldo Emerson">
       </div>
       <h5 class="font-weight-bold mt-4 mb-3"><b style="color: #ea5c0d;">REBY Yann </b></h5>
       <p class="text-uppercase blue-text"><strong>

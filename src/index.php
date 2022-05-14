@@ -88,7 +88,7 @@ include('../php/header.inc.php');
 
 <section data-aos="fade-up" class="index-textes">
     <!-- Texte -->
-    <h2 style='text-align: center; font-family:Arial, Helvetica, sans-serif '>
+    <h2 id="Index-Text-Milieu" style='text-align: center;'>
      <?php echo $index_subtitle2[$langue] ?>
     </h2>
     <p style='text-align: center;font-family: cicle; font-size: 3vh;

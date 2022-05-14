@@ -254,6 +254,9 @@ BARRE DE NAVIGATION
     padding-right: 7%;
    }
 
+#Index-Text-Milieu{
+    font-family: dynoregular;
+}
 
 /* ============TITRE...============== */
 #TitrePage{
