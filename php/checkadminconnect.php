@@ -5,9 +5,9 @@ session_start();
 
 
 
-    if ($_POST["id"]=='0' && $_POST["password"]=='0'){ // Si les codes sont bons.
-        $_SESSION["id"] = $_GET["id"];
-        $_SESSION["password"] = $_GET["password"];
+    if ($_POST["id"]=='admin' && $_POST["password"]=='admin'){ // Si les codes sont bons.
+        $_SESSION["id"] = $_POST["id"];
+        $_SESSION["password"] = $_POST["password"];
         
         header("Location: ../src/admin.php");
 

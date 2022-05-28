@@ -4,10 +4,10 @@ include('../php/header.inc.php');
 
 session_start();
 
-if ($_SESSION["id"]=='0' && $_SESSION["password"]=='0'){ // Si les codes sont bons.
+if (isset($_SESSION["id"]) && isset($_SESSION["password"])){ // Si l'admin est déjà connecté
 
 
-    header("Refresh:0; url=../src/admin.php");
+    header("Location: admin.php");
 
 }
 

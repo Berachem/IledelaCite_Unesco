@@ -3,10 +3,12 @@ $page = 'Admin';
 include('../php/header.inc.php');
 session_start();
 
-if (!isset($_SESSION["id"]) || !isset($_SESSION["password"]) || $_SESSION["id"]!='0' || $_SESSION["password"]!='0'){ // Si les codes sont bons.
+if ( !isset($_SESSION["id"]) || !isset($_SESSION["password"])){ // Si les codes ne sont pas bons.
 
-  header("Location: ../src/admin_connect.php?error=1");
+  header("Location: admin_connect.php?error=1");
 }
+echo isset($_SESSION["id"]);
+print_r($_SESSION);
 include('../php/connexionBDD.inc.php');
 
 
@@ -95,7 +97,7 @@ body{
           <table class="table table-bordered">
             <thead class="thead-dark">
               <tr>
-                <th>Lien Tableau</th>
+                <th>Tableau</th>
                 <th>Description</th>
               </tr>
             </thead>
@@ -108,7 +110,9 @@ body{
                     $img = $row['image'];
                     $desc = $row['description'];
 
-                    echo "<td>".$img ."</td>";
+                    echo "<td> ";
+                    echo '<img style="border-radius:7px;" class="img-thumbnail" src="'.$img.'" alt="">';
+                    echo "</td>";
                     echo "<td>". $desc ."</td>";
                     echo '</tr>';
                 }
@@ -116,7 +120,8 @@ body{
             </tbody>
           </table>
         </div>
-</section>
+        
+
 
 
 <br>
@@ -139,7 +144,7 @@ body{
                 
                 <!-- Input f-ields -->
                 <div class="form-group">
-                <h1>Rajoutez un tableau</h1>
+                <h1>Rajouter un tableau</h1>
                     <label for="if">lien du tableau</label>
                     <input type="text" class="form-control username" id="username" placeholder="https://LienDeLimage.quelquechose" name="link">
                 </div>
@@ -153,22 +158,30 @@ body{
             <br>
 
         </div>
-
+  
 
 <br>
-
-
-
+<br>
 
 
         </div>
     </div>
 </div>
 
+</section>
 
+<section>
 
+        
 
+</section>
 
+<br>
+<br>
+<div class="row h-100 justify-content-center align-items-center">
+   <a class="btn btn-danger" href="../php/disconnect_admin.php" style="background-color: red;">Se déconnecter</a>
+</div>
+<br>
 <?php
 
 include('../php/footer.inc.php');
