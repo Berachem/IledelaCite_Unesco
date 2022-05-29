@@ -386,11 +386,11 @@ include('../php/header.inc.php');
 
 <section data-aos="fade-up">
     <br>
-        <h2 style="text-align: center; font-size: 2.5vw;">
+        <h2 style="text-align: center; font-size: 2.5vw; ">
           <?php echo $notredame_film[$langue] ?> <img src="../img/pop-corn.png" width="35" height="35">
         </h2>
     <br>
-    <div class="embed-responsive embed-responsive-16by9 video" >
+    <div class="embed-responsive embed-responsive-16by9 video" style="border-radius: 15px;">
       <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/YlDXdPSEtgk"></iframe>
     </div>
 

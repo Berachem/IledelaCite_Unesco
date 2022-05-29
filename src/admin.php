@@ -7,8 +7,6 @@ if ( !isset($_SESSION["id"]) || !isset($_SESSION["password"])){ // Si les codes 
 
   header("Location: admin_connect.php?error=1");
 }
-echo isset($_SESSION["id"]);
-print_r($_SESSION);
 include('../php/connexionBDD.inc.php');
 
 
