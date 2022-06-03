@@ -296,6 +296,10 @@ body{
         border-radius: 25px;
 }
 
+.hotel-card{
+    margin-top: 0.25cm;
+    max-width: 1000px;
+}
 
 .card-text,
 .card-subtitle{
