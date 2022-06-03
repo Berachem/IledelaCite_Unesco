@@ -25,6 +25,7 @@ $nav_home = array('Accueil', "Home",'ترحيب','主頁');
 $nav_discover = array('Découvrir', "Discover",'يكتشف','發現');
 $nav_monuments = array('Monuments', "Monuments",'آثار','紀念碑');
 $nav_infos = array('Informations', "Informations",'معلومة','信息');
+$nav_hotels = array("Hôtels","Hotel","الفندق","酒店" );
 $nav_restaurants = array('Restaurants', "Restaurants",'مطاعم','餐廳');
 $nav_discover_tovisit = array('Endroits à visiter', "Places to visit",'اماكن للزيارة','參觀的地點');
 $nav_discover_near = array('A deux pas', "Two steps away",'خطوتين','兩步');
@@ -521,6 +522,7 @@ echo'
               <img src="../img/boussole_emoji.png" width="25" height="25">  '. $nav_discover[$langue].'
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a target="_self" class="dropdown-item" href="hotels.php?lang='.$langue.'"><img src="../img/hotel.png" width="25" height="25">  '.$nav_hotels[$langue].'</a>
                 <a target="_self" class="dropdown-item" href="restaurants.php?lang='.$langue.'"><img src="../img/resto_emoji.png" width="25" height="25">  '.$nav_restaurants[$langue].'</a>
                 <a target="_self" class="dropdown-item" href="endroitsAvisiter.php?lang='.$langue.'"><img src="../img/av_emoji.png" width="25" height="25">  '. $nav_discover_tovisit[$langue].'</a></a>
                 <a target="_self" class="dropdown-item" href="parcours.php?lang='.$langue.'"><img src="../img/parcours.png" width="25" height="25">  '. $nav_road[$langue].'</a></a>
