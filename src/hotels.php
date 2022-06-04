@@ -25,9 +25,9 @@ print_r($data);
  echo '
       <div class="card bg-dark text-white hotel-card" >
         <img class="card-img-top" src='.$data[2].' alt="Card image">
-        <div class="card-img-body">
+        <div class="card-img-body" style="margin-left:15px; margin-top:10px">
           <h5 class="card-title">'.str_replace('"', '', $data[0]).'</h5>
-          <p class="card-text"> ';
+          <p class="card-text" > ';
           echo "<i class='fas fa-map-marker-alt' style='color: #f7af3e;'></i> ";
           echo str_replace('"', '', $data[3]);
           echo "<br>";
@@ -37,13 +37,11 @@ print_r($data);
           $prix = str_replace('"', '', $prix);
           echo $prix;
           echo "<i class='fas fa-euro-sign' style='color: #f7af3e;'></i> ";
-          echo"  /  <i class='fas fa-moon' style='color: #f7af3e;'></i> ";
+          echo"  /  <i class='fas fa-moon' style='color: #003366;'></i> ";
           echo "<br>";
           echo "<i class='fas fa-star' style='color: #f7af3e;'></i> ";
           echo str_replace('"', '', $data[5]);
-          
-          
-          echo '</p>;
+          echo'
         </div>
       </div>';
  echo '
