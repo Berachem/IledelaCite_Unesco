@@ -25,7 +25,7 @@ print_r($data);
  echo '
       <div class="card bg-dark text-white hotel-card" >
         <img class="card-img-top" src='.$data[2].' alt="Card image">
-        <div class="card-img-body" style="margin-left:15px; margin-top:10px">
+        <div class="card-img-body" style="margin-left:15px; margin-top:10px;margin-bottom:10px">
           <h5 class="card-title">'.str_replace('"', '', $data[0]).'</h5>
           <p class="card-text" > ';
           echo "<i class='fas fa-map-marker-alt' style='color: #f7af3e;'></i> ";
