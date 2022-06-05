@@ -9,7 +9,7 @@ include('../php/header.inc.php');
 
       <div class="description" >
           <p style="color:white">
-          <?php echo $Avisiter_description[$langue] ?>
+          <?php echo $Hotel_description[$langue] ?>
           </p>
       </div>
 <?php
@@ -20,8 +20,6 @@ while ($line = fgets($txt_file)) {
  $data = explode(",",$line);
 
  echo '<section data-aos="fade-up">';
-print_r($data);
-
  echo '
       <div class="card bg-dark text-white hotel-card" >
         <img class="card-img-top" src='.$data[2].' alt="Card image">

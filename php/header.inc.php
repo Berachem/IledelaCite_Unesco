@@ -421,8 +421,14 @@ $AboutUs_email= array("Addresse Email", "Email Address","عنوان البريد
 $AboutUs_envoyer = array("Envoyer", "Send","يرسل","發送");
 
 
+/* PAGE Hotel.php */
+$Hotel_description = array("Près de l'Île de la Cité, vous trouverez de <b style='color: #ea5c0d;'> nombreux hôtels pour vous reposer </b> !", "Near the Île de la Cité, you will find <b style='color: #ea5c0d;'> many hotels to rest </b>!","بالقرب من Île de la Cité ، ستجد <b style='color: #ea5c0d;'>العديد من الفنادق للراحة</b>!","在 Île de la Cité 附近，您會發現<b style='color: #ea5c0d;'>許多酒店供您休息</b>！");
+
+
 /* Message recu */
 $message_thankyou = array("Message envoyé ! Merci !", "Message sent! Thank you!","رسالة مرسلة ! شكرا لك !","消息已發送！謝謝 ！");
+
+
 
 echo 
 '<!DOCTYPE html>
