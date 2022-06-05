@@ -297,7 +297,7 @@ body{
 }
 
 .hotel-card{
-    margin-top: 0.25cm;
+    margin-top: -1cm;
     max-width: 1000px;
 }
 
@@ -624,11 +624,18 @@ ul.social-icons {
         width: 75%;
     }
 
+    .hotel-card{
+        margin-top: -1.5cm;
+        max-width: 1000px;
+    }
+
     /*Diapo */
     #diapo{
         width: 82%;
         height: 6.5cm;
     }
+
+    
     /*Carte*/
     #Carte{
         display: block;

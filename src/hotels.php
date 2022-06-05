@@ -12,6 +12,10 @@ include('../php/header.inc.php');
           <?php echo $Hotel_description[$langue] ?>
           </p>
       </div>
+      <br>
+    <br>
+    <br>
+    <br>
 <?php
 $txt_file = fopen('../data_hotels.csv','r');
 $a = 1;
