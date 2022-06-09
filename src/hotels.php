@@ -25,7 +25,7 @@ while ($line = fgets($txt_file)) {
 
  echo '<section data-aos="fade-up">';
  echo '
-      <div class="card bg-dark text-white hotel-card" >
+      <div class="card bg-dark text-white hotel-card CardEffectHover" >
         <img class="card-img-top" src='.$data[2].' alt="Card image">
         <div class="card-img-body" style="margin-left:15px; margin-top:10px;margin-bottom:10px">
           <h5 class="card-title">'.str_replace('"', '', $data[0]).'</h5>

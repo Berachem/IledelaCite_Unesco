@@ -51,7 +51,34 @@
               ?>
 
         </ul>
+    </div>
+  
 </div>
+          <br>
+        <div class="link-footer row">
+              <a href="../mentionslegales.txt">Mentions légales</a>
+              <a href="../conditions_utilisation.txt">Conditions d’utilisation</a>
+              <a href="../src/a_propos.php#sent" target="_self">Contacts</a>
+        </div>
+        <br>
+
+        <style>
+          .link-footer{
+            display: flex;
+            justify-content: center;
+            font-size: small;
+            color: white;
+            padding-bottom: 0.5cm;
+            text-align:center;
+            
+    
+          }
+          .link-footer>a{
+            color: #555;
+            margin: 5px;
+          }
+
+        </style>
 </footer>
 </body>
 <script>
