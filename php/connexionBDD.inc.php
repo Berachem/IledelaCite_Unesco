@@ -14,7 +14,6 @@ try {
     
 }
 catch (PDOException $e) {
-    echo "ERREUR : La connexion a échouée";
 
  /* Utiliser l'instruction suivante pour afficher le détail de erreur sur la
  * page html. Attention c'est utile pour débugger mais cela affiche des
