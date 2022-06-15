@@ -159,6 +159,38 @@ include('../php/header.inc.php');
     </p>
       
   </section>
+
+  <section data-aos="fade-up">
+    <div class='sous_titre'>
+      <h2 style='color: #f7af3e;'><i class='fas fa-cloud-moon'></i> <?php echo $info_meteo[$langue] ?></h2>
+      <img src='../img/sous_titre.png' alt=''>
+    </div>
+    <br>
+
+    <div class = 'centre' 
+    id="ww_ff67af458cddb" 
+    v='1.20' loc='id' 
+    a='{
+      <?php if ($langue==0){
+        echo '"t":"horizontal","lang":"fr","ids":["wl4529"],"cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722","sl_sot":"celsius","sl_ics":"one_a","font":"Arial"}';
+      }else if ($langue==1){
+        echo '"t":"horizontal","lang":"en","ids":["wl4529"],"cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722","sl_sot":"fahrenheit","sl_ics":"one_a","font":"Arial"}';
+
+      }else if ($langue==2){
+        echo '"t":"horizontal","lang":"ar","ids":["wl4529"],"cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722","sl_sot":"celsius","sl_ics":"one_a","font":"Arial"}';
+
+      }else if ($langue==3){
+        echo '"t":"horizontal","lang":"zh","ids":["wl4529"],"cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722","sl_sot":"celsius","sl_ics":"one_a","font":"Arial"}';
+
+      }
+      
+      ?>'>Weather Data Source: <a href="https://wetterlabs.de/wetter_paris/heute/" id="ww_ff67af458cddb_u" target="_blank">Wetter Heute Paris</a></div><script async src="https://srv2.weatherwidget.org/js/?id=ww_ff67af458cddb"></script>
+
+
+
+      <br>
+ </section>
+
     <?php
     include('../php/footer.inc.php');
     

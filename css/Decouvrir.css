@@ -339,6 +339,13 @@ body{
     color: white;
 }
 
+.centre{
+    border-radius: 30px;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
 /* SOUS TITRE + BARRE JAUNE*/
 .sous_titre{
     padding-top: 30px;

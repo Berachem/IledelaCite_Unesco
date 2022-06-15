@@ -337,6 +337,9 @@ $info_trajetGPS = array("Vous souhaitez connaître le chemin exact depuis une ad
 $info_cliquer = array("Cliquez ici", "Click here","انقر هنا","點擊這裡");
 
 
+$info_meteo = array("Météo", "Weather","تقرير حالة ألطقس","天气预报");
+
+
 /* ============= Les ponts ============ */
 $ponts_title = array("L'île de la Cité est <b style='color: #ea5c0d;'>entourée de 9 ponts</b> et parmi eux, certains ont une histoire magnifique.","The Ile de la Cité is <b style='color: #ea5c0d;'>surrounded by 9 bridges</b> and some of them have a wonderful history.","Ile de la Cité هي <b style = 'color: #ea5c0d'>؛' محاطة بتسعة جسور </b> ومن بينها ، بعضها يتمتع بتاريخ عريق.","Ile de la Cité <b style='color: #ea5c0d;'>被 9 座橋樑環繞</b>，其中一些擁有美好的歷史。");
 
