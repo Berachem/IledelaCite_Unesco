@@ -28,7 +28,8 @@ https://user-images.githubusercontent.com/61350744/169663184-867747cc-4a6f-47a1-
 ## 🤝 Partners
 <p float="left">
   <img src="https://user-images.githubusercontent.com/61350744/167308211-08c9579b-726f-452b-bf8a-50417a34aab5.png" width="350" >
-  <img src="https://www.unesco.org/themes/custom/bunesco8/assets/images/logo/logo.svg" width="360" >
+  <img src="https://traffickingtransformations.org/wp-content/uploads/2021/06/UNESCO_logo_hor_blue.jpg" width="360" >
+  <br>
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjxD6CJyl-ji1YwD97h-WR44TyOoId5CCzGm01uJXWd99AhEDHsT6w47MDqOyuQfKOlg&usqp=CAU" width="260">
   
 
