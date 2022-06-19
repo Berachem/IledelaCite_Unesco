@@ -6,7 +6,7 @@ We are a pair of students at Gustave Eiffel University who aim to participate in
 ## 🔍 Links 
 
 - https://perso-etudiant.u-pem.fr/~berachem.markria/Unesco/src/index.php
-- http://iledelacite-paris.fr/src/
+- http://iledelacite-paris.fr
 
 ## 🪄 Démo 
 
